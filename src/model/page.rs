@@ -23,6 +23,9 @@ pub struct PageDef {
     pub margin_footer: HwpUnit,
     /// 제본 여백
     pub margin_gutter: HwpUnit,
+    /// 페이지네이션 하단 허용치 (HWPUNIT). margin_bottom 을 변조하지 않고
+    /// paginator 에게만 추가 공간을 허용할 때 사용. 기본 0.
+    pub pagination_bottom_tolerance: HwpUnit,
     /// 속성 비트 플래그
     pub attr: u32,
     /// 용지 방향 (0: 좁게/세로, 1: 넓게/가로)
@@ -58,6 +61,40 @@ pub struct PageBorderFill {
     pub spacing_bottom: HwpUnit16,
     /// 테두리/배경 ID 참조
     pub border_fill_id: u16,
+    /// [Task #1006, #1129 Stage 22/24] 쪽 테두리 렌더 기준 (포맷별 분리).
+    /// HWP3 parser → `BodyBased` (HWP3 원본에는 종이 기준 선택이 없으므로 쪽 기준).
+    /// HWP5/HWPX parser → 저장된 UI 기준에 따라 `PaperBased`/`BodyBased`
+    /// 분리 (Task #1129 Stage 28 초기 로드 기준 정합).
+    /// renderer 가 attr bit 0 단일 해석 대신 본 필드를 직접 사용 — 포맷/출처별
+    /// 계약 분리로 #987(HWP3) ↔ #956(HWP5/HWPX) ↔ #1006(변환본 logo) 동시 충족.
+    pub basis: PageBorderBasis,
+    /// 한컴오피스 쪽 테두리/배경 대화상자에 표시되는 위치 기준.
+    /// HWP5/HWPX raw 값 기준:
+    ///   - attr bit0=0 / textBorder=CONTENT → 종이 기준
+    ///   - attr bit0=1 / textBorder=PAPER → 쪽 기준
+    ///
+    /// 렌더러의 외곽선 배치 계약인 `basis`와 분리한다.
+    pub ui_basis: PageBorderUiBasis,
+}
+
+/// 쪽 테두리 렌더 위치 기준
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Default)]
+pub enum PageBorderBasis {
+    /// 본문 영역 기준 (body_area edge 에서 spacing)
+    #[default]
+    BodyBased,
+    /// 종이 기준 (HWP5/HWPX default — paper edge 에서 spacing)
+    PaperBased,
+}
+
+/// 쪽 테두리/배경 대화상자 위치 기준
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Default)]
+pub enum PageBorderUiBasis {
+    /// 한컴 UI의 종이 기준
+    #[default]
+    Paper,
+    /// 한컴 UI의 쪽 기준
+    Page,
 }
 
 /// 단 정의 ('cold' 컨트롤)
@@ -191,9 +228,9 @@ mod tests {
         // A4 기본 설정 (210mm x 297mm)
         // 1mm = 283.46 HWPUNIT (7200/25.4)
         let page = PageDef {
-            width: 59528,   // ~210mm
-            height: 84188,  // ~297mm
-            margin_left: 8504,   // ~30mm
+            width: 59528,      // ~210mm
+            height: 84188,     // ~297mm
+            margin_left: 8504, // ~30mm
             margin_right: 8504,
             margin_top: 5669,    // ~20mm
             margin_bottom: 4252, // ~15mm

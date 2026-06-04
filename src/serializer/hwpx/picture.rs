@@ -28,7 +28,9 @@ use std::io::Write;
 use quick_xml::Writer;
 
 use crate::model::image::{ImageEffect, Picture};
-use crate::model::shape::{CommonObjAttr, HorzAlign, HorzRelTo, TextWrap, VertAlign, VertRelTo};
+use crate::model::shape::{
+    CommonObjAttr, HorzAlign, HorzRelTo, TextFlow, TextWrap, VertAlign, VertRelTo,
+};
 
 use super::context::SerializeContext;
 use super::utils::{empty_tag, end_tag, start_tag, start_tag_attrs};
@@ -47,8 +49,9 @@ pub fn write_picture<W: Write>(
     let id_str = pic.common.instance_id.to_string();
     let z_order = pic.common.z_order.to_string();
     let tw = text_wrap_str(pic.common.text_wrap);
-    let tf = text_flow_str(pic.common.text_wrap);
+    let tf = text_flow_str(pic.common.text_flow);
     let instid = pic.instance_id.to_string();
+    let href = pic.href.as_deref().unwrap_or("");
 
     start_tag_attrs(
         w,
@@ -61,7 +64,7 @@ pub fn write_picture<W: Write>(
             ("textFlow", tf),
             ("lock", "0"),
             ("dropcapstyle", "None"),
-            ("href", ""),
+            ("href", href),
             ("groupLevel", "0"),
             ("instid", &instid),
             ("reverse", "0"),
@@ -120,7 +123,12 @@ fn write_rotation_info<W: Write>(w: &mut Writer<W>) -> Result<(), SerializeError
     empty_tag(
         w,
         "hp:rotationInfo",
-        &[("angle", "0"), ("centerX", "0"), ("centerY", "0"), ("rotateimage", "0")],
+        &[
+            ("angle", "0"),
+            ("centerX", "0"),
+            ("centerY", "0"),
+            ("rotateimage", "0"),
+        ],
     )
 }
 
@@ -188,8 +196,12 @@ fn write_in_margin<W: Write>(w: &mut Writer<W>, p: &Picture) -> Result<(), Seria
 
 fn write_img_dim<W: Write>(w: &mut Writer<W>, p: &Picture) -> Result<(), SerializeError> {
     // imgDim은 원본 크기의 clip 적용 결과. 간이 구현.
-    let dw = (p.common.width as i32 - p.crop.left - p.crop.right).max(0).to_string();
-    let dh = (p.common.height as i32 - p.crop.top - p.crop.bottom).max(0).to_string();
+    let dw = (p.common.width as i32 - p.crop.left - p.crop.right)
+        .max(0)
+        .to_string();
+    let dh = (p.common.height as i32 - p.crop.top - p.crop.bottom)
+        .max(0)
+        .to_string();
     empty_tag(w, "hp:imgDim", &[("dimwidth", &dw), ("dimheight", &dh)])
 }
 
@@ -284,7 +296,11 @@ fn write_out_margin<W: Write>(w: &mut Writer<W>, c: &CommonObjAttr) -> Result<()
 // ---------- 변환 헬퍼 ----------
 
 fn bool01(b: bool) -> &'static str {
-    if b { "1" } else { "0" }
+    if b {
+        "1"
+    } else {
+        "0"
+    }
 }
 
 fn text_wrap_str(w: TextWrap) -> &'static str {
@@ -299,8 +315,13 @@ fn text_wrap_str(w: TextWrap) -> &'static str {
     }
 }
 
-fn text_flow_str(_: TextWrap) -> &'static str {
-    "BOTH_SIDES"
+fn text_flow_str(f: TextFlow) -> &'static str {
+    match f {
+        TextFlow::BothSides => "BOTH_SIDES",
+        TextFlow::LeftOnly => "LEFT_ONLY",
+        TextFlow::RightOnly => "RIGHT_ONLY",
+        TextFlow::LargestOnly => "LARGEST_ONLY",
+    }
 }
 
 fn vert_rel_to_str(v: VertRelTo) -> &'static str {
@@ -369,6 +390,7 @@ mod tests {
             brightness: 0,
             contrast: 0,
             effect: ImageEffect::RealPic,
+            external_path: None,
         };
         pic.common.width = 1000;
         pic.common.height = 500;
@@ -429,7 +451,11 @@ mod tests {
         let err = write_picture(&mut w, &pic, &ctx).unwrap_err();
         let msg = format!("{}", err);
         assert!(msg.contains("binaryItemIDRef"), "error msg: {}", msg);
-        assert!(msg.contains("99"), "error should include bin_data_id: {}", msg);
+        assert!(
+            msg.contains("99"),
+            "error should include bin_data_id: {}",
+            msg
+        );
     }
 
     #[test]

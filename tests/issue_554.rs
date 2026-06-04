@@ -47,22 +47,22 @@ fn hwp3_sample5_hwpx_64p() {
     assert_eq!(page_count("samples/hwp3-sample5-hwpx.hwpx"), 64);
 }
 
-// ───────── 알려진 잔존 -1 over-correct (현재 본질적 한계) ─────────
+// ───────── 알려진 잔존 -1 over-correct 해소 확인 ─────────
 //
-// 단일 -1600 HU 보정의 한계로 sample 변환본은 정답 16 vs 결과 15.
-// 향후 별도 task에서 typeset.rs 페이지 break 알고리즘 정밀화 예정.
-// 현재는 -1 over-correct를 회귀 가드로 검증.
+// #949 lineSegArray vertpos 보존 후 sample 변환본도 한컴 정답 16p에 도달했다.
+// 이전에는 단일 -1600 HU 보정의 한계로 15p가 나왔고, 이 값을 known-limit 가드로
+// 고정해 두었다. 이제는 정답 페이지 수를 회귀 가드로 검증한다.
 
 #[test]
-fn hwp3_sample_hwp5_15p_known_limit() {
-    // 정답 16, 현재 15 (잔존 -1)
-    assert_eq!(page_count("samples/hwp3-sample-hwp5.hwp"), 15);
+fn hwp3_sample_hwp5_16p() {
+    // HWP3 변환본: 한컴 정답 16p
+    assert_eq!(page_count("samples/hwp3-sample-hwp5.hwp"), 16);
 }
 
 #[test]
-fn hwp3_sample_hwpx_15p_known_limit() {
-    // 정답 16, 현재 15 (잔존 -1)
-    assert_eq!(page_count("samples/hwp3-sample-hwpx.hwpx"), 15);
+fn hwp3_sample_hwpx_16p() {
+    // HWPX 변환본: 한컴 정답 16p
+    assert_eq!(page_count("samples/hwp3-sample-hwpx.hwpx"), 16);
 }
 
 // ───────── HWP3 원본 회귀 0 (Task #460 보정과 충돌 없음) ─────────
@@ -84,8 +84,11 @@ fn hwp3_sample5_hwp3_64p() {
 #[test]
 fn task554_no_regression_2022_kuglip() {
     // 2022년 국립국어원: 단순 -1600 적용 시 -5 회귀였던 케이스
-    // 휴리스틱 (PS/CS 비율) 로 변환본이 아니라 정확히 분류 → 보정 미적용 → 40 페이지 유지
-    assert_eq!(page_count("samples/2022년 국립국어원 업무계획.hwp"), 40);
+    // 휴리스틱 (PS/CS 비율) 로 변환본이 아니라 정확히 분류 → 보정 미적용
+    // [Task #643] 페이지 분할 드리프트 정정 + Task #404 vpos_end 트레일링 ls 제외:
+    //   pi=80 (page 6) 트레일링 ls 정정 + pi=39 (page 3) heading-orphan 가드 정정
+    //   → 후속 페이지 압축 → 40 → 35 페이지 (HWP 원본 정합 회복)
+    assert_eq!(page_count("samples/2022년 국립국어원 업무계획.hwp"), 35);
 }
 
 #[test]
@@ -97,13 +100,17 @@ fn task554_no_regression_exam_kor() {
 #[test]
 fn task554_no_regression_aift() {
     // aift: 단순 -1600 적용 시 -1 회귀였던 케이스
-    assert_eq!(page_count("samples/aift.hwp"), 77);
+    // Task #874 #1~#8 누적 정합 결과 한컴 PDF (pdf/aift-2022.pdf) 와 동일한 74p.
+    assert_eq!(page_count("samples/aift.hwp"), 74);
 }
 
 #[test]
 fn task554_no_regression_2025_donations_hwpx() {
     // 2025년 기부·답례품 HWPX: hwpml=1.5 (직접 작성) — 휴리스틱 미적용
-    assert_eq!(page_count("samples/2025년 기부·답례품 실적 지자체 보고서_양식.hwpx"), 30);
+    assert_eq!(
+        page_count("samples/2025년 기부·답례품 실적 지자체 보고서_양식.hwpx"),
+        30
+    );
 }
 
 #[test]

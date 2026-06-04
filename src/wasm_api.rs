@@ -21,6 +21,7 @@ use crate::model::document::{Document, Section};
 use crate::model::page::ColumnDef;
 use crate::model::paragraph::Paragraph;
 use crate::model::path::{path_from_flat, DocumentPath, PathSegment};
+use crate::model::shape::ShapeObject;
 use crate::renderer::canvas::CanvasRenderer;
 use crate::renderer::composer::{
     compose_paragraph, compose_section, reflow_line_segs, ComposedParagraph,
@@ -42,6 +43,130 @@ impl From<HwpError> for JsValue {
     fn from(err: HwpError) -> Self {
         JsValue::from_str(&err.to_string())
     }
+}
+
+/// [Task #1161] 클립보드 API 의 cellPath JSON 인자 파싱.
+/// 빈 문자열 또는 `"[]"` 면 본문(빈 경로), 그 외에는
+/// `[{"controlIndex","cellIndex","cellParaIndex"}, ...]` 를 파싱한다.
+fn parse_cell_path_arg(cell_path_json: &str) -> Result<Vec<(usize, usize, usize)>, JsValue> {
+    if cell_path_json.is_empty() || cell_path_json == "[]" {
+        Ok(Vec::new())
+    } else {
+        DocumentCore::parse_cell_path(cell_path_json).map_err(JsValue::from)
+    }
+}
+
+#[cfg(any(target_arch = "wasm32", test))]
+const MAX_CANVAS_DIMENSION: f64 = 16_384.0;
+
+#[cfg(any(target_arch = "wasm32", test))]
+fn normalize_canvas_scale(
+    page_width: f64,
+    page_height: f64,
+    requested_scale: f64,
+) -> Result<f64, &'static str> {
+    if !page_width.is_finite()
+        || !page_height.is_finite()
+        || page_width <= 0.0
+        || page_height <= 0.0
+    {
+        return Err("invalid page dimensions");
+    }
+
+    let scale = if requested_scale <= 0.0 || !requested_scale.is_finite() {
+        1.0
+    } else {
+        requested_scale.clamp(0.25, 12.0)
+    };
+
+    let scaled_width = page_width * scale;
+    let scaled_height = page_height * scale;
+    if !scaled_width.is_finite() || !scaled_height.is_finite() {
+        return Ok((MAX_CANVAS_DIMENSION / page_width)
+            .min(MAX_CANVAS_DIMENSION / page_height)
+            .min(scale));
+    }
+
+    if scaled_width > MAX_CANVAS_DIMENSION || scaled_height > MAX_CANVAS_DIMENSION {
+        Ok((MAX_CANVAS_DIMENSION / page_width)
+            .min(MAX_CANVAS_DIMENSION / page_height)
+            .min(scale))
+    } else {
+        Ok(scale)
+    }
+}
+
+#[cfg(target_arch = "wasm32")]
+fn scaled_canvas_extent(page_extent: f64, scale: f64) -> u32 {
+    (page_extent * scale).max(1.0).min(MAX_CANVAS_DIMENSION) as u32
+}
+
+#[derive(Debug, Clone, serde::Serialize)]
+#[serde(rename_all = "camelCase")]
+struct ExternalImageReference {
+    key: String,
+    bin_data_id: u16,
+    original_path: String,
+    basename: String,
+    extension: String,
+    loaded: bool,
+}
+
+fn external_path_basename(path: &str) -> &str {
+    path.rsplit(|c| c == '/' || c == '\\')
+        .find(|part| !part.is_empty())
+        .unwrap_or(path)
+}
+
+fn external_path_extension(basename: &str) -> String {
+    std::path::Path::new(basename)
+        .extension()
+        .and_then(|ext| ext.to_str())
+        .unwrap_or("")
+        .to_string()
+}
+
+fn parse_external_image_key(key: &str) -> Option<u16> {
+    let bin_data_id = key.strip_prefix("binData:")?.parse::<u16>().ok()?;
+    (bin_data_id != 0).then_some(bin_data_id)
+}
+
+fn collect_external_image_references(document: &Document) -> Vec<ExternalImageReference> {
+    let mut references = std::collections::BTreeMap::new();
+
+    for section in &document.sections {
+        for para in &section.paragraphs {
+            for ctrl in &para.controls {
+                let pic = match ctrl {
+                    Control::Picture(pic) => pic,
+                    Control::Shape(shape) => match shape.as_ref() {
+                        ShapeObject::Picture(pic) => pic,
+                        _ => continue,
+                    },
+                    _ => continue,
+                };
+
+                let Some(original_path) = pic.image_attr.external_path.as_ref() else {
+                    continue;
+                };
+
+                let bin_data_id = pic.image_attr.bin_data_id;
+                references.entry(bin_data_id).or_insert_with(|| {
+                    let basename = external_path_basename(original_path).to_string();
+                    ExternalImageReference {
+                        key: format!("binData:{bin_data_id}"),
+                        bin_data_id,
+                        extension: external_path_extension(&basename),
+                        basename,
+                        original_path: original_path.clone(),
+                        loaded: document.external_image_loaded(bin_data_id),
+                    }
+                });
+            }
+        }
+    }
+
+    references.into_values().collect()
 }
 
 /// WASM에서 사용할 HWP 문서 래퍼
@@ -80,6 +205,44 @@ impl HwpDocument {
 
     pub fn find_column_def_for_paragraph(paragraphs: &[Paragraph], para_idx: usize) -> ColumnDef {
         DocumentCore::find_column_def_for_paragraph(paragraphs, para_idx)
+    }
+
+    fn inject_external_image_by_bin_data_id(
+        &mut self,
+        bin_data_id: u16,
+        data: &[u8],
+        display_path: &str,
+        fallback_basename: Option<&str>,
+    ) -> u32 {
+        let Some(reference) = collect_external_image_references(self.document())
+            .into_iter()
+            .find(|reference| reference.bin_data_id == bin_data_id)
+        else {
+            return 0;
+        };
+
+        if reference.loaded {
+            return 0;
+        }
+
+        if !self.document_mut().inject_external_image_data(
+            bin_data_id,
+            data.to_vec(),
+            reference.extension.clone(),
+        ) {
+            return 0;
+        }
+
+        let basename = fallback_basename.unwrap_or(&reference.basename);
+        let resolved = if display_path.is_empty() {
+            format!("/samples/{basename}")
+        } else {
+            display_path.to_string()
+        };
+        self.document_mut()
+            .update_external_image_display_path(bin_data_id, &resolved);
+
+        1
     }
 }
 
@@ -214,29 +377,16 @@ impl HwpDocument {
         use crate::renderer::layer_renderer::LayerRenderer;
         use crate::renderer::web_canvas::WebCanvasRenderer;
 
-        let tree = self.build_page_layer_tree(page_num).map_err(JsValue::from)?;
+        let tree = self
+            .build_page_layer_tree(page_num)
+            .map_err(JsValue::from)?;
 
-        // scale 정규화: 0 이하 또는 NaN이면 1.0, 최소 0.25 최대 12.0
-        // (zoom 3.0 × DPR 4.0 = 12.0 지원)
-        let scale = if scale <= 0.0 || scale.is_nan() {
-            1.0
-        } else {
-            scale.clamp(0.25, 12.0)
-        };
-
-        // 최대 캔버스 크기 가드 (16384px)
-        let max_dim = 16384.0;
-        let scale = if tree.page_width * scale > max_dim || tree.page_height * scale > max_dim {
-            (max_dim / tree.page_width)
-                .min(max_dim / tree.page_height)
-                .min(scale)
-        } else {
-            scale
-        };
+        let scale = normalize_canvas_scale(tree.page_width, tree.page_height, scale)
+            .map_err(JsValue::from_str)?;
 
         // 캔버스 크기 = 페이지 크기 × scale
-        canvas.set_width((tree.page_width * scale) as u32);
-        canvas.set_height((tree.page_height * scale) as u32);
+        canvas.set_width(scaled_canvas_extent(tree.page_width, scale));
+        canvas.set_height(scaled_canvas_extent(tree.page_height, scale));
 
         let mut renderer = WebCanvasRenderer::new(canvas)?;
         renderer.show_paragraph_marks = self.show_paragraph_marks;
@@ -249,8 +399,9 @@ impl HwpDocument {
     /// 다층 레이어 필터를 적용한 Canvas 렌더링 (Task #516, Stage 5.2).
     ///
     /// `layer_kind`:
-    /// - `"all"` → 모든 그림 렌더 (기본 `renderPageToCanvas` 와 동일)
-    /// - `"flow"` → 본문 layer (BehindText / InFrontOfText 그림 제외)
+    /// - `"all"` → 모든 PaintOp 렌더 (기본 `renderPageToCanvas` 와 동일)
+    /// - `"background"` → page background layer
+    /// - `"flow"` → 본문 layer (BehindText / InFrontOfText plane 제외)
     /// - `"behind"` → BehindText overlay layer
     /// - `"front"` → InFrontOfText overlay layer
     ///
@@ -264,38 +415,32 @@ impl HwpDocument {
         scale: f64,
         layer_kind: &str,
     ) -> Result<(), JsValue> {
+        use crate::model::shape::TextWrap;
         use crate::renderer::layer_renderer::LayerRenderer;
         use crate::renderer::web_canvas::{LayerFilter, WebCanvasRenderer};
-        use crate::model::shape::TextWrap;
 
         let filter = match layer_kind {
             "all" => LayerFilter::All,
+            "background" => LayerFilter::BackgroundOnly,
             "flow" => LayerFilter::FlowOnly,
             "behind" => LayerFilter::WrapOnly(TextWrap::BehindText),
             "front" => LayerFilter::WrapOnly(TextWrap::InFrontOfText),
-            _ => return Err(JsValue::from_str(
-                "invalid layer_kind: 'all' | 'flow' | 'behind' | 'front'",
-            )),
+            _ => {
+                return Err(JsValue::from_str(
+                    "invalid layer_kind: 'all' | 'background' | 'flow' | 'behind' | 'front'",
+                ))
+            }
         };
 
-        let tree = self.build_page_layer_tree(page_num).map_err(JsValue::from)?;
+        let tree = self
+            .build_page_layer_tree(page_num)
+            .map_err(JsValue::from)?;
 
-        let scale = if scale <= 0.0 || scale.is_nan() {
-            1.0
-        } else {
-            scale.clamp(0.25, 12.0)
-        };
-        let max_dim = 16384.0;
-        let scale = if tree.page_width * scale > max_dim || tree.page_height * scale > max_dim {
-            (max_dim / tree.page_width)
-                .min(max_dim / tree.page_height)
-                .min(scale)
-        } else {
-            scale
-        };
+        let scale = normalize_canvas_scale(tree.page_width, tree.page_height, scale)
+            .map_err(JsValue::from_str)?;
 
-        canvas.set_width((tree.page_width * scale) as u32);
-        canvas.set_height((tree.page_height * scale) as u32);
+        canvas.set_width(scaled_canvas_extent(tree.page_width, scale));
+        canvas.set_height(scaled_canvas_extent(tree.page_height, scale));
 
         let mut renderer = WebCanvasRenderer::new(canvas)?;
         renderer.show_paragraph_marks = self.show_paragraph_marks;
@@ -321,28 +466,12 @@ impl HwpDocument {
             .build_page_tree_cached(page_num)
             .map_err(|e| JsValue::from(e))?;
 
-        // scale 정규화: 0 이하 또는 NaN이면 1.0, 최소 0.25 최대 12.0
-        // (zoom 3.0 × DPR 4.0 = 12.0 지원)
-        let scale = if scale <= 0.0 || scale.is_nan() {
-            1.0
-        } else {
-            scale.clamp(0.25, 12.0)
-        };
-
-        // 최대 캔버스 크기 가드 (16384px)
-        let max_dim = 16384.0;
-        let scale =
-            if tree.root.bbox.width * scale > max_dim || tree.root.bbox.height * scale > max_dim {
-                (max_dim / tree.root.bbox.width)
-                    .min(max_dim / tree.root.bbox.height)
-                    .min(scale)
-            } else {
-                scale
-            };
+        let scale = normalize_canvas_scale(tree.root.bbox.width, tree.root.bbox.height, scale)
+            .map_err(JsValue::from_str)?;
 
         // 캔버스 크기 = 페이지 크기 × scale
-        canvas.set_width((tree.root.bbox.width * scale) as u32);
-        canvas.set_height((tree.root.bbox.height * scale) as u32);
+        canvas.set_width(scaled_canvas_extent(tree.root.bbox.width, scale));
+        canvas.set_height(scaled_canvas_extent(tree.root.bbox.height, scale));
 
         let mut renderer = WebCanvasRenderer::new(canvas)?;
         renderer.show_paragraph_marks = self.show_paragraph_marks;
@@ -365,6 +494,24 @@ impl HwpDocument {
     #[wasm_bindgen(js_name = getPageLayerTree)]
     pub fn get_page_layer_tree(&self, page_num: u32) -> Result<String, JsValue> {
         self.get_page_layer_tree_native(page_num)
+            .map_err(|e| e.into())
+    }
+
+    /// CanvasKit direct replay 정책 진단을 JSON 문자열로 반환한다.
+    ///
+    /// `mode` 는 `"default"` 또는 `"compat"` 를 받는다. 빈 문자열은 `"default"` 로 처리한다.
+    /// 현재 두 mode 모두 hidden Canvas2D overlay 없이 direct replay required 정책을 따른다.
+    /// `compat` 는 API/URL 호환성과 이후 보수적인 direct replay 튜닝을 위해 남겨 둔 선택지다.
+    #[wasm_bindgen(js_name = getCanvasKitReplayPlan)]
+    pub fn get_canvaskit_replay_plan(&self, page_num: u32, mode: &str) -> Result<String, JsValue> {
+        self.get_canvaskit_replay_plan_native(page_num, mode)
+            .map_err(|e| e.into())
+    }
+
+    /// 페이지 overlay 이미지 정보만 JSON 문자열로 반환한다.
+    #[wasm_bindgen(js_name = getPageOverlayImages)]
+    pub fn get_page_overlay_images(&self, page_num: u32) -> Result<String, JsValue> {
+        self.get_page_overlay_images_native(page_num)
             .map_err(|e| e.into())
     }
 
@@ -408,6 +555,45 @@ impl HwpDocument {
         self.set_section_def_all_native(json).map_err(|e| e.into())
     }
 
+    /// 구역의 쪽 테두리/배경 설정을 JSON으로 반환한다.
+    #[wasm_bindgen(js_name = getPageBorderFill)]
+    pub fn get_page_border_fill(&self, section_idx: u32) -> Result<String, JsValue> {
+        self.get_page_border_fill_native(section_idx as usize)
+            .map_err(|e| e.into())
+    }
+
+    /// 구역의 쪽 테두리/배경 설정을 변경하고 재페이지네이션한다.
+    #[wasm_bindgen(js_name = setPageBorderFill)]
+    pub fn set_page_border_fill(
+        &mut self,
+        section_idx: u32,
+        json: &str,
+    ) -> Result<String, JsValue> {
+        self.set_page_border_fill_native(section_idx as usize, json)
+            .map_err(|e| e.into())
+    }
+
+    /// 현재 구역의 다단 설정을 JSON으로 반환한다.
+    #[wasm_bindgen(js_name = getColumnDef)]
+    pub fn get_column_def(&self, section_idx: u32) -> Result<String, JsValue> {
+        let sec = self
+            .core
+            .document
+            .sections
+            .get(section_idx as usize)
+            .ok_or_else(|| JsValue::from_str("구역 인덱스 범위 초과"))?;
+        let col_def = HwpDocument::find_initial_column_def(&sec.paragraphs);
+        let col_type = match col_def.column_type {
+            crate::model::page::ColumnType::Normal => 0,
+            crate::model::page::ColumnType::Distribute => 1,
+            crate::model::page::ColumnType::Parallel => 2,
+        };
+        Ok(format!(
+            "{{\"columnCount\":{},\"columnType\":{},\"sameWidth\":{},\"spacing\":{}}}",
+            col_def.column_count, col_type, col_def.same_width, col_def.spacing,
+        ))
+    }
+
     /// 문서 정보를 JSON 문자열로 반환한다.
     #[wasm_bindgen(js_name = getDocumentInfo)]
     pub fn get_document_info(&self) -> String {
@@ -439,7 +625,10 @@ impl HwpDocument {
     /// 파일 이름을 설정한다 (머리말/꼬리말 필드 치환용).
     #[wasm_bindgen(js_name = setFileName)]
     pub fn set_file_name(&mut self, name: &str) {
-        self.core.file_name = name.to_string();
+        if self.core.file_name != name {
+            self.core.file_name = name.to_string();
+            self.core.invalidate_page_tree_cache();
+        }
     }
 
     /// 현재 DPI를 반환한다.
@@ -1162,6 +1351,27 @@ impl HwpDocument {
             section_idx as usize,
             para_idx as usize,
             char_offset as usize,
+        )
+        .map_err(|e| e.into())
+    }
+
+    /// 새 번호 지정 컨트롤 삽입 (쪽 > 새 번호로 시작)
+    #[wasm_bindgen(js_name = insertNewNumber)]
+    pub fn insert_new_number(
+        &mut self,
+        section_idx: u32,
+        para_idx: u32,
+        char_offset: u32,
+        start_num: u32,
+    ) -> Result<String, JsValue> {
+        if start_num == 0 || start_num > 65535 {
+            return Err(JsValue::from_str("start_num must be 1~65535"));
+        }
+        self.insert_new_number_native(
+            section_idx as usize,
+            para_idx as usize,
+            char_offset as usize,
+            start_num as u16,
         )
         .map_err(|e| e.into())
     }
@@ -1981,6 +2191,25 @@ impl HwpDocument {
         .map_err(|e| e.into())
     }
 
+    /// [Task #919] 글상자/도형 컨트롤의 페이지 좌표 바운딩박스를 반환한다.
+    ///
+    /// 반환: JSON `{"pageIndex":<N>,"x":<f>,"y":<f>,"width":<f>,"height":<f>}`
+    /// studio 의 `isShapeBorderClick` 헬퍼에서 외곽 경계선 클릭 판별에 사용.
+    #[wasm_bindgen(js_name = getShapeBBox)]
+    pub fn get_shape_bbox(
+        &self,
+        section_idx: u32,
+        parent_para_idx: u32,
+        control_idx: u32,
+    ) -> Result<String, JsValue> {
+        self.get_shape_bbox_native(
+            section_idx as usize,
+            parent_para_idx as usize,
+            control_idx as usize,
+        )
+        .map_err(|e| e.into())
+    }
+
     /// 표 컨트롤을 문단에서 삭제한다.
     ///
     /// 반환: JSON `{"ok":true}`
@@ -2080,13 +2309,25 @@ impl HwpDocument {
     /// width, height: HWPUNIT 단위 크기
     /// extension: 파일 확장자 (jpg, png 등)
     ///
-    /// 반환: JSON `{"ok":true,"paraIdx":<N>,"controlIdx":0}`
+    /// 반환:
+    /// - 본문 inline: `{"ok":true,"paraIdx":<N>,"controlIdx":0}`
+    /// - 셀 floating (#1151): `{"ok":true,"paraIdx":<table_para>,"controlIdx":<new_sibling_idx>}`
+    ///
+    /// `cell_path_json` 이 빈 문자열 또는 `"[]"` 면 본문 inline 삽입. 그 외에는
+    /// 표 셀 영역에 floating picture (한컴 정합) 로 삽입한다.
+    /// 예: `[{"controlIndex":0,"cellIndex":2,"cellParaIndex":0}]`
+    /// [Task #1151 v8 결함 C] `paper_offset_x_hu / paper_offset_y_hu` 는 사용자가 셀 안에
+    /// 클릭/드래그한 위치 (paper-relative HU). studio 의 finishImagePlacement 가 drag 좌표를
+    /// 변환하여 전달. JS 측에서 `undefined` 전달 시 (또는 음수) wasm 이 셀 좌상단을 default 사용
+    /// — 기존 동작 호환.
     #[wasm_bindgen(js_name = insertPicture)]
+    #[allow(clippy::too_many_arguments)]
     pub fn insert_picture(
         &mut self,
         section_idx: u32,
         para_idx: u32,
         char_offset: u32,
+        cell_path_json: &str,
         image_data: &[u8],
         width: u32,
         height: u32,
@@ -2094,11 +2335,20 @@ impl HwpDocument {
         natural_height_px: u32,
         extension: &str,
         description: &str,
+        paper_offset_x_hu: Option<i32>,
+        paper_offset_y_hu: Option<i32>,
     ) -> Result<String, JsValue> {
+        let cell_path: Vec<(usize, usize, usize)> =
+            if cell_path_json.is_empty() || cell_path_json == "[]" {
+                Vec::new()
+            } else {
+                DocumentCore::parse_cell_path(cell_path_json).map_err(JsValue::from)?
+            };
         self.insert_picture_native(
             section_idx as usize,
             para_idx as usize,
             char_offset as usize,
+            &cell_path,
             image_data,
             width,
             height,
@@ -2106,8 +2356,128 @@ impl HwpDocument {
             natural_height_px,
             extension,
             description,
+            paper_offset_x_hu,
+            paper_offset_y_hu,
         )
         .map_err(|e| e.into())
+    }
+
+    /// [Task #1142] 외부 file path 그림 reference 목록을 구조화된 JSON 배열로 반환한다.
+    ///
+    /// 반환: JSON 배열 `[{ key, binDataId, originalPath, basename, extension, loaded }, ...]`
+    #[wasm_bindgen(js_name = getExternalImageReferences)]
+    pub fn get_external_image_references(&self) -> String {
+        serde_json::to_string(&collect_external_image_references(self.document()))
+            .unwrap_or_else(|_| "[]".to_string())
+    }
+
+    /// [Task #741 후속] 외부 file path 그림 영역 영역 영역 영역 basename 목록 영역 반환.
+    ///
+    /// HWP3 파일 영역 image 영역 영역 절대 경로 영역 저장 영역. WASM 환경 영역 영역 file
+    /// system access 부재 영역, JS 영역 영역 영역 영역 fetch 영역 영역 영역 file 영역 load
+    /// 영역 후 `injectExternalImage` 영역 영역 영역 inject 영역.
+    ///
+    /// 반환: JSON 배열 `["oracle.gif", "rdb02.gif", ...]` (중복 제거)
+    #[wasm_bindgen(js_name = getExternalImageBasenames)]
+    pub fn get_external_image_basenames(&self) -> String {
+        use std::collections::BTreeSet;
+
+        let mut names: BTreeSet<String> = BTreeSet::new();
+        for reference in collect_external_image_references(self.document()) {
+            if !reference.loaded {
+                names.insert(reference.basename);
+            }
+        }
+        let arr: Vec<String> = names.into_iter().collect();
+        serde_json::to_string(&arr).unwrap_or_else(|_| "[]".to_string())
+    }
+
+    /// [Task #741 후속] 외부 file path 그림 영역 영역 binary data 영역 inject.
+    ///
+    /// JS 영역 영역 영역 fetch 영역 영역 영역 file 영역 load 영역 후 본 메서드 영역 호출 영역
+    /// IR 영역 영역 영역 image binary 영역 영역 → renderer 영역 영역 표시.
+    ///
+    /// `basename`: 영역 영역 file 영역 영역 (예: "oracle.gif")
+    /// `data`: 영역 영역 binary 영역
+    /// `display_path`: dialog 영역 영역 영역 영역 표시 영역 영역 path. 빈 문자열 ("") 영역
+    ///                 영역 영역 fallback 영역 영역 `/samples/<basename>` 영역 사용. 한컴 viewer
+    ///                 정합 영역 영역 OS 영역 절대 경로 영역 영역 (예: "/Users/.../samples/rdb02.gif")
+    #[wasm_bindgen(js_name = injectExternalImage)]
+    pub fn inject_external_image(
+        &mut self,
+        basename: &str,
+        data: &[u8],
+        display_path: &str,
+    ) -> u32 {
+        use crate::model::control::Control;
+        use crate::model::shape::ShapeObject;
+        use std::collections::BTreeSet;
+
+        let mut injected: u32 = 0;
+        // 영역 외부 image 영역 영역 영역 영역 basename 매칭 영역 영역 id 수집
+        let mut targets: BTreeSet<u16> = BTreeSet::new();
+        for section in &self.document().sections {
+            for para in &section.paragraphs {
+                for ctrl in &para.controls {
+                    let pic = match ctrl {
+                        Control::Picture(p) => p,
+                        Control::Shape(s) => match s.as_ref() {
+                            ShapeObject::Picture(p) => p,
+                            _ => continue,
+                        },
+                        _ => continue,
+                    };
+                    if let Some(ref path) = pic.image_attr.external_path {
+                        let path_basename = path
+                            .rsplit(|c| c == '/' || c == '\\')
+                            .next()
+                            .unwrap_or(path);
+                        if path_basename != basename {
+                            continue;
+                        }
+                        let id = pic.image_attr.bin_data_id;
+                        if self.document().external_image_loaded(id) {
+                            continue;
+                        }
+                        targets.insert(id);
+                    }
+                }
+            }
+        }
+
+        for id in targets {
+            injected +=
+                self.inject_external_image_by_bin_data_id(id, data, display_path, Some(basename));
+        }
+
+        if injected > 0 {
+            self.invalidate_page_tree_cache();
+        }
+
+        injected
+    }
+
+    /// [Task #1143] `getExternalImageReferences()` 의 key로 외부 이미지 bytes를 주입한다.
+    ///
+    /// 지원 key: `binData:<bin_data_id>`.
+    /// 잘못된 key, 존재하지 않는 key, 이미 loaded 상태인 reference는 0을 반환한다.
+    #[wasm_bindgen(js_name = injectExternalImageByKey)]
+    pub fn inject_external_image_by_key(
+        &mut self,
+        key: &str,
+        data: &[u8],
+        display_path: &str,
+    ) -> u32 {
+        let Some(bin_data_id) = parse_external_image_key(key) else {
+            return 0;
+        };
+
+        let injected =
+            self.inject_external_image_by_bin_data_id(bin_data_id, data, display_path, None);
+        if injected > 0 {
+            self.invalidate_page_tree_cache();
+        }
+        injected
     }
 
     /// 그림 컨트롤의 속성을 조회한다.
@@ -2124,6 +2494,28 @@ impl HwpDocument {
             section_idx as usize,
             parent_para_idx as usize,
             control_idx as usize,
+        )
+        .map_err(|e| e.into())
+    }
+
+    /// [Task #825] 머리말/꼬리말 안 그림의 속성 조회.
+    /// path: section[si].paragraphs[outer_para].controls[outer_ctrl] = Header/Footer
+    ///       → .paragraphs[inner_para].controls[inner_ctrl] = Picture
+    #[wasm_bindgen(js_name = getHeaderFooterPictureProperties)]
+    pub fn get_header_footer_picture_properties(
+        &self,
+        section_idx: u32,
+        outer_para_idx: u32,
+        outer_control_idx: u32,
+        inner_para_idx: u32,
+        inner_control_idx: u32,
+    ) -> Result<String, JsValue> {
+        self.get_header_footer_picture_properties_native(
+            section_idx as usize,
+            outer_para_idx as usize,
+            outer_control_idx as usize,
+            inner_para_idx as usize,
+            inner_control_idx as usize,
         )
         .map_err(|e| e.into())
     }
@@ -2148,6 +2540,28 @@ impl HwpDocument {
         .map_err(|e| e.into())
     }
 
+    /// [Task #825] 머리말/꼬리말 안 그림 속성 변경.
+    #[wasm_bindgen(js_name = setHeaderFooterPictureProperties)]
+    pub fn set_header_footer_picture_properties(
+        &mut self,
+        section_idx: u32,
+        outer_para_idx: u32,
+        outer_control_idx: u32,
+        inner_para_idx: u32,
+        inner_control_idx: u32,
+        props_json: &str,
+    ) -> Result<String, JsValue> {
+        self.set_header_footer_picture_properties_native(
+            section_idx as usize,
+            outer_para_idx as usize,
+            outer_control_idx as usize,
+            inner_para_idx as usize,
+            inner_control_idx as usize,
+            props_json,
+        )
+        .map_err(|e| e.into())
+    }
+
     /// 그림 컨트롤을 문단에서 삭제한다.
     ///
     /// 반환: JSON `{"ok":true}`
@@ -2166,7 +2580,119 @@ impl HwpDocument {
         .map_err(|e| e.into())
     }
 
+    /// [Task #1171 / PR #1254] 표 셀/글상자 내부 Picture 삭제 (by_path).
+    #[wasm_bindgen(js_name = deleteCellPictureControlByPath)]
+    pub fn delete_cell_picture_control_by_path(
+        &mut self,
+        section_idx: u32,
+        parent_para_idx: u32,
+        cell_path_json: &str,
+        inner_control_idx: u32,
+    ) -> Result<String, JsValue> {
+        self.delete_cell_picture_control_by_path_native(
+            section_idx as usize,
+            parent_para_idx as usize,
+            cell_path_json,
+            inner_control_idx as usize,
+        )
+        .map_err(|e| e.into())
+    }
+
+    /// [Task #1138] 표 셀 내 Shape(글상자/사각형/도형) 속성 조회 (by_path).
+    #[wasm_bindgen(js_name = getCellShapePropertiesByPath)]
+    pub fn get_cell_shape_properties_by_path(
+        &self,
+        section_idx: u32,
+        parent_para_idx: u32,
+        cell_path_json: &str,
+        inner_control_idx: u32,
+    ) -> Result<String, JsValue> {
+        self.get_cell_shape_properties_by_path_native(
+            section_idx as usize,
+            parent_para_idx as usize,
+            cell_path_json,
+            inner_control_idx as usize,
+        )
+        .map_err(|e| e.into())
+    }
+
+    /// [Task #1151 v4] 표 셀 내 Picture 속성 조회 (by_path). Shape 패턴 정합.
+    #[wasm_bindgen(js_name = getCellPicturePropertiesByPath)]
+    pub fn get_cell_picture_properties_by_path(
+        &self,
+        section_idx: u32,
+        parent_para_idx: u32,
+        cell_path_json: &str,
+        inner_control_idx: u32,
+    ) -> Result<String, JsValue> {
+        self.get_cell_picture_properties_by_path_native(
+            section_idx as usize,
+            parent_para_idx as usize,
+            cell_path_json,
+            inner_control_idx as usize,
+        )
+        .map_err(|e| e.into())
+    }
+
+    /// [Task #1138] 표 셀 내 Shape 속성 변경 (by_path).
+    #[wasm_bindgen(js_name = setCellShapePropertiesByPath)]
+    pub fn set_cell_shape_properties_by_path(
+        &mut self,
+        section_idx: u32,
+        parent_para_idx: u32,
+        cell_path_json: &str,
+        inner_control_idx: u32,
+        props_json: &str,
+    ) -> Result<String, JsValue> {
+        self.set_cell_shape_properties_by_path_native(
+            section_idx as usize,
+            parent_para_idx as usize,
+            cell_path_json,
+            inner_control_idx as usize,
+            props_json,
+        )
+        .map_err(|e| e.into())
+    }
+
+    /// [Task #1151 v4] 표 셀 내 Picture 속성 변경 (by_path). Shape 패턴 정합.
+    #[wasm_bindgen(js_name = setCellPicturePropertiesByPath)]
+    pub fn set_cell_picture_properties_by_path(
+        &mut self,
+        section_idx: u32,
+        parent_para_idx: u32,
+        cell_path_json: &str,
+        inner_control_idx: u32,
+        props_json: &str,
+    ) -> Result<String, JsValue> {
+        self.set_cell_picture_properties_by_path_native(
+            section_idx as usize,
+            parent_para_idx as usize,
+            cell_path_json,
+            inner_control_idx as usize,
+            props_json,
+        )
+        .map_err(|e| e.into())
+    }
+
     // ─── Equation(수식) API ──────────────────────────────
+
+    /// 수식 컨트롤을 문단에서 삭제한다.
+    ///
+    /// 반환: JSON `{"ok":true}`
+    #[wasm_bindgen(js_name = deleteEquationControl)]
+    pub fn delete_equation_control(
+        &mut self,
+        section_idx: u32,
+        parent_para_idx: u32,
+        control_idx: u32,
+    ) -> Result<String, JsValue> {
+        self.delete_equation_control_native(
+            section_idx as usize,
+            parent_para_idx as usize,
+            control_idx as usize,
+        )
+        .map_err(|e| e.into())
+    }
 
     /// 수식 컨트롤의 속성을 조회한다.
     ///
@@ -2229,6 +2755,52 @@ impl HwpDocument {
             control_idx as usize,
             ci,
             cpi,
+            props_json,
+        )
+        .map_err(|e| e.into())
+    }
+
+    /// 각주/미주 내부 수식 컨트롤의 속성을 조회한다.
+    #[wasm_bindgen(js_name = getNoteEquationProperties)]
+    pub fn get_note_equation_properties(
+        &self,
+        kind: &str,
+        section_idx: u32,
+        parent_para_idx: u32,
+        note_control_idx: u32,
+        note_para_idx: u32,
+        inner_control_idx: u32,
+    ) -> Result<String, JsValue> {
+        self.get_note_equation_properties_native(
+            kind,
+            section_idx as usize,
+            parent_para_idx as usize,
+            note_control_idx as usize,
+            note_para_idx as usize,
+            inner_control_idx as usize,
+        )
+        .map_err(|e| e.into())
+    }
+
+    /// 각주/미주 내부 수식 컨트롤의 속성을 변경한다.
+    #[wasm_bindgen(js_name = setNoteEquationProperties)]
+    pub fn set_note_equation_properties(
+        &mut self,
+        kind: &str,
+        section_idx: u32,
+        parent_para_idx: u32,
+        note_control_idx: u32,
+        note_para_idx: u32,
+        inner_control_idx: u32,
+        props_json: &str,
+    ) -> Result<String, JsValue> {
+        self.set_note_equation_properties_native(
+            kind,
+            section_idx as usize,
+            parent_para_idx as usize,
+            note_control_idx as usize,
+            note_para_idx as usize,
+            inner_control_idx as usize,
             props_json,
         )
         .map_err(|e| e.into())
@@ -2509,6 +3081,62 @@ impl HwpDocument {
         .map_err(|e| e.into())
     }
 
+    /// 미주를 삽입한다.
+    #[wasm_bindgen(js_name = insertEndnote)]
+    pub fn insert_endnote(
+        &mut self,
+        section_idx: u32,
+        para_idx: u32,
+        char_offset: u32,
+    ) -> Result<String, JsValue> {
+        self.insert_endnote_native(
+            section_idx as usize,
+            para_idx as usize,
+            char_offset as usize,
+        )
+        .map_err(|e| e.into())
+    }
+
+    /// 미주 모양을 조회한다.
+    #[wasm_bindgen(js_name = getEndnoteShape)]
+    pub fn get_endnote_shape(&self, section_idx: u32) -> Result<String, JsValue> {
+        self.get_endnote_shape_native(section_idx as usize)
+            .map_err(|e| e.into())
+    }
+
+    /// 미주 모양을 적용한다.
+    #[wasm_bindgen(js_name = applyEndnoteShape)]
+    pub fn apply_endnote_shape(
+        &mut self,
+        section_idx: u32,
+        props_json: &str,
+    ) -> Result<String, JsValue> {
+        self.apply_endnote_shape_native(section_idx as usize, props_json)
+            .map_err(|e| e.into())
+    }
+
+    /// 수식을 삽입한다.
+    #[wasm_bindgen(js_name = insertEquation)]
+    pub fn insert_equation(
+        &mut self,
+        section_idx: u32,
+        para_idx: u32,
+        char_offset: u32,
+        script: &str,
+        font_size: u32,
+        color: u32,
+    ) -> Result<String, JsValue> {
+        self.insert_equation_native(
+            section_idx as usize,
+            para_idx as usize,
+            char_offset as usize,
+            script,
+            font_size,
+            color,
+        )
+        .map_err(|e| e.into())
+    }
+
     /// 각주 정보를 조회한다.
     #[wasm_bindgen(js_name = getFootnoteInfo)]
     pub fn get_footnote_info(
@@ -2682,6 +3310,80 @@ impl HwpDocument {
             footnote_index as usize,
             fn_para_idx as usize,
             char_offset as usize,
+        )
+        .map_err(|e| e.into())
+    }
+
+    /// 각주/미주 편집 모드 진입 대상 조회
+    #[wasm_bindgen(js_name = getNoteEditInfo)]
+    pub fn get_note_edit_info(
+        &self,
+        section_idx: u32,
+        para_idx: u32,
+        control_idx: u32,
+    ) -> Result<String, JsValue> {
+        self.get_note_edit_info_native(
+            section_idx as usize,
+            para_idx as usize,
+            control_idx as usize,
+        )
+        .map_err(|e| e.into())
+    }
+
+    /// 각주/미주 내부 커서 렉트 계산
+    #[wasm_bindgen(js_name = getCursorRectInNote)]
+    pub fn get_cursor_rect_in_note(
+        &self,
+        section_idx: u32,
+        para_idx: u32,
+        control_idx: u32,
+        note_para_idx: u32,
+        char_offset: u32,
+    ) -> Result<String, JsValue> {
+        self.get_cursor_rect_in_note_native(
+            section_idx as usize,
+            para_idx as usize,
+            control_idx as usize,
+            note_para_idx as usize,
+            char_offset as usize,
+        )
+        .map_err(|e| e.into())
+    }
+
+    /// 각주/미주 내부 문단 속성 조회
+    #[wasm_bindgen(js_name = getParaPropertiesInFootnote)]
+    pub fn get_para_properties_in_footnote(
+        &self,
+        section_idx: u32,
+        para_idx: u32,
+        control_idx: u32,
+        fn_para_idx: u32,
+    ) -> Result<String, JsValue> {
+        self.get_para_properties_in_footnote_native(
+            section_idx as usize,
+            para_idx as usize,
+            control_idx as usize,
+            fn_para_idx as usize,
+        )
+        .map_err(|e| e.into())
+    }
+
+    /// 각주/미주 내부 문단 속성 적용
+    #[wasm_bindgen(js_name = applyParaFormatInFootnote)]
+    pub fn apply_para_format_in_footnote(
+        &mut self,
+        section_idx: u32,
+        para_idx: u32,
+        control_idx: u32,
+        fn_para_idx: u32,
+        props_json: &str,
+    ) -> Result<String, JsValue> {
+        self.apply_para_format_in_footnote_native(
+            section_idx as usize,
+            para_idx as usize,
+            control_idx as usize,
+            fn_para_idx as usize,
+            props_json,
         )
         .map_err(|e| e.into())
     }
@@ -2896,6 +3598,19 @@ impl HwpDocument {
             .map_err(|e| e.into())
     }
 
+    /// 문서 전체 검색 (모든 매치 반환)
+    #[wasm_bindgen(js_name = searchAllText)]
+    pub fn search_all_text(
+        &self,
+        query: &str,
+        case_sensitive: bool,
+        include_cells: bool,
+    ) -> Result<String, JsValue> {
+        self.core
+            .search_all_text_native(query, case_sensitive, include_cells)
+            .map_err(|e| e.into())
+    }
+
     /// 텍스트 치환 (단일)
     #[wasm_bindgen(js_name = replaceText)]
     pub fn replace_text(
@@ -2925,7 +3640,8 @@ impl HwpDocument {
         new_text: &str,
         case_sensitive: bool,
     ) -> Result<String, JsValue> {
-        self.core.replace_one_native(query, new_text, case_sensitive)
+        self.core
+            .replace_one_native(query, new_text, case_sensitive)
             .map_err(|e| e.into())
     }
 
@@ -3481,6 +4197,28 @@ impl HwpDocument {
         .map_err(|e| e.into())
     }
 
+    /// 각주/미주 내부 선택 영역의 줄별 사각형을 반환한다.
+    #[wasm_bindgen(js_name = getSelectionRectsInFootnote)]
+    pub fn get_selection_rects_in_footnote(
+        &self,
+        page_num: u32,
+        footnote_index: u32,
+        start_fn_para_idx: u32,
+        start_char_offset: u32,
+        end_fn_para_idx: u32,
+        end_char_offset: u32,
+    ) -> Result<String, JsValue> {
+        self.get_selection_rects_in_footnote_native(
+            page_num,
+            footnote_index as usize,
+            start_fn_para_idx as usize,
+            start_char_offset as usize,
+            end_fn_para_idx as usize,
+            end_char_offset as usize,
+        )
+        .map_err(|e| e.into())
+    }
+
     /// 본문 선택 영역을 삭제한다.
     ///
     /// 반환: JSON `{"ok":true,"paraIdx":N,"charOffset":N}`
@@ -3641,19 +4379,19 @@ impl HwpDocument {
                 None => "null".to_string(),
             };
             let kind_name = match &w.kind {
-                crate::document_core::validation::WarningKind::LinesegArrayEmpty =>
-                    "LinesegArrayEmpty",
-                crate::document_core::validation::WarningKind::LinesegUncomputed =>
-                    "LinesegUncomputed",
-                crate::document_core::validation::WarningKind::LinesegTextRunReflow =>
-                    "LinesegTextRunReflow",
+                crate::document_core::validation::WarningKind::LinesegArrayEmpty => {
+                    "LinesegArrayEmpty"
+                }
+                crate::document_core::validation::WarningKind::LinesegUncomputed => {
+                    "LinesegUncomputed"
+                }
+                crate::document_core::validation::WarningKind::LinesegTextRunReflow => {
+                    "LinesegTextRunReflow"
+                }
             };
             warning_parts.push(format!(
                 r#"{{"section":{},"paragraph":{},"kind":"{}","cell":{}}}"#,
-                w.section_idx,
-                w.paragraph_idx,
-                kind_name,
-                cell_part,
+                w.section_idx, w.paragraph_idx, kind_name, cell_part,
             ));
         }
 
@@ -4030,6 +4768,7 @@ impl HwpDocument {
             english_name,
             style_type,
             next_style_id,
+            lang_id: 1042, // 한국어 default (HWP5 spec 표 47)
             para_shape_id,
             char_shape_id,
         };
@@ -4615,16 +5354,22 @@ impl HwpDocument {
     }
 
     /// 컨트롤 객체(표, 이미지, 도형)를 내부 클립보드에 복사한다.
+    ///
+    /// [Task #1161] `cell_path_json` 이 빈 문자열/`"[]"` 면 본문, 그 외에는 셀/글상자
+    /// 경로(`[{"controlIndex","cellIndex","cellParaIndex"}, ...]`)의 컨트롤을 복사한다.
     #[wasm_bindgen(js_name = copyControl)]
     pub fn copy_control(
         &mut self,
         section_idx: u32,
         para_idx: u32,
+        cell_path_json: &str,
         control_idx: u32,
     ) -> Result<String, JsValue> {
+        let cell_path = parse_cell_path_arg(cell_path_json)?;
         self.copy_control_native(
             section_idx as usize,
             para_idx as usize,
+            &cell_path,
             control_idx as usize,
         )
         .map_err(|e| e.into())
@@ -4696,6 +5441,27 @@ impl HwpDocument {
         .map_err(|e| e.into())
     }
 
+    /// 내부 클립보드의 내용을 cellPath가 가리키는 중첩 표 셀에 붙여넣는다.
+    ///
+    /// 반환값: JSON `{"ok":true,"cellParaIdx":<idx>,"charOffset":<offset>}`
+    #[wasm_bindgen(js_name = pasteInternalInCellByPath)]
+    pub fn paste_internal_in_cell_by_path(
+        &mut self,
+        section_idx: u32,
+        parent_para_idx: u32,
+        path_json: &str,
+        char_offset: u32,
+    ) -> Result<String, JsValue> {
+        let path = DocumentCore::parse_cell_path(path_json)?;
+        self.paste_internal_in_cell_by_path_native(
+            section_idx as usize,
+            parent_para_idx as usize,
+            &path,
+            char_offset as usize,
+        )
+        .map_err(|e| e.into())
+    }
+
     /// 선택 영역을 HTML 문자열로 변환한다 (본문).
     #[wasm_bindgen(js_name = exportSelectionHtml)]
     pub fn export_selection_html(
@@ -4748,11 +5514,14 @@ impl HwpDocument {
         &self,
         section_idx: u32,
         para_idx: u32,
+        cell_path_json: &str,
         control_idx: u32,
     ) -> Result<String, JsValue> {
+        let cell_path = parse_cell_path_arg(cell_path_json)?;
         self.export_control_html_native(
             section_idx as usize,
             para_idx as usize,
+            &cell_path,
             control_idx as usize,
         )
         .map_err(|e| e.into())
@@ -4764,11 +5533,14 @@ impl HwpDocument {
         &self,
         section_idx: u32,
         para_idx: u32,
+        cell_path_json: &str,
         control_idx: u32,
     ) -> Result<Vec<u8>, JsValue> {
+        let cell_path = parse_cell_path_arg(cell_path_json)?;
         self.get_control_image_data_native(
             section_idx as usize,
             para_idx as usize,
+            &cell_path,
             control_idx as usize,
         )
         .map_err(|e| e.into())
@@ -4780,11 +5552,14 @@ impl HwpDocument {
         &self,
         section_idx: u32,
         para_idx: u32,
+        cell_path_json: &str,
         control_idx: u32,
     ) -> Result<String, JsValue> {
+        let cell_path = parse_cell_path_arg(cell_path_json)?;
         self.get_control_image_mime_native(
             section_idx as usize,
             para_idx as usize,
+            &cell_path,
             control_idx as usize,
         )
         .map_err(|e| e.into())
@@ -4826,6 +5601,27 @@ impl HwpDocument {
             control_idx as usize,
             cell_idx as usize,
             cell_para_idx as usize,
+            char_offset as usize,
+            html,
+        )
+        .map_err(|e| e.into())
+    }
+
+    /// HTML 문자열을 파싱하여 cellPath가 가리키는 중첩 표 셀에 삽입한다.
+    #[wasm_bindgen(js_name = pasteHtmlInCellByPath)]
+    pub fn paste_html_in_cell_by_path(
+        &mut self,
+        section_idx: u32,
+        parent_para_idx: u32,
+        path_json: &str,
+        char_offset: u32,
+        html: &str,
+    ) -> Result<String, JsValue> {
+        let path = DocumentCore::parse_cell_path(path_json)?;
+        self.paste_html_in_cell_by_path_native(
+            section_idx as usize,
+            parent_para_idx as usize,
+            &path,
             char_offset as usize,
             html,
         )

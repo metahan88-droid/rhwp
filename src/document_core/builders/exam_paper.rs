@@ -12,8 +12,19 @@
 //! - #182: HWPX writer Picture 직렬화 분기 추가 (별도 작업자)
 
 use crate::model::document::{Document, Section};
+use crate::model::page::PageDef;
 use crate::model::paragraph::{CharShapeRef, LineSeg, Paragraph};
 use crate::parser::ingest::schema::{IngestDocument, StemBlock};
+
+const HWPUNIT_PER_MM: f64 = 7200.0 / 25.4;
+const DEFAULT_A4_WIDTH_HU: u32 = 59528;
+const DEFAULT_A4_HEIGHT_HU: u32 = 84188;
+const DEFAULT_MARGIN_LEFT_HU: u32 = 8504;
+const DEFAULT_MARGIN_RIGHT_HU: u32 = 8504;
+const DEFAULT_MARGIN_TOP_HU: u32 = 5668;
+const DEFAULT_MARGIN_BOTTOM_HU: u32 = 4252;
+const DEFAULT_MARGIN_HEADER_HU: u32 = 4252;
+const DEFAULT_MARGIN_FOOTER_HU: u32 = 4252;
 
 /// [`IngestDocument`] → [`Document`] IR 변환.
 ///
@@ -22,7 +33,8 @@ use crate::parser::ingest::schema::{IngestDocument, StemBlock};
 /// - 마지막 문제는 끝 빈 문단 없음
 pub fn build_exam_paper(ingest: &IngestDocument) -> Document {
     let mut doc = Document::default();
-    doc.sections.push(Section::default());
+    doc.doc_properties.section_count = 1;
+    doc.sections.push(make_section(ingest));
 
     let total_questions = ingest.questions.len();
     for (q_idx, q) in ingest.questions.iter().enumerate() {
@@ -68,6 +80,37 @@ pub fn build_exam_paper(ingest: &IngestDocument) -> Document {
     doc
 }
 
+fn make_section(ingest: &IngestDocument) -> Section {
+    let mut section = Section::default();
+    let width = mm_to_hwpunit(ingest.page_size.width_mm, DEFAULT_A4_WIDTH_HU);
+    let height = mm_to_hwpunit(ingest.page_size.height_mm, DEFAULT_A4_HEIGHT_HU);
+    section.section_def.page_def = PageDef {
+        width,
+        height,
+        margin_left: bounded_margin(DEFAULT_MARGIN_LEFT_HU, width),
+        margin_right: bounded_margin(DEFAULT_MARGIN_RIGHT_HU, width),
+        margin_top: bounded_margin(DEFAULT_MARGIN_TOP_HU, height),
+        margin_bottom: bounded_margin(DEFAULT_MARGIN_BOTTOM_HU, height),
+        margin_header: bounded_margin(DEFAULT_MARGIN_HEADER_HU, height),
+        margin_footer: bounded_margin(DEFAULT_MARGIN_FOOTER_HU, height),
+        margin_gutter: 0,
+        ..Default::default()
+    };
+    section
+}
+
+fn mm_to_hwpunit(mm: f32, fallback: u32) -> u32 {
+    if mm.is_finite() && mm > 0.0 {
+        ((mm as f64) * HWPUNIT_PER_MM).round().max(1.0) as u32
+    } else {
+        fallback
+    }
+}
+
+fn bounded_margin(default: u32, extent: u32) -> u32 {
+    default.min(extent.saturating_sub(1) / 4)
+}
+
 /// 첫 stem 텍스트에 `{q.number}. ` 접두어를 적용하는 정책 결정.
 ///
 /// **v2 정책 (#660 후속, code review 권고 반영)**: 휴리스틱(`text.starts_with('[')` 등)
@@ -101,7 +144,7 @@ fn make_text_para(text: &str) -> Paragraph {
             baseline_distance: 850,
             line_spacing: 600,
             segment_width: 50000,
-            tag: 0x00060000,
+            tag: LineSeg::TAG_SINGLE_SEGMENT_LINE,
             ..Default::default()
         }],
         para_shape_id: 0,
@@ -114,6 +157,7 @@ fn make_text_para(text: &str) -> Paragraph {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use crate::model::page::PageAreas;
     use crate::parser::ingest::parse_ingest_str;
 
     fn minimal_ingest_json() -> &'static str {
@@ -144,6 +188,30 @@ mod tests {
         assert_eq!(doc.sections[0].paragraphs[0].text, "1. 다음 글의 주제는?");
         assert_eq!(doc.sections[0].paragraphs[1].text, "① A");
         assert_eq!(doc.sections[0].paragraphs[2].text, "② B");
+    }
+
+    #[test]
+    fn test_build_sets_page_def_from_ingest_page_size() {
+        let ingest = parse_ingest_str(minimal_ingest_json()).unwrap();
+        let doc = build_exam_paper(&ingest);
+        let page_def = &doc.sections[0].section_def.page_def;
+        assert_eq!(doc.doc_properties.section_count, 1);
+        assert_eq!(page_def.width, 59528);
+        assert_eq!(page_def.height, 84189);
+        assert_eq!(page_def.margin_left, DEFAULT_MARGIN_LEFT_HU);
+        assert_eq!(page_def.margin_right, DEFAULT_MARGIN_RIGHT_HU);
+    }
+
+    #[test]
+    fn test_build_page_def_produces_positive_page_areas() {
+        let ingest = parse_ingest_str(
+            r#"{"version":"1","page_size":{"width_mm":0.0,"height_mm":0.0},"questions":[]}"#,
+        )
+        .unwrap();
+        let doc = build_exam_paper(&ingest);
+        let areas = PageAreas::from_page_def(&doc.sections[0].section_def.page_def);
+        assert!(areas.body_area.width() > 0);
+        assert!(areas.body_area.height() > 0);
     }
 
     #[test]
