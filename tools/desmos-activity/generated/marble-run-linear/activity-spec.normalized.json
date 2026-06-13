@@ -111,7 +111,7 @@
       "prompt": "별 두 개의 좌표만 보고 직선의 식을 세우는 자신만의 방법을 설명하세요."
     }
   ],
-  "generatedAt": "2026-06-12T13:56:51.157Z",
+  "generatedAt": "2026-06-13T01:26:52.736Z",
   "generator": "desmos-cl-vibe-lab@0.1.0",
   "templateIds": [
     "cover_fact_card",

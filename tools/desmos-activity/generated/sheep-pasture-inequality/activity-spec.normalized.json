@@ -119,7 +119,7 @@
       "prompt": "양 (2,3)이 울타리 y ≥ x+1 안에 있는지 계산으로 확인하는 과정을 설명하세요."
     }
   ],
-  "generatedAt": "2026-06-12T13:56:51.204Z",
+  "generatedAt": "2026-06-13T01:26:52.785Z",
   "generator": "desmos-cl-vibe-lab@0.1.0",
   "templateIds": [
     "cover_fact_card",

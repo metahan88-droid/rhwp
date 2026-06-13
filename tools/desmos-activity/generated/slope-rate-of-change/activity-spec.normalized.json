@@ -1,0 +1,132 @@
+{
+  "id": "slope-rate-of-change",
+  "title": "기울기는 변화율이다: y=ax와 y=ax+b",
+  "language": "ko",
+  "audience": "중2 수학, 일차함수의 기울기 (정비례에서 일차함수로)",
+  "learningGoals": [
+    "정비례 y=ax에서 a를 'x가 1 증가할 때 y의 증가량'(변화율)으로 해석한다.",
+    "y=ax와 y=ax+b를 비교해 b는 평행이동만 시키고 변화율은 바꾸지 않음을 발견한다.",
+    "x의 계수 a와 그래프의 기울기를 동일한 것으로 연결한다.",
+    "두 점 사이의 변화율 계산으로 기울기를 구한다."
+  ],
+  "sourceInspiration": {
+    "url": "https://classroom.amplify.com/activity/6a2a1e755c2f2268f8e2eb7d",
+    "confirmedFacts": [
+      {
+        "label": "패턴 원형",
+        "value": "smooth-slide의 graph-owned correctness + 단위 계단 변화율 시각화"
+      },
+      {
+        "label": "설계 근거",
+        "value": "graph-as-game-engine — 판정 C는 그래프 소유, CL은 number 주입/회수만"
+      },
+      {
+        "label": "동적 라벨",
+        "value": "Desmos 라벨 ${a} 보간으로 슬라이더 값에 따라 계단 높이 라벨 실시간 갱신"
+      }
+    ]
+  },
+  "screens": [
+    {
+      "id": "s01-intro",
+      "title": "같은 빠르기, 다른 출발점",
+      "template": "cover_fact_card",
+      "purpose": "형은 집(0m)에서, 동생은 3m 앞에서 동시에 출발해 같은 빠르기로 걷는 상황을 제시한다.",
+      "prompt": "형과 동생이 같은 빠르기로 걷습니다. 동생은 3m 앞에서 출발했어요. 1초마다 두 사람의 위치는 어떻게 변할까요? 거리 차이는 좁혀질까요?"
+    },
+    {
+      "id": "s02-predict",
+      "title": "예측: 그래프 모양은?",
+      "template": "notice_predict",
+      "purpose": "같은 빠르기면 두 시간-거리 그래프가 어떤 관계일지 먼저 예측하게 한다.",
+      "choice": "s02_prediction",
+      "reason": "s02_reason",
+      "feedback": "s02_predFeedback",
+      "beforeSubmitMessage": "두 사람의 시간-거리 그래프를 한 좌표평면에 그리면 어떤 모양일까요? (만난다 / 나란하다 / 벌어진다)",
+      "afterSubmitMessage": "좋아요. 다음 화면에서 직접 a를 움직이며 확인해 봅시다."
+    },
+    {
+      "id": "s03-explore-a",
+      "title": "탐구 1: a는 계단의 높이",
+      "template": "slope_rate_explorer",
+      "purpose": "정비례 y=ax에서 a를 움직이며 'x가 1칸 갈 때 y가 a칸 변한다'를 계단으로 관찰한다.",
+      "mode": "explore_a",
+      "graph": "s03_exploreGraph",
+      "note": "s03_exploreNote",
+      "aInit": 2,
+      "steps": 4,
+      "prompt": "a를 움직여 보세요. x가 1칸 갈 때 y가 몇 칸 오르나요? a를 음수로도 만들어 보세요. 계단 라벨의 숫자와 a를 비교하세요."
+    },
+    {
+      "id": "s04-check-rate",
+      "title": "점검: 변화율 읽기",
+      "template": "numeric_check",
+      "purpose": "y=3x에서 x가 1 증가할 때 y의 증가량을 수로 답한다.",
+      "answer": 3,
+      "tolerance": 0,
+      "input": "s04_rate",
+      "feedback": "s04_feedback",
+      "correctMessage": "맞아요. x의 계수 3이 곧 'x가 1 늘 때 y가 느는 양' — 변화율이자 기울기입니다.",
+      "tryAgainMessage": "y=3x에서 x가 1에서 2가 되면 y는 3에서 얼마가 되는지 계산해 보세요."
+    },
+    {
+      "id": "s05-compare-b",
+      "title": "탐구 2: b는 출발점만 바꾼다",
+      "template": "slope_rate_explorer",
+      "purpose": "y=ax(점선)와 y=ax+b(실선)를 겹쳐 보며 b는 평행이동만, 계단(변화율)은 그대로임을 발견한다.",
+      "mode": "compare_b",
+      "graph": "s05_compareGraph",
+      "note": "s05_compareNote",
+      "aInit": 2,
+      "bInit": 3,
+      "steps": 4,
+      "prompt": "b를 움직여 보세요. 직선은 위아래로만 움직이고 계단 높이는 그대로입니다. 이제 a를 움직이면? — 형(점선)과 동생(실선) 이야기에서 b는 무엇이었나요?"
+    },
+    {
+      "id": "s06-check-delta",
+      "title": "점검: 구간의 변화량",
+      "template": "numeric_check",
+      "purpose": "y=3x+2에서 x가 2에서 5로 변할 때 y의 증가량(변화율×구간)을 계산한다.",
+      "answer": 9,
+      "tolerance": 0,
+      "input": "s06_delta",
+      "feedback": "s06_feedback",
+      "correctMessage": "맞아요. 3×(5−2)=9 — +2는 답에 영향을 주지 않았죠. 변화량은 기울기가 결정합니다.",
+      "tryAgainMessage": "x=2일 때와 x=5일 때의 y값을 각각 구해 빼 보세요. b의 +2는 어떻게 되나요?"
+    },
+    {
+      "id": "s07-match",
+      "title": "도전: 평행 만들기",
+      "template": "slope_rate_explorer",
+      "purpose": "빨간 선의 계단을 읽고 기울기 값을 입력해 파란 선을 평행하게 만든다.",
+      "mode": "match",
+      "input": "s07_slopeInput",
+      "graph": "s07_matchGraph",
+      "note": "s07_matchNote",
+      "targetA": 1.5,
+      "targetB": 4,
+      "studentB": 1
+    },
+    {
+      "id": "s08-reflect",
+      "title": "정리: 기울기란 무엇인가",
+      "template": "reflection",
+      "purpose": "기울기를 변화율의 언어로 설명하게 한다.",
+      "response": "s08_reflection",
+      "note": "s08_prompt",
+      "prompt": "친구에게 '기울기'를 설명한다면? 'x가 1 증가할 때'라는 표현을 사용해, y=ax+b에서 a와 b가 각각 무엇을 결정하는지 설명하세요."
+    }
+  ],
+  "generatedAt": "2026-06-13T01:26:52.808Z",
+  "generator": "desmos-cl-vibe-lab@0.1.0",
+  "templateIds": [
+    "cover_fact_card",
+    "notice_predict",
+    "slope_rate_explorer",
+    "numeric_check",
+    "slope_rate_explorer",
+    "numeric_check",
+    "slope_rate_explorer",
+    "reflection"
+  ]
+}

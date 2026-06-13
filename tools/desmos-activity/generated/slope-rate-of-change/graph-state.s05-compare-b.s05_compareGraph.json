@@ -1,0 +1,139 @@
+{
+  "version": 11,
+  "graph": {
+    "viewport": {
+      "xmin": -2,
+      "ymin": -6,
+      "xmax": 6.5,
+      "ymax": 14
+    },
+    "showGrid": true,
+    "showXAxis": true,
+    "showYAxis": true,
+    "userLockedViewport": true
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "text",
+        "id": "1",
+        "text": "y=ax(점선)와 y=ax+b(실선) 비교. b는 평행이동만, 계단(변화율)은 동일."
+      },
+      {
+        "type": "expression",
+        "id": "2",
+        "latex": "a=2",
+        "slider": {
+          "hardMin": true,
+          "hardMax": true,
+          "min": "-3",
+          "max": "5",
+          "step": "0.5"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "3",
+        "latex": "b=3",
+        "slider": {
+          "hardMin": true,
+          "hardMax": true,
+          "min": "-5",
+          "max": "6",
+          "step": "1"
+        }
+      },
+      {
+        "type": "folder",
+        "id": "4",
+        "title": "기준: 정비례"
+      },
+      {
+        "type": "expression",
+        "id": "5",
+        "latex": "y=ax",
+        "folderId": "4",
+        "lineStyle": "DASHED"
+      },
+      {
+        "type": "folder",
+        "id": "6",
+        "title": "비교 대상: y=ax+b"
+      },
+      {
+        "type": "expression",
+        "id": "7",
+        "latex": "y=ax+b",
+        "folderId": "6"
+      },
+      {
+        "type": "expression",
+        "id": "8",
+        "latex": "\\left(0,b\\right)",
+        "folderId": "6",
+        "showLabel": true,
+        "label": "(0, ${b})"
+      },
+      {
+        "type": "expression",
+        "id": "9",
+        "latex": "x=0\\left\\{\\min\\left(0,b\\right)\\le y\\le\\max\\left(0,b\\right)\\right\\}",
+        "folderId": "6",
+        "lineStyle": "DOTTED"
+      },
+      {
+        "type": "expression",
+        "id": "10",
+        "latex": "\\left(0.15,\\frac{b}{2}\\right)",
+        "folderId": "6",
+        "showLabel": true,
+        "label": "+${b}",
+        "pointOpacity": "0"
+      },
+      {
+        "type": "folder",
+        "id": "11",
+        "title": "단위 계단 — b가 바뀌어도 계단은 그대로"
+      },
+      {
+        "type": "expression",
+        "id": "12",
+        "latex": "X_{0}=\\left[0,1,2,3\\right]",
+        "hidden": true,
+        "folderId": "11"
+      },
+      {
+        "type": "expression",
+        "id": "13",
+        "latex": "y=aX_{0}+b\\left\\{X_{0}\\le x\\le X_{0}+1\\right\\}",
+        "folderId": "11",
+        "lineStyle": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "14",
+        "latex": "x=X_{0}+1\\left\\{\\min\\left(aX_{0}+b,a\\left(X_{0}+1\\right)+b\\right)\\le y\\le\\max\\left(aX_{0}+b,a\\left(X_{0}+1\\right)+b\\right)\\right\\}",
+        "folderId": "11",
+        "lineStyle": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "15",
+        "latex": "\\left(X_{0}+0.5,aX_{0}+b\\right)",
+        "folderId": "11",
+        "showLabel": true,
+        "label": "+1",
+        "pointOpacity": "0"
+      },
+      {
+        "type": "expression",
+        "id": "16",
+        "latex": "\\left(X_{0}+1,\\frac{aX_{0}+b+a\\left(X_{0}+1\\right)+b}{2}\\right)",
+        "folderId": "11",
+        "showLabel": true,
+        "label": "+${a}",
+        "pointOpacity": "0"
+      }
+    ]
+  }
+}

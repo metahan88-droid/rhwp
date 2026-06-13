@@ -25,6 +25,17 @@ export function expr(latex, options = {}) {
     item.showLabel = true;
     item.label = options.label;
   }
+  if (options.pointOpacity !== undefined) item.pointOpacity = String(options.pointOpacity);
+  if (options.slider) {
+    // 실측 스키마: min/max/step은 LaTeX 문자열, hardMin/hardMax는 boolean
+    item.slider = {
+      hardMin: true,
+      hardMax: true,
+      min: String(options.slider.min),
+      max: String(options.slider.max),
+      step: String(options.slider.step ?? 1)
+    };
+  }
   return item;
 }
 
@@ -81,6 +92,8 @@ export function renderPasteList(state) {
       if (item.label) flags.push(`라벨:${item.label}`);
       if (item.lineStyle) flags.push(`선스타일:${item.lineStyle}`);
       if (item.fillOpacity) flags.push(`채우기:${item.fillOpacity}`);
+      if (item.pointOpacity === "0") flags.push("점 숨김(라벨만)");
+      if (item.slider) flags.push(`슬라이더: ${item.slider.min} ~ ${item.slider.max}, step ${item.slider.step}`);
       const suffix = flags.length > 0 ? `  <!-- ${flags.join(", ")} -->` : "";
       lines.push("```latex\n" + item.latex + "\n```" + suffix);
     }

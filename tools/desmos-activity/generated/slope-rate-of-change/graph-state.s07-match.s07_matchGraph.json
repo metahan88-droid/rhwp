@@ -1,0 +1,113 @@
+{
+  "version": 11,
+  "graph": {
+    "viewport": {
+      "xmin": -2,
+      "ymin": -4,
+      "xmax": 7,
+      "ymax": 14
+    },
+    "showGrid": true,
+    "showXAxis": true,
+    "showYAxis": true,
+    "userLockedViewport": true
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "text",
+        "id": "1",
+        "text": "CL이 주입: a_s (학생이 입력한 기울기). 더미는 CL 실행 시 덮어써진다."
+      },
+      {
+        "type": "expression",
+        "id": "2",
+        "latex": "a_{s}=1",
+        "hidden": true
+      },
+      {
+        "type": "folder",
+        "id": "3",
+        "title": "목표(빨간 선)와 그 계단"
+      },
+      {
+        "type": "expression",
+        "id": "4",
+        "latex": "y=1.5x+4",
+        "color": "#c74440",
+        "folderId": "3"
+      },
+      {
+        "type": "expression",
+        "id": "5",
+        "latex": "X_{0}=\\left[0,1,2\\right]",
+        "hidden": true,
+        "color": "#c74440",
+        "folderId": "3"
+      },
+      {
+        "type": "expression",
+        "id": "6",
+        "latex": "y=1.5X_{0}+4\\left\\{X_{0}\\le x\\le X_{0}+1\\right\\}",
+        "color": "#c74440",
+        "folderId": "3",
+        "lineStyle": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "7",
+        "latex": "x=X_{0}+1\\left\\{\\min\\left(1.5X_{0}+4,1.5\\left(X_{0}+1\\right)+4\\right)\\le y\\le\\max\\left(1.5X_{0}+4,1.5\\left(X_{0}+1\\right)+4\\right)\\right\\}",
+        "color": "#c74440",
+        "folderId": "3",
+        "lineStyle": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "8",
+        "latex": "\\left(X_{0}+0.5,1.5X_{0}+4\\right)",
+        "color": "#c74440",
+        "folderId": "3",
+        "showLabel": true,
+        "label": "+1",
+        "pointOpacity": "0"
+      },
+      {
+        "type": "expression",
+        "id": "9",
+        "latex": "\\left(X_{0}+1,\\frac{1.5X_{0}+4+1.5\\left(X_{0}+1\\right)+4}{2}\\right)",
+        "color": "#c74440",
+        "folderId": "3",
+        "showLabel": true,
+        "label": "+1.5",
+        "pointOpacity": "0"
+      },
+      {
+        "type": "folder",
+        "id": "10",
+        "title": "학생 선과 판정 (CL은 C만 읽는다)"
+      },
+      {
+        "type": "expression",
+        "id": "11",
+        "latex": "y=a_{s}x+1",
+        "color": "#2d70b3",
+        "folderId": "10"
+      },
+      {
+        "type": "expression",
+        "id": "12",
+        "latex": "C=\\left\\{\\left|a_{s}-1.5\\right|<0.001:1,0\\right\\}",
+        "hidden": true,
+        "folderId": "10"
+      },
+      {
+        "type": "expression",
+        "id": "13",
+        "latex": "1\\le y-a_{s}x\\le 4\\left\\{C=1\\right\\}",
+        "color": "#388c46",
+        "fillOpacity": "0.12",
+        "folderId": "10"
+      }
+    ]
+  }
+}

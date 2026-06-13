@@ -1,0 +1,106 @@
+{
+  "version": 11,
+  "graph": {
+    "viewport": {
+      "xmin": -2,
+      "ymin": -6,
+      "xmax": 6.5,
+      "ymax": 12
+    },
+    "showGrid": true,
+    "showXAxis": true,
+    "showYAxis": true,
+    "userLockedViewport": true
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "text",
+        "id": "1",
+        "text": "정비례 y=ax 탐구. a 슬라이더를 학생이 조작한다."
+      },
+      {
+        "type": "expression",
+        "id": "2",
+        "latex": "a=2",
+        "slider": {
+          "hardMin": true,
+          "hardMax": true,
+          "min": "-3",
+          "max": "5",
+          "step": "0.5"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "3",
+        "latex": "y=ax"
+      },
+      {
+        "type": "expression",
+        "id": "4",
+        "latex": "\\left(0,0\\right)",
+        "showLabel": true,
+        "label": "출발점 (0,0)"
+      },
+      {
+        "type": "folder",
+        "id": "5",
+        "title": "단위 계단 — x가 1 늘 때 y는 a만큼"
+      },
+      {
+        "type": "expression",
+        "id": "6",
+        "latex": "X_{0}=\\left[0,1,2,3\\right]",
+        "hidden": true,
+        "folderId": "5"
+      },
+      {
+        "type": "expression",
+        "id": "7",
+        "latex": "y=aX_{0}\\left\\{X_{0}\\le x\\le X_{0}+1\\right\\}",
+        "folderId": "5",
+        "lineStyle": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "8",
+        "latex": "x=X_{0}+1\\left\\{\\min\\left(aX_{0},a\\left(X_{0}+1\\right)\\right)\\le y\\le\\max\\left(aX_{0},a\\left(X_{0}+1\\right)\\right)\\right\\}",
+        "folderId": "5",
+        "lineStyle": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "9",
+        "latex": "\\left(X_{0}+0.5,aX_{0}\\right)",
+        "folderId": "5",
+        "showLabel": true,
+        "label": "+1",
+        "pointOpacity": "0"
+      },
+      {
+        "type": "expression",
+        "id": "10",
+        "latex": "\\left(X_{0}+1,\\frac{aX_{0}+a\\left(X_{0}+1\\right)}{2}\\right)",
+        "folderId": "5",
+        "showLabel": true,
+        "label": "+${a}",
+        "pointOpacity": "0"
+      },
+      {
+        "type": "folder",
+        "id": "11",
+        "title": "기울기 = 변화율 라벨"
+      },
+      {
+        "type": "expression",
+        "id": "12",
+        "latex": "\\left(4.6,4.6a\\right)",
+        "folderId": "11",
+        "showLabel": true,
+        "label": "y=${a}x",
+        "pointOpacity": "0"
+      }
+    ]
+  }
+}

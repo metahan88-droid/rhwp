@@ -23,7 +23,172 @@ function numList(values) {
   return `\\left[${values.join(",")}\\right]`;
 }
 
+// 단위 계단(변화율 시각화) 표현식 묶음. y = a x + b 위에 x=0..steps-1 구간의 가로 +1 / 세로 +a 계단을 그린다.
+// a, b는 그래프 변수 이름(latex)을 그대로 받는다 (예: "a", "2", "a_{s}").
+function staircaseItems(a, b, steps, runLabel, riseLabel) {
+  const xs = Array.from({ length: steps }, (_, i) => i);
+  const X = `\\left[${xs.join(",")}\\right]`;
+  const at = (x) => (b === "0" ? `${a}${x}` : `${a}${x}+${b}`); // a·x (+ b)
+  return [
+    { latex: `X_{0}=${X}`, hidden: true },
+    { latex: `y=${at("X_{0}")}\\left\\{X_{0}\\le x\\le X_{0}+1\\right\\}`, lineStyle: "SOLID" },
+    { latex: `x=X_{0}+1\\left\\{\\min\\left(${at("X_{0}")},${at("\\left(X_{0}+1\\right)")}\\right)\\le y\\le\\max\\left(${at("X_{0}")},${at("\\left(X_{0}+1\\right)")}\\right)\\right\\}`, lineStyle: "SOLID" },
+    { latex: `\\left(X_{0}+0.5,${at("X_{0}")}\\right)`, label: runLabel, pointOpacity: 0 },
+    { latex: `\\left(X_{0}+1,\\frac{${at("X_{0}")}+${at("\\left(X_{0}+1\\right)")}}{2}\\right)`, label: riseLabel, pointOpacity: 0 }
+  ];
+}
+
 export const gameTemplates = {
+  slope_rate_explorer: {
+    title: "기울기 = 변화율 탐구",
+    description: "슬라이더로 a(와 b)를 조작하며 단위 계단(x +1 → y +a)으로 기울기를 변화율로 관찰한다. match 모드는 평행 만들기 판정 포함.",
+    components: (screen) => {
+      const mode = valueFrom(screen, "mode", "explore_a");
+      const base = [
+        component(valueFrom(screen, "graph", "exploreGraph"), "Graph", "슬라이더 조작 + 단위 계단 시각화"),
+        component(valueFrom(screen, "note", "exploreNote"), "Note", "탐구 안내와 관찰 질문")
+      ];
+      if (mode === "match") {
+        base.unshift(component(valueFrom(screen, "input", "slopeInput"), "Math Input", "기울기 값 입력 (숫자)"));
+      }
+      return base;
+    },
+    scripts: (screen) => {
+      const mode = valueFrom(screen, "mode", "explore_a");
+      const graph = valueFrom(screen, "graph", "exploreGraph");
+      const note = valueFrom(screen, "note", "exploreNote");
+      if (mode !== "match") {
+        const prompt = mode === "compare_b"
+          ? valueFrom(screen, "prompt", "b를 움직여 보세요. 직선은 위아래로만 움직이고, 계단의 높이(변화율)는 그대로입니다. a를 움직이면 무엇이 달라지나요?")
+          : valueFrom(screen, "prompt", "a를 움직여 보세요. x가 1칸 갈 때 y가 몇 칸 오르는지(계단)를 관찰하세요.");
+        return [
+          {
+            component: graph,
+            type: "Graph",
+            script: code(`
+              # ${graph} — 탐구용. 대시보드 채점에서 제외.
+              readOnly: true
+            `)
+          },
+          {
+            component: note,
+            type: "Note",
+            script: code(`
+              # ${note}
+              content: "${prompt}"
+            `)
+          }
+        ];
+      }
+      const input = valueFrom(screen, "input", "slopeInput");
+      const targetA = valueFrom(screen, "targetA", 1.5);
+      return [
+        {
+          component: graph,
+          type: "Graph",
+          script: code(`
+            # ${graph} — 판정 C는 그래프 표현식이 소유.
+            number(\`a_{s}\`): ${input}.numericValue
+          `)
+        },
+        {
+          component: input,
+          type: "Math Input",
+          script: code(`
+            # ${input} — 기울기 '값'만 숫자로 입력 (식 전체가 아님)
+            correct: ${graph}.number(\`C\`) = 1
+          `)
+        },
+        {
+          component: note,
+          type: "Note",
+          script: code(`
+            # ${note}
+            c = firstDefinedValue(${graph}.number(\`C\`), -1)
+            content:
+            when c = -1 "빨간 선과 평행이 되도록 파란 선의 기울기를 숫자로 입력하세요. 힌트: 빨간 선의 계단을 세어 보세요."
+            when c = 1 "평행입니다! 기울기(변화율)가 ${targetA}로 같으면 두 직선은 절대 만나지 않아요."
+            otherwise "아직 평행이 아니에요. 빨간 선은 x가 1칸 갈 때 y가 몇 칸 변하나요?"
+          `)
+        }
+      ];
+    },
+    graphStates: (screen) => {
+      const mode = valueFrom(screen, "mode", "explore_a");
+      const graph = valueFrom(screen, "graph", "exploreGraph");
+      const steps = valueFrom(screen, "steps", 4);
+      const aInit = valueFrom(screen, "aInit", 2);
+      const slider = screen.slider ?? { min: -3, max: 5, step: 0.5 };
+
+      if (mode === "explore_a") {
+        return [{
+          component: graph,
+          viewport: screen.viewport ?? { xmin: -2, ymin: -6, xmax: 6.5, ymax: 12 },
+          items: [
+            { note: "정비례 y=ax 탐구. a 슬라이더를 학생이 조작한다." },
+            { latex: `a=${aInit}`, slider },
+            { latex: "y=ax" },
+            { latex: "\\left(0,0\\right)", label: "출발점 (0,0)" },
+            { folder: "단위 계단 — x가 1 늘 때 y는 a만큼" },
+            ...staircaseItems("a", "0", steps, "+1", "+${a}"),
+            { folder: "기울기 = 변화율 라벨" },
+            { latex: "\\left(4.6,4.6a\\right)", label: "y=${a}x", pointOpacity: 0 }
+          ]
+        }];
+      }
+
+      if (mode === "compare_b") {
+        const bInit = valueFrom(screen, "bInit", 3);
+        const bSlider = screen.bSlider ?? { min: -5, max: 6, step: 1 };
+        return [{
+          component: graph,
+          viewport: screen.viewport ?? { xmin: -2, ymin: -6, xmax: 6.5, ymax: 14 },
+          items: [
+            { note: "y=ax(점선)와 y=ax+b(실선) 비교. b는 평행이동만, 계단(변화율)은 동일." },
+            { latex: `a=${aInit}`, slider },
+            { latex: `b=${bInit}`, slider: bSlider },
+            { folder: "기준: 정비례" },
+            { latex: "y=ax", lineStyle: "DASHED" },
+            { folder: "비교 대상: y=ax+b" },
+            { latex: "y=ax+b" },
+            { latex: "\\left(0,b\\right)", label: "(0, ${b})" },
+            { latex: "x=0\\left\\{\\min\\left(0,b\\right)\\le y\\le\\max\\left(0,b\\right)\\right\\}", lineStyle: "DOTTED" },
+            { latex: "\\left(0.15,\\frac{b}{2}\\right)", label: "+${b}", pointOpacity: 0 },
+            { folder: "단위 계단 — b가 바뀌어도 계단은 그대로" },
+            ...staircaseItems("a", "b", steps, "+1", "+${a}")
+          ]
+        }];
+      }
+
+      // match 모드: 빨간 목표선과 평행 만들기 — 판정 C는 그래프 소유
+      const targetA = valueFrom(screen, "targetA", 1.5);
+      const targetB = valueFrom(screen, "targetB", 4);
+      const studentB = valueFrom(screen, "studentB", 1);
+      const lo = Math.min(targetB, studentB);
+      const hi = Math.max(targetB, studentB);
+      return [{
+        component: graph,
+        viewport: screen.viewport ?? { xmin: -2, ymin: -4, xmax: 7, ymax: 14 },
+        items: [
+          { note: "CL이 주입: a_s (학생이 입력한 기울기). 더미는 CL 실행 시 덮어써진다." },
+          { latex: "a_{s}=1", hidden: true },
+          { folder: "목표(빨간 선)와 그 계단" },
+          { latex: `y=${targetA}x+${targetB}`, color: "#c74440" },
+          ...staircaseItems(String(targetA), String(targetB), 3, "+1", `+${targetA}`).map((it) => ({ ...it, color: "#c74440" })),
+          { folder: "학생 선과 판정 (CL은 C만 읽는다)" },
+          { latex: `y=a_{s}x+${studentB}`, color: "#2d70b3" },
+          { latex: `C=\\left\\{\\left|a_{s}-${targetA}\\right|<0.001:1,0\\right\\}`, hidden: true },
+          { latex: `${lo}\\le y-a_{s}x\\le ${hi}\\left\\{C=1\\right\\}`, fillOpacity: 0.12, color: "#388c46" }
+        ]
+      }];
+    },
+    teacherMoves: [
+      "explore_a → compare_b → match 순서로 배치하면 'a는 계단, b는 위치'가 누적 관찰됩니다.",
+      "match 모드의 입력은 기울기 '값'(숫자)입니다 — 식 입력이 아니므로 y= 문제는 없습니다.",
+      "계단 수(steps)·슬라이더 범위는 스펙의 values로 조절하세요. 라벨 +${a}는 슬라이더에 따라 실시간 갱신됩니다."
+    ]
+  },
+
   marbleslides_style: {
     title: "마블슬라이드 스타일 (그래프 클론)",
     description: "학생이 함수를 입력해 공을 굴려 별을 모은다. real marbleslides와 달리 CL 점수/판정/잠금이 가능하다.",

@@ -114,7 +114,7 @@
       "prompt": "291계단 문제에서 10계단당 1.4 kcal 정보를 어떻게 사용했는지 설명하세요."
     }
   ],
-  "generatedAt": "2026-06-12T13:56:51.111Z",
+  "generatedAt": "2026-06-13T01:26:52.688Z",
   "generator": "desmos-cl-vibe-lab@0.1.0",
   "templateIds": [
     "cover_fact_card",
