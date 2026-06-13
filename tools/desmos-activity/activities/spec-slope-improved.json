@@ -1,0 +1,30 @@
+{
+  "title": "일차함수 기울기 — 코인 러시 (개선본: 즉각 피드백 + 실시간 상호작용)",
+  "slides": [
+    { "title": "마리오의 직선 점프 — 탐험 시작", "components": [
+      { "label": "메모", "cl": "content: \"마리오는 직선 길로만 달려요! 기울기를 맞춰 코인을 모으는 탐험을 떠납니다. 슬라이더와 입력으로 직접 조작하면 즉각 반응이 와요. 핵심 개념은 변화율 — x가 1 늘 때 y가 얼마나 변하는가입니다.\"" }
+    ]},
+    { "title": "실시간 코인 수집 — 슬라이더를 움직여라", "components": [
+      { "label": "그래프", "alias": "g1", "graph": ["a=1", "y=ax", "(1,2)", "(2,4)", "(3,6)", "N=\\left\\{\\left|a-2\\right|<0.2:3,0\\right\\}"] },
+      { "label": "메모", "cl": "n = g1.number(`N`)\nslope = g1.number(`a`)\ncontent:\nwhen n = 3 \"세 코인을 모두 수집했어요! 😄😄😄 기울기 ${slope}로 (1,2),(2,4),(3,6)을 한 번에 지났습니다. x가 1 늘 때 y가 2 늘죠 — 기울기가 곧 변화율!\"\notherwise \"현재 기울기 ${slope}, 수집 ${n}/3개. a 슬라이더를 움직여 세 코인을 모두 지나가 보세요!\"" }
+    ]},
+    { "title": "기울기 입력 — 즉각 채점", "components": [
+      { "label": "그래프", "graph": ["a=2", "y=ax", "(0,0)", "(4,8)"] },
+      { "label": "수식 답변", "alias": "m1", "cl": "correct: numericValue = 2" },
+      { "label": "메모", "cl": "content:\nwhen m1.submitted and m1.numericValue = 2 \"정답입니다! 잘 했어요 😄😄😄 기울기 2로 코인 (4,8)을 정확히 지났어요.\"\nwhen m1.submitted \"다시 생각해봐요 😥 y의 증가량 8을 x의 증가량 4로 나눠 보세요.\"\notherwise \"코인 (4,8)을 지나는 직선의 기울기를 숫자로 입력하세요.\"" }
+    ]},
+    { "title": "출발점이 다른 코스 — 절편", "components": [
+      { "label": "그래프", "alias": "g2", "graph": ["a=1", "b=1", "y=ax+b", "(0,b)", "(2,5)"] },
+      { "label": "메모", "cl": "slope = g2.number(`a`)\nyint = g2.number(`b`)\ncontent: \"마리오가 (0,${yint})에서 출발해요. b 슬라이더로 출발점을, a 슬라이더로 경사를 맞춰 코인 (2,5)를 지나가 보세요. 출발점이 달라도 변화율 읽는 법은 같아요. (정답: 출발점 1, 기울기 2)\"" }
+    ]},
+    { "title": "변화율로 예측 — 즉각 채점", "components": [
+      { "label": "메모", "cl": "content: \"y=3x 길에서 마리오가 x=1부터 x=4까지(3칸) 달리면 y는 얼마나 오를까요? 변화율 3 곱하기 구간 3. 숫자로 답하세요.\"" },
+      { "label": "수식 답변", "alias": "m2", "cl": "correct: numericValue = 9" },
+      { "label": "메모", "cl": "content:\nwhen m2.submitted and m2.numericValue = 9 \"정답이에요! 😄😄😄 변화율 3이 3칸이니 9만큼 올라요. 변화율로 미래를 예측했네요!\"\nwhen m2.submitted \"다시 😥 변화율(3) × 달린 구간(3)을 계산해 보세요.\"\notherwise \"여기에 숫자로 답하세요.\"" }
+    ]},
+    { "title": "성찰 — 하나의 개념으로", "components": [
+      { "label": "메모", "cl": "content: \"오늘 미끄럼틀, 마리오, 일차함수 그래프를 모두 변화율(기울기)이라는 하나의 개념으로 살펴봤어요. 기울기가 클수록 길이 어떻게 되는지, 변화율이라는 말을 사용해 자기 말로 정리해 보세요.\"" },
+      { "label": "자유 답변" }
+    ]}
+  ]
+}
