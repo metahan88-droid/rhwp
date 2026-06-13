@@ -22,6 +22,7 @@ function parseArgs(argv) {
     if (argv[i] === "--smoke") a.cmd = "smoke";
     else if (argv[i] === "--full") a.cmd = "full";
     else if (argv[i] === "--spec") { a.cmd = "spec"; a.spec = argv[++i]; }
+    else if (argv[i] === "--append") { a.cmd = "append"; a.id = argv[++i]; a.spec = argv[++i]; }
     else if (argv[i] === "--activity") { a.cmd = "activity"; a.id = argv[++i]; }
   }
   return a;
@@ -80,13 +81,14 @@ async function addScreen(page) {
 }
 
 // 임의 슬라이드 배열로 빌드 (내장 SLIDES 또는 외부 --spec 공통)
-async function buildFromSlides(page, slides) {
+// opts.fromNewScreen=true 면 첫 슬라이드도 새 화면(append 모드 — 기존 활동 뒤에 붙임)
+async function buildFromSlides(page, slides, opts = {}) {
   for (let i = 0; i < slides.length; i++) {
     const s = slides[i];
-    if (i > 0) await addScreen(page);
+    if (i > 0 || opts.fromNewScreen) await addScreen(page);
     await setScreenTitle(page, s.title);
     for (const c of s.components) {
-      await addComponent(page, c.label);
+      await addComponent(page, c.label, c.alias);
       if (c.graph) {
         const g = await editGraphExpressions(page, c.graph);
         if (!g.ok) console.log(`  ⚠ 그래프(${s.title}): ${g.note}`);
@@ -109,11 +111,26 @@ async function setScreenTitle(page, text) {
   if (await t.count().catch(() => 0)) { await t.fill(text).catch(() => {}); await sleep(300); }
 }
 
-async function addComponent(page, label) {
+async function addComponent(page, label, alias) {
   // 팔레트 버튼: [role=button][aria-label="<label>"] — CL/그래프편집 패널이 가릴 수 있어 force
   const btn = page.locator(`[role=button][aria-label="${label}"]`).first();
   await btn.click({ force: true }).catch(() => {});
   await sleep(2500);
+  if (alias) await setAlias(page, alias);
+}
+
+// 방금 추가한 컴포넌트의 alias(CL 식별자) 설정 — "이 구성 요소 이름 바꾸기" input
+async function setAlias(page, alias) {
+  for (const sel of ['input[placeholder*="이름 바꾸기"]', 'input[placeholder*="레이블 없는"]']) {
+    const inp = page.locator(sel).last();
+    if (await inp.count().catch(() => 0)) {
+      await inp.fill(alias).catch(() => {});
+      await page.keyboard.press("Tab").catch(() => {});
+      await sleep(400);
+      return true;
+    }
+  }
+  return false;
 }
 
 // 그래프 편집 진입 → Desmos 표현식 줄 입력 → 닫기. (한 프로세스라 추가 직후 상태 유지)
@@ -219,6 +236,17 @@ async function main() {
   await sleep(800);
 
   let page, id;
+  if (args.cmd === "append") {
+    const spec = JSON.parse(require("fs").readFileSync(args.spec, "utf8"));
+    page = await openEditor(ctx, args.id); id = args.id;
+    console.log(`기존 활동 ${id} 뒤에 ${spec.slides.length}슬라이드 추가`);
+    await buildFromSlides(page, spec.slides, { fromNewScreen: true });
+    await page.screenshot({ path: "/tmp/amp-append-result.png" }).catch(() => {});
+    console.log(`\n✓ 결합 완료: 기존 화면 + ${spec.slides.length}개 추가`);
+    console.log(`${BASE}/activity/${id}/edit`);
+    await browser.close().catch(() => {});
+    return;
+  }
   if (args.cmd === "spec") {
     const spec = JSON.parse(require("fs").readFileSync(args.spec, "utf8"));
     ({ page, id } = await createActivity(ctx, spec.title));
