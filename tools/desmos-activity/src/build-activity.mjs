@@ -20,9 +20,82 @@ function parseArgs(argv) {
   const a = { cmd: null, id: null };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === "--smoke") a.cmd = "smoke";
+    else if (argv[i] === "--full") a.cmd = "full";
     else if (argv[i] === "--activity") { a.cmd = "activity"; a.id = argv[++i]; }
   }
   return a;
+}
+
+// 완성형 활동: 기울기=변화율 단계적 탐구 (도입→발견→비교→점검→도전→정리). CL 적극.
+// 컴포넌트 순서대로 add→(graph)→(cl 즉시)로 처리 → writeCL 'last'가 항상 방금 추가한 컴포넌트.
+const SLIDES = [
+  {
+    title: "기울기 탐구를 시작합니다",
+    components: [
+      { label: "메모", cl: 'content: "기울기는 단순한 숫자가 아니라 변화의 빠르기입니다. 이 활동에서 슬라이더를 직접 움직이며, 기울기가 곧 변화율임을 스스로 발견하게 됩니다. 준비되면 다음 화면으로 넘어가세요."' },
+    ],
+  },
+  {
+    title: "발견 1 — a는 x가 1 늘 때 y가 오르는 양",
+    components: [
+      { label: "그래프", graph: ["a=2", "y=ax", "(0,0)", "(1,0)", "(1,a)"] },
+      { label: "메모", cl: 'content: "a 슬라이더를 움직여 보세요. x가 0에서 1로 한 칸 갈 때 y는 0에서 a로 a칸 오릅니다. 보라색 점 (1,a)가 그 변화량이에요. a를 음수로도 만들어 보세요. a가 곧 기울기, 즉 변화율입니다."' },
+    ],
+  },
+  {
+    title: "발견 2 — b는 출발점만 바꾼다",
+    components: [
+      { label: "그래프", graph: ["a=2", "b=3", "y=ax", "y=ax+b", "(0,b)"] },
+      { label: "메모", cl: 'content: "이번엔 b 슬라이더를 움직여 보세요. b가 변하면 직선은 위아래로 평행이동만 합니다. 기울기(빠르기)는 그대로예요. a를 바꾸면 두 직선의 기울기가 함께 변합니다. 출발점은 b, 변화율은 a가 결정합니다."' },
+    ],
+  },
+  {
+    title: "점검 — 변화율을 수로 답하기",
+    components: [
+      { label: "메모", cl: 'content: "확인 문제입니다. y=3x 에서 x가 1 증가하면 y는 얼마나 증가할까요? 아래 칸에 숫자로 답하세요."' },
+      { label: "수식 답변", cl: 'correct: numericValue = 3' },
+    ],
+  },
+  {
+    title: "도전 — 평행한 직선 만들기",
+    components: [
+      { label: "그래프", graph: ["y=1.5x+4", "m=1", "y=mx+1", "(1,1.5)", "(2,3)"] },
+      { label: "메모", cl: 'content: "빨간 직선과 평행한 직선을 만들어 보세요. m 슬라이더로 파란 직선의 기울기를 맞추면 됩니다. 평행이 된다는 것은 변화율(기울기)이 같다는 뜻입니다. 정답 기울기를 아래에 숫자로도 적어 보세요."' },
+      { label: "수식 답변", cl: 'correct: numericValue = 1.5' },
+    ],
+  },
+  {
+    title: "정리 — 내 말로 설명하기",
+    components: [
+      { label: "메모", cl: 'content: "정리해 봅시다. 기울기는 x가 1 증가할 때 y의 변화량, 즉 변화율입니다. y=ax+b에서 a는 변화율(기울기), b는 출발점(y절편)이에요. 아래에 친구에게 설명하듯 적어 보세요."' },
+      { label: "자유 답변" },
+    ],
+  },
+];
+
+async function addScreen(page) {
+  await page.getByRole("button", { name: /새 화면|new screen|add screen/i }).first().click().catch(() => {});
+  await sleep(2800);
+}
+
+async function buildFull(page) {
+  for (let i = 0; i < SLIDES.length; i++) {
+    const s = SLIDES[i];
+    if (i > 0) await addScreen(page);
+    await setScreenTitle(page, s.title);
+    for (const c of s.components) {
+      await addComponent(page, c.label);
+      if (c.graph) {
+        const g = await editGraphExpressions(page, c.graph);
+        if (!g.ok) console.log(`  ⚠ 그래프(${s.title}): ${g.note}`);
+      }
+      if (c.cl) {
+        const r = await writeCL(page, "last", c.cl);
+        if (!r.ok) console.log(`  ⚠ CL(${c.label}): ${r.note}`);
+      }
+    }
+    console.log(`슬라이드 ${i + 1}/${SLIDES.length}: ${s.title} ✓`);
+  }
 }
 
 // ---- 편집기 원자 동작 (실측 확정 셀렉터) ----
@@ -142,6 +215,16 @@ async function main() {
   await sleep(800);
 
   let page, id;
+  if (args.cmd === "full") {
+    ({ page, id } = await createActivity(ctx, "기울기는 변화율 — 직접 탐구하는 일차함수"));
+    console.log("활동 생성:", id, "| URL:", page.url().slice(0, 60));
+    await buildFull(page);
+    await page.screenshot({ path: "/tmp/amp-full-result.png" }).catch(() => {});
+    console.log(`\n✓ 완성형 활동(${SLIDES.length}화면) 자동 구현 완료 (비공개)`);
+    console.log(`${BASE}/activity/${id}/edit  — 미리보기로 확인, 발행은 사용자 승인 후`);
+    await browser.close().catch(() => {});
+    return;
+  }
   if (args.cmd === "smoke") {
     ({ page, id } = await createActivity(ctx, "기울기 탐구 (변화율) — 자동구현 검증"));
     console.log("활동 생성:", id, "| URL:", page.url().slice(0, 60));
