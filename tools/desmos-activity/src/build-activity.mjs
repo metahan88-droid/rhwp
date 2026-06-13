@@ -69,11 +69,20 @@ async function editGraphExpressions(page, lines) {
   return { ok: count > 0, note: `표현식 ${count}줄`, count };
 }
 
-// 컴포넌트/화면 CL: </> (스크립트) 열기 → CodeMirror 입력 → 완료
+// CL 입력: "스크립트 열기"는 화면 1개 + 컴포넌트마다 1개로 여러 개다.
+// scope 'last' = 가장 최근 추가 컴포넌트(화면상 가장 오른쪽 x) / 'screen' = 화면 단위(가장 왼쪽/위).
 async function writeCL(page, scope, code) {
-  // scope: 'screen' 화면 단위 / 또는 컴포넌트 영역의 </> — 여기선 화면 "스크립트 열기" 사용
-  const open = page.getByRole("button", { name: /스크립트 열기|open script/i }).first();
-  if (!(await open.count().catch(() => 0))) return { ok: false, note: "스크립트 열기 버튼 없음" };
+  const btns = page.getByRole("button", { name: /스크립트 열기|open script/i });
+  const n = await btns.count().catch(() => 0);
+  if (n === 0) return { ok: false, note: "스크립트 열기 버튼 없음" };
+  // 컴포넌트 CL = x좌표 최대(가장 오른쪽), 화면 CL = x좌표 최소
+  let target = 0, best = scope === "screen" ? Infinity : -1;
+  for (let i = 0; i < n; i++) {
+    const bx = await btns.nth(i).boundingBox().catch(() => null);
+    if (!bx) continue;
+    if (scope === "screen" ? bx.x < best : bx.x > best) { best = bx.x; target = i; }
+  }
+  const open = btns.nth(target);
   await open.click().catch(() => {});
   await sleep(2000);
   const cm = page.locator(".CodeMirror").first();
@@ -157,12 +166,11 @@ async function main() {
 
   await addComponent(page, "메모");
   console.log("메모 컴포넌트 추가");
-  // CL 적극: 그래프 a를 읽어 변화율을 실시간 문장으로 (그래프 alias 기본 graph1 가정)
-  const cl = await writeCL(page, "screen",
-    'a = graph1.number(`a`)\n' +
-    'content: when isDefined(a) "x가 1 증가하면 y는 ${a} 만큼 변합니다. 이것이 기울기=변화율입니다." otherwise "그래프의 a 슬라이더를 움직여 보세요."'
+  // CL 적극: 메모 컴포넌트 CL(content sink)로 변화율 설명을 학생 화면에 표시 (실측 검증된 패턴)
+  const cl = await writeCL(page, "last",
+    'content: "기울기 a는 x가 1 증가할 때 y의 증가량입니다. 그래프의 a 슬라이더를 움직여 (1,a) 점과 직선의 변화를 관찰하세요."'
   );
-  console.log("CL 입력:", cl.ok ? `✓ ${cl.note}` : `✗ ${cl.note}`);
+  console.log("메모 CL 입력:", cl.ok ? `✓ ${cl.note}` : `✗ ${cl.note}`);
 
   await page.screenshot({ path: "/tmp/amp-build-result.png", fullPage: false });
   console.log(`\n결과 스크린샷: /tmp/amp-build-result.png`);
