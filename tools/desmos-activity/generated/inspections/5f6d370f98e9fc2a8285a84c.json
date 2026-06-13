@@ -1,0 +1,3556 @@
+{
+  "inspectedAt": "2026-06-13T12:30:04.129Z",
+  "url": "https://classroom.amplify.com/activity/5f6d370f98e9fc2a8285a84c?lang=ko",
+  "activityId": "5f6d370f98e9fc2a8285a84c",
+  "staticMeta": {
+    "canonical": "https://classroom.amplify.com/activity/5f6d370f98e9fc2a8285a84c",
+    "title": "스타벅스 매장 수 분석하기",
+    "description": "학생은 이 액티비티에서 함수를 이용해 1992년부터 매년 스타벅스 매장 수가 어떻게 변하는지 확인하고, 함수를 이용해 2015년과 그 이후의 스타벅스 매장 수에 대해 예측해 볼 수 있습니다.\n\n이 액티비티를 통해 학생은 지수함수만으로는 모든 경우의 성장세를 예측할 수 없으며, 자원이 유한한 경우의 성장세를 예측하는 데는 로그함수가 더 적합할 수 있다는 사실을 배울 수 있습니다.\n\n데이터 출처: http://www.statisticbrain.com/starbucks-company-statistics\n\n이미지 출처:\n1번 화면 - starbucks.com, maps.google.com\n8번 화면 - geeky-gadgets.com\n\n한국어 번역: Desmos 현지화 팀",
+    "twitterTitle": "스타벅스 매장 수 분석하기",
+    "twitterDescription": "학생은 이 액티비티에서 함수를 이용해 1992년부터 매년 스타벅스 매장 수가 어떻게 변하는지 확인하고, 함수를 이용해 2015년과 그 이후의 스타벅스 매장 수에 대해 예측해 볼 수 있습니다.\n\n이 액티비티를 통해 학생은 지수함수만으로는 모든 경우의 성장세를 예측할 수 없으며, 자원이 유한한 경우의 성장세를 예측하는 데는 로그함수가 더 적합할 수 있다는 사실을 배울 수 있습니다.\n\n데이터 출처: http://www.statisticbrain.com/starbucks-company-statistics\n\n이미지 출처:\n1번 화면 - starbucks.com, maps.google.com\n8번 화면 - geeky-gadgets.com\n\n한국어 번역: Desmos 현지화 팀",
+    "image": "https://uploads.desmos.com/activitybuilder/b5e9313c8d323b84c57f0c40e5791e38"
+  },
+  "activityMeta": {
+    "activities": [
+      {
+        "__brand": "NormalizedActivity",
+        "_id": "5f6d370f98e9fc2a8285a84c",
+        "ancestorAuthorGroups": [],
+        "ancestors": [
+          {
+            "_id": "564d37a2895eb8280b0bfe0d",
+            "user": {
+              "id": "55fb1831efe3b67f175ca4a2",
+              "displayName": "Desmos _"
+            }
+          }
+        ],
+        "category": "application",
+        "collaborators": [
+          "5d5c81618a3b6156af14a89f",
+          "5d85bd4cfe8bdc626d4698c8"
+        ],
+        "customMetadata": {},
+        "teamDesmosAuthored": true,
+        "deleteURL": "/custom-lesson/delete/5f6d370f98e9fc2a8285a84c",
+        "description": {
+          "schemaKey": "document",
+          "version": 3,
+          "content": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "학생은 이 액티비티에서 함수를 이용해 1992년부터 매년 스타벅스 매장 수가 어떻게 변하는지 확인하고, 함수를 이용해 2015년과 그 이후의 스타벅스 매장 수에 대해 예측해 볼 수 있습니다."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph"
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "이 액티비티를 통해 학생은 지수함수만으로는 모든 경우의 성장세를 예측할 수 없으며, 자원이 유한한 경우의 성장세를 예측하는 데는 로그함수가 더 적합할 수 있다는 사실을 배울 수 있습니다."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph"
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "데이터 출처: "
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "http://www.statisticbrain.com/starbucks-company-statistics",
+                          "title": null,
+                          "target": "_blank"
+                        }
+                      }
+                    ],
+                    "text": "http://www.statisticbrain.com/starbucks-company-statistics"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph"
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "이미지 출처:"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "1번 화면 - starbucks.com, maps.google.com"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "8번 화면 - geeky-gadgets.com"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph"
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "한국어 번역: Desmos 현지화 팀"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "edit_ts": "2022-08-19T12:26:54.692Z",
+        "infoURL": "activity/5f6d370f98e9fc2a8285a84c",
+        "keywords": [],
+        "licenses": [],
+        "activityLicenses": [],
+        "retailAssetIds": [],
+        "activityRetailAssetIds": [],
+        "private": false,
+        "searchable": false,
+        "thumbURL": "https://uploads.desmos.com/activitybuilder/b5e9313c8d323b84c57f0c40e5791e38",
+        "timeEstimate": 30,
+        "isPaperActivity": false,
+        "hasSteps": true,
+        "hasAuthoredFeedback": false,
+        "isPresentation": false,
+        "accessibilityNotes": "이 액티비티는 스크린 리더에 최적화되지 않았습니다. 시각 장애 학생은 다른 학생과 함께 액티비티를 진행하는 것을 권장합니다.",
+        "authorTags": [],
+        "title": "스타벅스 매장 수 분석하기",
+        "linkedActivities": [
+          {
+            "title": "원본 버전 (영어)",
+            "activityId": "564d37a2895eb8280b0bfe0d",
+            "collectionIds": [],
+            "logical": {
+              "logicalActivityMetaId": "564d37a2895eb8280b0bfe0d",
+              "logicalCollectionIds": []
+            }
+          }
+        ],
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      }
+    ],
+    "deletedActivities": [],
+    "activityTranslations": {}
+  },
+  "activitySummary": {
+    "id": "5f6d370f98e9fc2a8285a84c",
+    "title": "스타벅스 매장 수 분석하기",
+    "version": 1,
+    "commitId": "62ff805f2a1f24060766ec40",
+    "publishedTimestamp": "2022-08-19T12:26:54.692Z",
+    "editTimestamp": "2022-08-19T12:26:54.692Z",
+    "permissionToShare": true,
+    "noindex": false,
+    "user": {
+      "id": "5de6bbe49f524909d87db21a",
+      "displayName": "Kayla Muñoz"
+    },
+    "author": {
+      "id": "5d85bd4cfe8bdc626d4698c8",
+      "displayName": "영하 김"
+    },
+    "ancestors": [
+      {
+        "_id": "564d37a2895eb8280b0bfe0d",
+        "user": {
+          "id": "55fb1831efe3b67f175ca4a2",
+          "displayName": "Desmos _"
+        }
+      }
+    ],
+    "thumb": "https://uploads.desmos.com/activitybuilder/b5e9313c8d323b84c57f0c40e5791e38",
+    "screenCount": 12,
+    "componentCounts": {
+      "exhibit/image": 2,
+      "exhibit/text": 11,
+      "input/expression": 4,
+      "sketch": 1,
+      "background": 1,
+      "input/text": 2,
+      "input/graph": 9,
+      "multiple-choice": 2,
+      "ddaab5cb-8700-4cbb-814d-2577e00349c9": 1,
+      "4484db68-6cc1-4def-9300-151e82f763d5": 1,
+      "dceadd6f-6045-4dba-b7ec-2499e1b56744": 1,
+      "7b53b0cf-329e-4433-9e07-1b592d2d9c59": 1,
+      "video": 1,
+      "action-button": 1
+    },
+    "screens": [
+      {
+        "index": 1,
+        "id": "fc966718-5c76-484a-8f42-45eda5de4502",
+        "type": "two-column",
+        "title": "스타벅스가 정말 많아요!",
+        "subtitle": "",
+        "componentCounts": {
+          "exhibit/image": 1,
+          "exhibit/text": 1
+        }
+      },
+      {
+        "index": 2,
+        "id": "e4572acb-ccad-4196-8e24-8d8d303e4b40",
+        "type": "two-column",
+        "title": "스타벅스 매장 수 예측하기",
+        "subtitle": "",
+        "componentCounts": {
+          "exhibit/image": 1,
+          "exhibit/text": 1,
+          "input/expression": 1
+        }
+      },
+      {
+        "index": 3,
+        "id": "31391956-3ee5-4088-9459-3a0d501330c4",
+        "type": "two-column",
+        "title": "그래프 그리기",
+        "subtitle": "",
+        "componentCounts": {
+          "sketch": 1,
+          "background": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 4,
+        "id": "33de74de-6587-4765-82fa-907e5dbf929c",
+        "type": "two-column",
+        "title": "지수함수를 이용해야 할까요?",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "multiple-choice": 1,
+          "ddaab5cb-8700-4cbb-814d-2577e00349c9": 1,
+          "4484db68-6cc1-4def-9300-151e82f763d5": 1
+        }
+      },
+      {
+        "index": 5,
+        "id": "a80afeee-bcef-48b2-b870-106e4969053d",
+        "type": "two-column",
+        "title": "분석용 함수 만들기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1
+        }
+      },
+      {
+        "index": 6,
+        "id": "75f83918-7724-4a3c-af0c-6873c34f7e65",
+        "type": "two-column",
+        "title": "분석용 함수 확인하기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/expression": 1
+        }
+      },
+      {
+        "index": 7,
+        "id": "cbef84c8-0fa8-4594-b122-86d275171a0a",
+        "type": "two-column",
+        "title": "분석용 함수 확인하기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/expression": 1
+        }
+      },
+      {
+        "index": 8,
+        "id": "1f77fc22-782e-429f-8952-9e7b6da22d0b",
+        "type": "two-column",
+        "title": "분석용 함수 확인하기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "multiple-choice": 1,
+          "dceadd6f-6045-4dba-b7ec-2499e1b56744": 1,
+          "7b53b0cf-329e-4433-9e07-1b592d2d9c59": 1
+        }
+      },
+      {
+        "index": 9,
+        "id": "3676c8ab-dbc1-437d-99c6-ad64abb2a84a",
+        "type": "two-column",
+        "title": "분석용 함수 확인하기",
+        "subtitle": "",
+        "componentCounts": {
+          "video": 1,
+          "input/graph": 1
+        }
+      },
+      {
+        "index": 10,
+        "id": "29cc0c7d-d719-40ca-9692-934825080111",
+        "type": "two-column",
+        "title": "새로운 분석용 함수 만들기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/expression": 1
+        }
+      },
+      {
+        "index": 11,
+        "id": "91fa6b2f-c067-4c58-b73c-072ba1c15436",
+        "type": "two-column",
+        "title": "결과 확인하기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "action-button": 1
+        }
+      },
+      {
+        "index": 12,
+        "id": "2fec1738-bde9-40d2-8064-7b41234e9237",
+        "type": "two-column",
+        "title": "생각해 보기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      }
+    ],
+    "aliases": [
+      {
+        "screen": 2,
+        "type": "input/expression",
+        "alias": "input2",
+        "id": "3b245ebc-c61a-490d-a615-f070284d91b8"
+      },
+      {
+        "screen": 4,
+        "type": "input/graph",
+        "alias": "graph4",
+        "id": "6cae22c6-438a-4cc2-bb2b-fc1d7de96f3a"
+      },
+      {
+        "screen": 5,
+        "type": "input/graph",
+        "alias": "graph5",
+        "id": "88460570-9d09-43fb-b298-c1e66c27ac03"
+      },
+      {
+        "screen": 6,
+        "type": "input/graph",
+        "alias": "graph6",
+        "id": "fdfac6fd-0ea1-476e-8a67-6675b59277e3"
+      },
+      {
+        "screen": 6,
+        "type": "exhibit/text",
+        "alias": "note6",
+        "id": "67294add-e4ce-40a0-9d51-108ba0564227"
+      },
+      {
+        "screen": 6,
+        "type": "input/expression",
+        "alias": "input6",
+        "id": "653f042e-b3f8-4680-8208-29b24a7a8aa7"
+      },
+      {
+        "screen": 7,
+        "type": "input/graph",
+        "alias": "graph7",
+        "id": "6b96cef7-e0c2-47d2-98d4-f311d5ac32ff"
+      },
+      {
+        "screen": 7,
+        "type": "exhibit/text",
+        "alias": "note7",
+        "id": "c3b3a60d-395d-401e-beb8-1fb7f4e3fb30"
+      },
+      {
+        "screen": 7,
+        "type": "input/expression",
+        "alias": "input7",
+        "id": "a488906b-e606-4a12-a285-fd6c5b38238b"
+      },
+      {
+        "screen": 8,
+        "type": "input/graph",
+        "alias": "graph8",
+        "id": "b8fe8ebe-afc0-4fa4-b6c2-6190468c9fb3"
+      },
+      {
+        "screen": 8,
+        "type": "exhibit/text",
+        "alias": "note8",
+        "id": "d267e12d-e09b-471e-9e6e-09024b7b6763"
+      },
+      {
+        "screen": 8,
+        "type": "multiple-choice",
+        "alias": "choice8",
+        "id": "be87efe6-3dba-45f1-b4fa-55b03961fd6b"
+      },
+      {
+        "screen": 9,
+        "type": "video",
+        "alias": "video9",
+        "id": "8a37f8b6-8bdf-47eb-b2fa-57e43897f854"
+      },
+      {
+        "screen": 9,
+        "type": "input/graph",
+        "alias": "graph9",
+        "id": "ec1f3b4f-0115-4765-9661-aff5e41ce1b0"
+      },
+      {
+        "screen": 10,
+        "type": "input/graph",
+        "alias": "graph10",
+        "id": "4bde8482-1579-4908-aaef-86340f91ba3f"
+      },
+      {
+        "screen": 10,
+        "type": "exhibit/text",
+        "alias": "note10",
+        "id": "fc176058-61bb-4aa8-85bd-80c0c9cdd95e"
+      },
+      {
+        "screen": 10,
+        "type": "input/expression",
+        "alias": "input10",
+        "id": "695e7116-e9f7-492c-b749-4bfabc901045"
+      },
+      {
+        "screen": 11,
+        "type": "input/graph",
+        "alias": "graph11",
+        "id": "bc555bb0-4999-4d11-805d-0c621a512960"
+      },
+      {
+        "screen": 11,
+        "type": "exhibit/text",
+        "alias": "note11",
+        "id": "c418e894-0783-40b9-a92c-4650d00ed619"
+      },
+      {
+        "screen": 11,
+        "type": "action-button",
+        "alias": "button11",
+        "id": "4ace44e0-25a0-4b28-a3ad-f151e643db1d"
+      },
+      {
+        "screen": 12,
+        "type": "input/graph",
+        "alias": "graph12",
+        "id": "4c23daf4-ec41-41c6-918f-44ffb2cc5906"
+      },
+      {
+        "screen": 12,
+        "type": "input/text",
+        "alias": "input12",
+        "id": "0419f5a0-7f92-41af-b683-3d3b7a6be22a"
+      }
+    ],
+    "scripts": [
+      {
+        "screen": 2,
+        "screenTitle": "스타벅스 매장 수 예측하기",
+        "type": "input/expression",
+        "alias": "input2",
+        "id": "3b245ebc-c61a-490d-a615-f070284d91b8",
+        "script": "warning: when not(input2.numericValue > 0) \"양수를 입력하세요.\" when graph4.number(\"I_w\") = 1 \"정수를 입력하세요.\" otherwise \"\""
+      },
+      {
+        "screen": 4,
+        "screenTitle": "지수함수를 이용해야 할까요?",
+        "type": "input/graph",
+        "alias": "graph4",
+        "id": "6cae22c6-438a-4cc2-bb2b-fc1d7de96f3a",
+        "script": "readOnly: true\n\nnumber(\"p_1\"):input2.numericValue"
+      },
+      {
+        "screen": 5,
+        "screenTitle": "분석용 함수 만들기",
+        "type": "input/graph",
+        "alias": "graph5",
+        "id": "88460570-9d09-43fb-b298-c1e66c27ac03",
+        "script": "correct: graph5.number(\"I\") = 1"
+      },
+      {
+        "screen": 6,
+        "screenTitle": "분석용 함수 확인하기",
+        "type": "input/graph",
+        "alias": "graph6",
+        "id": "fdfac6fd-0ea1-476e-8a67-6675b59277e3",
+        "script": "number(\"a\"):graph5.number(\"a\")\nnumber(\"b\"):graph5.number(\"b\")\nnumber(\"x_0\"):graph5.number(\"x_0\")\nnumber(\"c_{13}\"):input6.numericValue\nnumber(\"I_1\"):\n\twhen input6.submitted 1\n    otherwise 0\n\nnumber(\"t_s\"):input6.timeSinceSubmit\n\nya = graph6.number(\"y_a\")\nyb = graph6.number(\"y_b\")\n\nc13 = graph6.number(\"c_{13}\")\n\nxmin:-4\nxmax:32\nymin:\n\twhen (c13 > 24000) ya\n    otherwise -3000\nymax:\n\twhen (c13 > 24000) yb\n    otherwise 24000\n\nreadOnly: true"
+      },
+      {
+        "screen": 6,
+        "screenTitle": "분석용 함수 확인하기",
+        "type": "exhibit/text",
+        "alias": "note6",
+        "id": "67294add-e4ce-40a0-9d51-108ba0564227",
+        "script": "a = graph5.number(\"a_r\")\nb = graph5.number(\"b_r\")\nx_r = graph5.number(\"x_r\")\n\nline1 = \"이전 화면에서 여러분이 그린 함수가 표시됩니다. 함수의 방정식은 아래와 같습니다:\"\nline2a = \"`y = ${a}\\\\cdot${b}^{x-${x_r}}`\"\nline2b = \"`y = ${a}\\\\cdot${b}^{x}`\"\nline3 = \"2015년의 매장 수를 예측하기 전 먼저 2005년의 매장 수를 살펴보겠습니다.\n\n여러분의 함수에서 2005년의 스타벅스 매장 수는 몇 개인가요?\n\n참고: 2005년의 매장 수를 구하려면 x에 13을 대입해야 합니다. (2005-1992)\"\n\ncontent:\n\twhen (x_r > 0) \"${line1}\\n\\n${line2a}\\n\\n${line3}\"\n    otherwise \"${line1}\\n\\n${line2b}\\n\\n${line3}\""
+      },
+      {
+        "screen": 6,
+        "screenTitle": "분석용 함수 확인하기",
+        "type": "input/expression",
+        "alias": "input6",
+        "id": "653f042e-b3f8-4680-8208-29b24a7a8aa7",
+        "script": "correct: graph6.number(\"I_c\") = 1 and graph5.number(\"I\") = 1"
+      },
+      {
+        "screen": 7,
+        "screenTitle": "분석용 함수 확인하기",
+        "type": "input/graph",
+        "alias": "graph7",
+        "id": "6b96cef7-e0c2-47d2-98d4-f311d5ac32ff",
+        "script": "number(\"a\"):graph5.number(\"a\")\nnumber(\"b\"):graph5.number(\"b\")\nnumber(\"x_0\"):graph5.number(\"x_0\")\nnumber(\"c_{13}\"):input6.numericValue\nnumber(\"c_{18}\"):input7.numericValue\nnumber(\"I_1\"):\n\twhen input6.submitted 1\n    otherwise 0\nnumber(\"I_2\"):\n\twhen input7.submitted 1\n    otherwise 0\n\nnumber(\"t_s\"):input7.timeSinceSubmit\n\nya = graph7.number(\"y_a\")\nyb = graph7.number(\"y_b\")\n\nc18 = graph7.number(\"c_{18}\")\n\nxmin:-4\nxmax:32\nymin:\n\twhen (c18 > 24000) ya\n    otherwise -3000\nymax:\n\twhen (c18 > 24000) yb\n    otherwise 24000\n\nreadOnly: true"
+      },
+      {
+        "screen": 7,
+        "screenTitle": "분석용 함수 확인하기",
+        "type": "exhibit/text",
+        "alias": "note7",
+        "id": "c3b3a60d-395d-401e-beb8-1fb7f4e3fb30",
+        "script": "a = graph5.number(\"a_r\")\nb = graph5.number(\"b_r\")\nx_r = graph5.number(\"x_r\")\n\nmessage1 = \"이전 화면에서 여러분이 그린 함수가 표시됩니다. 함수의 방정식은 아래와 같습니다:\"\nequation1 = \"`y = ${a}\\\\cdot${b}^{x-${x_r}}`\"\nequation2 = \"`y = ${a}\\\\cdot${b}^{x}`\"\nmessage2 = \"2015년의 매장 수를 예측하기 전 먼저 2010년의 매장 수를 살펴보겠습니다.\n\n여러분의 함수에서 2010년의 스타벅스 매장 수는 몇 개인가요?\n\n참고: 2010년의 매장 수를 구하려면 x에 18을 대입해야 합니다. (2010-1992)\"\n\ncontent:\n\twhen (x_r > 0) \"${message1}\\n\\n${equation1}\\n\\n${message2}\"\n    otherwise \"${message1}\\n\\n${equation2}\\n\\n${message2}\""
+      },
+      {
+        "screen": 7,
+        "screenTitle": "분석용 함수 확인하기",
+        "type": "input/expression",
+        "alias": "input7",
+        "id": "a488906b-e606-4a12-a285-fd6c5b38238b",
+        "script": "correct: graph7.number(\"I_c\") = 1 and graph5.number(\"I\") = 1"
+      },
+      {
+        "screen": 8,
+        "screenTitle": "분석용 함수 확인하기",
+        "type": "input/graph",
+        "alias": "graph8",
+        "id": "b8fe8ebe-afc0-4fa4-b6c2-6190468c9fb3",
+        "script": "number(\"a\"):graph5.number(\"a\")\nnumber(\"b\"):graph5.number(\"b\")\nnumber(\"x_0\"):graph5.number(\"x_0\")\nnumber(\"c_{13}\"):input6.numericValue\nnumber(\"c_{18}\"):input7.numericValue\n\nc18 = graph7.number(\"c_{18}\")\n\nxmin:-4\nxmax:32\nymin:\n\twhen (c18 > 24000) graph8.number(\"y_a\")\n    otherwise -3000\nymax:\n\twhen (c18 > 24000) graph8.number(\"y_b\")\n    otherwise 24000\n\nreadOnly: true"
+      },
+      {
+        "screen": 8,
+        "screenTitle": "분석용 함수 확인하기",
+        "type": "exhibit/text",
+        "alias": "note8",
+        "id": "d267e12d-e09b-471e-9e6e-09024b7b6763",
+        "script": "c13 = graph8.number(\"c_{13r}\")\nc18 = graph8.number(\"c_{18r}\")\n\ncalculations =\n\twhen (c13 > 0) and (c18 > 0) \"2005년 매장 수 예측: ${c13}개\\n 2010년 매장 수 예측: ${c18}개\\n\\n\"\n\twhen (c13 > 0) \"2005년 매장 수 예측: ${c13} locations\\n\\n\"\n\twhen (c18 > 0) \"2010년 매장 수 예측: ${c18} locations\\n\\n\"\n    otherwise \"\"\n\ncontent:\"${calculations}실제 2005년과 2010년의 스타벅스 매장 수가 여러분이 예측한 결과와 비슷할까요?\""
+      },
+      {
+        "screen": 9,
+        "screenTitle": "분석용 함수 확인하기",
+        "type": "input/graph",
+        "alias": "graph9",
+        "id": "ec1f3b4f-0115-4765-9661-aff5e41ce1b0",
+        "script": "number(\"a\"):graph5.number(\"a\")\nnumber(\"b\"):graph5.number(\"b\")\nnumber(\"x_0\"):graph5.number(\"x_0\")\nnumber(\"c_{13}\"):input6.numericValue\nnumber(\"c_{18}\"):input7.numericValue\n\nc18 = graph7.number(\"c_{18}\")\n\nxmin:-4\nxmax:32\nymin:\n\twhen (c18 > 24000) graph8.number(\"y_a\")\n    otherwise -3000\nymax:\n\twhen (c18 > 24000) graph8.number(\"y_b\")\n    otherwise 24000\n\nnumber(\"t_p\"): video9.time\n\nreadOnly: true"
+      },
+      {
+        "screen": 10,
+        "screenTitle": "새로운 분석용 함수 만들기",
+        "type": "input/graph",
+        "alias": "graph10",
+        "id": "4bde8482-1579-4908-aaef-86340f91ba3f",
+        "script": "number(\"c_{23}\"):input10.numericValue\n\nnumber(\"I_3\"):\n\twhen input10.submitted 1\n    otherwise 0\n\nreadOnly: true"
+      },
+      {
+        "screen": 10,
+        "screenTitle": "새로운 분석용 함수 만들기",
+        "type": "exhibit/text",
+        "alias": "note10",
+        "id": "fc176058-61bb-4aa8-85bd-80c0c9cdd95e",
+        "script": "L = graph10.number(\"L\")\nk = graph10.number(\"k_r\")\nx00 = graph10.number(\"x_{0}\")\n\nline1 = \"검은색 점을 드래그해 빨간색 점과 최대한 일치하도록 로그함수를 그려 보세요.\"\nline2 = \"로그함수의 방정식은 다음과 같습니다:\"\nline3a = \"`y = \\\\frac{${L}}{1 + e^{-${k}(x - ${x00})}}`\"\nline3b = \"`y = \\\\frac{${L}}{1 + e^{-${k}x}}`\"\nline4 = \"2015년의 스타벅스 매장 수는 몇 개인가요?\"\nline5 = \"아래에 예측 결과를 입력해 주세요.\n\n참고: 2015년의 매장 수를 구하려면 x에 23을 대입해야 합니다. (2015-1992)\"\n\ncontent:\n\twhen (x00 > 0) \"${line1}\\n\\n${line2}\\n\\n${line3a}\\n\\n${line4}\\n\\n${line5}\"\n\totherwise \"${line1}\\n\\n${line2}\\n\\n${line3b}\\n\\n${line4}\\n\\n${line5}\""
+      },
+      {
+        "screen": 10,
+        "screenTitle": "새로운 분석용 함수 만들기",
+        "type": "input/expression",
+        "alias": "input10",
+        "id": "695e7116-e9f7-492c-b749-4bfabc901045",
+        "script": "correct: graph10.number(\"I_c\") = 1"
+      },
+      {
+        "screen": 11,
+        "screenTitle": "결과 확인하기",
+        "type": "input/graph",
+        "alias": "graph11",
+        "id": "bc555bb0-4999-4d11-805d-0c621a512960",
+        "script": "number(\"k_0\"):input2.numericValue\n\nnumber(\"a\"):graph5.number(\"a\")\nnumber(\"b\"):graph5.number(\"b\")\nnumber(\"x_0\"):graph5.number(\"x_0\")\n\nnumber(\"L\"):graph10.number(\"L\")\nnumber(\"k\"):graph10.number(\"k\")\nnumber(\"x_{00}\"):graph10.number(\"x_0\")\n\nnumber(\"c_{23}\"):input10.numericValue\n\nnumber(\"I_3\"):\n\twhen input10.submitted 1\n    otherwise 0\n\nnumber(\"t_s\"):button11.timeSincePress\n\nreadOnly: true"
+      },
+      {
+        "screen": 11,
+        "screenTitle": "결과 확인하기",
+        "type": "exhibit/text",
+        "alias": "note11",
+        "id": "c418e894-0783-40b9-a92c-4650d00ed619",
+        "script": "time = button11.timeSincePress\n\nerror0 = when (graph11.number(\"e_0\") >= 0) graph11.number(\"e_0\") otherwise 11962\nerror1 = graph11.number(\"e_1\")\nerror2 = graph11.number(\"e_2\")\n\nerror0a = graph11.number(\"e_{0a}\")\nerror0b = graph11.number(\"e_{0b}\")\nerror1a = graph11.number(\"e_{1a}\")\nerror1b = graph11.number(\"e_{1b}\")\nerror2a = graph11.number(\"e_{2a}\")\nerror2b = graph11.number(\"e_{2b}\")\n\na1 = graph11.number(\"a_1\")\n\nactual = \n\twhen (a1 > 0) \"${a1}\"\n    otherwise \"0\"\n\nmessage0 = \"먼저 2, 5, 10번 화면을 완료해 주세요.\"\n\nmessage1 = \"예측 결과가 얼마나 정확할까요?\\n\n<정답 확인> 버튼을 클릭해 정답을 확인하세요.\"\n\nmessage2 = \"2015년의 스타벅스 매장 수 예측: ${actual}개\"\n\nmessage3 = \"2015년의 실제 스타벅스 매장 수: ${actual}개\n\n첫 번째 예측과의 차이는 ${error0}개입니다.\n지수함수를 이용한 예측과의 차이는 ${error1}개입니다.\n로그함수를 이용한 예측과의 차이는 ${error2}개입니다.\n\n이제 다음 화면으로 이동해 주세요.\"\n\ncontent:\n\twhen (time = 0) \"${message1}\"\n\twhen (time > 0) and (time < 6) \"${message2}\"\n\twhen (time >= 6) \"${message3}\"\n    otherwise \"${message0}\""
+      },
+      {
+        "screen": 11,
+        "screenTitle": "결과 확인하기",
+        "type": "action-button",
+        "alias": "button11",
+        "id": "4ace44e0-25a0-4b28-a3ad-f151e643db1d",
+        "script": "disabled: button11.pressCount > 0"
+      },
+      {
+        "screen": 12,
+        "screenTitle": "생각해 보기",
+        "type": "input/graph",
+        "alias": "graph12",
+        "id": "4c23daf4-ec41-41c6-918f-44ffb2cc5906",
+        "script": "number(\"a\"):graph5.number(\"a\")\nnumber(\"b\"):graph5.number(\"b\")\nnumber(\"x_0\"):graph5.number(\"x_0\")\n\nnumber(\"L\"):graph10.number(\"L\")\nnumber(\"k\"):graph10.number(\"k\")\nnumber(\"x_{00}\"):graph10.number(\"x_0\")\n\nnumber(\"c_{23}\"):input10.numericValue\n\nreadOnly: true"
+      }
+    ]
+  },
+  "activityJson": {
+    "customLesson": {
+      "_id": "5f6d370f98e9fc2a8285a84c",
+      "version": 1,
+      "steps": [
+        {
+          "type": "two-column",
+          "id": "fc966718-5c76-484a-8f42-45eda5de4502",
+          "title": "스타벅스가 정말 많아요!",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/image": {
+                          "img": "https://uploads.desmos.com/activitybuilder/38d6b117031eec6622d082cd951cfa86",
+                          "id": "840fff6d-c077-47f4-b80b-e8ba29f6dbc8"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Starbucks has a lot of stores (a LOT of stores) in the United States. In many places, you can see two Starbucks at once.\n\nThere's even an intersection in Houston, TX with three Starbucks! (Rumor has it, there's an intersection with four.)\n\nThat's a lot of stores. But it wasn't always that way.",
+                          "id": "2d2fbf73-521b-4e33-8b52-cb929c1b02fc",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"미국에는 스타벅스 매장이 정말 많습니다.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"심지어 텍사스 휴스턴에는 스타벅스 매장이 3개나 있는 교차로가 있습니다. 다른 지역에는 스타벅스 매장이 4개나 있는 교차로도 있다고 하네요!\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"하지만 사실 스타벅스 매장이 엄청나게 많아진 것은 최근의 일입니다.\"}]}]}"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "e4572acb-ccad-4196-8e24-8d8d303e4b40",
+          "title": "스타벅스 매장 수 예측하기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/image": {
+                          "img": "https://uploads.desmos.com/activitybuilder/86ddaf9afcdf95ec092b6de529c813f6",
+                          "id": "620eb4cd-e3db-4167-9c0d-639f45706df3"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "True story: back in `1992`, there were only `146` Starbucks locations in the US.\n\nHow many Starbucks do you think there were in the US in `2015`? Make a quick estimate and write it in the box below.",
+                          "id": "384eef23-e1cb-4395-b6c6-33b3b04665b0",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"1992년의 미국 내 스타벅스 매장 수는 146개였습니다.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"2015년의 미국 내 스타벅스 매장 수는 몇 개였을까요? \"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"대략적으로 예측한 매장 수를 아래에 적어 주세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/expression": {
+                          "showPeerResponses": true,
+                          "id": "3b245ebc-c61a-490d-a615-f070284d91b8",
+                          "alias": "input2",
+                          "script": "warning: when not(input2.numericValue > 0) \"양수를 입력하세요.\" when graph4.number(\"I_w\") = 1 \"정수를 입력하세요.\" otherwise \"\""
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이 화면에서 학생의 답변을 비교해 보세요. 지금은 학생마다 의견이 달라도 괜찮습니다. 액티비티를 진행하면서 학생이 의견을 조율하도록 할 것입니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "✅ 표시는 학생이 모든 숫자를 입력했다는 의미입니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "31391956-3ee5-4088-9459-3a0d501330c4",
+          "title": "그래프 그리기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "sketch": {
+                          "id": "c51fb2b1-a54a-4291-bc5a-6eb173c69050",
+                          "background": {
+                            "id": "graph",
+                            "type": "graph",
+                            "img": "/img/activitybuilder/graph.png"
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/460eb836cdbc21cc8ccb8643ea17a466",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -8.655179388689115,
+                                "ymin": -3975.424175613498,
+                                "xmax": 29.594820611310887,
+                                "ymax": 24712.075824386502
+                              },
+                              "showGrid": false,
+                              "xAxisStep": 8,
+                              "yAxisStep": 6000,
+                              "xAxisLabel": "스타벅스 영업년수 (원점: 1992년)",
+                              "yAxisLabel": "스타벅스 매장 수",
+                              "squareAxes": false
+                            },
+                            "randomSeed": "bf11686c3f7b86ee40db31639f3139c6",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "id": "77",
+                                  "type": "table",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "0",
+                                        "7",
+                                        "8"
+                                      ],
+                                      "hidden": true,
+                                      "id": "78",
+                                      "color": "#c74440",
+                                      "latex": "x_{1}"
+                                    },
+                                    {
+                                      "values": [
+                                        "146",
+                                        "1996",
+                                        "2729"
+                                      ],
+                                      "id": "79",
+                                      "color": "#c74440",
+                                      "latex": "y_{1}"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          },
+                          "enabledTools": {
+                            "points": false,
+                            "line": true,
+                            "pencil": true,
+                            "math": true,
+                            "text": true
+                          },
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "This graph shows the number of Starbucks locations in the US at several points in time.\n\n(1) Sketch a graph showing what you think the relationship is between the number of locations (`y`-axis) and the number of years since `1992` (`x`-axis).\n\n(2) What type of function do you think will provide a good model for this situation? Explain.",
+                          "id": "d7e5e7b0-103e-4d02-9c33-6813ed13a138",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이 그래프는 미국 내 연도별 스타벅스 매장 수를 표시하는 그래프입니다. 세로축은 스타벅스 매장 수를 표시하며, 가로축은 스타벅스의 영업년수를 표시합니다. (원점: 1992년, 8: 2000년)\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"(1) 스타벅스의 영업년수 (\"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"x\"}]},{\"type\":\"text\",\"text\":\" 축)과 매장 수 (\"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"y\"}]},{\"type\":\"text\",\"text\":\" 축)의 상관관계를 나타내는 그래프를 그려 보세요.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"(2) 상관관계를 나타내려면 어떤 함수가 적절할까요? 왜 그렇게 생각하는지도 설명해 주세요.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\"}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "c88d5d6b-b0de-4fd1-9b86-bb59fbd8f1f1",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "흥미롭고 독특한 그래프를 학생과 공유해 주세요. 학생이 그래프를 말로 설명하도록 해 보세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "서로 완전히 다른 그래프가 있다면 학생에게 보여 주고 어떤 그래프가 더 정확하다고 생각하는지 물어보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "33de74de-6587-4765-82fa-907e5dbf929c",
+          "title": "지수함수를 이용해야 할까요?",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "6cae22c6-438a-4cc2-bb2b-fc1d7de96f3a",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "439912fa355ea843cd9361b34a75c246",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -2.7118973905351615,
+                                "ymin": -1977.5735294117658,
+                                "xmax": 31.17045555064131,
+                                "ymax": 23434.191176470587
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 6000,
+                              "xAxisLabel": "스타벅스 영업년수 (원점: 1992년)",
+                              "yAxisLabel": "스타벅스 매장 수",
+                              "squareAxes": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "524",
+                                  "color": "#2d70b3",
+                                  "latex": "y_1=a\\cdot b^x\\left\\{x\\le9\\right\\}",
+                                  "lineStyle": "DASHED"
+                                },
+                                {
+                                  "id": "517",
+                                  "type": "table",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "0",
+                                        "7",
+                                        "8"
+                                      ],
+                                      "hidden": true,
+                                      "id": "518",
+                                      "color": "#2d70b3",
+                                      "latex": "x"
+                                    },
+                                    {
+                                      "values": [
+                                        "146",
+                                        "1996",
+                                        "2729"
+                                      ],
+                                      "id": "519",
+                                      "color": "#c74440",
+                                      "latex": "y"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "521",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(0,a\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "523",
+                                  "color": "#c74440",
+                                  "latex": "a=160",
+                                  "hidden": true,
+                                  "slider": {
+                                    "hardMin": true,
+                                    "hardMax": true,
+                                    "min": "0",
+                                    "max": "24000"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "522",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(c_1,c_2\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "526",
+                                  "color": "#6042a6",
+                                  "latex": "c_1=8",
+                                  "hidden": true,
+                                  "slider": {
+                                    "hardMin": true,
+                                    "hardMax": true,
+                                    "min": "2",
+                                    "max": "32"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "525",
+                                  "color": "#388c46",
+                                  "latex": "c_2=2800",
+                                  "hidden": true,
+                                  "slider": {
+                                    "hardMin": true,
+                                    "hardMax": true,
+                                    "min": "1",
+                                    "max": "24000"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "527",
+                                  "color": "#fa7e19",
+                                  "latex": "b=\\left(\\frac{c_2}{a}\\right)^{\\left(\\frac{1}{c_1}\\right)}"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "530",
+                                  "title": "경고 확인 (2번째 화면)"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "533",
+                                  "folderId": "530",
+                                  "text": "예측값이 정수인가요?"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "534",
+                                  "folderId": "530",
+                                  "color": "#2d70b3",
+                                  "latex": "I_w=\\left\\{\\left|\\operatorname{round}\\left(p_1\\right)-p_1\\right|>0:1,0\\right\\}",
+                                  "hidden": true
+                                }
+                              ]
+                            }
+                          },
+                          "exhibitMode": true,
+                          "showBackground": true,
+                          "img": "https://uploads.desmos.com/activitybuilder/f844291f422e50c6f8fb9d2b080219e2",
+                          "script": "readOnly: true\n\nnumber(\"p_1\"):input2.numericValue",
+                          "alias": "graph4",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Michael thinks an exponential model is a good fit because the values appear to increase at an increasing rate\n\nWhat do you think of his reasoning?",
+                          "id": "3c9ea153-dbff-4e65-bd03-58679cb310f3",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"마이클은 스타벅스 매장 수의 증가세를 예측하기 위해 지수함수를 사용하는 것이 좋다고 생각합니다.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"여러분은 마이클의 의견에 동의하시나요?\"}]}]}"
+                        }
+                      },
+                      {
+                        "multiple-choice": {
+                          "id": "f163c47c-2b44-4a03-8038-52f7688463c3",
+                          "choices": {
+                            "ddaab5cb-8700-4cbb-814d-2577e00349c9": {
+                              "id": "ddaab5cb-8700-4cbb-814d-2577e00349c9",
+                              "text": "동의함"
+                            },
+                            "4484db68-6cc1-4def-9300-151e82f763d5": {
+                              "id": "4484db68-6cc1-4def-9300-151e82f763d5",
+                              "text": "동의하지 않음"
+                            }
+                          },
+                          "choiceIds": [
+                            "ddaab5cb-8700-4cbb-814d-2577e00349c9",
+                            "4484db68-6cc1-4def-9300-151e82f763d5"
+                          ],
+                          "multipleChoiceType": "simple",
+                          "showPeerResponses": true,
+                          "showExplanation": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 답변을 요약해서 보려면 교사 대시보드의 히스토그램 뷰를 이용하세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "독특한 답변을 학생과 공유하고 학생이 자신의 답변을 설명하거나 다른 학생의 답변을 평가할 수 있도록 하세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "a80afeee-bcef-48b2-b870-106e4969053d",
+          "title": "분석용 함수 만들기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "88460570-9d09-43fb-b298-c1e66c27ac03",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "4aeb64326929aaa7030a7e3be5b7da87",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4,
+                                "ymin": -3000,
+                                "xmax": 32,
+                                "ymax": 24000
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 6000,
+                              "xAxisLabel": "스타벅스 영업년수 (원점: 1992년)",
+                              "yAxisLabel": "스타벅스 매장 수",
+                              "squareAxes": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "1392",
+                                  "title": "지수함수 곡선"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1410",
+                                  "folderId": "1392",
+                                  "color": "#2d70b3",
+                                  "latex": "f\\left(x\\right)=a\\cdot b^{\\left(x-x_0\\right)}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1414",
+                                  "folderId": "1392",
+                                  "color": "#000000",
+                                  "latex": "a=1",
+                                  "hidden": true,
+                                  "slider": {
+                                    "hardMin": true,
+                                    "hardMax": true,
+                                    "min": "0",
+                                    "max": "24000"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1413",
+                                  "folderId": "1392",
+                                  "color": "#fa7e19",
+                                  "latex": "b=\\left(\\frac{a+y_1}{a}\\right)^{\\left(\\frac{1}{x_1}\\right)}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1412",
+                                  "folderId": "1392",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(x_0,a\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1416",
+                                  "folderId": "1392",
+                                  "color": "#2d70b3",
+                                  "latex": "x_0=4",
+                                  "hidden": true,
+                                  "slider": {
+                                    "hardMin": true,
+                                    "hardMax": true,
+                                    "min": "4",
+                                    "max": "32"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1415",
+                                  "folderId": "1392",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(x_0+x_1,a+y_1\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1417",
+                                  "folderId": "1392",
+                                  "color": "#388c46",
+                                  "latex": "x_1=4",
+                                  "slider": {
+                                    "hardMin": true,
+                                    "hardMax": true,
+                                    "min": "-32",
+                                    "max": "32"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1411",
+                                  "folderId": "1392",
+                                  "color": "#388c46",
+                                  "latex": "y_1=0",
+                                  "slider": {
+                                    "hardMin": true,
+                                    "hardMax": true,
+                                    "min": "-24000",
+                                    "max": "24000"
+                                  }
+                                },
+                                {
+                                  "id": "517",
+                                  "type": "table",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "0",
+                                        "7",
+                                        "8"
+                                      ],
+                                      "hidden": true,
+                                      "id": "518",
+                                      "color": "#2d70b3",
+                                      "latex": "x_{L}"
+                                    },
+                                    {
+                                      "values": [
+                                        "146",
+                                        "1996",
+                                        "2729"
+                                      ],
+                                      "id": "519",
+                                      "color": "#c74440",
+                                      "latex": "y_{L}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "2934",
+                                  "title": "반올림값"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "2928",
+                                  "folderId": "2934",
+                                  "color": "#2d70b3",
+                                  "latex": "a_r=\\frac{\\operatorname{round}\\left(100\\cdot a\\right)}{100}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "2929",
+                                  "folderId": "2934",
+                                  "color": "#388c46",
+                                  "latex": "b_r=\\frac{\\operatorname{round}\\left(1000\\cdot b\\right)}{1000}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "2935",
+                                  "folderId": "2934",
+                                  "color": "#2d70b3",
+                                  "latex": "x_r=\\frac{\\operatorname{round}\\left(100\\cdot x_0\\right)}{100}"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "2938",
+                                  "title": "지수 회귀"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "2939",
+                                  "folderId": "2938",
+                                  "color": "#388c46",
+                                  "latex": "y_L\\sim a_R\\cdot b_R^{x_L}",
+                                  "hidden": true,
+                                  "residualVariable": "e_{L}",
+                                  "regressionParameters": {
+                                    "a_{R}": 187.21048818703974,
+                                    "b_{R}": 1.3990995518870717
+                                  }
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "2941",
+                                  "title": "정확성 확인"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "2943",
+                                  "folderId": "2941",
+                                  "text": "f(x)는 학생이 그린 함수입니다."
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "2945",
+                                  "folderId": "2941",
+                                  "text": "g(x)는 가장 적절한 함수입니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "2949",
+                                  "folderId": "2941",
+                                  "color": "#fa7e19",
+                                  "latex": "g\\left(x\\right)=a_R\\cdot b_R^x",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "2946",
+                                  "folderId": "2941",
+                                  "color": "#c74440",
+                                  "latex": "T_1=\\operatorname{total}\\left(\\left(y_L-f\\left(x_L\\right)\\right)^2\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "2947",
+                                  "folderId": "2941",
+                                  "color": "#2d70b3",
+                                  "latex": "T_2=\\operatorname{total}\\left(\\left(y_L-g\\left(x_L\\right)\\right)^2\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "2948",
+                                  "folderId": "2941",
+                                  "color": "#388c46",
+                                  "latex": "I=\\left\\{T_1\\le50T_2:1,0\\right\\}",
+                                  "hidden": true
+                                }
+                              ]
+                            }
+                          },
+                          "exhibitMode": true,
+                          "showBackground": true,
+                          "img": "https://uploads.desmos.com/activitybuilder/af209632213bc65def5720300319bcac",
+                          "alias": "graph5",
+                          "script": "correct: graph5.number(\"I\") = 1",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Let's explore Michael's idea by building an exponential model.\n\nDrag the blue points so the exponential curve fits the data as well as possible.\n\nWhen you finish, continue to the next screen.",
+                          "id": "2130f7bb-7f6e-4cc9-a511-594eff9e4b56",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"지수함수를 그려서 마이클의 생각이 맞는지 확인해 보겠습니다.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"파란색 점을 드래그해 빨간색 점을 지나는 지수함수를 그려 보세요.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"지수함수를 그렸으면 다음 화면으로 이동해 주세요.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\"}]}"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 답변을 요약해서 확인하고 교실과 공유하려면 교사 대시보드의 오버레이 모드를 이용하세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "75f83918-7724-4a3c-af0c-6873c34f7e65",
+          "title": "분석용 함수 확인하기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "cda05ce9293b7696cf90f72f6e6b08fd",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4,
+                                "ymin": -3000,
+                                "xmax": 32,
+                                "ymax": 24000
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 6000,
+                              "xAxisLabel": "스타벅스 영업년수 (원점: 1992년)",
+                              "yAxisLabel": "스타벅스 매장 수",
+                              "squareAxes": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "1506",
+                                  "title": "지수함수 모델"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1507",
+                                  "folderId": "1506",
+                                  "color": "#2d70b3",
+                                  "latex": "f\\left(x\\right)=a\\cdot b^{\\left(x-x_0\\right)}"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "1536",
+                                  "title": "지수함수 계산"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1537",
+                                  "folderId": "1536",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(13,c_{13}\\left\\{I_1=1\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "label": "2005"
+                                },
+                                {
+                                  "id": "6",
+                                  "type": "table",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "0",
+                                        "7",
+                                        "8"
+                                      ],
+                                      "hidden": true,
+                                      "id": "7",
+                                      "color": "#388c46",
+                                      "latex": "x"
+                                    },
+                                    {
+                                      "values": [
+                                        "146",
+                                        "1996",
+                                        "2729"
+                                      ],
+                                      "id": "8",
+                                      "color": "#c74440",
+                                      "latex": "y"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "16600",
+                                  "title": "창 설정"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16601",
+                                  "folderId": "16600",
+                                  "color": "#388c46",
+                                  "latex": "y_a=\\left\\{0\\le t_s\\le2:\\frac{\\left(-0.1c_{13}\\right)+\\left(-3000\\right)}{2}-\\frac{\\left(-0.1c_{13}\\right)-\\left(-3000\\right)}{2}\\cos\\left(\\frac{2\\pi}{2\\cdot2}\\cdot t_s\\right),2<t_s\\le10:-0.1c_{13}\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16611",
+                                  "folderId": "16600",
+                                  "color": "#2d70b3",
+                                  "latex": "y_b=\\left\\{0\\le t_s\\le2:\\frac{\\left(1.1c_{13}\\right)+\\left(24000\\right)}{2}-\\frac{\\left(1.1c_{13}\\right)-\\left(24000\\right)}{2}\\cos\\left(\\frac{2\\pi}{2\\cdot2}\\cdot t_s\\right),2<t_s\\le10:1.1c_{13}\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "16614",
+                                  "title": "정확성 확인"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16615",
+                                  "folderId": "16614",
+                                  "color": "#388c46",
+                                  "latex": "I_c=\\left\\{\\left|c_{13}-f\\left(13\\right)\\right|\\le0.01\\cdot f\\left(13\\right):1,0\\right\\}"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/399cf2969874a25216ad61bc73f9e32f",
+                          "id": "fdfac6fd-0ea1-476e-8a67-6675b59277e3",
+                          "exhibitMode": true,
+                          "alias": "graph6",
+                          "script": "number(\"a\"):graph5.number(\"a\")\nnumber(\"b\"):graph5.number(\"b\")\nnumber(\"x_0\"):graph5.number(\"x_0\")\nnumber(\"c_{13}\"):input6.numericValue\nnumber(\"I_1\"):\n\twhen input6.submitted 1\n    otherwise 0\n\nnumber(\"t_s\"):input6.timeSinceSubmit\n\nya = graph6.number(\"y_a\")\nyb = graph6.number(\"y_b\")\n\nc13 = graph6.number(\"c_{13}\")\n\nxmin:-4\nxmax:32\nymin:\n\twhen (c13 > 24000) ya\n    otherwise -3000\nymax:\n\twhen (c13 > 24000) yb\n    otherwise 24000\n\nreadOnly: true",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "The graph of your model is shown here. The corresponding equation is given below.",
+                          "id": "67294add-e4ce-40a0-9d51-108ba0564227",
+                          "alias": "note6",
+                          "script": "a = graph5.number(\"a_r\")\nb = graph5.number(\"b_r\")\nx_r = graph5.number(\"x_r\")\n\nline1 = \"이전 화면에서 여러분이 그린 함수가 표시됩니다. 함수의 방정식은 아래와 같습니다:\"\nline2a = \"`y = ${a}\\\\cdot${b}^{x-${x_r}}`\"\nline2b = \"`y = ${a}\\\\cdot${b}^{x}`\"\nline3 = \"2015년의 매장 수를 예측하기 전 먼저 2005년의 매장 수를 살펴보겠습니다.\n\n여러분의 함수에서 2005년의 스타벅스 매장 수는 몇 개인가요?\n\n참고: 2005년의 매장 수를 구하려면 x에 13을 대입해야 합니다. (2005-1992)\"\n\ncontent:\n\twhen (x_r > 0) \"${line1}\\n\\n${line2a}\\n\\n${line3}\"\n    otherwise \"${line1}\\n\\n${line2b}\\n\\n${line3}\"",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이전 화면에서 여러분이 그린 함수가 표시됩니다. 함수의 방정식은 아래와 같습니다.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/expression": {
+                          "showPeerResponses": true,
+                          "id": "653f042e-b3f8-4680-8208-29b24a7a8aa7",
+                          "alias": "input6",
+                          "script": "correct: graph6.number(\"I_c\") = 1 and graph5.number(\"I\") = 1"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 점검하기 좋은 화면입니다. 도움이 필요한 학생을 개인적으로 도와주세요. 학생이 먼저 예측 결과를 그래프로 그릴 수 있도록 도와주는 것이 좋습니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "만약 학생의 계산이 지수함수와 일치하지 않는다면 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 값에 13 대신 2005를 대입했기 때문이거나, "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 값에서 4를 빼지 않았기 때문일 수도 있습니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "참고: 수식 입력란에 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "700\\cdot1.406^{\\left(13-4\\right)}"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "와 같은 함수를 입력할 수 있습니다. Desmos가 자동으로 결과값을 계산해 줍니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "cbef84c8-0fa8-4594-b122-86d275171a0a",
+          "title": "분석용 함수 확인하기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "64d668a85e81ea14a8b0e74024eb88ba",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4,
+                                "ymin": -3000,
+                                "xmax": 32,
+                                "ymax": 24000
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 6000,
+                              "xAxisLabel": "스타벅스 영업년수 (원점: 1992년)",
+                              "yAxisLabel": "스타벅스 매장 수",
+                              "squareAxes": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "1506",
+                                  "title": "지수함수 모델"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1507",
+                                  "folderId": "1506",
+                                  "color": "#2d70b3",
+                                  "latex": "f\\left(x\\right)=a\\cdot b^{\\left(x-x_0\\right)}"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "1536",
+                                  "title": "지수함수 계산"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "2012",
+                                  "folderId": "1536",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(13,c_{13}\\left\\{I_1=1\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "label": "2005"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1537",
+                                  "folderId": "1536",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(18,c_{18}\\left\\{I_2=1\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "label": "2010"
+                                },
+                                {
+                                  "id": "6",
+                                  "type": "table",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "0",
+                                        "7",
+                                        "8"
+                                      ],
+                                      "hidden": true,
+                                      "id": "7",
+                                      "color": "#388c46",
+                                      "latex": "x"
+                                    },
+                                    {
+                                      "values": [
+                                        "146",
+                                        "1996",
+                                        "2729"
+                                      ],
+                                      "id": "8",
+                                      "color": "#c74440",
+                                      "latex": "y"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "1569",
+                                  "title": "이미지",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1570",
+                                  "folderId": "1569",
+                                  "color": "#388c46",
+                                  "latex": "I=\\left\\{c_{18}>24000:1,0\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "image",
+                                  "id": "10433",
+                                  "folderId": "1569",
+                                  "image_url": "https://uploads.desmos.com/activitybuilder/800dd42e6cf7ebcb67bdcaed0a8fd377",
+                                  "name": "image.png",
+                                  "center": "\\left(25.5,18000\\right)",
+                                  "width": "11.4",
+                                  "height": "11250\\left\\{I=1\\right\\}"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "10941",
+                                  "title": "창 설정"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "10942",
+                                  "folderId": "10941",
+                                  "color": "#388c46",
+                                  "latex": "y_a=\\left\\{0\\le t_s\\le2:\\frac{\\left(-0.1c_{18}\\right)+\\left(-3000\\right)}{2}-\\frac{\\left(-0.1c_{18}\\right)-\\left(-3000\\right)}{2}\\cos\\left(\\frac{2\\pi}{2\\cdot2}\\cdot t_s\\right),2<t_s\\le10:-0.1c_{18}\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "10943",
+                                  "folderId": "10941",
+                                  "color": "#fa7e19",
+                                  "latex": "y_b=\\left\\{0\\le t_s\\le2:\\frac{\\left(1.1c_{18}\\right)+\\left(24000\\right)}{2}-\\frac{\\left(1.1c_{18}\\right)-\\left(24000\\right)}{2}\\cos\\left(\\frac{2\\pi}{2\\cdot2}\\cdot t_s\\right),2<t_s\\le10:1.1c_{18}\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "16623",
+                                  "title": "정확성 확인"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16624",
+                                  "folderId": "16623",
+                                  "color": "#388c46",
+                                  "latex": "I_c=\\left\\{\\left|c_{18}-f\\left(18\\right)\\right|\\le0.01\\cdot f\\left(18\\right):1,0\\right\\}"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/399cf2969874a25216ad61bc73f9e32f",
+                          "id": "6b96cef7-e0c2-47d2-98d4-f311d5ac32ff",
+                          "exhibitMode": true,
+                          "alias": "graph7",
+                          "script": "number(\"a\"):graph5.number(\"a\")\nnumber(\"b\"):graph5.number(\"b\")\nnumber(\"x_0\"):graph5.number(\"x_0\")\nnumber(\"c_{13}\"):input6.numericValue\nnumber(\"c_{18}\"):input7.numericValue\nnumber(\"I_1\"):\n\twhen input6.submitted 1\n    otherwise 0\nnumber(\"I_2\"):\n\twhen input7.submitted 1\n    otherwise 0\n\nnumber(\"t_s\"):input7.timeSinceSubmit\n\nya = graph7.number(\"y_a\")\nyb = graph7.number(\"y_b\")\n\nc18 = graph7.number(\"c_{18}\")\n\nxmin:-4\nxmax:32\nymin:\n\twhen (c18 > 24000) ya\n    otherwise -3000\nymax:\n\twhen (c18 > 24000) yb\n    otherwise 24000\n\nreadOnly: true",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Again, the graph of your model is shown here and the corresponding equation is given below.",
+                          "id": "c3b3a60d-395d-401e-beb8-1fb7f4e3fb30",
+                          "script": "a = graph5.number(\"a_r\")\nb = graph5.number(\"b_r\")\nx_r = graph5.number(\"x_r\")\n\nmessage1 = \"이전 화면에서 여러분이 그린 함수가 표시됩니다. 함수의 방정식은 아래와 같습니다:\"\nequation1 = \"`y = ${a}\\\\cdot${b}^{x-${x_r}}`\"\nequation2 = \"`y = ${a}\\\\cdot${b}^{x}`\"\nmessage2 = \"2015년의 매장 수를 예측하기 전 먼저 2010년의 매장 수를 살펴보겠습니다.\n\n여러분의 함수에서 2010년의 스타벅스 매장 수는 몇 개인가요?\n\n참고: 2010년의 매장 수를 구하려면 x에 18을 대입해야 합니다. (2010-1992)\"\n\ncontent:\n\twhen (x_r > 0) \"${message1}\\n\\n${equation1}\\n\\n${message2}\"\n    otherwise \"${message1}\\n\\n${equation2}\\n\\n${message2}\"",
+                          "alias": "note7",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이전 화면에서 여러분이 그린 함수가 표시됩니다. 함수의 방정식은 아래와 같습니다.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/expression": {
+                          "showPeerResponses": true,
+                          "id": "a488906b-e606-4a12-a285-fd6c5b38238b",
+                          "alias": "input7",
+                          "script": "correct: graph7.number(\"I_c\") = 1 and graph5.number(\"I\") = 1"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 점검하기 좋은 화면입니다. 도움이 필요한 학생을 개인적으로 도와주세요. 학생이 먼저 예측 결과를 그래프로 그릴 수 있도록 도와주는 것이 좋습니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "참고: 수식 입력란에 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "700\\cdot1.406^{\\left(18-4\\right)}"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "와 같은 함수를 입력할 수 있습니다. Desmos가 자동으로 결과값을 계산해 줍니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "1f77fc22-782e-429f-8952-9e7b6da22d0b",
+          "title": "분석용 함수 확인하기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "66d8761b6ac7818e2b9f35446b12b6de",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4,
+                                "ymin": -3000,
+                                "xmax": 32,
+                                "ymax": 24000
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 6000,
+                              "xAxisLabel": "스타벅스 영업년수 (원점: 1992년)",
+                              "yAxisLabel": "스타벅스 매장 수",
+                              "squareAxes": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "1506",
+                                  "title": "지수함수 모델"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1507",
+                                  "folderId": "1506",
+                                  "color": "#2d70b3",
+                                  "latex": "f\\left(x\\right)=a\\cdot b^{\\left(x-x_0\\right)}"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "1536",
+                                  "title": "지수함수 계산"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "2120",
+                                  "folderId": "1536",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(13,c_{13}\\right)",
+                                  "showLabel": true,
+                                  "label": "2005"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1537",
+                                  "folderId": "1536",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(18,c_{18}\\right)",
+                                  "showLabel": true,
+                                  "label": "2010"
+                                },
+                                {
+                                  "id": "6",
+                                  "type": "table",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "0",
+                                        "7",
+                                        "8"
+                                      ],
+                                      "hidden": true,
+                                      "id": "7",
+                                      "color": "#388c46",
+                                      "latex": "x"
+                                    },
+                                    {
+                                      "values": [
+                                        "146",
+                                        "1996",
+                                        "2729"
+                                      ],
+                                      "id": "8",
+                                      "color": "#c74440",
+                                      "latex": "y"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "1569",
+                                  "title": "이미지",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1570",
+                                  "folderId": "1569",
+                                  "color": "#388c46",
+                                  "latex": "I=\\left\\{c_{18}>24000:1,0\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "image",
+                                  "id": "10871",
+                                  "folderId": "1569",
+                                  "image_url": "https://uploads.desmos.com/activitybuilder/800dd42e6cf7ebcb67bdcaed0a8fd377",
+                                  "name": "image.png",
+                                  "center": "\\left(25.5,18000\\right)",
+                                  "width": "11.4",
+                                  "height": "11250\\left\\{I=1\\right\\}"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "11917",
+                                  "title": "창 설정"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "11919",
+                                  "folderId": "11917",
+                                  "color": "#fa7e19",
+                                  "latex": "y_a=\\min\\left(-3000,-0.1c_{18}\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "11920",
+                                  "folderId": "11917",
+                                  "color": "#6042a6",
+                                  "latex": "y_b=\\max\\left(24000,1.1c_{18}\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "13533",
+                                  "title": "수직선"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "13613",
+                                  "folderId": "13533",
+                                  "color": "#6042a6",
+                                  "latex": "x=13\\left\\{c_{13}\\ge7353\\right\\}\\left\\{v_1\\le y\\le c_{13}\\right\\}",
+                                  "lineStyle": "DASHED",
+                                  "dragMode": "NONE"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "13614",
+                                  "folderId": "13533",
+                                  "color": "#388c46",
+                                  "latex": "v_1=\\left\\{0\\le t_s\\le5:\\frac{\\left(7353\\right)+\\left(c_{13}\\right)}{2}-\\frac{\\left(7353\\right)-\\left(c_{13}\\right)}{2}\\cos\\left(\\frac{2\\pi}{2\\cdot5}t_s\\right),5<t_s\\le10\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "13534",
+                                  "folderId": "13533",
+                                  "color": "#6042a6",
+                                  "latex": "x=13\\left\\{c_{13}\\ge7353\\right\\}\\left\\{v_1\\le y\\le c_{13}\\right\\}",
+                                  "lineStyle": "DASHED",
+                                  "dragMode": "NONE"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "13535",
+                                  "folderId": "13533",
+                                  "color": "#fa7e19",
+                                  "latex": "v_2=\\left\\{0\\le t_s\\le5:\\frac{\\left(11131\\right)+\\left(c_{18}\\right)}{2}-\\frac{\\left(11131\\right)-\\left(c_{18}\\right)}{2}\\cos\\left(\\frac{2\\pi}{2\\cdot5}t_s\\right),5<t_s\\le10\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "14536",
+                                  "title": "반올림값"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "14537",
+                                  "folderId": "14536",
+                                  "color": "#388c46",
+                                  "latex": "c_{13r}=\\operatorname{round}\\left(c_{13}\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "14538",
+                                  "folderId": "14536",
+                                  "color": "#fa7e19",
+                                  "latex": "c_{18r}=\\operatorname{round}\\left(c_{18}\\right)",
+                                  "hidden": true
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/399cf2969874a25216ad61bc73f9e32f",
+                          "id": "b8fe8ebe-afc0-4fa4-b6c2-6190468c9fb3",
+                          "exhibitMode": true,
+                          "alias": "graph8",
+                          "script": "number(\"a\"):graph5.number(\"a\")\nnumber(\"b\"):graph5.number(\"b\")\nnumber(\"x_0\"):graph5.number(\"x_0\")\nnumber(\"c_{13}\"):input6.numericValue\nnumber(\"c_{18}\"):input7.numericValue\n\nc18 = graph7.number(\"c_{18}\")\n\nxmin:-4\nxmax:32\nymin:\n\twhen (c18 > 24000) graph8.number(\"y_a\")\n    otherwise -3000\nymax:\n\twhen (c18 > 24000) graph8.number(\"y_b\")\n    otherwise 24000\n\nreadOnly: true",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Do you think your calculations will be close to the actual number of Starbucks locations for `2005` and `2010`?",
+                          "id": "d267e12d-e09b-471e-9e6e-09024b7b6763",
+                          "alias": "note8",
+                          "script": "c13 = graph8.number(\"c_{13r}\")\nc18 = graph8.number(\"c_{18r}\")\n\ncalculations =\n\twhen (c13 > 0) and (c18 > 0) \"2005년 매장 수 예측: ${c13}개\\n 2010년 매장 수 예측: ${c18}개\\n\\n\"\n\twhen (c13 > 0) \"2005년 매장 수 예측: ${c13} locations\\n\\n\"\n\twhen (c18 > 0) \"2010년 매장 수 예측: ${c18} locations\\n\\n\"\n    otherwise \"\"\n\ncontent:\"${calculations}실제 2005년과 2010년의 스타벅스 매장 수가 여러분이 예측한 결과와 비슷할까요?\"",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"실제 2005년과 2010년의 스타벅스 매장 수가 여러분이 예측한 결과와 비슷할까요?\"}]}]}"
+                        }
+                      },
+                      {
+                        "multiple-choice": {
+                          "id": "be87efe6-3dba-45f1-b4fa-55b03961fd6b",
+                          "choices": {
+                            "dceadd6f-6045-4dba-b7ec-2499e1b56744": {
+                              "id": "dceadd6f-6045-4dba-b7ec-2499e1b56744",
+                              "text": "네"
+                            },
+                            "7b53b0cf-329e-4433-9e07-1b592d2d9c59": {
+                              "id": "7b53b0cf-329e-4433-9e07-1b592d2d9c59",
+                              "text": "아니요"
+                            }
+                          },
+                          "choiceIds": [
+                            "dceadd6f-6045-4dba-b7ec-2499e1b56744",
+                            "7b53b0cf-329e-4433-9e07-1b592d2d9c59"
+                          ],
+                          "multipleChoiceType": "simple",
+                          "showPeerResponses": true,
+                          "alias": "choice8",
+                          "showExplanation": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생들과 공유해 보세요. 먼저 자유롭게 추론하는 시간을 갖고, 학생이 공식적인 수학 용어를 사용해 추론할 수 있도록 해 주세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• 네. 결과가 보이는 그래프와 일치할 것이라고 생각합니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• 아니요. 매장 수가 기하급수적으로 증가할 것 같지는 않습니다. 더 정확한 예측을 위해 다른 함수를 사용해야 한다고 생각합니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "3676c8ab-dbc1-437d-99c6-ad64abb2a84a",
+          "title": "분석용 함수 확인하기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "video": {
+                          "videoDescription": "",
+                          "id": "8a37f8b6-8bdf-47eb-b2fa-57e43897f854",
+                          "alias": "video9",
+                          "videoConfig": {
+                            "sources": [
+                              {
+                                "url": "https://uploads.desmos.com/videos/4ea713c1-0e86-4a05-b1fd-a38a3b24e909-v4/webm.webm",
+                                "codec": "video/webm"
+                              },
+                              {
+                                "url": "https://uploads.desmos.com/videos/4ea713c1-0e86-4a05-b1fd-a38a3b24e909-v4/mp4.mp4",
+                                "codec": "video/mp4"
+                              }
+                            ],
+                            "thumb": "https://uploads.desmos.com/videos/4ea713c1-0e86-4a05-b1fd-a38a3b24e909-v4/jpg.jpg",
+                            "assemblySslUrl": "https://api2-tarui.transloadit.com/assemblies/ff73d57556ee4961a5f8242f01f1ef93"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "dddbe0f0c18eee550361c934fdd65242",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4,
+                                "ymin": -3000,
+                                "xmax": 32,
+                                "ymax": 24000
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 6000,
+                              "xAxisLabel": "스타벅스 영업년수 (원점: 1992년)",
+                              "yAxisLabel": "스타벅스 매장 수",
+                              "squareAxes": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "5453",
+                                  "title": "수직선 (고정됨)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "5454",
+                                  "folderId": "5453",
+                                  "color": "#6042a6",
+                                  "latex": "x=13\\left\\{\\min\\left(c_{13},7353\\right)\\le y\\le\\max\\left(c_{13},7353\\right)\\right\\}",
+                                  "lineStyle": "DASHED"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "5455",
+                                  "folderId": "5453",
+                                  "color": "#6042a6",
+                                  "latex": "x=18\\left\\{\\min\\left(c_{18},11131\\right)\\le y\\le\\max\\left(c_{18},11131\\right)\\right\\}",
+                                  "lineStyle": "DASHED"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "15436",
+                                  "title": "수직선 (움직임)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15440",
+                                  "folderId": "15436",
+                                  "color": "#6042a6",
+                                  "latex": "x=13\\left\\{c_{13}\\ge7353\\right\\}\\left\\{v_1\\le y\\le c_{13}\\right\\}",
+                                  "lineStyle": "DASHED",
+                                  "dragMode": "NONE"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15439",
+                                  "folderId": "15436",
+                                  "color": "#6042a6",
+                                  "latex": "v_1=\\left\\{0\\le t_s\\le5:\\frac{\\left(7353\\right)+\\left(c_{13}\\right)}{2}-\\frac{\\left(7353\\right)-\\left(c_{13}\\right)}{2}\\cos\\left(\\frac{2\\pi}{2\\cdot5}t_s\\right),5<t_s\\le10:7353\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15438",
+                                  "folderId": "15436",
+                                  "color": "#6042a6",
+                                  "latex": "x=18\\left\\{c_{18}\\ge11131\\right\\}\\left\\{v_2\\le y\\le c_{18}\\right\\}",
+                                  "lineStyle": "DASHED",
+                                  "dragMode": "NONE"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15437",
+                                  "folderId": "15436",
+                                  "color": "#388c46",
+                                  "latex": "v_2=\\left\\{0\\le t_s\\le5:\\frac{\\left(11131\\right)+\\left(c_{18}\\right)}{2}-\\frac{\\left(11131\\right)-\\left(c_{18}\\right)}{2}\\cos\\left(\\frac{2\\pi}{2\\cdot5}t_s\\right),5<t_s\\le10:11131\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15519",
+                                  "folderId": "15436",
+                                  "color": "#2d70b3",
+                                  "latex": "t_s=8.27",
+                                  "slider": {
+                                    "hardMin": true,
+                                    "hardMax": true,
+                                    "animationPeriod": 8000,
+                                    "loopMode": "LOOP_FORWARD",
+                                    "isPlaying": true,
+                                    "min": "0"
+                                  }
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "1506",
+                                  "title": "지수함수 모델",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1507",
+                                  "folderId": "1506",
+                                  "color": "#2d70b3",
+                                  "latex": "f\\left(x\\right)=a\\cdot b^{\\left(x-x_0\\right)}"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "1536",
+                                  "title": "지수함수 계산"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "2120",
+                                  "folderId": "1536",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(13,c_{13}\\left\\{c_{13}>0\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "label": "2005"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1537",
+                                  "folderId": "1536",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(18,c_{18}\\left\\{c_{18}>0\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "label": "2010"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "7655",
+                                  "title": "오류"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "7656",
+                                  "folderId": "7655",
+                                  "color": "#388c46",
+                                  "latex": "e_1=\\operatorname{round}\\left(\\left|c_{13}-7353\\right|\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "7657",
+                                  "folderId": "7655",
+                                  "color": "#6042a6",
+                                  "latex": "e_2=\\operatorname{round}\\left(\\left|c_{18}-11131\\right|\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8277",
+                                  "folderId": "7655",
+                                  "color": "#2d70b3",
+                                  "latex": "e_{1a}=\\operatorname{floor}\\left(\\frac{e_1}{1000}\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8278",
+                                  "folderId": "7655",
+                                  "color": "#388c46",
+                                  "latex": "e_{1b}=e_1-1000e_{1a}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8279",
+                                  "folderId": "7655",
+                                  "color": "#6042a6",
+                                  "latex": "e_{2a}=\\operatorname{floor}\\left(\\frac{e_2}{1000}\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8280",
+                                  "folderId": "7655",
+                                  "color": "#fa7e19",
+                                  "latex": "e_{2b}=e_2-1000e_{2a}",
+                                  "hidden": true
+                                },
+                                {
+                                  "id": "6",
+                                  "type": "table",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "0",
+                                        "7",
+                                        "8",
+                                        "13",
+                                        "18"
+                                      ],
+                                      "hidden": true,
+                                      "id": "7",
+                                      "color": "#388c46",
+                                      "latex": "x_{3}"
+                                    },
+                                    {
+                                      "values": [
+                                        "146",
+                                        "1996",
+                                        "2729",
+                                        "7353",
+                                        "11131"
+                                      ],
+                                      "hidden": true,
+                                      "id": "8",
+                                      "color": "#c74440",
+                                      "latex": "y_{3}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15548",
+                                  "color": "#c74440",
+                                  "latex": "\\left(x_3,y_3\\left\\{x_3<13\\right\\}\\right)"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "15523",
+                                  "title": "애니메이션 (실제값)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15524",
+                                  "folderId": "15523",
+                                  "color": "#388c46",
+                                  "latex": "v\\left(x\\right)=\\frac{12220.0011686}{1+e^{-0.346469134643\\left(x-11.7083079749\\right)}}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15537",
+                                  "folderId": "15523",
+                                  "color": "#388c46",
+                                  "latex": "L=\\left[146,v\\left(1\\right),v\\left(2\\right),v\\left(3\\right),v\\left(4\\right),v\\left(5\\right),v\\left(6\\right),1996,2729,v\\left(9\\right),v\\left(10\\right),v\\left(11\\right),v\\left(12\\right),7353,v\\left(14\\right),v\\left(15\\right),v\\left(16\\right),v\\left(17\\right),11131\\right]"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15525",
+                                  "folderId": "15523",
+                                  "color": "#fa7e19",
+                                  "latex": "Y=\\left[0...18\\right]"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15526",
+                                  "folderId": "15523",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(Y,L\\left\\{t_p>\\frac{15}{18}Y\\right\\}\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15528",
+                                  "folderId": "15523",
+                                  "color": "#c74440",
+                                  "latex": "t_p=0",
+                                  "hidden": true,
+                                  "slider": {
+                                    "hardMin": true,
+                                    "hardMax": true,
+                                    "min": "0",
+                                    "max": "20"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15542",
+                                  "folderId": "15523",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(23.5,11131\\left\\{t_p\\ge15\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "label": "11131개 매장",
+                                  "hidden": true
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/399cf2969874a25216ad61bc73f9e32f",
+                          "id": "ec1f3b4f-0115-4765-9661-aff5e41ce1b0",
+                          "exhibitMode": true,
+                          "alias": "graph9",
+                          "script": "number(\"a\"):graph5.number(\"a\")\nnumber(\"b\"):graph5.number(\"b\")\nnumber(\"x_0\"):graph5.number(\"x_0\")\nnumber(\"c_{13}\"):input6.numericValue\nnumber(\"c_{18}\"):input7.numericValue\n\nc18 = graph7.number(\"c_{18}\")\n\nxmin:-4\nxmax:32\nymin:\n\twhen (c18 > 24000) graph8.number(\"y_a\")\n    otherwise -3000\nymax:\n\twhen (c18 > 24000) graph8.number(\"y_b\")\n    otherwise 24000\n\nnumber(\"t_p\"): video9.time\n\nreadOnly: true",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "지수함수만으로는 모든 경우의 성장세를 예측할 수 없습니다. 스타벅스 매장 수는 기하급수적으로 증가하지 않으며, 성장 속도도 지속적으로 감소하게 되는 몇 가지 요인이 있기 때문입니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생이 스타벅스 매장이 기하급수적으로 증가하지 않는 이유를 생각해 보도록 해 주세요. 제한된 자원 및 커피에 대한 제한된 수요 등이 이유가 될 수 있습니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이에 따라 더 정확한 예측을 위해 다른 함수(로그함수)를 사용할 필요성이 있습니다. 학생은 10~12번 화면에서 로그함수에 대해 배울 수 있습니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "29cc0c7d-d719-40ca-9692-934825080111",
+          "title": "새로운 분석용 함수 만들기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "4bde8482-1579-4908-aaef-86340f91ba3f",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "1426cf1d341df6c8e9f585926630e852",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4,
+                                "ymin": -3000,
+                                "xmax": 32,
+                                "ymax": 24000
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 6000,
+                              "xAxisLabel": "스타벅스 영업년수 (원점: 1992년)",
+                              "yAxisLabel": "스타벅스 매장 수",
+                              "squareAxes": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "1295",
+                                  "title": "로그함수 곡선"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1296",
+                                  "folderId": "1295",
+                                  "color": "#000000",
+                                  "latex": "f\\left(x\\right)=\\frac{L}{1+e^{-k\\left(x-x_0\\right)}}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8297",
+                                  "folderId": "1295",
+                                  "color": "#2d70b3",
+                                  "latex": "L=3000",
+                                  "slider": {
+                                    "hardMin": true,
+                                    "hardMax": true,
+                                    "min": "1",
+                                    "max": "23500"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8298",
+                                  "folderId": "1295",
+                                  "color": "#388c46",
+                                  "latex": "k=-\\frac{\\ln\\left(\\frac{1}{z}-1\\right)}{d_x}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "9547",
+                                  "folderId": "1295",
+                                  "color": "#2d70b3",
+                                  "latex": "k_r=\\frac{\\operatorname{round}\\left(100k\\right)}{100}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8299",
+                                  "folderId": "1295",
+                                  "color": "#6042a6",
+                                  "latex": "x_0=2",
+                                  "slider": {
+                                    "hardMin": true,
+                                    "hardMax": true,
+                                    "min": "0",
+                                    "max": "32"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8300",
+                                  "folderId": "1295",
+                                  "color": "#000000",
+                                  "latex": "\\left(x_0,L\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8303",
+                                  "folderId": "1295",
+                                  "color": "#000000",
+                                  "latex": "y=L",
+                                  "lineStyle": "DASHED"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8305",
+                                  "folderId": "1295",
+                                  "color": "#000000",
+                                  "latex": "\\left(x_0+d_x,L\\cdot z\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8306",
+                                  "folderId": "1295",
+                                  "color": "#fa7e19",
+                                  "latex": "d_x=2",
+                                  "slider": {
+                                    "hardMin": true,
+                                    "hardMax": true,
+                                    "min": "-32",
+                                    "max": "32"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8307",
+                                  "folderId": "1295",
+                                  "color": "#000000",
+                                  "latex": "z=0.6",
+                                  "slider": {
+                                    "hardMin": true,
+                                    "hardMax": true,
+                                    "min": "0",
+                                    "max": "0.9999"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "2202",
+                                  "folderId": "1295",
+                                  "color": "#000000",
+                                  "latex": "\\left(23,c_{23}\\left\\{I_3=1\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "label": "logistic calculation"
+                                },
+                                {
+                                  "id": "517",
+                                  "type": "table",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "0",
+                                        "7",
+                                        "8",
+                                        "13",
+                                        "18"
+                                      ],
+                                      "hidden": true,
+                                      "id": "518",
+                                      "color": "#2d70b3",
+                                      "latex": "x_{L}"
+                                    },
+                                    {
+                                      "values": [
+                                        "146",
+                                        "1996",
+                                        "2729",
+                                        "7353",
+                                        "11131"
+                                      ],
+                                      "id": "519",
+                                      "color": "#c74440",
+                                      "latex": "y_{L}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "16639",
+                                  "title": "로그 회귀"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16640",
+                                  "folderId": "16639",
+                                  "color": "#fa7e19",
+                                  "latex": "y_L\\sim\\frac{L_R}{1+e^{-k_R\\left(x_L-x_E\\right)}}",
+                                  "hidden": true,
+                                  "residualVariable": "e_{L}",
+                                  "regressionParameters": {
+                                    "L_{R}": 12640.347387900127,
+                                    "k_{R}": 0.3313752040748989,
+                                    "x_{E}": 11.9849482474588
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16641",
+                                  "folderId": "16639",
+                                  "color": "#6042a6",
+                                  "latex": "g\\left(x\\right)=\\frac{L_R}{1+e^{-k_R\\left(x-x_E\\right)}}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "16628",
+                                  "title": "정확성 확인"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16629",
+                                  "folderId": "16628",
+                                  "color": "#388c46",
+                                  "latex": "I_1=\\left\\{\\left|c_{23}-f\\left(23\\right)\\right|\\le0.01\\cdot f\\left(23\\right):1,0\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16633",
+                                  "folderId": "16628",
+                                  "color": "#fa7e19",
+                                  "latex": "T_1=\\operatorname{total}\\left(\\left(y_L-f\\left(x_L\\right)\\right)^2\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16637",
+                                  "folderId": "16628",
+                                  "color": "#2d70b3",
+                                  "latex": "T_2=\\operatorname{total}\\left(\\left(y_L-g\\left(x_L\\right)\\right)^2\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16631",
+                                  "folderId": "16628",
+                                  "color": "#2d70b3",
+                                  "latex": "I_2=\\left\\{T_1\\le200T_2:1,0\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16632",
+                                  "folderId": "16628",
+                                  "color": "#388c46",
+                                  "latex": "I_c=I_1\\cdot I_2",
+                                  "hidden": true
+                                }
+                              ]
+                            }
+                          },
+                          "exhibitMode": true,
+                          "showBackground": true,
+                          "img": "https://uploads.desmos.com/activitybuilder/f9f35509d9fda1a97c49ea0ccd238af9",
+                          "alias": "graph10",
+                          "script": "number(\"c_{23}\"):input10.numericValue\n\nnumber(\"I_3\"):\n\twhen input10.submitted 1\n    otherwise 0\n\nreadOnly: true",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Drag the black points so the logistic curve fits the data as well as possible.",
+                          "id": "fc176058-61bb-4aa8-85bd-80c0c9cdd95e",
+                          "alias": "note10",
+                          "script": "L = graph10.number(\"L\")\nk = graph10.number(\"k_r\")\nx00 = graph10.number(\"x_{0}\")\n\nline1 = \"검은색 점을 드래그해 빨간색 점과 최대한 일치하도록 로그함수를 그려 보세요.\"\nline2 = \"로그함수의 방정식은 다음과 같습니다:\"\nline3a = \"`y = \\\\frac{${L}}{1 + e^{-${k}(x - ${x00})}}`\"\nline3b = \"`y = \\\\frac{${L}}{1 + e^{-${k}x}}`\"\nline4 = \"2015년의 스타벅스 매장 수는 몇 개인가요?\"\nline5 = \"아래에 예측 결과를 입력해 주세요.\n\n참고: 2015년의 매장 수를 구하려면 x에 23을 대입해야 합니다. (2015-1992)\"\n\ncontent:\n\twhen (x00 > 0) \"${line1}\\n\\n${line2}\\n\\n${line3a}\\n\\n${line4}\\n\\n${line5}\"\n\totherwise \"${line1}\\n\\n${line2}\\n\\n${line3b}\\n\\n${line4}\\n\\n${line5}\"",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"검은색 점을 드래그해 빨간색 점과 최대한 일치하도록 로그함수를 그려 보세요.\"}]},{\"type\":\"paragraph\"}]}"
+                        }
+                      },
+                      {
+                        "input/expression": {
+                          "showPeerResponses": true,
+                          "id": "695e7116-e9f7-492c-b749-4bfabc901045",
+                          "alias": "input10",
+                          "script": "correct: graph10.number(\"I_c\") = 1"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 점검하기 좋은 화면입니다. 도움이 필요한 학생을 개인적으로 도와주세요. 학생이 먼저 예측 결과를 그래프로 그릴 수 있도록 도와주는 것이 좋습니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "참고: 수식 입력란에 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\frac{3000}{1+e^{-0.2\\left(23-2\\right)}}"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "와 같은 함수를 입력할 수 있습니다. Desmos가 자동으로 결과값을 계산해 줍니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "91fa6b2f-c067-4c58-b73c-072ba1c15436",
+          "title": "결과 확인하기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "bc555bb0-4999-4d11-805d-0c621a512960",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4,
+                                "ymin": -3000,
+                                "xmax": 32,
+                                "ymax": 24000
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 6000,
+                              "xAxisLabel": "스타벅스 영업년수 (원점: 1992년)",
+                              "yAxisLabel": "스타벅스 매장 수",
+                              "squareAxes": false
+                            },
+                            "randomSeed": "bdb22ff0240f8215e927ede0575bd313",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "2918",
+                                  "color": "#2d70b3",
+                                  "latex": "f\\left(x\\right)=a\\cdot b^{\\left(x-x_0\\right)}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "2917",
+                                  "color": "#000000",
+                                  "latex": "g\\left(x\\right)=\\frac{L}{1+e^{-k\\left(x-x_{00}\\right)}}"
+                                },
+                                {
+                                  "id": "517",
+                                  "type": "table",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "0",
+                                        "7",
+                                        "8",
+                                        "13",
+                                        "18"
+                                      ],
+                                      "hidden": true,
+                                      "id": "518",
+                                      "color": "#2d70b3",
+                                      "latex": "x"
+                                    },
+                                    {
+                                      "values": [
+                                        "146",
+                                        "1996",
+                                        "2729",
+                                        "7353",
+                                        "11131"
+                                      ],
+                                      "id": "519",
+                                      "color": "#c74440",
+                                      "latex": "y"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "4337",
+                                  "color": "#000000",
+                                  "latex": "\\left(23,c_{23}\\left\\{I_3=1\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "label": "logistic calculation"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8814",
+                                  "color": "#2d70b3",
+                                  "latex": "e_0=\\operatorname{round}\\left(\\left|11962-k_0\\right|\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8671",
+                                  "color": "#388c46",
+                                  "latex": "e_{0a}=\\operatorname{floor}\\left(\\frac{e_0}{1000}\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8672",
+                                  "color": "#6042a6",
+                                  "latex": "e_{0b}=e_0-1000e_{0a}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "7774",
+                                  "color": "#2d70b3",
+                                  "latex": "e_1=\\operatorname{round}\\left(\\left|11962-f\\left(23\\right)\\right|\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "7780",
+                                  "color": "#2d70b3",
+                                  "latex": "e_2=\\operatorname{round}\\left(\\left|11962-g\\left(23\\right)\\right|\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8425",
+                                  "color": "#2d70b3",
+                                  "latex": "e_{1a}=\\operatorname{floor}\\left(\\frac{e_1}{1000}\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8435",
+                                  "color": "#2d70b3",
+                                  "latex": "e_{1b}=e_1-1000e_{1a}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8436",
+                                  "color": "#388c46",
+                                  "latex": "e_{2a}=\\operatorname{floor}\\left(\\frac{e_2}{1000}\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8437",
+                                  "color": "#6042a6",
+                                  "latex": "e_{2b}=e_2-1000e_{2a}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16496",
+                                  "color": "#000000",
+                                  "latex": "h\\left(x\\right)=\\left\\{0\\le x\\le5:\\frac{\\left(11962\\right)+\\left(0\\right)}{2}-\\frac{\\left(11962\\right)-\\left(0\\right)}{2}\\cos\\left(\\frac{2\\pi}{2\\cdot5}x\\right),5<x:11962\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16497",
+                                  "color": "#c74440",
+                                  "latex": "\\left(23,a_1\\left\\{a_1>0\\right\\}\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16499",
+                                  "color": "#388c46",
+                                  "latex": "a_1=\\operatorname{round}\\left(h\\left(t_s\\right)\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16501",
+                                  "color": "#c74440",
+                                  "latex": "\\left(23,a_1+1250\\left\\{a_1>0\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "label": "${a_1}개 매장",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16505",
+                                  "color": "#388c46",
+                                  "latex": "t_s=2.9",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16504",
+                                  "color": "#2d70b3"
+                                }
+                              ]
+                            }
+                          },
+                          "exhibitMode": true,
+                          "showBackground": true,
+                          "img": "https://uploads.desmos.com/activitybuilder/9236678e927c91b92245c12eaafe4dfe",
+                          "alias": "graph11",
+                          "script": "number(\"k_0\"):input2.numericValue\n\nnumber(\"a\"):graph5.number(\"a\")\nnumber(\"b\"):graph5.number(\"b\")\nnumber(\"x_0\"):graph5.number(\"x_0\")\n\nnumber(\"L\"):graph10.number(\"L\")\nnumber(\"k\"):graph10.number(\"k\")\nnumber(\"x_{00}\"):graph10.number(\"x_0\")\n\nnumber(\"c_{23}\"):input10.numericValue\n\nnumber(\"I_3\"):\n\twhen input10.submitted 1\n    otherwise 0\n\nnumber(\"t_s\"):button11.timeSincePress\n\nreadOnly: true",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "How far off were your predictions? Click \"Show Answer\" to find out.",
+                          "id": "c418e894-0783-40b9-a92c-4650d00ed619",
+                          "script": "time = button11.timeSincePress\n\nerror0 = when (graph11.number(\"e_0\") >= 0) graph11.number(\"e_0\") otherwise 11962\nerror1 = graph11.number(\"e_1\")\nerror2 = graph11.number(\"e_2\")\n\nerror0a = graph11.number(\"e_{0a}\")\nerror0b = graph11.number(\"e_{0b}\")\nerror1a = graph11.number(\"e_{1a}\")\nerror1b = graph11.number(\"e_{1b}\")\nerror2a = graph11.number(\"e_{2a}\")\nerror2b = graph11.number(\"e_{2b}\")\n\na1 = graph11.number(\"a_1\")\n\nactual = \n\twhen (a1 > 0) \"${a1}\"\n    otherwise \"0\"\n\nmessage0 = \"먼저 2, 5, 10번 화면을 완료해 주세요.\"\n\nmessage1 = \"예측 결과가 얼마나 정확할까요?\\n\n<정답 확인> 버튼을 클릭해 정답을 확인하세요.\"\n\nmessage2 = \"2015년의 스타벅스 매장 수 예측: ${actual}개\"\n\nmessage3 = \"2015년의 실제 스타벅스 매장 수: ${actual}개\n\n첫 번째 예측과의 차이는 ${error0}개입니다.\n지수함수를 이용한 예측과의 차이는 ${error1}개입니다.\n로그함수를 이용한 예측과의 차이는 ${error2}개입니다.\n\n이제 다음 화면으로 이동해 주세요.\"\n\ncontent:\n\twhen (time = 0) \"${message1}\"\n\twhen (time > 0) and (time < 6) \"${message2}\"\n\twhen (time >= 6) \"${message3}\"\n    otherwise \"${message0}\"",
+                          "alias": "note11",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"예측 결과가 얼마나 정확할까요?\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"<정답 확인> 버튼을 클릭해 정답을 확인하세요.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\"}]}"
+                        }
+                      },
+                      {
+                        "action-button": {
+                          "resetTime": 0,
+                          "label": "정답 확인",
+                          "submitCount": 0,
+                          "id": "4ace44e0-25a0-4b28-a3ad-f151e643db1d",
+                          "alias": "button11",
+                          "script": "disabled: button11.pressCount > 0"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생에게 수학을 이용하면 예측이 더 쉬워진다는 사실을 알려 주세요. 수학은 어려운 과목이 아니라 복잡한 문제를 쉽게 해결하도록 도와주는 힘입니다!"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "2fec1738-bde9-40d2-8064-7b41234e9237",
+          "title": "생각해 보기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "4c23daf4-ec41-41c6-918f-44ffb2cc5906",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4,
+                                "ymin": -3000,
+                                "xmax": 32,
+                                "ymax": 24000
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 6000,
+                              "xAxisLabel": "스타벅스 영업년수 (원점: 1992년)",
+                              "yAxisLabel": "스타벅스 매장 수",
+                              "squareAxes": false
+                            },
+                            "randomSeed": "aea9357d7d120d8cccfa0d30e9ebcc8b",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "2918",
+                                  "color": "#2d70b3",
+                                  "latex": "y=a\\cdot b^{\\left(x-x_0\\right)}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "2917",
+                                  "color": "#000000",
+                                  "latex": "y=\\frac{L}{1+e^{-k\\left(x-x_{00}\\right)}}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "id": "517",
+                                  "type": "table",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "0",
+                                        "7",
+                                        "8",
+                                        "13",
+                                        "18",
+                                        "23"
+                                      ],
+                                      "hidden": true,
+                                      "id": "518",
+                                      "color": "#2d70b3",
+                                      "latex": "x"
+                                    },
+                                    {
+                                      "values": [
+                                        "146",
+                                        "1996",
+                                        "2729",
+                                        "7353",
+                                        "11131",
+                                        "11962"
+                                      ],
+                                      "id": "519",
+                                      "color": "#c74440",
+                                      "latex": "y"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "7736",
+                                  "color": "#000000",
+                                  "latex": "\\left(23,c_{23}\\right)",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "showLabel": true,
+                                  "label": "logistic calculation",
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "exhibitMode": true,
+                          "showBackground": true,
+                          "img": "https://uploads.desmos.com/activitybuilder/57c3ae0db776f8101177771844496222",
+                          "alias": "graph12",
+                          "script": "number(\"a\"):graph5.number(\"a\")\nnumber(\"b\"):graph5.number(\"b\")\nnumber(\"x_0\"):graph5.number(\"x_0\")\n\nnumber(\"L\"):graph10.number(\"L\")\nnumber(\"k\"):graph10.number(\"k\")\nnumber(\"x_{00}\"):graph10.number(\"x_0\")\n\nnumber(\"c_{23}\"):input10.numericValue\n\nreadOnly: true",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "(1) It appears that logistic is a much better fit in this situation. Why do you think that is the case?\n\n(2) In general, what kind of situations do you think will be better modeled by logistic functions (as compared to exponential)?",
+                          "id": "a62f727a-c04f-4ef5-a3da-120a39bbb826",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"(1) 스타벅스 매장 수 분석에는 지수함수보다 로그함수가 훨씬 더 정확했습니다. 그 이유는 무엇일까요?\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"(2) 지수함수보다 로그함수를 이용해 예측하는 것이 더 정확한 경우는 어떤 경우일까요?\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "0419f5a0-7f92-41af-b683-3d3b7a6be22a",
+                          "alias": "input12",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생과 공유해 보세요. 먼저 자유롭게 추론하는 시간을 갖고, 학생이 공식적인 수학 용어를 사용해 추론할 수 있도록 해 주세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "(1) 스타벅스 매장 수가 계속 기하급수적으로 증가할 수는 없습니다. 커피의 수요가 무한하지 않기 때문입니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "(2) 초반에는 로그함수가 기하급수적으로 증가하는 것처럼 보이지만, 자원이 유한하기 때문에 성장세가 감소하게 됩니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "activity": "activitybuilder",
+      "ancestors": [
+        {
+          "_id": "564d37a2895eb8280b0bfe0d",
+          "user": {
+            "id": "55fb1831efe3b67f175ca4a2",
+            "displayName": "Desmos _"
+          }
+        }
+      ],
+      "blurb": {
+        "schemaKey": "document",
+        "version": 3,
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "학생은 이 액티비티에서 함수를 이용해 1992년부터 매년 스타벅스 매장 수가 어떻게 변하는지 확인하고, 함수를 이용해 2015년과 그 이후의 스타벅스 매장 수에 대해 예측해 볼 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "이 액티비티를 통해 학생은 지수함수만으로는 모든 경우의 성장세를 예측할 수 없으며, 자원이 유한한 경우의 성장세를 예측하는 데는 로그함수가 더 적합할 수 있다는 사실을 배울 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "데이터 출처: "
+                },
+                {
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://www.statisticbrain.com/starbucks-company-statistics",
+                        "title": null,
+                        "target": "_blank"
+                      }
+                    }
+                  ],
+                  "text": "http://www.statisticbrain.com/starbucks-company-statistics"
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "이미지 출처:"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "1번 화면 - starbucks.com, maps.google.com"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "8번 화면 - geeky-gadgets.com"
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "한국어 번역: Desmos 현지화 팀"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "category": "application",
+      "collaborators": [
+        "5d5c81618a3b6156af14a89f",
+        "5d85bd4cfe8bdc626d4698c8"
+      ],
+      "teamDesmosAuthored": true,
+      "complete": true,
+      "edit_ts": "2022-08-19T12:26:54.692Z",
+      "keywords": [],
+      "licenses": [],
+      "retailAssetIds": [],
+      "permissionToShare": true,
+      "publishedTimestamp": "2022-08-19T12:26:54.692Z",
+      "thumb": "https://uploads.desmos.com/activitybuilder/b5e9313c8d323b84c57f0c40e5791e38",
+      "timeEstimate": 30,
+      "title": "스타벅스 매장 수 분석하기",
+      "linkedActivities": [
+        {
+          "title": "원본 버전 (영어)",
+          "activityId": "564d37a2895eb8280b0bfe0d",
+          "collectionIds": [],
+          "logical": {
+            "logicalActivityMetaId": "564d37a2895eb8280b0bfe0d",
+            "logicalCollectionIds": []
+          }
+        }
+      ],
+      "user": {
+        "id": "5de6bbe49f524909d87db21a",
+        "displayName": "Kayla Muñoz"
+      },
+      "author": {
+        "id": "5d85bd4cfe8bdc626d4698c8",
+        "displayName": "영하 김"
+      },
+      "accessibilityNotes": "이 액티비티는 스크린 리더에 최적화되지 않았습니다. 시각 장애 학생은 다른 학생과 함께 액티비티를 진행하는 것을 권장합니다.",
+      "commitId": "62ff805f2a1f24060766ec40",
+      "logicalId": "5f6d370f98e9fc2a8285a84c",
+      "draftTitle": "스타벅스 매장 수 분석하기",
+      "draftAuthor": {
+        "id": "5d85bd4cfe8bdc626d4698c8",
+        "displayName": "영하 김"
+      }
+    },
+    "noindex": false
+  },
+  "notes": [
+    "Public HTML exposes metadata and thumbnail.",
+    "The public POST /activity/:id route may expose the customLesson JSON for public activities.",
+    "Teacher sessions, dashboards, student responses, and editor-only diagnostics still require authorization.",
+    "Use this output as source evidence and template inspiration, not as an activity clone."
+  ]
+}

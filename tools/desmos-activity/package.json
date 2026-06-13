@@ -22,7 +22,8 @@
     "deploy:probe": "node src/deploy-cdp.mjs --probe",
     "deploy:open": "node src/deploy-cdp.mjs --open",
     "deploy:login": "node src/deploy-cdp.mjs --login",
-    "deploy:watch": "node src/deploy-cdp.mjs --watch"
+    "deploy:watch": "node src/deploy-cdp.mjs --watch",
+    "build:spec": "node src/build-activity.mjs --spec"
   },
   "engines": {
     "node": ">=20"

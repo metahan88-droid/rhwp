@@ -1,0 +1,3548 @@
+{
+  "inspectedAt": "2026-06-13T12:30:02.427Z",
+  "url": "https://classroom.amplify.com/activity/5f58035f5770e128820408e6?lang=ko",
+  "activityId": "5f58035f5770e128820408e6",
+  "staticMeta": {
+    "canonical": "https://classroom.amplify.com/activity/5f58035f5770e128820408e6",
+    "title": "다항 방정식 챌린지",
+    "description": "학생은 이 액티비티에서 주어진 `x` 절편(근)과 점들을 통과하는 2차, 3차, 4차 다항 방정식을 작성하는 연습을 하게 됩니다. 학생은 챌린지를 통해 인수분해 형식의 방정식에 대해 배우고, 방정식의 변수와 상수가 `x` 절편의 위치와 근의 개수에 어떤 영향을 미치는지 확인할 수 있습니다.\n\n한국어 번역: Desmos 현지화 팀",
+    "twitterTitle": "다항 방정식 챌린지",
+    "twitterDescription": "학생은 이 액티비티에서 주어진 `x` 절편(근)과 점들을 통과하는 2차, 3차, 4차 다항 방정식을 작성하는 연습을 하게 됩니다. 학생은 챌린지를 통해 인수분해 형식의 방정식에 대해 배우고, 방정식의 변수와 상수가 `x` 절편의 위치와 근의 개수에 어떤 영향을 미치는지 확인할 수 있습니다.\n\n한국어 번역: Desmos 현지화 팀",
+    "image": "https://uploads.desmos.com/activitybuilder/9900caf975de1d3b5f38ac1927ad438b"
+  },
+  "activityMeta": {
+    "activities": [
+      {
+        "__brand": "NormalizedActivity",
+        "_id": "5f58035f5770e128820408e6",
+        "ancestorAuthorGroups": [],
+        "ancestors": [
+          {
+            "_id": "55f609423c38e7fd364cf3fb",
+            "user": {
+              "id": "5514aca55bb90671051a729c",
+              "displayName": "Jon Orr"
+            }
+          }
+        ],
+        "category": "practice",
+        "collaborators": [
+          "5d5c81618a3b6156af14a89f",
+          "5d85bd4cfe8bdc626d4698c8"
+        ],
+        "customMetadata": {},
+        "teamDesmosAuthored": true,
+        "deleteURL": "/custom-lesson/delete/5f58035f5770e128820408e6",
+        "description": {
+          "schemaKey": "document",
+          "version": 3,
+          "content": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "학생은 이 액티비티에서 주어진 "
+                  },
+                  {
+                    "type": "mq",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "x"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " 절편(근)과 점들을 통과하는 2차, 3차, 4차 다항 방정식을 작성하는 연습을 하게 됩니다. 학생은 챌린지를 통해 인수분해 형식의 방정식에 대해 배우고, 방정식의 변수와 상수가 "
+                  },
+                  {
+                    "type": "mq",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "x"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "text",
+                    "text": " 절편의 위치와 근의 개수에 어떤 영향을 미치는지 확인할 수 있습니다."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph"
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "한국어 번역: Desmos 현지화 팀"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "edit_ts": "2022-08-19T12:46:35.748Z",
+        "infoURL": "activity/5f58035f5770e128820408e6",
+        "keywords": [],
+        "licenses": [],
+        "activityLicenses": [],
+        "retailAssetIds": [],
+        "activityRetailAssetIds": [],
+        "private": false,
+        "searchable": false,
+        "thumbURL": "https://uploads.desmos.com/activitybuilder/9900caf975de1d3b5f38ac1927ad438b",
+        "timeEstimate": 30,
+        "isPaperActivity": false,
+        "hasSteps": true,
+        "hasAuthoredFeedback": false,
+        "isPresentation": false,
+        "accessibilityNotes": "이 액티비티는 스크린 리더에 최적화되지 않았습니다. 시각 장애 학생은 다른 학생과 함께 액티비티를 진행하는 것을 권장합니다.",
+        "authorTags": [
+          "desmos"
+        ],
+        "title": "다항 방정식 챌린지",
+        "linkedActivities": [
+          {
+            "title": "원본 버전 (영어)",
+            "activityId": "561582ecbd554ea00760f933",
+            "collectionIds": [],
+            "logical": {
+              "logicalActivityMetaId": "561582ecbd554ea00760f933",
+              "logicalCollectionIds": []
+            }
+          }
+        ],
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      }
+    ],
+    "deletedActivities": [],
+    "activityTranslations": {}
+  },
+  "activitySummary": {
+    "id": "5f58035f5770e128820408e6",
+    "title": "다항 방정식 챌린지",
+    "version": 1,
+    "commitId": "62ff8422cee337d662e3f36f",
+    "publishedTimestamp": "2022-08-19T12:46:35.748Z",
+    "editTimestamp": "2022-08-19T12:46:35.748Z",
+    "permissionToShare": true,
+    "noindex": false,
+    "user": {
+      "id": "5de6bbe49f524909d87db21a",
+      "displayName": "Kayla Muñoz"
+    },
+    "author": {
+      "id": "5d85bd4cfe8bdc626d4698c8",
+      "displayName": "영하 김"
+    },
+    "ancestors": [
+      {
+        "_id": "55f609423c38e7fd364cf3fb",
+        "user": {
+          "id": "5514aca55bb90671051a729c",
+          "displayName": "Jon Orr"
+        }
+      }
+    ],
+    "thumb": "https://uploads.desmos.com/activitybuilder/9900caf975de1d3b5f38ac1927ad438b",
+    "screenCount": 11,
+    "componentCounts": {
+      "input/graph": 10,
+      "exhibit/text": 11,
+      "input/text": 2,
+      "input/expression": 4,
+      "multiple-choice": 3,
+      "8b46bfac-377e-4b6f-b20e-fff15d00fdc2": 1,
+      "60c252b8-dd84-42d1-bc76-a8f3fde003e6": 1,
+      "c9d5f2ee-7d90-4c15-bc56-cd7a7f6e1c24": 1,
+      "d996092d-90e5-4deb-acb3-6d8648d2536d": 1,
+      "9082524b-f083-491a-b1bc-03d6f43090ec": 1,
+      "d1292043-7b0f-4fc7-841a-f36620acdb5d": 1,
+      "363271ab-cb50-4534-9855-5466365c8916": 1,
+      "1bc23328-13fb-4c56-ac00-250a781ac0a2": 1,
+      "26483bf5-d93a-4b4b-976e-1d6e7ad1de85": 1
+    },
+    "screens": [
+      {
+        "index": 1,
+        "id": "86a90a43-e262-429a-a6f6-22dc86b8d417",
+        "type": "two-column",
+        "title": "포물선의 x 절편 맞추기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1
+        }
+      },
+      {
+        "index": 2,
+        "id": "3a7ac4f5-6f40-45eb-956f-eb33b1d6a2c3",
+        "type": "two-column",
+        "title": "방정식과 x 절편의 관계 찾기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 3,
+        "id": "e441faca-efba-4cdc-8264-96f4fb44ee9e",
+        "type": "two-column",
+        "title": "x 절편에 맞는 새 포물선 그리기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/expression": 1
+        }
+      },
+      {
+        "index": 4,
+        "id": "bdf43375-4545-43ea-86a4-530d79d79759",
+        "type": "two-column",
+        "title": "x 절편에 맞는 새 포물선 그리기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/expression": 1
+        }
+      },
+      {
+        "index": 5,
+        "id": "7e5ca019-23af-4e85-ad5f-2f3a91747fc5",
+        "type": "two-column",
+        "title": "근이 3개인 함수",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/expression": 1
+        }
+      },
+      {
+        "index": 6,
+        "id": "5ccfb8ec-bc4e-47ad-818c-53f099591a36",
+        "type": "two-column",
+        "title": "근의 개수 바꾸기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1
+        }
+      },
+      {
+        "index": 7,
+        "id": "158bc1b5-b680-4f04-add3-59fad606182c",
+        "type": "two-column",
+        "title": "근이 2개인 함수",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/expression": 1
+        }
+      },
+      {
+        "index": 8,
+        "id": "2dbdd6e4-aae4-4591-938f-bc22da7b0df0",
+        "type": "two-column",
+        "title": "근의 개수 찾기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "multiple-choice": 1,
+          "8b46bfac-377e-4b6f-b20e-fff15d00fdc2": 1,
+          "60c252b8-dd84-42d1-bc76-a8f3fde003e6": 1,
+          "c9d5f2ee-7d90-4c15-bc56-cd7a7f6e1c24": 1,
+          "d996092d-90e5-4deb-acb3-6d8648d2536d": 1,
+          "9082524b-f083-491a-b1bc-03d6f43090ec": 1
+        }
+      },
+      {
+        "index": 9,
+        "id": "b6d3bae0-148e-432d-b06d-643eb47c073b",
+        "type": "two-column",
+        "title": "요약하기",
+        "subtitle": "",
+        "componentCounts": {
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 10,
+        "id": "ff0a5d7f-1c92-4e91-ad01-0550031b2fe4",
+        "type": "two-column",
+        "title": "추가 활동: 근이 없는 포물선",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "multiple-choice": 1,
+          "d1292043-7b0f-4fc7-841a-f36620acdb5d": 1,
+          "363271ab-cb50-4534-9855-5466365c8916": 1
+        }
+      },
+      {
+        "index": 11,
+        "id": "1e2d208a-49ca-4250-a0e2-3bdb2312bdb9",
+        "type": "two-column",
+        "title": "추가 활동: 근이 없는 3차 함수",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "multiple-choice": 1,
+          "1bc23328-13fb-4c56-ac00-250a781ac0a2": 1,
+          "26483bf5-d93a-4b4b-976e-1d6e7ad1de85": 1
+        }
+      }
+    ],
+    "aliases": [
+      {
+        "screen": 1,
+        "type": "input/graph",
+        "alias": "graph",
+        "id": "a3cd7ce8-f17e-47fa-afc8-1aa48def894e"
+      },
+      {
+        "screen": 3,
+        "type": "input/graph",
+        "alias": "graph3",
+        "id": "6aae7832-b8d3-400a-889c-0887e014672d"
+      },
+      {
+        "screen": 3,
+        "type": "input/expression",
+        "alias": "equation1",
+        "id": "3de25a45-036a-4b57-a6c9-2893fc150552"
+      },
+      {
+        "screen": 4,
+        "type": "input/graph",
+        "alias": "graph4",
+        "id": "0f060a00-7c86-480f-b573-0e6639c00477"
+      },
+      {
+        "screen": 4,
+        "type": "input/expression",
+        "alias": "equation2",
+        "id": "110e4efb-34ae-4ec4-8d95-6b24c2093b98"
+      },
+      {
+        "screen": 5,
+        "type": "input/graph",
+        "alias": "threeroots",
+        "id": "7ddda75b-be6e-414b-8e63-f6518222a5b1"
+      },
+      {
+        "screen": 5,
+        "type": "input/expression",
+        "alias": "equation3",
+        "id": "de529e2c-a074-4b51-a5f4-6658cf528610"
+      },
+      {
+        "screen": 6,
+        "type": "input/graph",
+        "alias": "tworoots",
+        "id": "fe2356cc-3572-47e7-a183-b4b3be9cf1b3"
+      },
+      {
+        "screen": 7,
+        "type": "input/graph",
+        "alias": "graph7",
+        "id": "5f96305d-7025-4ff2-9eb8-237e3cc620b4"
+      },
+      {
+        "screen": 7,
+        "type": "input/expression",
+        "alias": "tworootsinput",
+        "id": "14c90075-d755-40c3-aaab-6082d92c8fee"
+      },
+      {
+        "screen": 8,
+        "type": "multiple-choice",
+        "alias": "rhonda",
+        "id": "c1c0bd37-0853-432a-a5f3-dbf43243ff49"
+      },
+      {
+        "screen": 11,
+        "type": "input/graph",
+        "alias": "noroots",
+        "id": "ed47efea-1e50-482a-88c9-371f2fae660f"
+      }
+    ],
+    "scripts": [
+      {
+        "screen": 1,
+        "screenTitle": "포물선의 x 절편 맞추기",
+        "type": "input/graph",
+        "alias": "graph",
+        "id": "a3cd7ce8-f17e-47fa-afc8-1aa48def894e",
+        "script": "correct: graph.number(\"I\") = 1"
+      },
+      {
+        "screen": 2,
+        "screenTitle": "방정식과 x 절편의 관계 찾기",
+        "type": "input/graph",
+        "alias": null,
+        "id": "45b3e75d-ec4e-4cbe-8f97-c98489dfef16",
+        "script": "number(\"h\") : graph.number(\"h\")\nnumber(\"k\") : graph.number(\"k\")\nnumber(\"x_1\") : graph.number(\"x_1\")\nnumber(\"x_2\") : graph.number(\"x_2\")\n\nreadOnly: true"
+      },
+      {
+        "screen": 2,
+        "screenTitle": "방정식과 x 절편의 관계 찾기",
+        "type": "exhibit/text",
+        "alias": null,
+        "id": "b55efaf3-b068-4974-acff-02c5f93c17dd",
+        "script": "h = graph.number(\"h\")\nk = graph.number(\"k\")\nx1 = graph.number(\"x_1\")\nx1a = graph.number(\"x_{1a}\")\nx2 = graph.number(\"x_2\")\nx2a = graph.number(\"x_{2a}\")\n\nroot1 = \n\twhen x1<0 \"+${x1a}\"\n    otherwise \"-${x1}\"\nroot2 = \n\twhen x2<0 \"+${x2a}\"\n    otherwise \"-${x2}\"\nequation = \n\twhen x1<x2 \"f(x)=(x${root1})(x${root2})\"\n    otherwise \"f(x)=(x${root2})(x${root1})\"\n\ncontent:\nwhen x1 = x1\n\"이전 화면에서 그린 포물선의 방정식은 다음과 같습니다:\n\n`${equation}`\n\n이 방정식과 포물선의 x 절편은 어떤 관계가 있을까요?\n\"\n\notherwise\n\"포물선의 X절편(근)이 존재하지 않습니다. 포물선의 X절편이 존재하지 않으면 액티비티를 원활히 진행할 수 없습니다.\n\n첫 번째 화면으로 돌아가 X절편이 존재하는 포물선을 그려 주세요.\""
+      },
+      {
+        "screen": 3,
+        "screenTitle": "x 절편에 맞는 새 포물선 그리기",
+        "type": "input/graph",
+        "alias": "graph3",
+        "id": "6aae7832-b8d3-400a-889c-0887e014672d",
+        "script": "function(\"f\") : \n\twhen equation1.submitted simpleFunction(equation1.latex)\n\totherwise simpleFunction(\"x^2+1\")\n\nfunction(\"g\"): simpleFunction(equation1.latex)\n\nreadOnly: true"
+      },
+      {
+        "screen": 3,
+        "screenTitle": "x 절편에 맞는 새 포물선 그리기",
+        "type": "input/expression",
+        "alias": "equation1",
+        "id": "3de25a45-036a-4b57-a6c9-2893fc150552",
+        "script": "initialLatex: \"f(x)=\"\n\ncorrect: graph3.number(\"I\") = 1"
+      },
+      {
+        "screen": 4,
+        "screenTitle": "x 절편에 맞는 새 포물선 그리기",
+        "type": "input/graph",
+        "alias": "graph4",
+        "id": "0f060a00-7c86-480f-b573-0e6639c00477",
+        "script": "function(\"f\") : \n\twhen equation2.submitted simpleFunction(equation2.latex)\n\totherwise simpleFunction(\"x^2+1\")\n\nfunction(\"g\"): simpleFunction(equation2.latex)\n\nreadOnly: true"
+      },
+      {
+        "screen": 4,
+        "screenTitle": "x 절편에 맞는 새 포물선 그리기",
+        "type": "input/expression",
+        "alias": "equation2",
+        "id": "110e4efb-34ae-4ec4-8d95-6b24c2093b98",
+        "script": "initialLatex: \"f(x)=\"\n\ncorrect: graph4.number(\"I\") = 1"
+      },
+      {
+        "screen": 5,
+        "screenTitle": "근이 3개인 함수",
+        "type": "input/graph",
+        "alias": "threeroots",
+        "id": "7ddda75b-be6e-414b-8e63-f6518222a5b1",
+        "script": "ysmall = threeroots.number(\"y_{small}\")\nylarge = threeroots.number(\"y_{large}\")\n\nfunction(\"f\") : \n\twhen equation3.submitted simpleFunction(equation3.latex)\n\totherwise simpleFunction(\"(x-1)^3+1\")\n\nfunction(\"g\"): simpleFunction(equation3.latex)\n\n\nreadOnly: true\nbounds: makeBounds(-10, 10, ysmall, ylarge)"
+      },
+      {
+        "screen": 5,
+        "screenTitle": "근이 3개인 함수",
+        "type": "input/expression",
+        "alias": "equation3",
+        "id": "de529e2c-a074-4b51-a5f4-6658cf528610",
+        "script": "initialLatex: \"f(x)=\"\n\ncorrect: threeroots.number(\"I\") = 1"
+      },
+      {
+        "screen": 6,
+        "screenTitle": "근의 개수 바꾸기",
+        "type": "input/graph",
+        "alias": "tworoots",
+        "id": "fe2356cc-3572-47e7-a183-b4b3be9cf1b3",
+        "script": "correct: tworoots.number(\"I_c\") = 1"
+      },
+      {
+        "screen": 7,
+        "screenTitle": "근이 2개인 함수",
+        "type": "input/graph",
+        "alias": "graph7",
+        "id": "5f96305d-7025-4ff2-9eb8-237e3cc620b4",
+        "script": "#function(\"f\") : \n#\twhen tworootsinput.submitted simpleFunction(tworootsinput.latex)\n#    otherwise simpleFunction(\"\")\n\nfunction(\"f\"): simpleFunction(tworootsinput.latex)\n\nnumber(\"S\"): when tworootsinput.submitted 1 otherwise 0\nnumber(\"j\"): tworootsinput.timeSinceSubmit\n\n#function(\"q\"): simpleFunction(tworootsinput.latex)\n\nnumber(\"h\"): when (tworoots.number(\"I_c\") = 1) tworoots.number(\"h\") otherwise graph7.number(\"h_0\")\nnumber(\"k\"): when (tworoots.number(\"I_c\") = 1) tworoots.number(\"k\") otherwise graph7.number(\"k_0\")\n\nreadOnly: true"
+      },
+      {
+        "screen": 7,
+        "screenTitle": "근이 2개인 함수",
+        "type": "exhibit/text",
+        "alias": null,
+        "id": "cca02aae-49e5-4081-bf6f-bb323e049c1c",
+        "script": "message1 = \"이전 화면에서 제출한 함수입니다.\n\n이 함수의 방정식을 입력해 보세요.\"\n\nmessage2 = \"이처럼 3차 함수의 x 절편이 2개일 수도 있습니다!\n\n이 함수의 방정식을 입력해 보세요.\"\n\ncontent: when tworoots.number(\"I_c\") = 1 \"${message1}\" otherwise \"${message2}\""
+      },
+      {
+        "screen": 7,
+        "screenTitle": "근이 2개인 함수",
+        "type": "input/expression",
+        "alias": "tworootsinput",
+        "id": "14c90075-d755-40c3-aaab-6082d92c8fee",
+        "script": "initialLatex: \"f(x)=\"\n\ncorrect: graph7.number(\"I\") = 1"
+      },
+      {
+        "screen": 8,
+        "screenTitle": "근의 개수 찾기",
+        "type": "input/graph",
+        "alias": null,
+        "id": "1f07cd36-82af-4c63-b458-7a7440226847",
+        "script": "number(\"t_1\") : rhonda.timeSinceSubmit\n\nreadOnly: true"
+      },
+      {
+        "screen": 10,
+        "screenTitle": "추가 활동: 근이 없는 포물선",
+        "type": "input/graph",
+        "alias": null,
+        "id": "40bb51f6-dda7-42e9-a45a-db100df72405",
+        "script": "readOnly: true"
+      },
+      {
+        "screen": 11,
+        "screenTitle": "추가 활동: 근이 없는 3차 함수",
+        "type": "input/graph",
+        "alias": "noroots",
+        "id": "ed47efea-1e50-482a-88c9-371f2fae660f",
+        "script": "readOnly: true"
+      }
+    ]
+  },
+  "activityJson": {
+    "customLesson": {
+      "_id": "5f58035f5770e128820408e6",
+      "version": 1,
+      "steps": [
+        {
+          "type": "two-column",
+          "id": "86a90a43-e262-429a-a6f6-22dc86b8d417",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "a3cd7ce8-f17e-47fa-afc8-1aa48def894e",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "891fa38582c67b629fdb6d6a8f72c1d1",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -8.376637919909745,
+                                "ymin": -5.676250103025836,
+                                "xmax": 10.446891491854965,
+                                "ymax": 5.7411401378938205
+                              },
+                              "showGrid": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "271",
+                                  "title": "포물선"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "128",
+                                  "folderId": "271",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(h,k\\right)",
+                                  "showLabel": true,
+                                  "label": "A"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "93",
+                                  "folderId": "271",
+                                  "color": "#fa7e19",
+                                  "latex": "f\\left(x\\right)=\\left(x-h\\right)^2+k"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "108",
+                                  "folderId": "271",
+                                  "color": "#6042a6",
+                                  "latex": "h=1",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "107",
+                                  "folderId": "271",
+                                  "color": "#fa7e19",
+                                  "latex": "k=1",
+                                  "hidden": true,
+                                  "slider": {
+                                    "hardMin": true,
+                                    "hardMax": true
+                                  }
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "272",
+                                  "title": "근 (x 절편)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "folderId": "272",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(2,0\\right),\\left(6,0\\right)",
+                                  "pointStyle": "OPEN",
+                                  "dragMode": "NONE"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "273",
+                                  "folderId": "272",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(x_1,0\\right),\\left(x_2,0\\right)",
+                                  "showLabel": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "106",
+                                  "folderId": "272",
+                                  "color": "#388c46",
+                                  "latex": "x_1=\\frac{\\operatorname{round}\\left(10\\left(h-\\sqrt{-k}\\right)\\right)}{10}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "145",
+                                  "folderId": "272",
+                                  "color": "#c74440",
+                                  "latex": "x_{1a}=\\operatorname{abs}\\left(x_1\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "121",
+                                  "folderId": "272",
+                                  "color": "#000000",
+                                  "latex": "x_2=\\frac{\\operatorname{round}\\left(10\\left(h+\\sqrt{-k}\\right)\\right)}{10}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "146",
+                                  "folderId": "272",
+                                  "color": "#2d70b3",
+                                  "latex": "x_{2a}=\\operatorname{abs}\\left(x_2\\right)"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "275",
+                                  "title": "정확성 확인"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "276",
+                                  "folderId": "275",
+                                  "color": "#2d70b3",
+                                  "latex": "I=\\left\\{\\left|x_1-2\\right|+\\left|x_2-6\\right|=0:1,0\\right\\}"
+                                }
+                              ]
+                            }
+                          },
+                          "exhibitMode": true,
+                          "showBackground": true,
+                          "img": "https://uploads.desmos.com/activitybuilder/2bb770d71d45edb2ac591fde5be93d74",
+                          "alias": "graph",
+                          "script": "correct: graph.number(\"I\") = 1",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Drag point A to move the parabola so that its roots are the two open blue points.",
+                          "id": "cb1487a9-2baf-4759-bf47-11c5c0640f32",
+                          "script": "",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이 액티비티에서는 포물선의 방정식과 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"x\"}]},{\"type\":\"text\",\"text\":\"절편(방정식의 근)의 관계에 대해 배우게 됩니다.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"포물선의 점 A를 드래그해 2개의 파란색 점이 포물선의 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"x\"}]},{\"type\":\"text\",\"text\":\"절편이 되도록 만드세요.\"}]}]}"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "포물선의 x 절편 맞추기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생이 신중하게 진행하도록 하세요. 포물선의 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 절편을 파란색 점에 맞춰야 다음 화면을 수월하게 진행할 수 있기 때문입니다. 하지만 학생이 포물선의 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 절편을 정확히 맞추려고 너무 고민할 필요는 없습니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "3a7ac4f5-6f40-45eb-956f-eb33b1d6a2c3",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "45b3e75d-ec4e-4cbe-8f97-c98489dfef16",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "07da6816ae8948717f7e4e16639fd483",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -6.0654885654885655,
+                                "xmax": 10,
+                                "ymax": 6.0654885654885655
+                              },
+                              "showGrid": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "365",
+                                  "title": "포물선"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "folderId": "365",
+                                  "color": "#fa7e19",
+                                  "latex": "f\\left(x\\right)=\\left(x-h\\right)^2+k",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "366",
+                                  "title": "근 (x 절편)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "197",
+                                  "folderId": "366",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(2,0\\right),\\left(6,0\\right)",
+                                  "pointStyle": "OPEN",
+                                  "dragMode": "NONE",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "367",
+                                  "folderId": "366",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(x_1,0\\right),\\left(x_2,0\\right)",
+                                  "showLabel": true,
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "434",
+                                  "folderId": "366",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "exhibitMode": true,
+                          "showBackground": true,
+                          "img": "https://uploads.desmos.com/activitybuilder/7a59b177200e0b0068055864a3e014fa",
+                          "script": "number(\"h\") : graph.number(\"h\")\nnumber(\"k\") : graph.number(\"k\")\nnumber(\"x_1\") : graph.number(\"x_1\")\nnumber(\"x_2\") : graph.number(\"x_2\")\n\nreadOnly: true",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Your parabola is described by this equation:\n\n`f\\left(x\\right)=\\left(x-2\\right)\\left(x-6\\right)`\n\nWhat relationships do you see between this function and its roots?\n\n",
+                          "id": "b55efaf3-b068-4974-acff-02c5f93c17dd",
+                          "script": "h = graph.number(\"h\")\nk = graph.number(\"k\")\nx1 = graph.number(\"x_1\")\nx1a = graph.number(\"x_{1a}\")\nx2 = graph.number(\"x_2\")\nx2a = graph.number(\"x_{2a}\")\n\nroot1 = \n\twhen x1<0 \"+${x1a}\"\n    otherwise \"-${x1}\"\nroot2 = \n\twhen x2<0 \"+${x2a}\"\n    otherwise \"-${x2}\"\nequation = \n\twhen x1<x2 \"f(x)=(x${root1})(x${root2})\"\n    otherwise \"f(x)=(x${root2})(x${root1})\"\n\ncontent:\nwhen x1 = x1\n\"이전 화면에서 그린 포물선의 방정식은 다음과 같습니다:\n\n`${equation}`\n\n이 방정식과 포물선의 x 절편은 어떤 관계가 있을까요?\n\"\n\notherwise\n\"포물선의 X절편(근)이 존재하지 않습니다. 포물선의 X절편이 존재하지 않으면 액티비티를 원활히 진행할 수 없습니다.\n\n첫 번째 화면으로 돌아가 X절편이 존재하는 포물선을 그려 주세요.\"",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이전 화면에서 그린 포물선의 방정식은 다음과 같습니다:\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"f\\\\left(x\\\\right)=\\\\left(x-2\\\\right)\\\\left(x-6\\\\right)\"}]}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이 방정식과 포물선의 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"x\"}]},{\"type\":\"text\",\"text\":\"절편은 어떤 관계가 있을까요?\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\"}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "63acdaee-502a-4358-9648-78e39d6a93ca",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "방정식과 x 절편의 관계 찾기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이전 화면에서 학생이 그린 포물선의 꼭짓점이 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 축 위에 있다면 이 화면에서 포물선의 근("
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "절편)이 존재하지 않는다고 표시될 것입니다. 이는 \"실근\"이 없다는 뜻이며, 허근의 개념에 대해서는 나중에 설명하는 것이 좋습니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 절편의 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 좌표는 방정식의 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "에서 뺀 값에 따라 결정됩니다. 예를 들어 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 절편의 좌표가 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "(6,0)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "이라면 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "에서 6만큼 뺐다는 의미이며, 방정식에 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "(x-6)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "이 포함되어야 합니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "e441faca-efba-4cdc-8264-96f4fb44ee9e",
+          "title": "x 절편에 맞는 새 포물선 그리기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "b5160360c1b9911fca406741a038ead5",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -6.062488565488565,
+                                "xmax": 10,
+                                "ymax": 6.068488565488566
+                              },
+                              "showGrid": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "10",
+                                  "title": "목표 근"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "folderId": "10",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(4,0\\right),\\left(7,0\\right)",
+                                  "showLabel": true,
+                                  "pointStyle": "OPEN",
+                                  "dragMode": "NONE"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "467",
+                                  "title": "포물선"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "9",
+                                  "folderId": "467",
+                                  "color": "#fa7e19",
+                                  "latex": "f\\left(x\\right)"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "468",
+                                  "title": "포물선의 근",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "470",
+                                  "folderId": "468",
+                                  "color": "#2d70b3",
+                                  "latex": "x_1=\\left[-5...5\\right]"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "469",
+                                  "folderId": "468",
+                                  "color": "#c74440",
+                                  "latex": "f\\left(x_1\\right)\\sim\\left(x_1-a\\right)\\left(x_1-b\\right)",
+                                  "residualVariable": "e_{1}",
+                                  "regressionParameters": {
+                                    "f": -307472.39553280966,
+                                    "a": 307472.3955653329,
+                                    "b": -0.00003252324483199667
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "471",
+                                  "folderId": "468",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(a,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\right),\\left(b,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\right)",
+                                  "showLabel": true
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "473",
+                                  "title": "정확성 확인"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "476",
+                                  "folderId": "473",
+                                  "color": "#fa7e19",
+                                  "latex": "X=\\left[0...10\\right]"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "484",
+                                  "folderId": "473",
+                                  "color": "#c74440",
+                                  "latex": "d=0.001"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "474",
+                                  "folderId": "473",
+                                  "color": "#2d70b3",
+                                  "latex": "I_1=\\left\\{\\left|g\\left(4\\right)\\right|+\\left|g\\left(7\\right)\\right|=0:1,0\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "475",
+                                  "folderId": "473",
+                                  "color": "#388c46",
+                                  "latex": "I_2=\\left\\{\\operatorname{total}\\left(\\left\\{\\left|g\\left(5.5-X\\right)-g\\left(5.5+X\\right)\\right|<d:1,0\\right\\}\\right)=11:1,0\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "477",
+                                  "folderId": "473",
+                                  "color": "#6042a6",
+                                  "latex": "I=I_1\\cdot I_2",
+                                  "hidden": true
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/5c0b044d6bfb38d04c91d5427ed871c6",
+                          "id": "6aae7832-b8d3-400a-889c-0887e014672d",
+                          "exhibitMode": true,
+                          "script": "function(\"f\") : \n\twhen equation1.submitted simpleFunction(equation1.latex)\n\totherwise simpleFunction(\"x^2+1\")\n\nfunction(\"g\"): simpleFunction(equation1.latex)\n\nreadOnly: true",
+                          "alias": "graph3",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Use what you noticed on the last screen to write a function for a parabola whose roots are the two open blue points.",
+                          "id": "611afb0c-81f7-4ca4-a00a-73c700c0e18c",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이전 화면에서 배운 것을 이용해 2개의 파란색 점을 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"x\"}]},{\"type\":\"text\",\"text\":\"절편으로 갖는 포물선을 그리세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/expression": {
+                          "showPeerResponses": false,
+                          "id": "3de25a45-036a-4b57-a6c9-2893fc150552",
+                          "alias": "equation1",
+                          "script": "initialLatex: \"f(x)=\"\n\ncorrect: graph3.number(\"I\") = 1"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악해 보세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "f\\left(x\\right)=\\left(x-4\\right)\\left(x-7\\right)"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "bdf43375-4545-43ea-86a4-530d79d79759",
+          "title": "x 절편에 맞는 새 포물선 그리기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "ceb37c64a2080382e10304a80e360dd2",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -6.062488565488565,
+                                "xmax": 10,
+                                "ymax": 6.068488565488566
+                              },
+                              "showGrid": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "10",
+                                  "title": "목표 근"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "folderId": "10",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(-3,0\\right),\\left(2,0\\right)",
+                                  "showLabel": true,
+                                  "pointStyle": "OPEN",
+                                  "dragMode": "NONE"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "467",
+                                  "title": "포물선"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "9",
+                                  "folderId": "467",
+                                  "color": "#fa7e19",
+                                  "latex": "f\\left(x\\right)"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "468",
+                                  "title": "포물선의 근",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "470",
+                                  "folderId": "468",
+                                  "color": "#2d70b3",
+                                  "latex": "x_1=\\left[-5...5\\right]"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "469",
+                                  "folderId": "468",
+                                  "color": "#c74440",
+                                  "latex": "f\\left(x_1\\right)\\sim\\left(x_1-a\\right)\\left(x_1-b\\right)",
+                                  "residualVariable": "e_{1}",
+                                  "regressionParameters": {
+                                    "f": -307472.39553280966,
+                                    "a": 307472.3955653329,
+                                    "b": -0.00003252324483199667
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "471",
+                                  "folderId": "468",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(a,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\right),\\left(b,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\right)",
+                                  "showLabel": true
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "486",
+                                  "title": "정확성 확인"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "487",
+                                  "folderId": "486",
+                                  "color": "#2d70b3",
+                                  "latex": "X=\\left[0...10\\right]",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "488",
+                                  "folderId": "486",
+                                  "color": "#388c46",
+                                  "latex": "d=0.001",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "489",
+                                  "folderId": "486",
+                                  "color": "#fa7e19",
+                                  "latex": "I_1=\\left\\{\\left|g\\left(-3\\right)\\right|+\\left|g\\left(2\\right)\\right|=0:1,0\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "490",
+                                  "folderId": "486",
+                                  "color": "#6042a6",
+                                  "latex": "I_2=\\left\\{\\operatorname{total}\\left(\\left\\{\\left|g\\left(-0.5-X\\right)-g\\left(-0.5+X\\right)\\right|<d:1,0\\right\\}\\right)=11:1,0\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "491",
+                                  "folderId": "486",
+                                  "color": "#000000",
+                                  "latex": "I=I_1\\cdot I_2",
+                                  "hidden": true
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/11c92a252aff4bd8f8734ec1cd54cea5",
+                          "id": "0f060a00-7c86-480f-b573-0e6639c00477",
+                          "exhibitMode": true,
+                          "script": "function(\"f\") : \n\twhen equation2.submitted simpleFunction(equation2.latex)\n\totherwise simpleFunction(\"x^2+1\")\n\nfunction(\"g\"): simpleFunction(equation2.latex)\n\nreadOnly: true",
+                          "alias": "graph4",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Write a function for a parabola whose roots are the two open blue points.",
+                          "id": "75f58adb-5911-4275-815b-1423a63a14eb",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"2개의 파란색 점을 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"x\"}]},{\"type\":\"text\",\"text\":\"절편으로 갖는 포물선을 그리세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/expression": {
+                          "showPeerResponses": false,
+                          "id": "110e4efb-34ae-4ec4-8d95-6b24c2093b98",
+                          "alias": "equation2",
+                          "script": "initialLatex: \"f(x)=\"\n\ncorrect: graph4.number(\"I\") = 1"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악해 보세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "많은 학생이 방정식의 근이 음수일 때 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 절편을 찾는 데 어려움을 겪을 수 있습니다. 학생이 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "(x--3)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "과 같은 형태로 방정식을 작성했다면, 서둘러 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "(x+3)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "의 형태로 고쳐주기보다는 먼저 기다리는 것이 좋습니다. 이 화면에서는 학생이 스스로 \"근이 음수일 때는 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "에 숫자를 더하고, 근이 양수일 때는 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "에서 숫자를 뺀다\"라는 개념을 이해할 수 있도록 도와주어야 합니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "f\\left(x\\right)=\\left(x+3\\right)\\left(x-2\\right)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "f\\left(x\\right)=\\left(x-\\left(-3\\right)\\right)\\left(x-2\\right)"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "7e5ca019-23af-4e85-ad5f-2f3a91747fc5",
+          "title": "근이 3개인 함수",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "4e391c8dcbaf66ce53843c5c07a1e8e0",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -10,
+                                "xmax": 10,
+                                "ymax": 10
+                              },
+                              "showGrid": false,
+                              "squareAxes": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "11",
+                                  "title": "목표 근",
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "folderId": "11",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(-2,0\\right),\\left(2,0\\right),\\left(6,0\\right)",
+                                  "showLabel": true,
+                                  "pointStyle": "OPEN",
+                                  "dragMode": "NONE"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "572",
+                                  "title": "3차 함수"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "7",
+                                  "color": "#fa7e19",
+                                  "latex": "f\\left(x\\right)"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "576",
+                                  "title": "3차 함수의 근"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "578",
+                                  "folderId": "576",
+                                  "color": "#388c46",
+                                  "latex": "x_1=\\left[-5,-4.9...5\\right]"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "577",
+                                  "folderId": "576",
+                                  "color": "#2d70b3",
+                                  "latex": "f\\left(x_1\\right)\\sim\\left(x_1-a\\right)\\left(x_1-b\\right)\\left(x_1-c\\right)",
+                                  "residualVariable": "e_{1}",
+                                  "regressionParameters": {
+                                    "f": -5538.356720960631,
+                                    "a": 0,
+                                    "b": 74.52284697299635,
+                                    "c": -74.52284697299635
+                                  }
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "898",
+                                  "title": "최솟값과 최댓값"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "899",
+                                  "folderId": "898",
+                                  "color": "#2d70b3",
+                                  "latex": "f_2\\left(x\\right)=\\left\\{f'\\left(x\\right)\\cdot f\\left(x\\right)\\cdot x<0:f\\left(x\\right),0\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "900",
+                                  "folderId": "898",
+                                  "color": "#388c46",
+                                  "latex": "x_{test}=\\left[-10,-9.9,...,10\\right]"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "901",
+                                  "folderId": "898",
+                                  "color": "#fa7e19",
+                                  "latex": "y_{small}=\\min\\left(-10,1.1\\cdot\\min\\left(f_2\\left(x_{test}\\right)\\right)\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "902",
+                                  "folderId": "898",
+                                  "color": "#6042a6",
+                                  "latex": "y_{large}=\\max\\left(10,1.1\\cdot\\max\\left(f_2\\left(x_{test}\\right)\\right)\\right)"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "926",
+                                  "title": "정확성 확인"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "927",
+                                  "folderId": "926",
+                                  "color": "#c74440",
+                                  "latex": "X=\\left[0...10\\right]"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "928",
+                                  "folderId": "926",
+                                  "color": "#2d70b3",
+                                  "latex": "d=0.001"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "929",
+                                  "folderId": "926",
+                                  "color": "#388c46",
+                                  "latex": "I_1=\\left\\{\\left|g\\left(-2\\right)\\right|+\\left|g\\left(2\\right)\\right|+\\left|g\\left(6\\right)\\right|=0:1,0\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "930",
+                                  "folderId": "926",
+                                  "color": "#fa7e19",
+                                  "latex": "I_2=\\left\\{\\operatorname{total}\\left(\\left\\{\\left|g\\left(2-X\\right)+g\\left(2+X\\right)\\right|<d:1,0\\right\\}\\right)=11:1,0\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "931",
+                                  "folderId": "926",
+                                  "color": "#6042a6",
+                                  "latex": "I=I_1\\cdot I_2",
+                                  "hidden": true
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/978948a32f565eade44470395ec97df9",
+                          "id": "7ddda75b-be6e-414b-8e63-f6518222a5b1",
+                          "exhibitMode": true,
+                          "script": "ysmall = threeroots.number(\"y_{small}\")\nylarge = threeroots.number(\"y_{large}\")\n\nfunction(\"f\") : \n\twhen equation3.submitted simpleFunction(equation3.latex)\n\totherwise simpleFunction(\"(x-1)^3+1\")\n\nfunction(\"g\"): simpleFunction(equation3.latex)\n\n\nreadOnly: true\nbounds: makeBounds(-10, 10, ysmall, ylarge)",
+                          "alias": "threeroots",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Write a cubic function with the three open blue points as roots.",
+                          "id": "2a13dec2-0350-42db-b643-26a9257a79a3",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"3차 함수의 방정식을 입력하세요.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"3개의 파란색 점이 함수의 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"x\"}]},{\"type\":\"text\",\"text\":\" 절편이 되어야 합니다.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/expression": {
+                          "showPeerResponses": false,
+                          "id": "de529e2c-a074-4b51-a5f4-6658cf528610",
+                          "alias": "equation3",
+                          "script": "initialLatex: \"f(x)=\"\n\ncorrect: threeroots.number(\"I\") = 1"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "교사 대시보드의 답변 모드를 이용해 학생의 진행 상황을 확인하고 학생이 근이 3개인 함수의 인수분해 형태에 익숙해지도록 지도해 주세요. 어려움을 겪는 학생이 있다면 먼저 2개의 점만 통과하는 함수를 그리도록 하세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이 화면에서는 음수 근과 양수 근이 모두 존재하며, 이는 학생이 근(x 절편)과 인수분해 형태의 관계에 대해 알 수 있도록 하기 위함입니다. \"방정식의 어느 부분이 음수 근을 나타내니? 방정식의 어느 부분이 양수 근을 나타내니? 어떻게 알 수 있니?\"라고 질문을 해 보세요. "
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "f\\left(x\\right)=\\left(x+2\\right)\\left(x-2\\right)\\left(x-6\\right)"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "5ccfb8ec-bc4e-47ad-818c-53f099591a36",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "fe2356cc-3572-47e7-a183-b4b3be9cf1b3",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "5483adfe96aab93519a2ebfb13874944",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -5.5484137147216455,
+                                "ymin": -4.858250055825737,
+                                "xmax": 4.45606420101212,
+                                "ymax": 5.146227859908031
+                              },
+                              "showGrid": false,
+                              "squareAxes": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "639",
+                                  "title": "3차 함수"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "12",
+                                  "folderId": "639",
+                                  "color": "#fa7e19",
+                                  "latex": "f\\left(x\\right)=\\left(x-h\\right)^3-4\\left(x-h\\right)+k"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "9",
+                                  "folderId": "639",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(h,k\\right)",
+                                  "showLabel": true,
+                                  "label": "A"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "11",
+                                  "folderId": "639",
+                                  "color": "#6042a6",
+                                  "latex": "h=0",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "10",
+                                  "folderId": "639",
+                                  "color": "#fa7e19",
+                                  "latex": "k=0",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "641",
+                                  "title": "근"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "643",
+                                  "folderId": "641",
+                                  "color": "#388c46",
+                                  "latex": "x_1=\\left[-5...5\\right]"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "642",
+                                  "folderId": "641",
+                                  "color": "#2d70b3",
+                                  "latex": "f\\left(x_1\\right)\\sim\\left(x_1-a\\right)\\left(x_1-b\\right)\\left(x_1-c\\right)",
+                                  "residualVariable": "e_{1}",
+                                  "regressionParameters": {
+                                    "a": -2,
+                                    "b": -1.1175323411268911e-33,
+                                    "c": 2
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1095",
+                                  "folderId": "641",
+                                  "color": "#c74440",
+                                  "latex": "f_{1}\\left(x\\right)=\\left(x-a\\right)\\left(x-b\\right)\\left(x-c\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1096",
+                                  "folderId": "641",
+                                  "color": "#2d70b3",
+                                  "latex": "E_{1}=f\\left(x_{1}\\right)-f_{1}\\left(x_{1}\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1092",
+                                  "folderId": "641",
+                                  "color": "#2d70b3",
+                                  "latex": "R=\\sqrt{\\operatorname{mean}\\left(E_{1}^{2}\\right)}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1068",
+                                  "folderId": "641",
+                                  "color": "#c74440",
+                                  "latex": "a_1=\\min\\left(a,b,c\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1069",
+                                  "folderId": "641",
+                                  "color": "#2d70b3",
+                                  "latex": "a_2=\\operatorname{median}\\left(a,b,c\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1070",
+                                  "folderId": "641",
+                                  "color": "#388c46",
+                                  "latex": "a_3=\\max\\left(a,b,c\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1083",
+                                  "folderId": "641",
+                                  "color": "#c74440",
+                                  "latex": "d_1=a_2-a_1"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1084",
+                                  "folderId": "641",
+                                  "color": "#2d70b3",
+                                  "latex": "d_2=a_3-a_2"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1085",
+                                  "folderId": "641",
+                                  "color": "#388c46",
+                                  "latex": "d=d_1\\cdot d_2"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "644",
+                                  "folderId": "641",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(a_1,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\left\\{d>0.01\\right\\}\\right),\\left(a_2,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\left\\{d>0.01\\right\\}\\right),\\left(a_3,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\left\\{d>0.01\\right\\}\\right)",
+                                  "showLabel": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1086",
+                                  "folderId": "641",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(a_1,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\left\\{d<0.01\\right\\}\\left\\{d_1<0.01\\right\\}\\right),\\left(a_3,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\left\\{d<0.01\\right\\}\\left\\{d_1<0.01\\right\\}\\right)",
+                                  "showLabel": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1087",
+                                  "folderId": "641",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(a_1,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\left\\{d<0.01\\right\\}\\left\\{d_2<0.01\\right\\}\\right),\\left(a_3,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\left\\{d<0.01\\right\\}\\left\\{d_2<0.01\\right\\}\\right)",
+                                  "showLabel": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "671",
+                                  "folderId": "641",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(a_1,0\\left\\{k>0\\right\\}\\left\\{\\operatorname{total}\\left(e_1^2\\right)>0.1\\right\\}\\right)",
+                                  "showLabel": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "682",
+                                  "folderId": "641",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(a_3,0\\left\\{k<0\\right\\}\\left\\{\\operatorname{total}\\left(e_1^2\\right)>0.1\\right\\}\\right)",
+                                  "showLabel": true
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "1089",
+                                  "title": "정확성 확인"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1094",
+                                  "folderId": "1089",
+                                  "color": "#2d70b3",
+                                  "latex": "I_1=\\left\\{d<0.025:1,0\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1090",
+                                  "folderId": "1089",
+                                  "color": "#2d70b3",
+                                  "latex": "I_2=\\left\\{\\left|R\\right|<0.04:1,0\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1093",
+                                  "folderId": "1089",
+                                  "color": "#c74440",
+                                  "latex": "I_c=I_1\\cdot I_2"
+                                }
+                              ]
+                            }
+                          },
+                          "exhibitMode": true,
+                          "showBackground": true,
+                          "img": "https://uploads.desmos.com/activitybuilder/64a6e3c83b070b0d3ba7e9289277420f",
+                          "alias": "tworoots",
+                          "script": "correct: tworoots.number(\"I_c\") = 1",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "If possible, drag point A to move the cubic function so that it has only two roots.",
+                          "id": "430fcb56-0770-48e1-afda-6a6f37f2d8bf",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"3차 함수의 점 A를 드래그해 함수가 2개의 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"x\"}]},{\"type\":\"text\",\"text\":\" 절편만 갖도록 만들어 보세요.\"}]}]}"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "근의 개수 바꾸기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생에게 이 화면을 오버레이 모드로 표시해 정답의 범위를 보여주세요. 학생과 정답 그래프들의 공통점에 대해 토론해 보세요. (그래프의 최댓값이나 최솟값이 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 절편에 위치하면 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 절편의 수가 2개가 됩니다.)"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "158bc1b5-b680-4f04-add3-59fad606182c",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "5f96305d-7025-4ff2-9eb8-237e3cc620b4",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "cf874d876d887581a1551d4c88c04718",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -5.5484137147216455,
+                                "ymin": -4.858250055825737,
+                                "xmax": 4.45606420101212,
+                                "ymax": 5.146227859908031
+                              },
+                              "showGrid": false,
+                              "squareAxes": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "639",
+                                  "title": "3차 함수"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "12",
+                                  "folderId": "639",
+                                  "color": "#fa7e19",
+                                  "latex": "g\\left(x\\right)=\\left(x-h\\right)^3-4\\left(x-h\\right)+k"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "9",
+                                  "folderId": "639",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(h,k\\right)",
+                                  "showLabel": true,
+                                  "label": "A"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "11",
+                                  "folderId": "639",
+                                  "color": "#6042a6",
+                                  "latex": "h_0=2-\\frac{2}{\\sqrt{3}}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "10",
+                                  "folderId": "639",
+                                  "color": "#fa7e19",
+                                  "latex": "k_0=\\frac{16}{3\\sqrt{3}}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "1122",
+                                  "title": "학생이 그린 3차 함수"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1123",
+                                  "folderId": "1122",
+                                  "color": "#000000",
+                                  "latex": "y=f\\left(x\\right)\\left\\{S=1\\right\\}"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "641",
+                                  "title": "근 (x 절편)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "643",
+                                  "folderId": "641",
+                                  "color": "#388c46",
+                                  "latex": "x_1=\\left[-5...5\\right]"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "642",
+                                  "folderId": "641",
+                                  "color": "#2d70b3",
+                                  "latex": "g\\left(x_1\\right)\\sim\\left(x_1-a\\right)\\left(x_1-b\\right)\\left(x_1-c\\right)",
+                                  "residualVariable": "e_{1}",
+                                  "regressionParameters": {
+                                    "h": 1.2296478617174222,
+                                    "k": 3.0792014356780015,
+                                    "a": -1.0797532150410798,
+                                    "b": 2.3843484000966737,
+                                    "c": 2.3843484000966737
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1068",
+                                  "folderId": "641",
+                                  "color": "#c74440",
+                                  "latex": "a_1=\\min\\left(a,b,c\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1069",
+                                  "folderId": "641",
+                                  "color": "#2d70b3",
+                                  "latex": "a_2=\\operatorname{median}\\left(a,b,c\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1070",
+                                  "folderId": "641",
+                                  "color": "#388c46",
+                                  "latex": "a_3=\\max\\left(a,b,c\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1083",
+                                  "folderId": "641",
+                                  "color": "#c74440",
+                                  "latex": "d_1=a_2-a_1"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1084",
+                                  "folderId": "641",
+                                  "color": "#2d70b3",
+                                  "latex": "d_2=a_3-a_2"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1085",
+                                  "folderId": "641",
+                                  "color": "#388c46",
+                                  "latex": "d=d_1\\cdot d_2"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "644",
+                                  "folderId": "641",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(a_1,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\left\\{d>0.01\\right\\}\\right),\\left(a_2,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\left\\{d>0.01\\right\\}\\right),\\left(a_3,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\left\\{d>0.01\\right\\}\\right)",
+                                  "showLabel": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1086",
+                                  "folderId": "641",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(a_1,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\left\\{d<0.01\\right\\}\\left\\{d_1<0.01\\right\\}\\right),\\left(a_3,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\left\\{d<0.01\\right\\}\\left\\{d_1<0.01\\right\\}\\right)",
+                                  "showLabel": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1087",
+                                  "folderId": "641",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(a_1,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\left\\{d<0.01\\right\\}\\left\\{d_2<0.01\\right\\}\\right),\\left(a_3,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\left\\{d<0.01\\right\\}\\left\\{d_2<0.01\\right\\}\\right)",
+                                  "showLabel": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "671",
+                                  "folderId": "641",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(a_1,0\\left\\{k>0\\right\\}\\left\\{\\operatorname{total}\\left(e_1^2\\right)>0.1\\right\\}\\right)",
+                                  "showLabel": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "682",
+                                  "folderId": "641",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(a_3,0\\left\\{k<0\\right\\}\\left\\{\\operatorname{total}\\left(e_1^2\\right)>0.1\\right\\}\\right)",
+                                  "showLabel": true
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "1125",
+                                  "title": "정확성 확인"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1126",
+                                  "folderId": "1125",
+                                  "color": "#2d70b3",
+                                  "latex": "X=\\left[-2,-1.5,...3\\right]"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1128",
+                                  "folderId": "1125",
+                                  "color": "#fa7e19",
+                                  "latex": "I_1=\\left\\{\\left|f\\left(a_1\\right)\\right|+\\left|f\\left(a_2\\right)\\right|+\\left|f\\left(a_3\\right)\\right|<0.1:1,0\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1129",
+                                  "folderId": "1125",
+                                  "color": "#6042a6",
+                                  "latex": "I_2=\\left\\{\\operatorname{total}\\left(\\left\\{\\left(f\\left(h-X\\right)-k\\right)+\\left(f\\left(h+X\\right)-k\\right)<0.5:1,0\\right\\}\\right)=11:1,0\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1131",
+                                  "folderId": "1125",
+                                  "color": "#c74440",
+                                  "latex": "I_3=\\left\\{\\left|f\\left(0\\right)-g\\left(0\\right)\\right|<0.1:1,0\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1130",
+                                  "folderId": "1125",
+                                  "color": "#000000",
+                                  "latex": "I=I_1\\cdot I_2\\cdot I_3",
+                                  "hidden": true
+                                }
+                              ]
+                            }
+                          },
+                          "exhibitMode": true,
+                          "showBackground": true,
+                          "img": "https://uploads.desmos.com/activitybuilder/ec5be15311f229d59b4177b373a7caa6",
+                          "alias": "graph7",
+                          "script": "#function(\"f\") : \n#\twhen tworootsinput.submitted simpleFunction(tworootsinput.latex)\n#    otherwise simpleFunction(\"\")\n\nfunction(\"f\"): simpleFunction(tworootsinput.latex)\n\nnumber(\"S\"): when tworootsinput.submitted 1 otherwise 0\nnumber(\"j\"): tworootsinput.timeSinceSubmit\n\n#function(\"q\"): simpleFunction(tworootsinput.latex)\n\nnumber(\"h\"): when (tworoots.number(\"I_c\") = 1) tworoots.number(\"h\") otherwise graph7.number(\"h_0\")\nnumber(\"k\"): when (tworoots.number(\"I_c\") = 1) tworoots.number(\"k\") otherwise graph7.number(\"k_0\")\n\nreadOnly: true",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "It IS possible! Here's one example. \n\nMatch this graph by typing an equation.",
+                          "id": "cca02aae-49e5-4081-bf6f-bb323e049c1c",
+                          "script": "message1 = \"이전 화면에서 제출한 함수입니다.\n\n이 함수의 방정식을 입력해 보세요.\"\n\nmessage2 = \"이처럼 3차 함수의 x 절편이 2개일 수도 있습니다!\n\n이 함수의 방정식을 입력해 보세요.\"\n\ncontent: when tworoots.number(\"I_c\") = 1 \"${message1}\" otherwise \"${message2}\"",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이처럼 3차 함수의 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"x\"}]},{\"type\":\"text\",\"text\":\" 절편이 2개일 수도 있습니다!\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이 함수의 방정식을 입력해 보세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/expression": {
+                          "showPeerResponses": false,
+                          "id": "14c90075-d755-40c3-aaab-6082d92c8fee",
+                          "alias": "tworootsinput",
+                          "script": "initialLatex: \"f(x)=\"\n\ncorrect: graph7.number(\"I\") = 1"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "근이 2개인 함수",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\left(x-2\\right)\\left(x-2\\right)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "의 형태로 방정식을 작성한 학생과 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\left(x-2\\right)^{2}"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "의 형태로 방정식을 작성한 학생에게 서로의 방정식이 동일한 방정식인지 물어 보세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "참고: 6번 화면에서 정답을 제출한 학생에게는 다른 그래프가 표시되며, 이에 따라 그래프의 방정식도 예시 답변과 다른 방정식이 됩니다. "
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "f\\left(x\\right)=\\left(x+1.464\\right)\\left(x-2\\right)\\left(x-2\\right)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "f\\left(x\\right)=\\left(x--1.464\\right)\\left(x-2\\right)^{2}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "2dbdd6e4-aae4-4591-938f-bc22da7b0df0",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "exhibitMode": true,
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -40,
+                                "xmax": 10,
+                                "ymax": 40
+                              },
+                              "showGrid": false,
+                              "squareAxes": false
+                            },
+                            "randomSeed": "1ec744c20de61e03ea88d22206042ada",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#fa7e19",
+                                  "latex": "f\\left(x\\right)=\\left(x-3\\right)^2\\left(x+2\\right)\\left(x-1\\right)\\left\\{x<\\left(2t_1-5\\right)\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "script": "number(\"t_1\") : rhonda.timeSinceSubmit\n\nreadOnly: true",
+                          "id": "1f07cd36-82af-4c63-b458-7a7440226847",
+                          "img": "https://uploads.desmos.com/activitybuilder/c69d053247d21d7115450ad402084e67",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Rhonda wrote this function:\n\n`f\\left(x\\right)=\\left(x-3\\right)^{2}\\left(x+2\\right)\\left(x-1\\right)`\n\nHow many roots do you think her function has?",
+                          "id": "39040501-483c-4a2e-b529-730cb0051b4d",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"미셸은 다음과 같은 함수를 작성했습니다:\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"f\\\\left(x\\\\right)=\\\\left(x-3\\\\right)^{2}\\\\left(x+2\\\\right)\\\\left(x-1\\\\right)\"}]}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이 함수에서 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"x\"}]},{\"type\":\"text\",\"text\":\" 절편(근)의 개수는 몇 개일까요?\"}]}]}"
+                        }
+                      },
+                      {
+                        "multiple-choice": {
+                          "id": "c1c0bd37-0853-432a-a5f3-dbf43243ff49",
+                          "choices": {
+                            "8b46bfac-377e-4b6f-b20e-fff15d00fdc2": {
+                              "id": "8b46bfac-377e-4b6f-b20e-fff15d00fdc2",
+                              "text": "1"
+                            },
+                            "60c252b8-dd84-42d1-bc76-a8f3fde003e6": {
+                              "id": "60c252b8-dd84-42d1-bc76-a8f3fde003e6",
+                              "text": "2"
+                            },
+                            "c9d5f2ee-7d90-4c15-bc56-cd7a7f6e1c24": {
+                              "id": "c9d5f2ee-7d90-4c15-bc56-cd7a7f6e1c24",
+                              "text": "3"
+                            },
+                            "d996092d-90e5-4deb-acb3-6d8648d2536d": {
+                              "id": "d996092d-90e5-4deb-acb3-6d8648d2536d",
+                              "text": "4"
+                            },
+                            "9082524b-f083-491a-b1bc-03d6f43090ec": {
+                              "id": "9082524b-f083-491a-b1bc-03d6f43090ec",
+                              "text": "기타"
+                            }
+                          },
+                          "choiceIds": [
+                            "8b46bfac-377e-4b6f-b20e-fff15d00fdc2",
+                            "60c252b8-dd84-42d1-bc76-a8f3fde003e6",
+                            "c9d5f2ee-7d90-4c15-bc56-cd7a7f6e1c24",
+                            "d996092d-90e5-4deb-acb3-6d8648d2536d",
+                            "9082524b-f083-491a-b1bc-03d6f43090ec"
+                          ],
+                          "multipleChoiceType": "simple",
+                          "showPeerResponses": true,
+                          "answerKey": null,
+                          "alias": "rhonda",
+                          "showExplanation": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "근의 개수 찾기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "(3,0)에 있는 근을 보통 \"중근\"이라고 합니다. 학생과 중근이 1개의 근인지 2개의 근인지 토론해 보세요. 중근으로 인한 혼란을 막기 위해 이 액티비티에서는 \"서로 다른 근\"의 갯수와 \"근의 개수\"를 구분합니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "따라서 \""
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "f\\left(x\\right)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "는 4개의 근을 가지며 서로 다른 근의 개수는 3개이다\"가 정답입니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "b6d3bae0-148e-432d-b06d-643eb47c073b",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "In this activity, you have studied functions like these:\n\n`f\\left(x\\right)=\\left(x-a\\right)\\left(x-b\\right)`\n`f\\left(x\\right)=\\left(x-a\\right)\\left(x-b\\right)\\left(x-c\\right)`\n\nDescribe the relationship between these equations and their graphs.",
+                          "id": "0bdea85c-0e59-43f2-930e-c511d887e495",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이 액티비티에서 여러분은 다음과 같은 형태의 함수를 배웠습니다:\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"f\\\\left(x\\\\right)=\\\\left(x-a\\\\right)\\\\left(x-b\\\\right)\"}]}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"f\\\\left(x\\\\right)=\\\\left(x-a\\\\right)\\\\left(x-b\\\\right)\\\\left(x-c\\\\right)\"}]}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이 함수와 함수의 그래프의 관계에 대해 설명해 주세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "64953110-684e-49a8-9f3c-25759b4d7561",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "요약하기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생이 의견을 교환할 때 학생이 자신의 의견을 논리적으로 설명하도록 해 보세요. 특히 방정식에 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\left(x-a\\right)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "가 포함되어 있으면 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x=a"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "에서 함숫값이 0이 되고, "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\left(x+a\\right)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "가 포함되어 있으면 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x=-a"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "에서 함숫값이 0이 된다는 것을 이해하도록 도와주세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "인수를 통해 근을 확인할 수 있으며, "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "에서 뺀 값이 근이 됩니다. 두 인수가 동일하다면 그래프는 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 축을 지나지 않으며, 근이 하나가 됩니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "ff0a5d7f-1c92-4e91-ad01-0550031b2fe4",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "40bb51f6-dda7-42e9-a45a-db100df72405",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "a0e4f50719dec169549e43eb9e0f0749",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -6.0654885654885655,
+                                "xmax": 10,
+                                "ymax": 6.0654885654885655
+                              },
+                              "showGrid": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "942",
+                                  "title": "포물선"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "folderId": "942",
+                                  "color": "#fa7e19",
+                                  "latex": "f\\left(x\\right)=\\left(x-h\\right)^2+k",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "959",
+                                  "folderId": "942",
+                                  "color": "#388c46",
+                                  "latex": "h=1",
+                                  "hidden": true,
+                                  "slider": {
+                                    "hardMin": true
+                                  },
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "958",
+                                  "folderId": "942",
+                                  "color": "#2d70b3",
+                                  "latex": "k=1",
+                                  "hidden": true,
+                                  "slider": {
+                                    "hardMin": true,
+                                    "min": ".5"
+                                  },
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "957",
+                                  "folderId": "942",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(h,k\\right)",
+                                  "showLabel": true,
+                                  "label": "A",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "exhibitMode": true,
+                          "showBackground": true,
+                          "img": "https://uploads.desmos.com/activitybuilder/303e75a7d6f52323206009c2783c0043",
+                          "script": "readOnly: true",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Here is a parabola with no roots. You can drag point A to see other parabolas without roots.\n\nIs it possible to write an equation for such a parabola in the form `f\\left(x\\right)=\\left(x-a\\right)\\left(x-b\\right)`?",
+                          "id": "2a1b34f7-8093-44ec-88cf-988b55d589e2",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"x\"}]},{\"type\":\"text\",\"text\":\" 절편이 없는 포물선이 표시되어 있습니다. 점 A를 드래그해 다른 포물선을 만들 수 있습니다.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\" \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"f\\\\left(x\\\\right)=\\\\left(x-a\\\\right)\\\\left(x-b\\\\right)\"}]},{\"type\":\"text\",\"text\":\"의 형식을 이용해 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"x\"}]},{\"type\":\"text\",\"text\":\" 절편이 없는 포물선을 그릴 수 있을까요?\"}]}]}"
+                        }
+                      },
+                      {
+                        "multiple-choice": {
+                          "id": "89041a95-4dcf-4e56-a669-a7e3cf27d6c1",
+                          "choices": {
+                            "d1292043-7b0f-4fc7-841a-f36620acdb5d": {
+                              "id": "d1292043-7b0f-4fc7-841a-f36620acdb5d",
+                              "text": "네"
+                            },
+                            "363271ab-cb50-4534-9855-5466365c8916": {
+                              "id": "363271ab-cb50-4534-9855-5466365c8916",
+                              "text": "아니요"
+                            }
+                          },
+                          "choiceIds": [
+                            "d1292043-7b0f-4fc7-841a-f36620acdb5d",
+                            "363271ab-cb50-4534-9855-5466365c8916"
+                          ],
+                          "multipleChoiceType": "simple",
+                          "showPeerResponses": true,
+                          "answerKey": {
+                            "choiceIds": {
+                              "363271ab-cb50-4534-9855-5466365c8916": true
+                            }
+                          },
+                          "showExplanation": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "추가 활동: 근이 없는 포물선",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생과 공유해 보세요. 먼저 자유롭게 추론하는 시간을 갖고, 학생이 공식적인 수학 용어를 사용해 추론할 수 있도록 해 주세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "주어진 포물선은 \"실근\"이 없는 포물선입니다. 대부분의 학생은 실근과 허근의 차이에 대해 헷갈려할 가능성이 높으며, 허근을 먼저 알려주게 되면 이미 배운 내용을 이해하는데 어려움이 생길 수도 있습니다. 따라서 적절한 때에 실근과 허근의 차이에 대해 알려주는 것이 좋습니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": " "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "f\\left(x\\right)=\\left(x-a\\right)\\left(x-b\\right)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "의 형태로는 실근("
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 절편)이 없는 포물선을 그릴 수 없습니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "1e2d208a-49ca-4250-a0e2-3bdb2312bdb9",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "ed47efea-1e50-482a-88c9-371f2fae660f",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "a49669948c76c880a2928488ee3ffdc8",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -5.895189571891748,
+                                "ymin": -5.161890684314844,
+                                "xmax": 4.734568213575377,
+                                "ymax": 5.467867101152283
+                              },
+                              "showGrid": false,
+                              "squareAxes": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "639",
+                                  "title": "3차 함수"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "12",
+                                  "folderId": "639",
+                                  "color": "#fa7e19",
+                                  "latex": "f\\left(x\\right)=\\left(x-h\\right)^3-4\\left(x-h\\right)+k",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "9",
+                                  "folderId": "639",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(h,k\\right)",
+                                  "showLabel": true,
+                                  "label": "A",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "11",
+                                  "folderId": "639",
+                                  "color": "#6042a6",
+                                  "latex": "h=0",
+                                  "hidden": true,
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "10",
+                                  "folderId": "639",
+                                  "color": "#fa7e19",
+                                  "latex": "k=0",
+                                  "hidden": true,
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "641",
+                                  "title": "근 (x 절편)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "643",
+                                  "folderId": "641",
+                                  "color": "#388c46",
+                                  "latex": "x_1=\\left[-5...5\\right]",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "642",
+                                  "folderId": "641",
+                                  "color": "#2d70b3",
+                                  "latex": "f\\left(x_1\\right)\\sim\\left(x_1-a\\right)\\left(x_1-b\\right)\\left(x_1-c\\right)",
+                                  "residualVariable": "e_{1}",
+                                  "regressionParameters": {
+                                    "a": -2,
+                                    "b": -1.1175323411268911e-33,
+                                    "c": 2
+                                  },
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "644",
+                                  "folderId": "641",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(a,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\right),\\left(b,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\right),\\left(c,0\\left\\{\\operatorname{total}\\left(e_1\\right)^2<0.1\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "671",
+                                  "folderId": "641",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(\\min\\left(a,b,c\\right),0\\left\\{k>0\\right\\}\\left\\{\\operatorname{total}\\left(e_1^2\\right)>0.1\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "682",
+                                  "folderId": "641",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(\\max\\left(a,b,c\\right),0\\left\\{k<0\\right\\}\\left\\{\\operatorname{total}\\left(e_1^2\\right)>0.1\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "693",
+                                  "folderId": "641",
+                                  "color": "#c74440",
+                                  "latex": "f\\left(x_1\\right)\\sim\\left(x_1-a_1\\right)\\left(x_1^2+b_1x_1+c_1\\right)",
+                                  "residualVariable": "e_{2}",
+                                  "regressionParameters": {
+                                    "a_{1}": -2,
+                                    "b_{1}": -2,
+                                    "c_{1}": 5.991945992767241e-17
+                                  },
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "694",
+                                  "folderId": "641",
+                                  "color": "#2d70b3",
+                                  "latex": "g\\left(x\\right)=\\left(x-a_1\\right)\\left(x^2+b_1x+c_1\\right)",
+                                  "hidden": true,
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "705",
+                                  "folderId": "641",
+                                  "color": "#c74440",
+                                  "latex": "\\left(a_1,0\\right)",
+                                  "hidden": true,
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "exhibitMode": true,
+                          "showBackground": true,
+                          "img": "https://uploads.desmos.com/activitybuilder/82776a4535ae07466951cd06ed894d40",
+                          "alias": "noroots",
+                          "script": "readOnly: true",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Is it possible to drag point A to move the cubic so that it has no roots?",
+                          "id": "a8dad092-1d7a-40f3-8d8c-baa057318f76",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"점 A를 드래그해 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"x\"}]},{\"type\":\"text\",\"text\":\" 절편이 없는 3차 함수를 만들 수 있을까요?\"}]}]}"
+                        }
+                      },
+                      {
+                        "multiple-choice": {
+                          "id": "5510fd9c-237f-48c0-8bef-4228e3401f62",
+                          "choices": {
+                            "1bc23328-13fb-4c56-ac00-250a781ac0a2": {
+                              "id": "1bc23328-13fb-4c56-ac00-250a781ac0a2",
+                              "text": "네"
+                            },
+                            "26483bf5-d93a-4b4b-976e-1d6e7ad1de85": {
+                              "id": "26483bf5-d93a-4b4b-976e-1d6e7ad1de85",
+                              "text": "아니오"
+                            }
+                          },
+                          "choiceIds": [
+                            "1bc23328-13fb-4c56-ac00-250a781ac0a2",
+                            "26483bf5-d93a-4b4b-976e-1d6e7ad1de85"
+                          ],
+                          "multipleChoiceType": "simple",
+                          "showPeerResponses": true,
+                          "answerKey": {
+                            "choiceIds": {
+                              "26483bf5-d93a-4b4b-976e-1d6e7ad1de85": true
+                            }
+                          },
+                          "showExplanation": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "추가 활동: 근이 없는 3차 함수",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생과 공유해 보세요. 먼저 자유롭게 추론하는 시간을 갖고, 학생이 공식적인 수학 용어를 사용해 추론할 수 있도록 해 주세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생은 그래프에서 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 절편이 보이지 않도록 점을 드래그할 수도 있지만, 그래프에서 보이지 않을 뿐 여전히 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 절편은 존재합니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "3차 함수의 양쪽 끝 부분이 서로 다른 방향으로 무한대로 뻗어 나가기 때문에 최소 1개의 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 절편이 존재할 수 밖에 없습니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "activity": "activitybuilder",
+      "ancestors": [
+        {
+          "_id": "55f609423c38e7fd364cf3fb",
+          "user": {
+            "id": "5514aca55bb90671051a729c",
+            "displayName": "Jon Orr"
+          }
+        }
+      ],
+      "blurb": {
+        "schemaKey": "document",
+        "version": 3,
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "학생은 이 액티비티에서 주어진 "
+                },
+                {
+                  "type": "mq",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "x"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " 절편(근)과 점들을 통과하는 2차, 3차, 4차 다항 방정식을 작성하는 연습을 하게 됩니다. 학생은 챌린지를 통해 인수분해 형식의 방정식에 대해 배우고, 방정식의 변수와 상수가 "
+                },
+                {
+                  "type": "mq",
+                  "content": [
+                    {
+                      "type": "text",
+                      "text": "x"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "text": " 절편의 위치와 근의 개수에 어떤 영향을 미치는지 확인할 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "한국어 번역: Desmos 현지화 팀"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "category": "practice",
+      "collaborators": [
+        "5d5c81618a3b6156af14a89f",
+        "5d85bd4cfe8bdc626d4698c8"
+      ],
+      "teamDesmosAuthored": true,
+      "complete": true,
+      "edit_ts": "2022-08-19T12:46:35.748Z",
+      "keywords": [],
+      "licenses": [],
+      "retailAssetIds": [],
+      "permissionToShare": true,
+      "publishedTimestamp": "2022-08-19T12:46:35.748Z",
+      "thumb": "https://uploads.desmos.com/activitybuilder/9900caf975de1d3b5f38ac1927ad438b",
+      "timeEstimate": 30,
+      "authorTags": [
+        "desmos"
+      ],
+      "title": "다항 방정식 챌린지",
+      "linkedActivities": [
+        {
+          "title": "원본 버전 (영어)",
+          "activityId": "561582ecbd554ea00760f933",
+          "collectionIds": [],
+          "logical": {
+            "logicalActivityMetaId": "561582ecbd554ea00760f933",
+            "logicalCollectionIds": []
+          }
+        }
+      ],
+      "user": {
+        "id": "5de6bbe49f524909d87db21a",
+        "displayName": "Kayla Muñoz"
+      },
+      "author": {
+        "id": "5d85bd4cfe8bdc626d4698c8",
+        "displayName": "영하 김"
+      },
+      "accessibilityNotes": "이 액티비티는 스크린 리더에 최적화되지 않았습니다. 시각 장애 학생은 다른 학생과 함께 액티비티를 진행하는 것을 권장합니다.",
+      "commitId": "62ff8422cee337d662e3f36f",
+      "logicalId": "5f58035f5770e128820408e6",
+      "draftTitle": "다항 방정식 챌린지",
+      "draftAuthor": {
+        "id": "5d85bd4cfe8bdc626d4698c8",
+        "displayName": "영하 김"
+      }
+    },
+    "noindex": false
+  },
+  "notes": [
+    "Public HTML exposes metadata and thumbnail.",
+    "The public POST /activity/:id route may expose the customLesson JSON for public activities.",
+    "Teacher sessions, dashboards, student responses, and editor-only diagnostics still require authorization.",
+    "Use this output as source evidence and template inspiration, not as an activity clone."
+  ]
+}

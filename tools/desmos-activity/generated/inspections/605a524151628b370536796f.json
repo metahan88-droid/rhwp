@@ -1,0 +1,2059 @@
+{
+  "inspectedAt": "2026-06-13T12:30:00.647Z",
+  "url": "https://classroom.amplify.com/activity/605a524151628b370536796f?lang=ko",
+  "activityId": "605a524151628b370536796f",
+  "staticMeta": {
+    "canonical": "https://classroom.amplify.com/activity/605a524151628b370536796f",
+    "title": "함수와 도함수",
+    "description": "학생은 이 액티비티에서 함수의 1차 도함수와 2차 도함수를 찾는 활동을 진행하게 됩니다. 학생은 자신만의 함수를 만들어 함수의 도함수를 찾고, 친구가 문제를 풀 수 있도록 함수와 도함수를 챌린지 갤러리에 제출할 수 있습니다. \n\n이 액티비티는 Sandi Yoder의 아이디어를 기반으로 제작되었습니다.\n\n한국어 번역: Desmos 현지화 팀",
+    "twitterTitle": "함수와 도함수",
+    "twitterDescription": "학생은 이 액티비티에서 함수의 1차 도함수와 2차 도함수를 찾는 활동을 진행하게 됩니다. 학생은 자신만의 함수를 만들어 함수의 도함수를 찾고, 친구가 문제를 풀 수 있도록 함수와 도함수를 챌린지 갤러리에 제출할 수 있습니다. \n\n이 액티비티는 Sandi Yoder의 아이디어를 기반으로 제작되었습니다.\n\n한국어 번역: Desmos 현지화 팀",
+    "image": "https://uploads.desmos.com/activitybuilder/d6fb83d3ee8848e5dc3bafae8aad18cf"
+  },
+  "activityMeta": {
+    "activities": [
+      {
+        "__brand": "NormalizedActivity",
+        "_id": "605a524151628b370536796f",
+        "ancestorAuthorGroups": [],
+        "ancestors": [
+          {
+            "_id": "5b7b3c7c2bc9970bc2490f85",
+            "user": {
+              "id": "55fb1831efe3b67f175ca4a2",
+              "displayName": "Desmos _"
+            }
+          },
+          {
+            "_id": "605a5078a742373fb4046da6",
+            "user": {
+              "id": "5de6bbe49f524909d87db21a",
+              "displayName": "Kayla Muñoz"
+            }
+          },
+          {
+            "_id": "605a51043c6a21353da05f86",
+            "user": {
+              "id": "5de6bbe49f524909d87db21a",
+              "displayName": "Kayla Muñoz"
+            }
+          },
+          {
+            "_id": "605a514566b0d23f70e8601a",
+            "user": {
+              "id": "5de6bbe49f524909d87db21a",
+              "displayName": "Kayla Muñoz"
+            }
+          },
+          {
+            "_id": "605a517b09ffdb3759f54f1b",
+            "user": {
+              "id": "5de6bbe49f524909d87db21a",
+              "displayName": "Kayla Muñoz"
+            }
+          },
+          {
+            "_id": "605a51c7b1657038050058ef",
+            "user": {
+              "id": "5de6bbe49f524909d87db21a",
+              "displayName": "Kayla Muñoz"
+            }
+          },
+          {
+            "_id": "605a5205e7760d36b9b328db",
+            "user": {
+              "id": "5de6bbe49f524909d87db21a",
+              "displayName": "Kayla Muñoz"
+            }
+          }
+        ],
+        "category": "practice",
+        "collaborators": [
+          "5d85bd4cfe8bdc626d4698c8",
+          "5f0aa3a7367e812bf281e2e6"
+        ],
+        "customMetadata": {},
+        "teamDesmosAuthored": true,
+        "deleteURL": "/custom-lesson/delete/605a524151628b370536796f",
+        "description": {
+          "schemaKey": "document",
+          "version": 3,
+          "content": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "학생은 이 액티비티에서 함수의 1차 도함수와 2차 도함수를 찾는 활동을 진행하게 됩니다. 학생은 자신만의 함수를 만들어 함수의 도함수를 찾고, 친구가 문제를 풀 수 있도록 함수와 도함수를 챌린지 갤러리에 제출할 수 있습니다. "
+                  }
+                ]
+              },
+              {
+                "type": "paragraph"
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "이 액티비티는 Sandi Yoder의 아이디어를 기반으로 제작되었습니다."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph"
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "한국어 번역: Desmos 현지화 팀"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "edit_ts": "2022-08-22T10:27:13.452Z",
+        "infoURL": "activity/605a524151628b370536796f",
+        "keywords": [],
+        "licenses": [],
+        "activityLicenses": [],
+        "retailAssetIds": [],
+        "activityRetailAssetIds": [],
+        "private": false,
+        "searchable": false,
+        "thumbURL": "https://uploads.desmos.com/activitybuilder/d6fb83d3ee8848e5dc3bafae8aad18cf",
+        "timeEstimate": 30,
+        "iPadWarning": "Alcune parti dell'attività potrebbero non funzionare correttamente sugli iPad più vecchi.",
+        "isPaperActivity": false,
+        "hasSteps": true,
+        "hasAuthoredFeedback": false,
+        "isPresentation": false,
+        "accessibilityNotes": "This activity relies heavily on a graphical representation of functions and may not be constructive for vision-impaired students.",
+        "authorTags": [],
+        "title": "함수와 도함수",
+        "linkedActivities": [
+          {
+            "title": "원본 버전 (영어)",
+            "activityId": "5b7b3c7c2bc9970bc2490f85",
+            "collectionIds": [],
+            "logical": {
+              "logicalActivityMetaId": "5b7b3c7c2bc9970bc2490f85",
+              "logicalCollectionIds": []
+            }
+          }
+        ],
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      }
+    ],
+    "deletedActivities": [],
+    "activityTranslations": {}
+  },
+  "activitySummary": {
+    "id": "605a524151628b370536796f",
+    "title": "함수와 도함수",
+    "version": 1,
+    "commitId": "630348d6f1867b274d9472c8",
+    "publishedTimestamp": "2022-08-22T10:27:13.452Z",
+    "editTimestamp": "2022-08-22T10:27:13.452Z",
+    "permissionToShare": true,
+    "noindex": false,
+    "user": {
+      "id": "5de6bbe49f524909d87db21a",
+      "displayName": "Kayla Muñoz"
+    },
+    "author": {
+      "id": "5d85bd4cfe8bdc626d4698c8",
+      "displayName": "영하 김"
+    },
+    "ancestors": [
+      {
+        "_id": "5b7b3c7c2bc9970bc2490f85",
+        "user": {
+          "id": "55fb1831efe3b67f175ca4a2",
+          "displayName": "Desmos _"
+        }
+      },
+      {
+        "_id": "605a5078a742373fb4046da6",
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      },
+      {
+        "_id": "605a51043c6a21353da05f86",
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      },
+      {
+        "_id": "605a514566b0d23f70e8601a",
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      },
+      {
+        "_id": "605a517b09ffdb3759f54f1b",
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      },
+      {
+        "_id": "605a51c7b1657038050058ef",
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      },
+      {
+        "_id": "605a5205e7760d36b9b328db",
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      }
+    ],
+    "thumb": "https://uploads.desmos.com/activitybuilder/d6fb83d3ee8848e5dc3bafae8aad18cf",
+    "screenCount": 2,
+    "componentCounts": {
+      "input/graph": 3,
+      "action-button": 2,
+      "exhibit/text": 3,
+      "input/text": 2,
+      "challenge": 1,
+      "input/expression": 1
+    },
+    "screens": [
+      {
+        "index": 1,
+        "id": "05f45bcd-7dce-46b0-9d7f-3aafb039596f",
+        "type": "two-column",
+        "title": "함수와 도함수 찾기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "action-button": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 2,
+        "id": "f23e1a79-29cc-400f-b7f8-87ccfac2ff98",
+        "type": "two-column",
+        "title": "",
+        "subtitle": "",
+        "componentCounts": {
+          "challenge": 1,
+          "input/graph": 2,
+          "exhibit/text": 2,
+          "input/expression": 1,
+          "action-button": 1,
+          "input/text": 1
+        }
+      }
+    ],
+    "aliases": [
+      {
+        "screen": 1,
+        "type": "input/graph",
+        "alias": "graph1",
+        "id": "9de1b93f-874c-4d94-a96a-2cc678e618c1"
+      },
+      {
+        "screen": 1,
+        "type": "action-button",
+        "alias": "btn1",
+        "id": "d909c875-5661-4b1d-ad27-6062609fafad"
+      },
+      {
+        "screen": 2,
+        "type": "challenge",
+        "alias": "cc",
+        "id": "e21d428b-71c8-4a25-ad13-fef922f4a430"
+      },
+      {
+        "screen": 2,
+        "type": "input/graph",
+        "alias": "ccGraph1",
+        "id": "858d8c71-867c-4bd5-8e12-70899f490b10"
+      },
+      {
+        "screen": 2,
+        "type": "input/expression",
+        "alias": "ccInput1",
+        "id": "f2b503cc-0c56-4570-897c-e7bad3820565"
+      },
+      {
+        "screen": 2,
+        "type": "input/graph",
+        "alias": "ccGraph2",
+        "id": "2e056832-4106-4dad-91d9-b060e13fb202"
+      },
+      {
+        "screen": 2,
+        "type": "action-button",
+        "alias": "ccButton2",
+        "id": "b39ec717-37e9-4b50-a29a-c3ee3645bc92"
+      },
+      {
+        "screen": 2,
+        "type": "input/text",
+        "alias": "ccInput2",
+        "id": "e57e5f94-1713-444b-a5a0-8fca2a306747"
+      }
+    ],
+    "scripts": [
+      {
+        "screen": 1,
+        "screenTitle": "함수와 도함수 찾기",
+        "type": "input/graph",
+        "alias": "graph1",
+        "id": "9de1b93f-874c-4d94-a96a-2cc678e618c1",
+        "script": "correct: graph1.number(\"c\") = 1\n\nnumber(\"t\"): btn1.timeSincePress\n\nnumber(\"C\"): btn1.pressCount"
+      },
+      {
+        "screen": 1,
+        "screenTitle": "함수와 도함수 찾기",
+        "type": "action-button",
+        "alias": "btn1",
+        "id": "d909c875-5661-4b1d-ad27-6062609fafad",
+        "script": "disabled: not(graph1.number(\"v\") = 1) or (btn1.timeSincePress < 2 and btn1.timeSincePress > 0) or (btn1.timeSincePress > 0 and graph1.number(\"c\") = 1)\n\nresetLabel: when graph1.number(\"t\") < 2 or graph1.number(\"c\") = 1 \"\" otherwise \"재시도\"\n\nhidden: graph1.number(\"c\") = 1 and btn1.timeSincePress > 2\n"
+      },
+      {
+        "screen": 2,
+        "screenTitle": "",
+        "type": "challenge",
+        "alias": "cc",
+        "id": "e21d428b-71c8-4a25-ad13-fef922f4a430",
+        "script": "notSubmitted = not(ccInput1.submitted)\nfunctionUndefined = ccInput1.timeSinceSubmit > 0.01 and isUndefined(simpleFunction(ccInput1.latex))\nfunctionInvisible = ccInput1.timeSinceSubmit > 0.01 and not(ccGraph1.number(\"P_0\") = 1)\nbadSecondDerivative = ccInput1.timeSinceSubmit > 0.01 and not(ccGraph1.number(\"P_2\") = 1) and not(ccGraph1.number(\"C_2\") = 1)\n\npreventSubmissionReason:\n\n  when not(ccGraph2.number(\"v\") = 1) \"모든 함수에 레이블을 표시해 주세요.\"\n  when isBlank(ccInput2.content) \"답변을 설명해 주세요.\"\n  when not(ccGraph2.number(\"t\") > 2) \"레이블을 확인해 주세요.\"\n  when not(ccGraph2.number(\"c\") = 1) \"레이블을 제대로 표시했는지 확인해 주세요.\"\n  otherwise \"\"\n\npreventChallengeCreationReason:\n\n  when notSubmitted \"함수를 제출해야 합니다.\"\n  when functionUndefined \"올바른 함수를 입력해야 합니다.\"\n  when functionInvisible \"함수가 그래프에서 보여야 합니다.\"\n  when badSecondDerivative \"이 함수로는 적절한 f''(x) 함수를 만들 수 없습니다. 더 복잡한 함수를 입력해 보세요.\"\n  otherwise \"\"\n\nresponseText: \"시도 횟수: ${ccGraph2.number(\"C\")}\"\n\nchallengeBackground: graphLayer(ccGraph1.calculatorState)\n\nchallengeBounds: ccGraph1.bounds"
+      },
+      {
+        "screen": 2,
+        "screenTitle": "",
+        "type": "input/graph",
+        "alias": "ccGraph1",
+        "id": "858d8c71-867c-4bd5-8e12-70899f490b10",
+        "script": "function(\"f\"): when ccInput1.submitted simpleFunction(ccInput1.latex) otherwise simpleFunction(\"\")\nnumber(\"t\"): ccInput1.timeSinceSubmit"
+      },
+      {
+        "screen": 2,
+        "screenTitle": "",
+        "type": "exhibit/text",
+        "alias": null,
+        "id": "06534422-3f57-44e3-97b0-7c224106f8d9",
+        "script": "feedback =\n\n  when cc.script.functionInvisible \"\\n\\n⚠️ 함수를 그래프에 표시할 수 없습니다. 다른 함수를 입력하세요.\" # the time since submit here is because there is an annoying flicker of the warning text while the graph calculates \"V\"\n  when cc.script.badSecondDerivative \"\\n\\n⚠️ 이 함수로는 적절한 `f''(x)` 함수를 만들 수 없습니다. 더 복잡한 함수를 입력해 보세요.\"\n  otherwise \"\\n\\n원하는 그래프를 만들 때까지 함수를 수정하고 다음 화면으로 진행하세요.\"\n  \nmessage = \"이제 자신만의 `f\\\\left(x\\\\right)` 함수를 그릴 수 있습니다.\n\n함수를 입력하면 `f\\\\left(x\\\\right)`, `f'\\\\left(x\\\\right)`, `f''\\\\left(x\\\\right)` 함수가 그래프에 표시됩니다.\"\n\ncontent:\n\n\"${message}${feedback}\""
+      },
+      {
+        "screen": 2,
+        "screenTitle": "",
+        "type": "input/expression",
+        "alias": "ccInput1",
+        "id": "f2b503cc-0c56-4570-897c-e7bad3820565",
+        "script": "initialLatex: \"f(x)=\"\nsubmitLabel: \"그래프 확인\"\nsubmitDisabled: isUndefined(simpleFunction(ccInput1.latex))"
+      },
+      {
+        "screen": 2,
+        "screenTitle": "",
+        "type": "input/graph",
+        "alias": "ccGraph2",
+        "id": "2e056832-4106-4dad-91d9-b060e13fb202",
+        "script": "correct: ccGraph2.number(\"c\") = 1\n\nnumber(\"t\"): ccButton2.timeSincePress\n\nnumber(\"C\"): ccButton2.pressCount\n\nfunction(\"f\"): simpleFunction(ccInput1.latex)"
+      },
+      {
+        "screen": 2,
+        "screenTitle": "",
+        "type": "action-button",
+        "alias": "ccButton2",
+        "id": "b39ec717-37e9-4b50-a29a-c3ee3645bc92",
+        "script": "disabled: not(ccGraph2.number(\"v\") = 1) or (ccButton2.timeSincePress < 2 and ccButton2.timeSincePress > 0) or (ccButton2.timeSincePress > 0 and ccGraph2.number(\"c\") = 1)\n\nresetLabel: when ccGraph2.number(\"t\") < 2 or ccGraph2.number(\"c\") = 1 \"\" otherwise \"재시도\"\n\nhidden: ccGraph2.number(\"c\") = 1 and ccButton2.timeSincePress > 2\n"
+      }
+    ]
+  },
+  "activityJson": {
+    "customLesson": {
+      "_id": "605a524151628b370536796f",
+      "version": 1,
+      "steps": [
+        {
+          "type": "two-column",
+          "id": "05f45bcd-7dce-46b0-9d7f-3aafb039596f",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "exhibitMode": true,
+                          "id": "9de1b93f-874c-4d94-a96a-2cc678e618c1",
+                          "img": "https://uploads.desmos.com/activitybuilder/d12301abc12af1465e8bf44ee84af979",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -14.907,
+                                "xmax": 10,
+                                "ymax": 14.907
+                              },
+                              "squareAxes": false
+                            },
+                            "randomSeed": "2650d6a2e4622baa0155e2bd2cf47fea",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#6042a6",
+                                  "latex": "f\\left(x\\right)=\\ 6\\cos\\left(\\frac{x}{2}\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "28",
+                                  "title": "f(x) 점",
+                                  "hidden": true,
+                                  "collapsed": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "86",
+                                  "folderId": "28",
+                                  "color": "#c74440",
+                                  "latex": "I_{ff}=\\int_{x_1-\\frac{w}{2}}^{x_1+\\frac{w}{2}}\\left\\{y_1-\\frac{h}{2}<f\\left(x\\right)<y_1+\\frac{h}{2}:1,0\\right\\}dx"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "87",
+                                  "folderId": "28",
+                                  "color": "#2d70b3",
+                                  "latex": "I_{ffp}=\\int_{x_1-\\frac{w}{2}}^{x_1+\\frac{w}{2}}\\left\\{y_1-\\frac{h}{2}<f'\\left(x\\right)<y_1+\\frac{h}{2}:1,0\\right\\}dx"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "88",
+                                  "folderId": "28",
+                                  "color": "#388c46",
+                                  "latex": "I_{ffpp}=\\int_{x_1-\\frac{w}{2}}^{x_1+\\frac{w}{2}}\\left\\{y_1-\\frac{h}{2}<f''\\left(x\\right)<y_1+\\frac{h}{2}:1,0\\right\\}dx"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "89",
+                                  "folderId": "28",
+                                  "color": "#fa7e19",
+                                  "latex": "m_{inf}=\\max\\left(I_{ff},I_{ffp},I_{ffpp}\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "90",
+                                  "folderId": "28",
+                                  "color": "#6042a6",
+                                  "latex": "b_f=\\left\\{m_{inf}=0:0,\\ m_{inf}=I_{ff}:1,m_{inf}=I_{ffp}:2,3\\right\\}"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "47",
+                                  "title": "f'(x) 점",
+                                  "hidden": true,
+                                  "collapsed": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "96",
+                                  "folderId": "47",
+                                  "color": "#2d70b3",
+                                  "latex": "I_{fpf}=\\int_{x_2-\\frac{w}{2}}^{x_2+\\frac{w}{2}}\\left\\{y_2-\\frac{h}{2}<f\\left(x\\right)<y_2+\\frac{h}{2}:1,0\\right\\}dx"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "97",
+                                  "folderId": "47",
+                                  "color": "#388c46",
+                                  "latex": "I_{fpfp}=\\int_{x_2-\\frac{w}{2}}^{x_2+\\frac{w}{2}}\\left\\{y_2-\\frac{h}{2}<f'\\left(x\\right)<y_2+\\frac{h}{2}:1,0\\right\\}dx"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "98",
+                                  "folderId": "47",
+                                  "color": "#fa7e19",
+                                  "latex": "I_{fpfpp}=\\int_{x_2-\\frac{w}{2}}^{x_2+\\frac{w}{2}}\\left\\{y_2-\\frac{h}{2}<f''\\left(x\\right)<y_2+\\frac{h}{2}:1,0\\right\\}dx"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "99",
+                                  "folderId": "47",
+                                  "color": "#6042a6",
+                                  "latex": "m_{infp}=\\max\\left(I_{fpf},I_{fpfp},I_{fpfpp}\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "100",
+                                  "folderId": "47",
+                                  "color": "#000000",
+                                  "latex": "b_{fp}=\\left\\{m_{infp}=0:0,\\ m_{infp}=I_{fpf}:1,m_{infp}=I_{fpfp}:2,3\\right\\}"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "58",
+                                  "title": "f''(x) 점",
+                                  "hidden": true,
+                                  "collapsed": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "110",
+                                  "folderId": "58",
+                                  "color": "#388c46",
+                                  "latex": "I_{fppf}=\\int_{x_3-\\frac{w}{2}}^{x_3+\\frac{w}{2}}\\left\\{y_3-\\frac{h}{2}<f\\left(x\\right)<y_3+\\frac{h}{2}:1,0\\right\\}dx"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "111",
+                                  "folderId": "58",
+                                  "color": "#fa7e19",
+                                  "latex": "I_{fppfp}=\\int_{x_3-\\frac{w}{2}}^{x_3+\\frac{w}{2}}\\left\\{y_3-\\frac{h}{2}<f'\\left(x\\right)<y_3+\\frac{h}{2}:1,0\\right\\}dx"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "112",
+                                  "folderId": "58",
+                                  "color": "#6042a6",
+                                  "latex": "I_{fppfpp}=\\int_{x_3-\\frac{w}{2}}^{x_3+\\frac{w}{2}}\\left\\{y_3-\\frac{h}{2}<f''\\left(x\\right)<y_3+\\frac{h}{2}:1,0\\right\\}dx"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "113",
+                                  "folderId": "58",
+                                  "color": "#000000",
+                                  "latex": "m_{infpp}=\\max\\left(I_{fppf},I_{fppfp},I_{fppfpp}\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "114",
+                                  "folderId": "58",
+                                  "color": "#c74440",
+                                  "latex": "b_{fpp}=\\left\\{m_{infpp}=0:0,\\ m_{infpp}=I_{fppf}:1,m_{infpp}=I_{fppfp}:2,3\\right\\}"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "92",
+                                  "title": "함수 그리기",
+                                  "collapsed": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "73",
+                                  "folderId": "92",
+                                  "color": "#aaa",
+                                  "latex": "y=f\\left(x\\right)\\left\\{\\left|b_f-1\\right|\\cdot\\left|b_{fp}-1\\right|\\cdot\\left|b_{fpp}-1\\right|>0\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "2",
+                                  "folderId": "92",
+                                  "color": "#aaa",
+                                  "latex": "y=f'\\left(x\\right)\\left\\{\\left|b_f-2\\right|\\cdot\\left|b_{fp}-2\\right|\\cdot\\left|b_{fpp}-2\\right|>0\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "3",
+                                  "folderId": "92",
+                                  "color": "#aaa",
+                                  "latex": "y=f''\\left(x\\right)\\left\\{\\left|b_f-3\\right|\\cdot\\left|b_{fp}-3\\right|\\cdot\\left|b_{fpp}-3\\right|>0\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "93",
+                                  "folderId": "92",
+                                  "color": "#6042a6",
+                                  "latex": "y=f\\left(x\\right)\\left\\{b_f=1\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "105",
+                                  "folderId": "92",
+                                  "color": "#fa7e19",
+                                  "latex": "y=f\\left(x\\right)\\left\\{b_{fp}=1\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "115",
+                                  "folderId": "92",
+                                  "color": "#388c46",
+                                  "latex": "y=f\\left(x\\right)\\left\\{b_{fpp}=1\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "94",
+                                  "folderId": "92",
+                                  "color": "#6042a6",
+                                  "latex": "y=f'\\left(x\\right)\\left\\{b_f=2\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "106",
+                                  "folderId": "92",
+                                  "color": "#fa7e19",
+                                  "latex": "y=f'\\left(x\\right)\\left\\{b_{fp}=2\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "116",
+                                  "folderId": "92",
+                                  "color": "#388c46",
+                                  "latex": "y=f'\\left(x\\right)\\left\\{b_{fpp}=2\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "95",
+                                  "folderId": "92",
+                                  "color": "#6042a6",
+                                  "latex": "y=f''\\left(x\\right)\\left\\{b_f=3\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "107",
+                                  "folderId": "92",
+                                  "color": "#fa7e19",
+                                  "latex": "y=f''\\left(x\\right)\\left\\{b_{fp}=3\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "117",
+                                  "folderId": "92",
+                                  "color": "#388c46",
+                                  "latex": "y=f''\\left(x\\right)\\left\\{b_{fpp}=3\\right\\}"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "19",
+                                  "title": "움직일 수 있는 점",
+                                  "collapsed": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "81",
+                                  "folderId": "19",
+                                  "color": "#c74440",
+                                  "latex": "w=3"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "82",
+                                  "folderId": "19",
+                                  "color": "#2d70b3",
+                                  "latex": "h=1.5"
+                                },
+                                {
+                                  "type": "image",
+                                  "id": "80",
+                                  "folderId": "19",
+                                  "image_url": "https://uploads.desmos.com/calculator-images/cd56546bd5418be8754982b53d643e43",
+                                  "name": "out.png",
+                                  "foreground": true,
+                                  "center": "\\left(\\left[x_1,x_2,x_3\\right],\\left[y_1,y_2,y_3\\right]\\right)",
+                                  "width": "w",
+                                  "height": "h"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16",
+                                  "folderId": "19",
+                                  "color": "#2d70b3",
+                                  "latex": "x_1=-7.5",
+                                  "hidden": true,
+                                  "slider": {
+                                    "min": "-12.14",
+                                    "max": "10.22"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "17",
+                                  "folderId": "19",
+                                  "color": "#388c46",
+                                  "latex": "y_1=8.25",
+                                  "hidden": true,
+                                  "slider": {
+                                    "min": "-41.6",
+                                    "max": "26.1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15",
+                                  "folderId": "19",
+                                  "color": "#6042a6",
+                                  "latex": "\\left(-\\frac{w}{2}+x_1,\\frac{h}{2}+y_1\\left\\{t=0\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "label": " ",
+                                  "labelOrientation": "right",
+                                  "extendedLabelOrientation": "right"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "101",
+                                  "folderId": "19",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(-\\frac{w}{2}+x_2,\\frac{h}{2}+y_2\\left\\{t=0\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "label": " ",
+                                  "labelOrientation": "right",
+                                  "extendedLabelOrientation": "right"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "102",
+                                  "folderId": "19",
+                                  "color": "#388c46",
+                                  "latex": "\\left(-\\frac{w}{2}+x_3,\\frac{h}{2}+y_3\\left\\{t=0\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "label": " ",
+                                  "labelOrientation": "right",
+                                  "extendedLabelOrientation": "right"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "83",
+                                  "folderId": "19",
+                                  "color": "#6042a6",
+                                  "latex": "\\operatorname{polygon}\\left(\\left(x_1-\\frac{w}{2},y_1+\\frac{h}{2}\\right),\\left(x_1-\\frac{w}{2},y_1-\\frac{h}{2}\\right),\\ \\left(x_1+\\frac{w}{2},y_1-\\frac{h}{2}\\right),\\left(x_1+\\frac{w}{2},y_1+\\frac{h}{2}\\right)\\right)",
+                                  "fill": false
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "103",
+                                  "folderId": "19",
+                                  "color": "#fa7e19",
+                                  "latex": "\\operatorname{polygon}\\left(\\left(x_2-\\frac{w}{2},y_2+\\frac{h}{2}\\right),\\left(x_2-\\frac{w}{2},y_2-\\frac{h}{2}\\right),\\ \\left(x_2+\\frac{w}{2},y_2-\\frac{h}{2}\\right),\\left(x_2+\\frac{w}{2},y_2+\\frac{h}{2}\\right)\\right)",
+                                  "fill": false
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "104",
+                                  "folderId": "19",
+                                  "color": "#388c46",
+                                  "latex": "\\operatorname{polygon}\\left(\\left(x_3-\\frac{w}{2},y_3+\\frac{h}{2}\\right),\\left(x_3-\\frac{w}{2},y_3-\\frac{h}{2}\\right),\\ \\left(x_3+\\frac{w}{2},y_3-\\frac{h}{2}\\right),\\left(x_3+\\frac{w}{2},y_3+\\frac{h}{2}\\right)\\right)",
+                                  "fill": false
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "84",
+                                  "folderId": "19",
+                                  "color": "#6042a6",
+                                  "latex": "\\left(x_1,y_1\\right)",
+                                  "showLabel": true,
+                                  "label": "`f(x)`",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "41",
+                                  "folderId": "19",
+                                  "color": "#fa7e19",
+                                  "latex": "\\left(x_2,y_2\\right)",
+                                  "showLabel": true,
+                                  "label": "`f'(x)`",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "44",
+                                  "folderId": "19",
+                                  "color": "#388c46",
+                                  "latex": "\\left(x_3,y_3\\right)",
+                                  "showLabel": true,
+                                  "label": "`f''(x)`",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "45",
+                                  "folderId": "19",
+                                  "color": "#388c46",
+                                  "latex": "x_3=-7.5",
+                                  "hidden": true,
+                                  "slider": {
+                                    "min": "-12"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "46",
+                                  "folderId": "19",
+                                  "color": "#fa7e19",
+                                  "latex": "y_3=4.25",
+                                  "hidden": true,
+                                  "slider": {
+                                    "min": "-14.4",
+                                    "max": "21.1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "42",
+                                  "folderId": "19",
+                                  "color": "#000000",
+                                  "latex": "x_2=-7.5",
+                                  "hidden": true,
+                                  "slider": {
+                                    "min": "-12.94"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "43",
+                                  "folderId": "19",
+                                  "color": "#c74440",
+                                  "latex": "y_2=6.25",
+                                  "hidden": true,
+                                  "slider": {
+                                    "min": "-23.6",
+                                    "max": "21.1"
+                                  }
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "135",
+                                  "title": "채점",
+                                  "collapsed": true
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "121",
+                                  "folderId": "135",
+                                  "text": "정답:"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "118",
+                                  "folderId": "135",
+                                  "color": "#c74440",
+                                  "latex": "c=\\left\\{b_f=1:1,0\\right\\}\\left\\{b_{fp}=2:1,0\\right\\}\\left\\{b_{fpp}=3:1,0\\right\\}"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "122",
+                                  "folderId": "135",
+                                  "text": "유효한 솔루션:"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "123",
+                                  "folderId": "135",
+                                  "color": "#388c46",
+                                  "latex": "v=\\left\\{b_f>0\\right\\}\\left\\{b_{fp}>0\\right\\}\\left\\{b_{fpp}>0\\right\\}\\left\\{\\left|b_f-b_{fp}\\right|>0\\right\\}\\left\\{\\left|b_f-b_{fpp}\\right|>0\\right\\}\\left\\{\\left|b_{fpp}-b_{fp}\\right|>0\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "146",
+                                  "folderId": "135",
+                                  "color": "#c74440",
+                                  "latex": "t=0"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "138",
+                                  "folderId": "135",
+                                  "color": "#000000",
+                                  "latex": "C=1"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "126",
+                                  "folderId": "135",
+                                  "color": "#388c46",
+                                  "latex": "X=11t-11",
+                                  "hidden": true,
+                                  "slider": {
+                                    "max": "20"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "125",
+                                  "folderId": "135",
+                                  "color": "#c74440",
+                                  "latex": "-12<y<12\\left\\{x<X<x+1\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "127",
+                                  "folderId": "135",
+                                  "color": "#000000",
+                                  "latex": "\\left(0,9.3\\left\\{t>2\\right\\}\\left\\{c=0\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "label": "정답이 아닙니다",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "image",
+                                  "id": "131",
+                                  "folderId": "135",
+                                  "image_url": "https://uploads.desmos.com/calculator-images/cd56546bd5418be8754982b53d643e43",
+                                  "name": "cd56546bd5418be8754982b53d643e43.png",
+                                  "foreground": true,
+                                  "center": "\\left(0,9\\right)",
+                                  "angle": "0\\left\\{t>2\\right\\}",
+                                  "width": "6",
+                                  "height": "1.8"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "128",
+                                  "folderId": "135",
+                                  "color": "#000000",
+                                  "latex": "\\left(0,9.3\\left\\{t>2\\right\\}\\left\\{c=1\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "label": "정답입니다!",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "137",
+                                  "folderId": "135",
+                                  "color": "#000000",
+                                  "latex": "\\left(0,8.6\\left\\{t>2\\right\\}\\right)",
+                                  "showLabel": true,
+                                  "label": "시도 횟수: ${C}",
+                                  "hidden": true,
+                                  "labelSize": "small"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "136",
+                                  "folderId": "135",
+                                  "color": "#000000",
+                                  "latex": "\\operatorname{polygon}\\left(\\left(3,9.9\\left\\{t>2\\right\\}\\right),\\left(-3,9.9\\left\\{t>2\\right\\}\\right),\\left(-3,8.1\\left\\{t>2\\right\\}\\right),\\left(3,8.1\\left\\{t>2\\right\\}\\right)\\right)",
+                                  "fill": false
+                                }
+                              ]
+                            }
+                          },
+                          "alias": "graph1",
+                          "script": "correct: graph1.number(\"c\") = 1\n\nnumber(\"t\"): btn1.timeSincePress\n\nnumber(\"C\"): btn1.pressCount",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      },
+                      {
+                        "action-button": {
+                          "label": "확인",
+                          "id": "d909c875-5661-4b1d-ad27-6062609fafad",
+                          "alias": "btn1",
+                          "script": "disabled: not(graph1.number(\"v\") = 1) or (btn1.timeSincePress < 2 and btn1.timeSincePress > 0) or (btn1.timeSincePress > 0 and graph1.number(\"c\") = 1)\n\nresetLabel: when graph1.number(\"t\") < 2 or graph1.number(\"c\") = 1 \"\" otherwise \"재시도\"\n\nhidden: graph1.number(\"c\") = 1 and btn1.timeSincePress > 2\n"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Here are three functions that are related to each other:\n\n• `f\\left(x\\right)`\n\n• `f'\\left(x\\right)`\n\n• `f''\\left(x\\right)`\n\nDrag the points to correctly label each function.\n\nThen describe how you decided on those labels.",
+                          "id": "f4cd6b42-3ebf-4e59-9fce-ad1ec906f7cf",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"다음 함수는 서로 관련이 있는 함수입니다:\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"• \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"f\\\\left(x\\\\right)\"}]}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"• \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"f'\\\\left(x\\\\right)\"}]}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"• \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"f''\\\\left(x\\\\right)\"}]}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"각 함수에 알맞은 레이블을 드래그해 표시해 주세요.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"그리고 왜 그렇게 레이블을 표시했는지 설명해 주세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "bd49e9c1-614d-47d3-bb11-f13af2bddf4e",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "함수와 도함수 찾기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진도를 확인하기 위한 좋은 화면입니다. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 학급 전체 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "f23e1a79-29cc-400f-b7f8-87ccfac2ff98",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "challenge": {
+                          "numResponseSteps": 1,
+                          "id": "e21d428b-71c8-4a25-ad13-fef922f4a430",
+                          "skipResponseGallery": true,
+                          "script": "notSubmitted = not(ccInput1.submitted)\nfunctionUndefined = ccInput1.timeSinceSubmit > 0.01 and isUndefined(simpleFunction(ccInput1.latex))\nfunctionInvisible = ccInput1.timeSinceSubmit > 0.01 and not(ccGraph1.number(\"P_0\") = 1)\nbadSecondDerivative = ccInput1.timeSinceSubmit > 0.01 and not(ccGraph1.number(\"P_2\") = 1) and not(ccGraph1.number(\"C_2\") = 1)\n\npreventSubmissionReason:\n\n  when not(ccGraph2.number(\"v\") = 1) \"모든 함수에 레이블을 표시해 주세요.\"\n  when isBlank(ccInput2.content) \"답변을 설명해 주세요.\"\n  when not(ccGraph2.number(\"t\") > 2) \"레이블을 확인해 주세요.\"\n  when not(ccGraph2.number(\"c\") = 1) \"레이블을 제대로 표시했는지 확인해 주세요.\"\n  otherwise \"\"\n\npreventChallengeCreationReason:\n\n  when notSubmitted \"함수를 제출해야 합니다.\"\n  when functionUndefined \"올바른 함수를 입력해야 합니다.\"\n  when functionInvisible \"함수가 그래프에서 보여야 합니다.\"\n  when badSecondDerivative \"이 함수로는 적절한 f''(x) 함수를 만들 수 없습니다. 더 복잡한 함수를 입력해 보세요.\"\n  otherwise \"\"\n\nresponseText: \"시도 횟수: ${ccGraph2.number(\"C\")}\"\n\nchallengeBackground: graphLayer(ccGraph1.calculatorState)\n\nchallengeBounds: ccGraph1.bounds",
+                          "alias": "cc",
+                          "activityConfig": {
+                            "steps": [
+                              {
+                                "type": "two-column",
+                                "id": "d350eebf-1b1d-472a-bba1-6d81bfe2c582",
+                                "root": {
+                                  "linearlayout": {
+                                    "mainType": "columns",
+                                    "components": [
+                                      {
+                                        "linearlayout": {
+                                          "mainType": "rows",
+                                          "components": [
+                                            {
+                                              "input/graph": {
+                                                "exhibitMode": true,
+                                                "id": "858d8c71-867c-4bd5-8e12-70899f490b10",
+                                                "img": "https://uploads.desmos.com/activitybuilder/e14405cf5a02fde448fa5bdbbab73f0d",
+                                                "calculatorState": {
+                                                  "version": 8,
+                                                  "graph": {
+                                                    "viewport": {
+                                                      "xmin": -10.000000000000002,
+                                                      "ymin": -7.086956521739132,
+                                                      "xmax": 9.999999999999998,
+                                                      "ymax": 7.086956521739128
+                                                    }
+                                                  },
+                                                  "randomSeed": "9ecb641b044fcec1d00b808efd050dcc",
+                                                  "expressions": {
+                                                    "list": [
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "1",
+                                                        "color": "#000000",
+                                                        "latex": "f\\left(x\\right)=2x^2",
+                                                        "hidden": true
+                                                      },
+                                                      {
+                                                        "type": "folder",
+                                                        "id": "92",
+                                                        "title": "함수 그리기",
+                                                        "collapsed": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "73",
+                                                        "folderId": "92",
+                                                        "color": "#000000",
+                                                        "latex": "y=f\\left(x\\right)\\left\\{x<x_M\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "2",
+                                                        "folderId": "92",
+                                                        "color": "#000000",
+                                                        "latex": "y=f'\\left(x\\right)\\left\\{x<x_M\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "3",
+                                                        "folderId": "92",
+                                                        "color": "#000000",
+                                                        "latex": "y=f''\\left(x\\right)\\left\\{x<x_M\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "folder",
+                                                        "id": "161",
+                                                        "title": "함수 확인",
+                                                        "collapsed": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "163",
+                                                        "folderId": "161",
+                                                        "color": "#fa7e19",
+                                                        "latex": "t_{estX}=\\left[-10,-9.5...10\\right]"
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "id": "165",
+                                                        "folderId": "161",
+                                                        "text": "함수가 그래프에 표시되나요?"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "166",
+                                                        "folderId": "161",
+                                                        "color": "#000000",
+                                                        "latex": "C_0=\\left\\{0<\\left|f\\left(t_{estX}\\right)\\right|<10:1,0\\right\\}",
+                                                        "hidden": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "171",
+                                                        "folderId": "161",
+                                                        "color": "#6042a6",
+                                                        "latex": "P_0=\\left\\{\\sum_{n_0=1}^{\\operatorname{length}\\left(C_0\\right)}C_0\\left[n_0\\right]>0:1,0\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "id": "172",
+                                                        "folderId": "161",
+                                                        "text": "2차 도함수가 0이 아닌가요?"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "173",
+                                                        "folderId": "161",
+                                                        "color": "#000000",
+                                                        "latex": "C_2=\\left\\{0<\\left|f''\\left(t_{estX}\\right)\\right|:1,0\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "174",
+                                                        "folderId": "161",
+                                                        "color": "#c74440",
+                                                        "latex": "P_2=\\left\\{\\sum_{n_2=1}^{\\operatorname{length}\\left(C_2\\right)}C_2\\left[n_2\\right]>0:1,0\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "175",
+                                                        "color": "#c74440",
+                                                        "latex": "x_M=15t-10",
+                                                        "hidden": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "176",
+                                                        "color": "#2d70b3",
+                                                        "latex": "t=0",
+                                                        "slider": {
+                                                          "hardMin": true,
+                                                          "hardMax": true,
+                                                          "min": "0",
+                                                          "max": "2"
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "177",
+                                                        "color": "#388c46"
+                                                      }
+                                                    ]
+                                                  }
+                                                },
+                                                "alias": "ccGraph1",
+                                                "script": "function(\"f\"): when ccInput1.submitted simpleFunction(ccInput1.latex) otherwise simpleFunction(\"\")\nnumber(\"t\"): ccInput1.timeSinceSubmit",
+                                                "legacyActionsOverrideSinks": true
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "linearlayout": {
+                                          "mainType": "rows",
+                                          "components": [
+                                            {
+                                              "exhibit/text": {
+                                                "text": "Now choose your own function `f\\left(x\\right)`.\n\nWe'll show you `f\\left(x\\right)`, `f'\\left(x\\right)`, and `f''\\left(x\\right)`.",
+                                                "id": "06534422-3f57-44e3-97b0-7c224106f8d9",
+                                                "script": "feedback =\n\n  when cc.script.functionInvisible \"\\n\\n⚠️ 함수를 그래프에 표시할 수 없습니다. 다른 함수를 입력하세요.\" # the time since submit here is because there is an annoying flicker of the warning text while the graph calculates \"V\"\n  when cc.script.badSecondDerivative \"\\n\\n⚠️ 이 함수로는 적절한 `f''(x)` 함수를 만들 수 없습니다. 더 복잡한 함수를 입력해 보세요.\"\n  otherwise \"\\n\\n원하는 그래프를 만들 때까지 함수를 수정하고 다음 화면으로 진행하세요.\"\n  \nmessage = \"이제 자신만의 `f\\\\left(x\\\\right)` 함수를 그릴 수 있습니다.\n\n함수를 입력하면 `f\\\\left(x\\\\right)`, `f'\\\\left(x\\\\right)`, `f''\\\\left(x\\\\right)` 함수가 그래프에 표시됩니다.\"\n\ncontent:\n\n\"${message}${feedback}\"",
+                                                "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이제 자신만의 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"f\\\\left(x\\\\right)\"}]},{\"type\":\"text\",\"text\":\" 함수를 그릴 수 있습니다.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"함수를 입력하면 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"f\\\\left(x\\\\right)\"}]},{\"type\":\"text\",\"text\":\", \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"f'\\\\left(x\\\\right)\"}]},{\"type\":\"text\",\"text\":\", \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"f''\\\\left(x\\\\right)\"}]},{\"type\":\"text\",\"text\":\" 함수가 그래프에 표시됩니다.\"}]}]}"
+                                              }
+                                            },
+                                            {
+                                              "input/expression": {
+                                                "showPeerResponses": false,
+                                                "id": "f2b503cc-0c56-4570-897c-e7bad3820565",
+                                                "alias": "ccInput1",
+                                                "script": "initialLatex: \"f(x)=\"\nsubmitLabel: \"그래프 확인\"\nsubmitDisabled: isUndefined(simpleFunction(ccInput1.latex))"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                "teacherTips": {}
+                              },
+                              {
+                                "type": "two-column",
+                                "id": "f1df9ba0-d3b0-4552-8f40-aaef0bc40f4b",
+                                "root": {
+                                  "linearlayout": {
+                                    "mainType": "columns",
+                                    "components": [
+                                      {
+                                        "linearlayout": {
+                                          "mainType": "rows",
+                                          "components": [
+                                            {
+                                              "input/graph": {
+                                                "exhibitMode": true,
+                                                "id": "2e056832-4106-4dad-91d9-b060e13fb202",
+                                                "img": "https://uploads.desmos.com/activitybuilder/ed5c1ca68a9575a65d86c50c20d8ea22",
+                                                "calculatorState": {
+                                                  "version": 8,
+                                                  "graph": {
+                                                    "viewport": {
+                                                      "xmin": -10.000000000000002,
+                                                      "ymin": -7.086956521739132,
+                                                      "xmax": 9.999999999999998,
+                                                      "ymax": 7.086956521739128
+                                                    }
+                                                  },
+                                                  "randomSeed": "055d2cf856681754653535d931d077ce",
+                                                  "expressions": {
+                                                    "list": [
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "1",
+                                                        "color": "#6042a6",
+                                                        "latex": "f\\left(x\\right)=\\ 6\\cos\\left(\\frac{x}{2}\\right)",
+                                                        "hidden": true
+                                                      },
+                                                      {
+                                                        "type": "folder",
+                                                        "id": "28",
+                                                        "title": "f(x) 점",
+                                                        "hidden": true,
+                                                        "collapsed": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "86",
+                                                        "folderId": "28",
+                                                        "color": "#c74440",
+                                                        "latex": "I_{ff}=\\int_{x_1-\\frac{w}{2}}^{x_1+\\frac{w}{2}}\\left\\{y_1-\\frac{h}{2}<f\\left(x\\right)<y_1+\\frac{h}{2}:1,0\\right\\}dx"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "87",
+                                                        "folderId": "28",
+                                                        "color": "#2d70b3",
+                                                        "latex": "I_{ffp}=\\int_{x_1-\\frac{w}{2}}^{x_1+\\frac{w}{2}}\\left\\{y_1-\\frac{h}{2}<f'\\left(x\\right)<y_1+\\frac{h}{2}:1,0\\right\\}dx"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "88",
+                                                        "folderId": "28",
+                                                        "color": "#388c46",
+                                                        "latex": "I_{ffpp}=\\int_{x_1-\\frac{w}{2}}^{x_1+\\frac{w}{2}}\\left\\{y_1-\\frac{h}{2}<f''\\left(x\\right)<y_1+\\frac{h}{2}:1,0\\right\\}dx"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "89",
+                                                        "folderId": "28",
+                                                        "color": "#fa7e19",
+                                                        "latex": "m_{inf}=\\max\\left(I_{ff},I_{ffp},I_{ffpp}\\right)"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "90",
+                                                        "folderId": "28",
+                                                        "color": "#6042a6",
+                                                        "latex": "b_f=\\left\\{m_{inf}=0:0,\\ m_{inf}=I_{ff}:1,m_{inf}=I_{ffp}:2,3\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "folder",
+                                                        "id": "47",
+                                                        "title": "f'(x) 점",
+                                                        "hidden": true,
+                                                        "collapsed": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "96",
+                                                        "folderId": "47",
+                                                        "color": "#2d70b3",
+                                                        "latex": "I_{fpf}=\\int_{x_2-\\frac{w}{2}}^{x_2+\\frac{w}{2}}\\left\\{y_2-\\frac{h}{2}<f\\left(x\\right)<y_2+\\frac{h}{2}:1,0\\right\\}dx"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "97",
+                                                        "folderId": "47",
+                                                        "color": "#388c46",
+                                                        "latex": "I_{fpfp}=\\int_{x_2-\\frac{w}{2}}^{x_2+\\frac{w}{2}}\\left\\{y_2-\\frac{h}{2}<f'\\left(x\\right)<y_2+\\frac{h}{2}:1,0\\right\\}dx"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "98",
+                                                        "folderId": "47",
+                                                        "color": "#fa7e19",
+                                                        "latex": "I_{fpfpp}=\\int_{x_2-\\frac{w}{2}}^{x_2+\\frac{w}{2}}\\left\\{y_2-\\frac{h}{2}<f''\\left(x\\right)<y_2+\\frac{h}{2}:1,0\\right\\}dx"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "99",
+                                                        "folderId": "47",
+                                                        "color": "#6042a6",
+                                                        "latex": "m_{infp}=\\max\\left(I_{fpf},I_{fpfp},I_{fpfpp}\\right)"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "100",
+                                                        "folderId": "47",
+                                                        "color": "#000000",
+                                                        "latex": "b_{fp}=\\left\\{m_{infp}=0:0,\\ m_{infp}=I_{fpf}:1,m_{infp}=I_{fpfp}:2,3\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "folder",
+                                                        "id": "58",
+                                                        "title": "f''(x) 점",
+                                                        "hidden": true,
+                                                        "collapsed": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "110",
+                                                        "folderId": "58",
+                                                        "color": "#388c46",
+                                                        "latex": "I_{fppf}=\\int_{x_3-\\frac{w}{2}}^{x_3+\\frac{w}{2}}\\left\\{y_3-\\frac{h}{2}<f\\left(x\\right)<y_3+\\frac{h}{2}:1,0\\right\\}dx"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "111",
+                                                        "folderId": "58",
+                                                        "color": "#fa7e19",
+                                                        "latex": "I_{fppfp}=\\int_{x_3-\\frac{w}{2}}^{x_3+\\frac{w}{2}}\\left\\{y_3-\\frac{h}{2}<f'\\left(x\\right)<y_3+\\frac{h}{2}:1,0\\right\\}dx"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "112",
+                                                        "folderId": "58",
+                                                        "color": "#6042a6",
+                                                        "latex": "I_{fppfpp}=\\int_{x_3-\\frac{w}{2}}^{x_3+\\frac{w}{2}}\\left\\{y_3-\\frac{h}{2}<f''\\left(x\\right)<y_3+\\frac{h}{2}:1,0\\right\\}dx"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "113",
+                                                        "folderId": "58",
+                                                        "color": "#000000",
+                                                        "latex": "m_{infpp}=\\max\\left(I_{fppf},I_{fppfp},I_{fppfpp}\\right)"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "114",
+                                                        "folderId": "58",
+                                                        "color": "#c74440",
+                                                        "latex": "b_{fpp}=\\left\\{m_{infpp}=0:0,\\ m_{infpp}=I_{fppf}:1,m_{infpp}=I_{fppfp}:2,3\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "folder",
+                                                        "id": "92",
+                                                        "title": "함수 그리기",
+                                                        "collapsed": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "73",
+                                                        "folderId": "92",
+                                                        "color": "#aaa",
+                                                        "latex": "y=f\\left(x\\right)\\left\\{\\left|b_f-1\\right|\\cdot\\left|b_{fp}-1\\right|\\cdot\\left|b_{fpp}-1\\right|>0\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "2",
+                                                        "folderId": "92",
+                                                        "color": "#aaa",
+                                                        "latex": "y=f'\\left(x\\right)\\left\\{\\left|b_f-2\\right|\\cdot\\left|b_{fp}-2\\right|\\cdot\\left|b_{fpp}-2\\right|>0\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "3",
+                                                        "folderId": "92",
+                                                        "color": "#aaa",
+                                                        "latex": "y=f''\\left(x\\right)\\left\\{\\left|b_f-3\\right|\\cdot\\left|b_{fp}-3\\right|\\cdot\\left|b_{fpp}-3\\right|>0\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "93",
+                                                        "folderId": "92",
+                                                        "color": "#6042a6",
+                                                        "latex": "y=f\\left(x\\right)\\left\\{b_f=1\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "105",
+                                                        "folderId": "92",
+                                                        "color": "#fa7e19",
+                                                        "latex": "y=f\\left(x\\right)\\left\\{b_{fp}=1\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "115",
+                                                        "folderId": "92",
+                                                        "color": "#388c46",
+                                                        "latex": "y=f\\left(x\\right)\\left\\{b_{fpp}=1\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "94",
+                                                        "folderId": "92",
+                                                        "color": "#6042a6",
+                                                        "latex": "y=f'\\left(x\\right)\\left\\{b_f=2\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "106",
+                                                        "folderId": "92",
+                                                        "color": "#fa7e19",
+                                                        "latex": "y=f'\\left(x\\right)\\left\\{b_{fp}=2\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "116",
+                                                        "folderId": "92",
+                                                        "color": "#388c46",
+                                                        "latex": "y=f'\\left(x\\right)\\left\\{b_{fpp}=2\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "95",
+                                                        "folderId": "92",
+                                                        "color": "#6042a6",
+                                                        "latex": "y=f''\\left(x\\right)\\left\\{b_f=3\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "107",
+                                                        "folderId": "92",
+                                                        "color": "#fa7e19",
+                                                        "latex": "y=f''\\left(x\\right)\\left\\{b_{fp}=3\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "117",
+                                                        "folderId": "92",
+                                                        "color": "#388c46",
+                                                        "latex": "y=f''\\left(x\\right)\\left\\{b_{fpp}=3\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "folder",
+                                                        "id": "19",
+                                                        "title": "이동할 수 있는 점",
+                                                        "collapsed": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "81",
+                                                        "folderId": "19",
+                                                        "color": "#c74440",
+                                                        "latex": "w=3"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "82",
+                                                        "folderId": "19",
+                                                        "color": "#2d70b3",
+                                                        "latex": "h=1.5"
+                                                      },
+                                                      {
+                                                        "type": "image",
+                                                        "id": "80",
+                                                        "folderId": "19",
+                                                        "image_url": "https://uploads.desmos.com/calculator-images/cd56546bd5418be8754982b53d643e43",
+                                                        "name": "out.png",
+                                                        "foreground": true,
+                                                        "center": "\\left(\\left[x_1,x_2,x_3\\right],\\left[y_1,y_2,y_3\\right]\\right)",
+                                                        "width": "w",
+                                                        "height": "h"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "16",
+                                                        "folderId": "19",
+                                                        "color": "#2d70b3",
+                                                        "latex": "x_1=-7.5",
+                                                        "hidden": true,
+                                                        "slider": {
+                                                          "min": "-12.14",
+                                                          "max": "10.22"
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "17",
+                                                        "folderId": "19",
+                                                        "color": "#388c46",
+                                                        "latex": "y_1=8.25",
+                                                        "hidden": true,
+                                                        "slider": {
+                                                          "min": "-41.6",
+                                                          "max": "26.1"
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "15",
+                                                        "folderId": "19",
+                                                        "color": "#6042a6",
+                                                        "latex": "\\left(-\\frac{w}{2}+x_1,\\frac{h}{2}+y_1\\left\\{t=0\\right\\}\\right)",
+                                                        "showLabel": true,
+                                                        "label": " ",
+                                                        "labelOrientation": "right",
+                                                        "extendedLabelOrientation": "right"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "101",
+                                                        "folderId": "19",
+                                                        "color": "#fa7e19",
+                                                        "latex": "\\left(-\\frac{w}{2}+x_2,\\frac{h}{2}+y_2\\left\\{t=0\\right\\}\\right)",
+                                                        "showLabel": true,
+                                                        "label": " ",
+                                                        "labelOrientation": "right",
+                                                        "extendedLabelOrientation": "right"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "102",
+                                                        "folderId": "19",
+                                                        "color": "#388c46",
+                                                        "latex": "\\left(-\\frac{w}{2}+x_3,\\frac{h}{2}+y_3\\left\\{t=0\\right\\}\\right)",
+                                                        "showLabel": true,
+                                                        "label": " ",
+                                                        "labelOrientation": "right",
+                                                        "extendedLabelOrientation": "right"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "83",
+                                                        "folderId": "19",
+                                                        "color": "#6042a6",
+                                                        "latex": "\\operatorname{polygon}\\left(\\left(x_1-\\frac{w}{2},y_1+\\frac{h}{2}\\right),\\left(x_1-\\frac{w}{2},y_1-\\frac{h}{2}\\right),\\ \\left(x_1+\\frac{w}{2},y_1-\\frac{h}{2}\\right),\\left(x_1+\\frac{w}{2},y_1+\\frac{h}{2}\\right)\\right)",
+                                                        "fill": false
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "103",
+                                                        "folderId": "19",
+                                                        "color": "#fa7e19",
+                                                        "latex": "\\operatorname{polygon}\\left(\\left(x_2-\\frac{w}{2},y_2+\\frac{h}{2}\\right),\\left(x_2-\\frac{w}{2},y_2-\\frac{h}{2}\\right),\\ \\left(x_2+\\frac{w}{2},y_2-\\frac{h}{2}\\right),\\left(x_2+\\frac{w}{2},y_2+\\frac{h}{2}\\right)\\right)",
+                                                        "fill": false
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "104",
+                                                        "folderId": "19",
+                                                        "color": "#388c46",
+                                                        "latex": "\\operatorname{polygon}\\left(\\left(x_3-\\frac{w}{2},y_3+\\frac{h}{2}\\right),\\left(x_3-\\frac{w}{2},y_3-\\frac{h}{2}\\right),\\ \\left(x_3+\\frac{w}{2},y_3-\\frac{h}{2}\\right),\\left(x_3+\\frac{w}{2},y_3+\\frac{h}{2}\\right)\\right)",
+                                                        "fill": false
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "84",
+                                                        "folderId": "19",
+                                                        "color": "#6042a6",
+                                                        "latex": "\\left(x_1,y_1\\right)",
+                                                        "showLabel": true,
+                                                        "label": "`f(x)`",
+                                                        "hidden": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "41",
+                                                        "folderId": "19",
+                                                        "color": "#fa7e19",
+                                                        "latex": "\\left(x_2,y_2\\right)",
+                                                        "showLabel": true,
+                                                        "label": "`f'(x)`",
+                                                        "hidden": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "44",
+                                                        "folderId": "19",
+                                                        "color": "#388c46",
+                                                        "latex": "\\left(x_3,y_3\\right)",
+                                                        "showLabel": true,
+                                                        "label": "`f''(x)`",
+                                                        "hidden": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "45",
+                                                        "folderId": "19",
+                                                        "color": "#388c46",
+                                                        "latex": "x_3=-7.5",
+                                                        "hidden": true,
+                                                        "slider": {
+                                                          "min": "-12"
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "46",
+                                                        "folderId": "19",
+                                                        "color": "#fa7e19",
+                                                        "latex": "y_3=4.25",
+                                                        "hidden": true,
+                                                        "slider": {
+                                                          "min": "-14.4",
+                                                          "max": "21.1"
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "42",
+                                                        "folderId": "19",
+                                                        "color": "#000000",
+                                                        "latex": "x_2=-7.5",
+                                                        "hidden": true,
+                                                        "slider": {
+                                                          "min": "-12.94"
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "43",
+                                                        "folderId": "19",
+                                                        "color": "#c74440",
+                                                        "latex": "y_2=6.25",
+                                                        "hidden": true,
+                                                        "slider": {
+                                                          "min": "-23.6",
+                                                          "max": "21.1"
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "folder",
+                                                        "id": "135",
+                                                        "title": "채점",
+                                                        "collapsed": true
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "id": "121",
+                                                        "folderId": "135",
+                                                        "text": "정답:"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "118",
+                                                        "folderId": "135",
+                                                        "color": "#c74440",
+                                                        "latex": "c=\\left\\{b_f=1:1,0\\right\\}\\left\\{b_{fp}=2:1,0\\right\\}\\left\\{b_{fpp}=3:1,0\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "text",
+                                                        "id": "122",
+                                                        "folderId": "135",
+                                                        "text": "유효한 솔루션:"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "123",
+                                                        "folderId": "135",
+                                                        "color": "#388c46",
+                                                        "latex": "v=\\left\\{b_f>0\\right\\}\\left\\{b_{fp}>0\\right\\}\\left\\{b_{fpp}>0\\right\\}\\left\\{\\left|b_f-b_{fp}\\right|>0\\right\\}\\left\\{\\left|b_f-b_{fpp}\\right|>0\\right\\}\\left\\{\\left|b_{fpp}-b_{fp}\\right|>0\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "146",
+                                                        "folderId": "135",
+                                                        "color": "#c74440",
+                                                        "latex": "t=0"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "138",
+                                                        "folderId": "135",
+                                                        "color": "#000000",
+                                                        "latex": "C=1"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "126",
+                                                        "folderId": "135",
+                                                        "color": "#388c46",
+                                                        "latex": "X=11t-11",
+                                                        "hidden": true,
+                                                        "slider": {
+                                                          "max": "20"
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "125",
+                                                        "folderId": "135",
+                                                        "color": "#c74440",
+                                                        "latex": "-12<y<12\\left\\{x<X<x+1\\right\\}"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "127",
+                                                        "folderId": "135",
+                                                        "color": "#000000",
+                                                        "latex": "\\left(0,9.3\\left\\{t>2\\right\\}\\left\\{c=0\\right\\}\\right)",
+                                                        "showLabel": true,
+                                                        "label": "정답이 아닙니다",
+                                                        "hidden": true
+                                                      },
+                                                      {
+                                                        "type": "image",
+                                                        "id": "131",
+                                                        "folderId": "135",
+                                                        "image_url": "https://uploads.desmos.com/calculator-images/cd56546bd5418be8754982b53d643e43",
+                                                        "name": "cd56546bd5418be8754982b53d643e43.png",
+                                                        "foreground": true,
+                                                        "center": "\\left(0,9\\right)",
+                                                        "angle": "0\\left\\{t>2\\right\\}",
+                                                        "width": "6",
+                                                        "height": "1.8"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "128",
+                                                        "folderId": "135",
+                                                        "color": "#000000",
+                                                        "latex": "\\left(0,9.3\\left\\{t>2\\right\\}\\left\\{c=1\\right\\}\\right)",
+                                                        "showLabel": true,
+                                                        "label": "정답입니다!",
+                                                        "hidden": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "137",
+                                                        "folderId": "135",
+                                                        "color": "#000000",
+                                                        "latex": "\\left(0,8.6\\left\\{t>2\\right\\}\\right)",
+                                                        "showLabel": true,
+                                                        "label": "시도 횟수: ${C}",
+                                                        "hidden": true,
+                                                        "labelSize": "small"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "136",
+                                                        "folderId": "135",
+                                                        "color": "#000000",
+                                                        "latex": "\\operatorname{polygon}\\left(\\left(3,9.9\\left\\{t>2\\right\\}\\right),\\left(-3,9.9\\left\\{t>2\\right\\}\\right),\\left(-3,8.1\\left\\{t>2\\right\\}\\right),\\left(3,8.1\\left\\{t>2\\right\\}\\right)\\right)",
+                                                        "fill": false
+                                                      }
+                                                    ]
+                                                  }
+                                                },
+                                                "alias": "ccGraph2",
+                                                "script": "correct: ccGraph2.number(\"c\") = 1\n\nnumber(\"t\"): ccButton2.timeSincePress\n\nnumber(\"C\"): ccButton2.pressCount\n\nfunction(\"f\"): simpleFunction(ccInput1.latex)",
+                                                "legacyActionsOverrideSinks": true
+                                              }
+                                            },
+                                            {
+                                              "action-button": {
+                                                "label": "확인",
+                                                "id": "b39ec717-37e9-4b50-a29a-c3ee3645bc92",
+                                                "alias": "ccButton2",
+                                                "script": "disabled: not(ccGraph2.number(\"v\") = 1) or (ccButton2.timeSincePress < 2 and ccButton2.timeSincePress > 0) or (ccButton2.timeSincePress > 0 and ccGraph2.number(\"c\") = 1)\n\nresetLabel: when ccGraph2.number(\"t\") < 2 or ccGraph2.number(\"c\") = 1 \"\" otherwise \"재시도\"\n\nhidden: ccGraph2.number(\"c\") = 1 and ccButton2.timeSincePress > 2\n"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "linearlayout": {
+                                          "mainType": "rows",
+                                          "components": [
+                                            {
+                                              "exhibit/text": {
+                                                "text": "Here are three functions that are related to each other.\n\nOne is `f\\left(x\\right).`\n\nAnother is `f'\\left(x\\right)`.\n\nAnd the other is `f''\\left(x\\right)`.\n\nDrag the points to correctly label each function.\n\nThen describe how you decided on those labels.",
+                                                "id": "00979f0b-fdfc-42ec-b91e-b94c4f05458e",
+                                                "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"다음 함수는 서로 관련이 있는 함수입니다:\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"• \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"f\\\\left(x\\\\right)\"}]}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"• \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"f'\\\\left(x\\\\right)\"}]}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"• \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"f''\\\\left(x\\\\right)\"}]}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"각 함수에 알맞은 레이블을 드래그해 표시해 주세요.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"그리고 왜 그렇게 레이블을 표시했는지 설명해 주세요.\"}]}]}"
+                                              }
+                                            },
+                                            {
+                                              "input/text": {
+                                                "showPeerResponses": false,
+                                                "id": "e57e5f94-1713-444b-a5a0-8fca2a306747",
+                                                "alias": "ccInput2",
+                                                "shouldShowUploadImageButton": true,
+                                                "shouldShowUploadAudioButton": true,
+                                                "shouldShowTypeMathButton": true,
+                                                "shouldShowLargeBoxButton": false,
+                                                "shouldShowTextFormattingButton": false
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                "teacherTips": {}
+                              }
+                            ],
+                            "version": 1
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "여기에서 학생은 직접 자신만의 챌린지를 만들고, 다른 학생이 만든 챌린지를 풀 수 있습니다. 학생이 직접 챌린지를 만들기 전에 이전 챌린지를 모두 완료하도록 하는 것을 추천합니다. "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이 활동은 챌린지 크리에이터를 이용합니다. 이 활동으로 인해 액티비티 진행 시간이 30분 정도 연장될 수 있습니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생이 서로의 챌린지를 풀 수 있도록 하고 자신이 만든 챌린지의 답변을 확인하도록 하세요. 교사 대시보드를 사용하여 독특한 챌린지와 답변이 있는지 확인할 수 있습니다. "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 수학에 대한 이해도를 향상시키기 위해 챌린지와 답변을 학급과 공유해 주세요. 또한 학생이 무엇을 배웠는지 물어 보세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이 활동은 학생의 사회적 및 창의적 경험을 위해 만들어졌습니다. 활동 중에 학생에게 사회성과 창의성의 중요성을 강조해 주세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이 챌린지 크리에이터 활동을 진행할 때는 익명화를 활성화할 것을 권장합니다. 문제에는 시도 횟수가 표시되며 시도 횟수를 다른 친구들에게 보여주고 싶지 않은 학생이 있을 수 있기 때문입니다. 또한 여러 번의 시도를 통해 문제를 푼 학생도 충분히 격려해 주시기 바랍니다. 또한 학생의 시도 횟수를 통해 학생의 수준을 파악할 수 있으며, 시도 횟수에 따라 더 어려운 문제나 더 쉬운 문제를 풀도록 지도해 주시기 바랍니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "activity": "activitybuilder",
+      "ancestors": [
+        {
+          "_id": "5b7b3c7c2bc9970bc2490f85",
+          "user": {
+            "id": "55fb1831efe3b67f175ca4a2",
+            "displayName": "Desmos _"
+          }
+        },
+        {
+          "_id": "605a5078a742373fb4046da6",
+          "user": {
+            "id": "5de6bbe49f524909d87db21a",
+            "displayName": "Kayla Muñoz"
+          }
+        },
+        {
+          "_id": "605a51043c6a21353da05f86",
+          "user": {
+            "id": "5de6bbe49f524909d87db21a",
+            "displayName": "Kayla Muñoz"
+          }
+        },
+        {
+          "_id": "605a514566b0d23f70e8601a",
+          "user": {
+            "id": "5de6bbe49f524909d87db21a",
+            "displayName": "Kayla Muñoz"
+          }
+        },
+        {
+          "_id": "605a517b09ffdb3759f54f1b",
+          "user": {
+            "id": "5de6bbe49f524909d87db21a",
+            "displayName": "Kayla Muñoz"
+          }
+        },
+        {
+          "_id": "605a51c7b1657038050058ef",
+          "user": {
+            "id": "5de6bbe49f524909d87db21a",
+            "displayName": "Kayla Muñoz"
+          }
+        },
+        {
+          "_id": "605a5205e7760d36b9b328db",
+          "user": {
+            "id": "5de6bbe49f524909d87db21a",
+            "displayName": "Kayla Muñoz"
+          }
+        }
+      ],
+      "blurb": {
+        "schemaKey": "document",
+        "version": 3,
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "학생은 이 액티비티에서 함수의 1차 도함수와 2차 도함수를 찾는 활동을 진행하게 됩니다. 학생은 자신만의 함수를 만들어 함수의 도함수를 찾고, 친구가 문제를 풀 수 있도록 함수와 도함수를 챌린지 갤러리에 제출할 수 있습니다. "
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "이 액티비티는 Sandi Yoder의 아이디어를 기반으로 제작되었습니다."
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "한국어 번역: Desmos 현지화 팀"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "category": "practice",
+      "collaborators": [
+        "5d85bd4cfe8bdc626d4698c8",
+        "5f0aa3a7367e812bf281e2e6"
+      ],
+      "teamDesmosAuthored": true,
+      "complete": true,
+      "edit_ts": "2022-08-22T10:27:13.452Z",
+      "keywords": [],
+      "licenses": [],
+      "retailAssetIds": [],
+      "permissionToShare": true,
+      "publishedTimestamp": "2022-08-22T10:27:13.452Z",
+      "thumb": "https://uploads.desmos.com/activitybuilder/d6fb83d3ee8848e5dc3bafae8aad18cf",
+      "timeEstimate": 30,
+      "title": "함수와 도함수",
+      "linkedActivities": [
+        {
+          "title": "원본 버전 (영어)",
+          "activityId": "5b7b3c7c2bc9970bc2490f85",
+          "collectionIds": [],
+          "logical": {
+            "logicalActivityMetaId": "5b7b3c7c2bc9970bc2490f85",
+            "logicalCollectionIds": []
+          }
+        }
+      ],
+      "user": {
+        "id": "5de6bbe49f524909d87db21a",
+        "displayName": "Kayla Muñoz"
+      },
+      "author": {
+        "id": "5d85bd4cfe8bdc626d4698c8",
+        "displayName": "영하 김"
+      },
+      "iPadWarning": "Alcune parti dell'attività potrebbero non funzionare correttamente sugli iPad più vecchi.",
+      "accessibilityNotes": "This activity relies heavily on a graphical representation of functions and may not be constructive for vision-impaired students.",
+      "commitId": "630348d6f1867b274d9472c8",
+      "logicalId": "605a524151628b370536796f",
+      "draftTitle": "함수와 도함수",
+      "draftAuthor": {
+        "id": "5d85bd4cfe8bdc626d4698c8",
+        "displayName": "영하 김"
+      }
+    },
+    "noindex": false
+  },
+  "notes": [
+    "Public HTML exposes metadata and thumbnail.",
+    "The public POST /activity/:id route may expose the customLesson JSON for public activities.",
+    "Teacher sessions, dashboards, student responses, and editor-only diagnostics still require authorization.",
+    "Use this output as source evidence and template inspiration, not as an activity clone."
+  ]
+}

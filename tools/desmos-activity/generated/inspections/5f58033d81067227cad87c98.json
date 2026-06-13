@@ -1,0 +1,3774 @@
+{
+  "inspectedAt": "2026-06-13T12:30:02.255Z",
+  "url": "https://classroom.amplify.com/activity/5f58033d81067227cad87c98?lang=ko",
+  "activityId": "5f58033d81067227cad87c98",
+  "staticMeta": {
+    "canonical": "https://classroom.amplify.com/activity/5f58033d81067227cad87c98",
+    "title": "구슬 굴리기: 지수함수",
+    "description": "구슬 굴리기는 재미있으면서도 수학 능력이 필요한 액티비티입니다. 이 액티비티에서는 지수함수를 수정하거나 추가해 구슬이 모든 별을 통과할 수 있도록 해야 합니다. 학생은 구슬을 발사해 결과를 확인하고 다음 챌린지를 시작하기 전에 답변을 수정할 수 있습니다.\n\n한국어 번역: Desmos 현지화 팀.",
+    "twitterTitle": "구슬 굴리기: 지수함수",
+    "twitterDescription": "구슬 굴리기는 재미있으면서도 수학 능력이 필요한 액티비티입니다. 이 액티비티에서는 지수함수를 수정하거나 추가해 구슬이 모든 별을 통과할 수 있도록 해야 합니다. 학생은 구슬을 발사해 결과를 확인하고 다음 챌린지를 시작하기 전에 답변을 수정할 수 있습니다.\n\n한국어 번역: Desmos 현지화 팀.",
+    "image": "https://uploads.desmos.com/activitybuilder/9e9b25c3848a997219cd0c08e30b0950"
+  },
+  "activityMeta": {
+    "activities": [
+      {
+        "__brand": "NormalizedActivity",
+        "_id": "5f58033d81067227cad87c98",
+        "ancestorAuthorGroups": [],
+        "ancestors": [
+          {
+            "_id": "564ccd3872980858069fcbc4",
+            "user": {
+              "id": "5514ad075bb90671051acab6",
+              "displayName": "Dan Meyer"
+            }
+          },
+          {
+            "_id": "564e2d39e40cd4210cca3a9d",
+            "user": {
+              "id": "5514ad075bb90671051acab6",
+              "displayName": "Dan Meyer"
+            }
+          },
+          {
+            "_id": "565f960ab4f99d8d0eecb916",
+            "user": {
+              "id": "5514ad075bb90671051acab6",
+              "displayName": "Dan Meyer"
+            }
+          }
+        ],
+        "category": "development",
+        "collaborators": [
+          "5d5c81618a3b6156af14a89f",
+          "5d85bd4cfe8bdc626d4698c8"
+        ],
+        "customMetadata": {},
+        "teamDesmosAuthored": true,
+        "deleteURL": "/custom-lesson/delete/5f58033d81067227cad87c98",
+        "description": "구슬 굴리기는 재미있으면서도 수학 능력이 필요한 액티비티입니다. 이 액티비티에서는 지수함수를 수정하거나 추가해 구슬이 모든 별을 통과할 수 있도록 해야 합니다. 학생은 구슬을 발사해 결과를 확인하고 다음 챌린지를 시작하기 전에 답변을 수정할 수 있습니다.\n\n한국어 번역: Desmos 현지화 팀.",
+        "edit_ts": "2022-08-19T12:52:35.666Z",
+        "infoURL": "activity/5f58033d81067227cad87c98",
+        "keywords": [],
+        "licenses": [],
+        "activityLicenses": [],
+        "retailAssetIds": [],
+        "activityRetailAssetIds": [],
+        "private": false,
+        "searchable": false,
+        "thumbURL": "https://uploads.desmos.com/activitybuilder/9e9b25c3848a997219cd0c08e30b0950",
+        "timeEstimate": 45,
+        "isPaperActivity": false,
+        "hasSteps": true,
+        "hasAuthoredFeedback": false,
+        "isPresentation": false,
+        "screenReaderFriendly": true,
+        "authorTags": [
+          "desmos"
+        ],
+        "title": "구슬 굴리기: 지수함수",
+        "linkedActivities": [
+          {
+            "title": "원본 버전 (영어)",
+            "activityId": "566b317b4e38e1e21a10aafb",
+            "collectionIds": [],
+            "logical": {
+              "logicalActivityMetaId": "566b317b4e38e1e21a10aafb",
+              "logicalCollectionIds": []
+            }
+          }
+        ],
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      }
+    ],
+    "deletedActivities": [],
+    "activityTranslations": {}
+  },
+  "activitySummary": {
+    "id": "5f58033d81067227cad87c98",
+    "title": "구슬 굴리기: 지수함수",
+    "version": 1,
+    "commitId": "62ff84280c309005d30bfd45",
+    "publishedTimestamp": "2022-08-19T12:52:35.666Z",
+    "editTimestamp": "2022-08-19T12:52:35.666Z",
+    "permissionToShare": true,
+    "noindex": false,
+    "user": {
+      "id": "5de6bbe49f524909d87db21a",
+      "displayName": "Kayla Muñoz"
+    },
+    "author": {
+      "id": "5d85bd4cfe8bdc626d4698c8",
+      "displayName": "영하 김"
+    },
+    "ancestors": [
+      {
+        "_id": "564ccd3872980858069fcbc4",
+        "user": {
+          "id": "5514ad075bb90671051acab6",
+          "displayName": "Dan Meyer"
+        }
+      },
+      {
+        "_id": "564e2d39e40cd4210cca3a9d",
+        "user": {
+          "id": "5514ad075bb90671051acab6",
+          "displayName": "Dan Meyer"
+        }
+      },
+      {
+        "_id": "565f960ab4f99d8d0eecb916",
+        "user": {
+          "id": "5514ad075bb90671051acab6",
+          "displayName": "Dan Meyer"
+        }
+      }
+    ],
+    "thumb": "https://uploads.desmos.com/activitybuilder/9e9b25c3848a997219cd0c08e30b0950",
+    "screenCount": 24,
+    "componentCounts": {
+      "marbleslides": 15,
+      "exhibit/image": 1,
+      "exhibit/text": 6,
+      "input/graph": 7,
+      "input/text": 4
+    },
+    "screens": [
+      {
+        "index": 1,
+        "id": "2f8b51b7-5a61-4977-8feb-49ef0b174dd8",
+        "type": "two-column",
+        "title": "구슬을 굴려 볼까요!",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 2,
+        "id": "ba98e697-de17-49b7-b117-1317d3a60bc4",
+        "type": "two-column",
+        "title": "지수함수 바꾸기 1",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 3,
+        "id": "84e98754-6a61-4f57-aa11-a41c138e2da3",
+        "type": "two-column",
+        "title": "화면 초기화 방법",
+        "subtitle": "",
+        "componentCounts": {
+          "exhibit/image": 1,
+          "exhibit/text": 1
+        }
+      },
+      {
+        "index": 4,
+        "id": "ef2597bb-f30a-4b56-bccc-6add23a361f7",
+        "type": "two-column",
+        "title": "지수함수 바꾸기 2",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 5,
+        "id": "2caf4454-ed7b-488d-bd88-c9259ae0bb8a",
+        "type": "two-column",
+        "title": "지수함수 바꾸기 3",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 6,
+        "id": "7095141c-198b-4def-9e2e-e75fafddb0e3",
+        "type": "two-column",
+        "title": "지수함수 바꾸기 4",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 7,
+        "id": "9f7fdbae-80e4-48f0-bd04-30278b1e13e0",
+        "type": "two-column",
+        "title": "지수함수 예측하기 1",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 8,
+        "id": "7b3884a3-d046-414b-af9d-439ea8c2022d",
+        "type": "two-column",
+        "title": "지수함수 확인하기 1",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1
+        }
+      },
+      {
+        "index": 9,
+        "id": "d143fe20-c6d2-4932-91c7-21cbb16a7d3e",
+        "type": "two-column",
+        "title": "지수함수 예측하기 2",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 10,
+        "id": "230da170-5c9a-4a5f-aaec-fa13b457ff07",
+        "type": "two-column",
+        "title": "지수함수 확인하기 2",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1
+        }
+      },
+      {
+        "index": 11,
+        "id": "19524098-76d0-4bf6-bc80-10381de80f18",
+        "type": "two-column",
+        "title": "지수함수 예측하기 3",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 12,
+        "id": "9d0445cb-8905-4730-a9fc-eca7b64759d6",
+        "type": "two-column",
+        "title": "지수함수 확인하기 3",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1
+        }
+      },
+      {
+        "index": 13,
+        "id": "27f92414-e40c-46a7-a5f2-93b2e2a3b31c",
+        "type": "two-column",
+        "title": "지수함수 예측하기 4",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 14,
+        "id": "f34d5ee4-867f-4e82-a578-271a56aae3b8",
+        "type": "two-column",
+        "title": "지수함수 확인하기 4",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 15,
+        "id": "d50295eb-1d6a-406d-afd1-e0858a5c3009",
+        "type": "two-column",
+        "title": "추가 챌린지를 풀어 보세요!",
+        "subtitle": "",
+        "componentCounts": {
+          "exhibit/text": 1
+        }
+      },
+      {
+        "index": 16,
+        "id": "5ea96eb3-a7da-4337-9fcc-5bb829f31c97",
+        "type": "two-column",
+        "title": "1번째 챌린지",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 17,
+        "id": "58dc8f8a-2358-41b7-a1e4-baa1860e3c97",
+        "type": "two-column",
+        "title": "2번째 챌린지",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 18,
+        "id": "9174a756-ee9e-4864-8627-db886a284bdc",
+        "type": "two-column",
+        "title": "3번째 챌린지",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 19,
+        "id": "8ff87593-8467-4169-9cee-8f9c5ffbbc55",
+        "type": "two-column",
+        "title": "4번째 챌린지",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 20,
+        "id": "92e51974-2f95-4fe5-9fa0-9f75f32ff0ad",
+        "type": "two-column",
+        "title": "5번째 챌린지",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 21,
+        "id": "c845bfdc-de21-400f-b30d-bc0f96b27ca6",
+        "type": "two-column",
+        "title": "6번째 챌린지",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 22,
+        "id": "524348a1-93cc-4514-93e1-bc783d721940",
+        "type": "two-column",
+        "title": "7번째 챌린지",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 23,
+        "id": "ae9bec8e-5ade-4670-b818-58fda7e8b79d",
+        "type": "two-column",
+        "title": "8번째 챌린지",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 24,
+        "id": "954b72f2-8d88-4bdc-b10e-e990a6639939",
+        "type": "two-column",
+        "title": "자유 활동",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      }
+    ],
+    "aliases": [],
+    "scripts": [
+      {
+        "screen": 9,
+        "screenTitle": "지수함수 예측하기 2",
+        "type": "input/graph",
+        "alias": null,
+        "id": "120326ec-b757-4116-ab5a-ee2b028bd509",
+        "script": "narration(1): \"좌표평면의 x축과 y축의 범위는 -10부터 10까지이며 `y=2^{x-4}-3`의 그래프가 표시되어 있습니다.\""
+      },
+      {
+        "screen": 11,
+        "screenTitle": "지수함수 예측하기 3",
+        "type": "input/graph",
+        "alias": null,
+        "id": "b671f569-5131-4ca6-aec8-29b9c70e1295",
+        "script": "narration(1): \"좌표평면의 x축과 y축의 범위는 -10부터 10까지이며 `y=2^{x-4}-3`의 그래프가 표시되어 있습니다..\""
+      },
+      {
+        "screen": 13,
+        "screenTitle": "지수함수 예측하기 4",
+        "type": "input/graph",
+        "alias": null,
+        "id": "6faef754-77fc-4652-a1ea-c2baf911a8d4",
+        "script": "narration(1): \"구슬의 시작 위치는 `(-1,10)`이며 별의 위치는 각각 `(-1,5.2)`, `(0, 3.2)`, `(2, 2.2)`, `(5, 2.1)`입니다. 좌표평면에는 `y=3^x+3`의 그래프가 표시되어 있습니다.\""
+      }
+    ]
+  },
+  "activityJson": {
+    "customLesson": {
+      "_id": "5f58033d81067227cad87c98",
+      "version": 1,
+      "steps": [
+        {
+          "type": "two-column",
+          "id": "2f8b51b7-5a61-4977-8feb-49ef0b174dd8",
+          "title": "구슬을 굴려 볼까요!",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "5ae36dcb-dc0b-4c34-af15-17577002c4c1",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -9.447640461663642,
+                                "ymin": -25.593922425903987,
+                                "xmax": 24.14810859554299,
+                                "ymax": 24.004535501747224
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "755b71fea114a2002fa24d36dbca0b3e",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "2",
+                                  "text": "지수함수를 이용해 구슬이 모든 별을 통과하도록 해야 합니다."
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "7",
+                                  "text": "<발사> 버튼을 클릭해 보세요."
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "8",
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "9",
+                                  "folderId": "8",
+                                  "color": "#2d70b3",
+                                  "latex": "y=2^{\\left(x-4\\right)}+2\\left\\{5>x>-4\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "10",
+                                  "folderId": "8",
+                                  "color": "#2d70b3",
+                                  "latex": "y=2^{\\left(-x-5\\right)}+.5\\left\\{5>x>-7\\right\\}"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/67804ce197e2efd879ad3aaa5d88c2fc",
+                          "start": [
+                            {
+                              "x": 0,
+                              "y": 6
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 0,
+                              "y": 4
+                            },
+                            {
+                              "x": 0,
+                              "y": 3
+                            },
+                            {
+                              "x": 0,
+                              "y": 2
+                            },
+                            {
+                              "x": 0,
+                              "y": 1
+                            }
+                          ],
+                          "marbleSize": 0.5,
+                          "start-raw": "(0,6)",
+                          "stars-raw": "(0,4), (0,3), (0,2), (0,1)"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "ba98e697-de17-49b7-b117-1317d3a60bc4",
+          "title": "지수함수 바꾸기 1",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "e9ff1ea0-bf8d-4ce1-a2fb-c1d040cf7c80",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -3.7421981004070553,
+                                "ymin": -16.152778649618295,
+                                "xmax": 23.742198100407055,
+                                "ymax": 24.152778649618295
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "56affbe091af046708030262bbeb0e68",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "2",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식의 숫자 중 하나를 바꿔 보세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "11",
+                                  "color": "#2d70b3",
+                                  "latex": "y=2^{\\left(x-2\\right)}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/a262f434f3795e556dc9c466f812c796",
+                          "start": [
+                            {
+                              "x": 15,
+                              "y": 5
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 15,
+                              "y": 0
+                            },
+                            {
+                              "x": 10,
+                              "y": 0
+                            },
+                            {
+                              "x": 5,
+                              "y": 0
+                            },
+                            {
+                              "x": 0,
+                              "y": 0
+                            }
+                          ],
+                          "marbleSize": 0.5,
+                          "start-raw": "(15,5)",
+                          "stars-raw": "(15,0), (10,0), (5,0), (0,0)"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생이 한 번에 하나씩 숫자를 변경하고, 다른 숫자를 바꾸기 전에 이전에 바꾼 숫자를 원래대로 돌려 놓도록 하세요. 숫자에 따라 지수함수가 어떻게 변하는지 더 잘 이해하는 데 도움이 됩니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=2^{\\left(x-19\\right)}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "84e98754-6a61-4f57-aa11-a41c138e2da3",
+          "title": "화면 초기화 방법",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/image": {
+                          "alt": "설정 메뉴를 열고 초기화 버튼을 누르는 방법을 보여주는 사진입니다.",
+                          "img": "https://uploads.desmos.com/activitybuilder/71de8377b5164d4eed9975666eac67e5",
+                          "id": "cdfdfb02-f356-4df1-a560-a5b5ddaa0cab"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "If you have too much fun, and you want to reset your Marbleslides screen to its original look, follow these instructions.\n\n(1) Click the settings gear icon above the expressions list.\n(2) Click \"Reset.\"",
+                          "id": "0bd7a4e4-6af5-4f69-a437-3f87521f960d",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"화면을 초기화 하려면 다음 방법을 참고하세요.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"(1) 수식 리스트 위의 톱니바퀴 아이콘을 클릭하세요.\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"(2) 그 다음 <초기화> 버튼을 클릭하세요.\"}]}]}"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "ef2597bb-f30a-4b56-bccc-6add23a361f7",
+          "title": "지수함수 바꾸기 2",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "62440832-956c-4c38-9834-ab9c4f78f386",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -16.306648575305292,
+                                "ymin": -10.114583987213722,
+                                "xmax": 4.306648575305292,
+                                "ymax": 20.11458398721372
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "3ccbe0283179afcfa8672fd30342432a",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "8",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식의 숫자 중 하나를 바꿔 보세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "9",
+                                  "color": "#2d70b3",
+                                  "latex": "y=2^x-1\\left\\{x>-7\\right\\}"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/9cff0e05a9a6d2e734040477777ea7e3",
+                          "start": [
+                            {
+                              "x": 0,
+                              "y": 12
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": -10,
+                              "y": 3.2
+                            },
+                            {
+                              "x": -12,
+                              "y": 3.2
+                            },
+                            {
+                              "x": -14,
+                              "y": 3.2
+                            },
+                            {
+                              "x": -8,
+                              "y": 3.2
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생이 한 번에 하나씩 숫자를 변경하고, 다른 숫자를 바꾸기 전에 이전에 바꾼 숫자를 원래대로 돌려 놓도록 하세요. 숫자에 따라 지수함수가 어떻게 변하는지 더 잘 이해하는 데 도움이 됩니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "힌트: 괄호 안 정의역의 범위도 변경해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=2^{x}+3\\left\\{x>-14\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "2caf4454-ed7b-488d-bd88-c9259ae0bb8a",
+          "title": "지수함수 바꾸기 3",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "62a9cb31-12b2-4e22-81f2-7e6018a0e20d",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -3.4518317503392133,
+                                "ymin": -11.793982208015247,
+                                "xmax": 19.451831750339213,
+                                "ymax": 21.793982208015247
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "e6e9dd89cb0ba6d2aab69c92df9eaa0b",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "11",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식의 숫자 중 하나를 바꿔 보세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "12",
+                                  "color": "#2d70b3",
+                                  "latex": "y=3^x+2",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/3b24295e625e7c6f224bd97e04991391",
+                          "start": [
+                            {
+                              "x": 15,
+                              "y": 7
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 0,
+                              "y": 3.3
+                            },
+                            {
+                              "x": 10,
+                              "y": 4.9
+                            },
+                            {
+                              "x": 8,
+                              "y": 4.5
+                            },
+                            {
+                              "x": 6,
+                              "y": 4.1
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생이 한 번에 하나씩 숫자를 변경하고, 다른 숫자를 바꾸기 전에 이전에 바꾼 숫자를 원래대로 돌려 놓도록 하세요. 숫자에 따라 지수함수가 어떻게 변하는지 더 잘 이해하는 데 도움이 됩니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=1.1^{x}+2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "7095141c-198b-4def-9e2e-e75fafddb0e3",
+          "title": "지수함수 바꾸기 4",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "045c0680-e3e5-4ccf-9c7a-828162353823",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10.597014925373134,
+                                "ymin": -13.473380428816771,
+                                "xmax": 14.597014925373134,
+                                "ymax": 23.47338042881677
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "d9fadbc704b52581b4b97b3428c33a7a",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "8",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식의 숫자 중 하나를 바꿔 보세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#2d70b3",
+                                  "latex": "y=3^x+1",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/ed8490a93b0689a03a6549b92b7180b5",
+                          "start": [
+                            {
+                              "x": -2,
+                              "y": 14
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 0,
+                              "y": 2.3
+                            },
+                            {
+                              "x": 5,
+                              "y": 1.3
+                            },
+                            {
+                              "x": -2,
+                              "y": 10.3
+                            },
+                            {
+                              "x": 8,
+                              "y": 1.2
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=3^{-x}+1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "9f7fdbae-80e4-48f0-bd04-30278b1e13e0",
+          "title": "지수함수 예측하기 1",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "exhibitMode": true,
+                          "id": "68cb8f9c-0686-4284-b9c7-6f8fa0e427b4",
+                          "img": "https://uploads.desmos.com/activitybuilder/f6c38b2e45f4fea1a6c461a3222ce69b",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "02f613123f4dadc1af61d6f12dcfb01e",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -6.0654885654885655,
+                                "xmax": 10,
+                                "ymax": 6.0654885654885655
+                              }
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#2d70b3",
+                                  "latex": "y=2^{x-4}-3"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "14",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(0,-7\\right)",
+                                  "showLabel": true,
+                                  "label": "`y=2^{x-4}-3`",
+                                  "hidden": true,
+                                  "labelSize": "large"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "35",
+                                  "title": "범례 (윤곽 / 배경)"
+                                },
+                                {
+                                  "type": "image",
+                                  "id": "36",
+                                  "folderId": "35",
+                                  "image_url": "https://uploads.desmos.com/calculator-images/463216ae4877ddf62974b8df1b722ead",
+                                  "name": "white square.png",
+                                  "foreground": true,
+                                  "center": "\\left(l_x,l_y\\right)",
+                                  "width": "2d_x",
+                                  "height": "2d_y"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "37",
+                                  "folderId": "35",
+                                  "color": "#999999",
+                                  "latex": "\\operatorname{polygon}\\left(\\left[l_x-d_x,l_x+d_x,l_x+d_x,l_x-d_x\\right],\\left[l_y-d_y,l_y-d_y,l_y+d_y,l_y+d_y\\right]\\right)",
+                                  "fill": false
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "38",
+                                  "folderId": "35",
+                                  "color": "#c74440",
+                                  "latex": "l_x=0"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "39",
+                                  "folderId": "35",
+                                  "color": "#2d70b3",
+                                  "latex": "l_y=-7"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "40",
+                                  "folderId": "35",
+                                  "color": "#388c46",
+                                  "latex": "d_x=4"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "41",
+                                  "folderId": "35",
+                                  "color": "#6042a6",
+                                  "latex": "d_y=1.25"
+                                }
+                              ]
+                            }
+                          },
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "If we changed the –3 to a 3 in the equation, what would happen to the graph?",
+                          "id": "bfd52117-b2bb-496d-b912-f4df1ee19566",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"방정식의 숫자를 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"-3\"}]},{\"type\":\"text\",\"text\":\"에서 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"+3\"}]},{\"type\":\"text\",\"text\":\"으로 바꾸면 그래프에 어떤 변화가 생길까요?\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "e0c4df2b-0bf1-4fd2-b64e-4cb746735f56",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이 화면에서 학생의 답변을 공유해 보세요. 학생의 답변이 서로 달라도 괜찮습니다. 학생이 다른 친구의 답변에 대해 질문하고 설명하도록 해 보세요. 다음 화면에서 지수함수를 확인할 것입니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "함수가 위로 6만큼 평행이동하게 됩니다. 이에 따라 점근선이 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=-3"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 대신 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=3"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "이 됩니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "7b3884a3-d046-414b-af9d-439ea8c2022d",
+          "title": "지수함수 확인하기 1",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "617b6165-e02a-4045-80fa-9b7f86ce96cd",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -5.799663299663299,
+                                "xmax": 10,
+                                "ymax": 5.799663299663299
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "e115ba196893d28447fdc068679a9e3f",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "4",
+                                  "text": "아래의 방정식을 수정해 이전 화면에서 제출한 답변이 정답인지 확인해 보세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#2d70b3",
+                                  "latex": "y=2^{\\left(x-4\\right)}-3"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "3",
+                                  "text": "방정식의 숫자를 -3에서 3으로 바꾸면 그래프에 어떤 변화가 생기나요?"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "47",
+                                  "collapsed": true,
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "46",
+                                  "folderId": "47",
+                                  "color": "#2d70b3",
+                                  "latex": "y=2^{\\left(x-4\\right)}-3",
+                                  "lineStyle": "DASHED"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/0cfa8d7474fd872c672031c3e1a28196",
+                          "exhibitMode": false,
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "text": "",
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "d143fe20-c6d2-4932-91c7-21cbb16a7d3e",
+          "title": "지수함수 예측하기 2",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "exhibitMode": true,
+                          "id": "120326ec-b757-4116-ab5a-ee2b028bd509",
+                          "img": "https://uploads.desmos.com/activitybuilder/f6c38b2e45f4fea1a6c461a3222ce69b",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "e93e691676218664fe359b403eb6fd3b",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -6.0654885654885655,
+                                "xmax": 10,
+                                "ymax": 6.0654885654885655
+                              }
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#2d70b3",
+                                  "latex": "y=2^{x-4}-3"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "13",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(0,-7\\right)",
+                                  "showLabel": true,
+                                  "label": "`y=2^{x-4}-3`",
+                                  "hidden": true,
+                                  "labelSize": "large"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "15",
+                                  "title": "범례 (윤곽 / 배경)"
+                                },
+                                {
+                                  "type": "image",
+                                  "id": "16",
+                                  "folderId": "15",
+                                  "image_url": "https://uploads.desmos.com/calculator-images/463216ae4877ddf62974b8df1b722ead",
+                                  "name": "white square.png",
+                                  "foreground": true,
+                                  "center": "\\left(l_x,l_y\\right)",
+                                  "width": "2d_x",
+                                  "height": "2d_y"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "17",
+                                  "folderId": "15",
+                                  "color": "#999999",
+                                  "latex": "\\operatorname{polygon}\\left(\\left[l_x-d_x,l_x+d_x,l_x+d_x,l_x-d_x\\right],\\left[l_y-d_y,l_y-d_y,l_y+d_y,l_y+d_y\\right]\\right)",
+                                  "fill": false
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "18",
+                                  "folderId": "15",
+                                  "color": "#c74440",
+                                  "latex": "l_x=0"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "19",
+                                  "folderId": "15",
+                                  "color": "#2d70b3",
+                                  "latex": "l_y=-7"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "20",
+                                  "folderId": "15",
+                                  "color": "#388c46",
+                                  "latex": "d_x=4"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "21",
+                                  "folderId": "15",
+                                  "color": "#6042a6",
+                                  "latex": "d_y=1.25"
+                                }
+                              ]
+                            }
+                          },
+                          "script": "narration(1): \"좌표평면의 x축과 y축의 범위는 -10부터 10까지이며 `y=2^{x-4}-3`의 그래프가 표시되어 있습니다.\"",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "If we changed the –4 to a 4 in the equation, what would happen to the graph?",
+                          "id": "28ac368e-ab3b-4f40-9840-dec8bcd047b4",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"방정식의 숫자를 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"-4\"}]},{\"type\":\"text\",\"text\":\"에서 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"+4\"}]},{\"type\":\"text\",\"text\":\"로 바꾸면 그래프에 어떤 변화가 생길까요?\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "816a3c4a-307e-44f4-b197-9ee1c7afb881",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이 화면에서 학생의 답변을 공유해 보세요. 학생의 답변이 서로 달라도 괜찮습니다. 학생이 다른 친구의 답변에 대해 질문하고 설명하도록 해 보세요. 다음 화면에서 지수함수를 확인할 것입니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "함수가 왼쪽으로 8만큼 평행이동하게 됩니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "230da170-5c9a-4a5f-aaec-fa13b457ff07",
+          "title": "지수함수 확인하기 2",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "223d73ba-a4c2-4bdf-8082-48c17ce15c63",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -5.799663299663299,
+                                "xmax": 10,
+                                "ymax": 5.799663299663299
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "48022e89083008b48449be2536a6143d",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "4",
+                                  "text": "아래의 방정식을 수정해 이전 화면에서 제출한 답변이 정답인지 확인해 보세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#2d70b3",
+                                  "latex": "y=2^{x-4}-3"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "3",
+                                  "text": "방정식의 숫자를 -4에서 +4로 바꾸면 그래프에 어떤 변화가 생기나요?"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "67",
+                                  "collapsed": true,
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "66",
+                                  "folderId": "67",
+                                  "color": "#2d70b3",
+                                  "latex": "y=2^{\\left(x-4\\right)}-3",
+                                  "lineStyle": "DASHED"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/0cfa8d7474fd872c672031c3e1a28196",
+                          "exhibitMode": false,
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "19524098-76d0-4bf6-bc80-10381de80f18",
+          "title": "지수함수 예측하기 3",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "exhibitMode": true,
+                          "id": "b671f569-5131-4ca6-aec8-29b9c70e1295",
+                          "img": "https://uploads.desmos.com/activitybuilder/f6c38b2e45f4fea1a6c461a3222ce69b",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "f14e6ee0e2522e18a0eec2ecc3cd6a6d",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -6.0654885654885655,
+                                "xmax": 10,
+                                "ymax": 6.0654885654885655
+                              }
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#2d70b3",
+                                  "latex": "y=2^{x-4}-3"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "13",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(0,-7\\right)",
+                                  "showLabel": true,
+                                  "label": "`y=2^{x-4}-3`",
+                                  "hidden": true,
+                                  "labelSize": "large"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "29",
+                                  "title": "범례 (윤곽 / 배경)"
+                                },
+                                {
+                                  "type": "image",
+                                  "id": "30",
+                                  "folderId": "29",
+                                  "image_url": "https://uploads.desmos.com/calculator-images/463216ae4877ddf62974b8df1b722ead",
+                                  "name": "white square.png",
+                                  "foreground": true,
+                                  "center": "\\left(l_x,l_y\\right)",
+                                  "width": "2d_x",
+                                  "height": "2d_y"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "31",
+                                  "folderId": "29",
+                                  "color": "#999999",
+                                  "latex": "\\operatorname{polygon}\\left(\\left[l_x-d_x,l_x+d_x,l_x+d_x,l_x-d_x\\right],\\left[l_y-d_y,l_y-d_y,l_y+d_y,l_y+d_y\\right]\\right)",
+                                  "fill": false
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "32",
+                                  "folderId": "29",
+                                  "color": "#c74440",
+                                  "latex": "l_x=0"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "33",
+                                  "folderId": "29",
+                                  "color": "#2d70b3",
+                                  "latex": "l_y=-7"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "34",
+                                  "folderId": "29",
+                                  "color": "#388c46",
+                                  "latex": "d_x=4"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "35",
+                                  "folderId": "29",
+                                  "color": "#6042a6",
+                                  "latex": "d_y=1.25"
+                                }
+                              ]
+                            }
+                          },
+                          "script": "narration(1): \"좌표평면의 x축과 y축의 범위는 -10부터 10까지이며 `y=2^{x-4}-3`의 그래프가 표시되어 있습니다..\"",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "If we changed the 2 to a 1.2 in the equation, what would happen to the graph?",
+                          "id": "6e7b00b3-cfef-4b2c-8630-72a6c961e212",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"방정식의 숫자를 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"2\"}]},{\"type\":\"text\",\"text\":\"에서 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"1.2\"}]},{\"type\":\"text\",\"text\":\"로 바꾸면 그래프에 어떤 변화가 생길까요?\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "27d23065-ffb0-4309-81bc-e874fad7ddd2",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이 화면에서 학생의 답변을 공유해 보세요. 학생의 답변이 서로 달라도 괜찮습니다. 학생이 다른 친구의 답변에 대해 질문하고 설명하도록 해 보세요. 다음 화면에서 지수함수를 확인할 것입니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "함수의 경사가 완만해집니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "9d0445cb-8905-4730-a9fc-eca7b64759d6",
+          "title": "지수함수 확인하기 3",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "a41906aa-6a24-465e-977e-60b1e8a89e53",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -5.799663299663299,
+                                "xmax": 10,
+                                "ymax": 5.799663299663299
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "6021bea2105ad13f4f695de0e80c6e8e",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "4",
+                                  "text": "아래의 방정식을 수정해 이전 화면에서 제출한 답변이 정답인지 확인해 보세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#2d70b3",
+                                  "latex": "y=2^{\\left(x-4\\right)}-3",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "3",
+                                  "text": "방정식의 숫자를 2에서 1.2로 바꾸면 그래프에 어떤 변화가 생기나요?"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "89",
+                                  "collapsed": true,
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "88",
+                                  "folderId": "89",
+                                  "color": "#2d70b3",
+                                  "latex": "y=2^{\\left(x-4\\right)}-3",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "lineStyle": "DASHED",
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/0cfa8d7474fd872c672031c3e1a28196",
+                          "exhibitMode": false,
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "27f92414-e40c-46a7-a5f2-93b2e2a3b31c",
+          "title": "지수함수 예측하기 4",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "exhibitMode": true,
+                          "id": "6faef754-77fc-4652-a1ea-c2baf911a8d4",
+                          "img": "https://uploads.desmos.com/activitybuilder/940dde064e9f97d660002f286c91f0f4",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "3bcc34ba6b8c961583f28e3b00a5bdeb",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -8,
+                                "ymin": -4,
+                                "xmax": 8,
+                                "ymax": 12
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4,
+                              "squareAxes": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#2d70b3",
+                                  "latex": "y=3^x+3"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "91",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(0,-2\\right)",
+                                  "showLabel": true,
+                                  "label": "`y=3^x+3`",
+                                  "hidden": true,
+                                  "labelSize": "large"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "93",
+                                  "title": "범례 (윤곽 / 배경)"
+                                },
+                                {
+                                  "type": "image",
+                                  "id": "94",
+                                  "folderId": "93",
+                                  "image_url": "https://uploads.desmos.com/calculator-images/463216ae4877ddf62974b8df1b722ead",
+                                  "name": "white square.png",
+                                  "foreground": true,
+                                  "center": "\\left(l_x,l_y\\right)",
+                                  "width": "2d_x",
+                                  "height": "2d_y"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "95",
+                                  "folderId": "93",
+                                  "color": "#999999",
+                                  "latex": "\\operatorname{polygon}\\left(\\left[l_x-d_x,l_x+d_x,l_x+d_x,l_x-d_x\\right],\\left[l_y-d_y,l_y-d_y,l_y+d_y,l_y+d_y\\right]\\right)",
+                                  "fill": false
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "96",
+                                  "folderId": "93",
+                                  "color": "#c74440",
+                                  "latex": "l_x=0"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "97",
+                                  "folderId": "93",
+                                  "color": "#2d70b3",
+                                  "latex": "l_y=-2"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "98",
+                                  "folderId": "93",
+                                  "color": "#388c46",
+                                  "latex": "d_x=3"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "99",
+                                  "folderId": "93",
+                                  "color": "#6042a6",
+                                  "latex": "d_y=1"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "101",
+                                  "title": "별 및 구슬"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "104",
+                                  "folderId": "101",
+                                  "color": "#388c46",
+                                  "latex": "S_x=\\left[-1,0,2,5\\right]"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "106",
+                                  "folderId": "101",
+                                  "color": "#2d70b3",
+                                  "latex": "S_y=\\left[5.3,3.2,2.3,2.2\\right]"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "107",
+                                  "folderId": "101",
+                                  "color": "#388c46",
+                                  "latex": "s=\\frac{1}{2500}\\cdot16"
+                                },
+                                {
+                                  "type": "image",
+                                  "id": "103",
+                                  "folderId": "101",
+                                  "image_url": "https://uploads.desmos.com/calculator-images/1c955aa61f8d7748d4c076b22e16f8c5",
+                                  "name": "star.png",
+                                  "foreground": true,
+                                  "center": "\\left(S_x,S_y\\right)",
+                                  "width": "96s",
+                                  "height": "88s"
+                                },
+                                {
+                                  "type": "image",
+                                  "id": "108",
+                                  "folderId": "101",
+                                  "image_url": "https://uploads.desmos.com/calculator-images/9e2ad3283b7836a93e1a5294efea8b4e",
+                                  "name": "ball.png",
+                                  "foreground": true,
+                                  "center": "(-1,10)",
+                                  "width": "96s",
+                                  "height": "96s"
+                                }
+                              ]
+                            }
+                          },
+                          "script": "narration(1): \"구슬의 시작 위치는 `(-1,10)`이며 별의 위치는 각각 `(-1,5.2)`, `(0, 3.2)`, `(2, 2.2)`, `(5, 2.1)`입니다. 좌표평면에는 `y=3^x+3`의 그래프가 표시되어 있습니다.\"",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Your friend won't get many stars like this! What changes would you make to the equation to help your friend collect all the stars? Why are those changes going to work?",
+                          "id": "f6068cda-a155-4f7b-9cac-8a878a08f187",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"여러분의 친구는 왼쪽과 같이 지수 함수를 그렸지만 이 지수함수로는 구슬이 모든 별을 통과할 수 없습니다.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"구슬이 모든 별을 통과하려면 방정식을 어떻게 수정해야 할까요? \"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"왜 그렇게 생각하는지도 설명해 주세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "337a0f72-2b9b-48ed-90c9-1e00ef5f7845",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생과 공유해 보세요. 먼저 자유롭게 추론하는 시간을 갖고, 학생이 공식적인 수학 용어를 사용해 추론할 수 있도록 해 주세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "함수를 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "축에 대해 대칭으로 바꾸고 아래로 1만큼 평행이동하세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "정답:  "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=3^{-x}+2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "f34d5ee4-867f-4e82-a578-271a56aae3b8",
+          "title": "지수함수 확인하기 4",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "669d8a58-51ef-49e1-b3aa-c3f31a25b99a",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -9,
+                                "ymin": -4,
+                                "xmax": 9,
+                                "ymax": 12
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4,
+                              "squareAxes": false
+                            },
+                            "randomSeed": "baf6a96ab4b59cced93b2db43b05f148",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "5",
+                                  "text": "이전 화면에서 답변한 대로 지수 함수를 수정하고 결과를 확인해 보세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#2d70b3",
+                                  "latex": "y=3^x+3"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "92",
+                                  "color": "#2d70b3"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/986a1fd0d969e4839bc39456292c3461",
+                          "start": [
+                            {
+                              "x": -1,
+                              "y": 10
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": -1,
+                              "y": 5.3
+                            },
+                            {
+                              "x": 0,
+                              "y": 3.2
+                            },
+                            {
+                              "x": 2,
+                              "y": 2.3
+                            },
+                            {
+                              "x": 5,
+                              "y": 2.2
+                            }
+                          ],
+                          "marbleSize": 0.45
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "d50295eb-1d6a-406d-afd1-e0858a5c3009",
+          "title": "추가 챌린지를 풀어 보세요!",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Now move on to several final challenges. Try to complete them with ONLY exponential equations and as FEW exponential equations as possible.",
+                          "id": "a2a35bfc-ec71-4ca3-802a-405ebe4d2b18",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"지수함수만 사용해 구슬이 모든 별을 통과하도록 해야 합니다. 가능한 적은 수의 지수함수만 사용해 챌린지를 풀어 보세요.\"}]}]}"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "5ea96eb3-a7da-4337-9fcc-5bb829f31c97",
+          "title": "1번째 챌린지",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "a6caf988-3d17-4d7c-bf67-cc8bd99393a0",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10.879240162822253,
+                                "ymin": -9.454283097614486,
+                                "xmax": 10.879240162822253,
+                                "ymax": 22.454283097614482
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "ba6c2af866739855f55fdc71d3fa51ce",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "2",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식을 입력해 보세요. 필요하다면 여러 개의 방정식을 입력해도 됩니다."
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "27",
+                                  "text": "참고할 수 있도록 미리 방정식을 입력해 놓았습니다. 지우고 다른 방정식을 입력해도 됩니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#2d70b3",
+                                  "latex": "y=0.9^x+10\\left\\{x<6\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "23",
+                                  "color": "#2d70b3",
+                                  "latex": "y=1.1^x+7",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "24",
+                                  "color": "#2d70b3",
+                                  "latex": "y=0.9^x+4",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "25",
+                                  "color": "#2d70b3",
+                                  "latex": "y=1.1^x+1",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/cc1ee11555e3297958749f4697dec44a",
+                          "start": [
+                            {
+                              "x": 0,
+                              "y": 13
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 4,
+                              "y": 11
+                            },
+                            {
+                              "x": -4,
+                              "y": 8
+                            },
+                            {
+                              "x": 4,
+                              "y": 5
+                            },
+                            {
+                              "x": -4,
+                              "y": 2
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=0.9^{x}+10\\left\\{x<6\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=1.1^{x}+7\\left\\{x>-3\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=0.9^{x}+4\\left\\{x<3\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=1.1^{x}+1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "58dc8f8a-2358-41b7-a1e4-baa1860e3c97",
+          "title": "2번째 챌린지",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "eebb177f-8ce1-45eb-be97-0841d2be54a3",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -11.451831750339213,
+                                "ymin": -11.79398220801525,
+                                "xmax": 11.451831750339213,
+                                "ymax": 21.793982208015244
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "3b8790c089031d9eccf21975aa591148",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "20",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식을 입력해 보세요. 필요하다면 여러 개의 방정식을 입력해도 됩니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "28",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/8f0c48319bce5abc972c5d29f2d1611f",
+                          "start": [
+                            {
+                              "x": -8,
+                              "y": 12
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": -7.5,
+                              "y": 9
+                            },
+                            {
+                              "x": 6.5,
+                              "y": 6.8
+                            },
+                            {
+                              "x": -4,
+                              "y": 3
+                            },
+                            {
+                              "x": 4,
+                              "y": 3
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=1.3^{-x}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=1.3^{x}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "9174a756-ee9e-4864-8627-db886a284bdc",
+          "title": "3번째 챌린지",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "c0137259-f460-4567-80b4-9758682051e0",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -11.451831750339213,
+                                "ymin": -10.79398220801525,
+                                "xmax": 11.451831750339213,
+                                "ymax": 22.793982208015244
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "6c2482d8501fe4a92aa217405218bc41",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "20",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식을 입력해 보세요. 필요하다면 여러 개의 방정식을 입력해도 됩니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "29",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/323756e21d1937c1f792591aa0974e25",
+                          "start": [
+                            {
+                              "x": -8,
+                              "y": 14
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": -8,
+                              "y": 6
+                            },
+                            {
+                              "x": -4,
+                              "y": 1
+                            },
+                            {
+                              "x": 3,
+                              "y": 2
+                            },
+                            {
+                              "x": 7.5,
+                              "y": 4
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=1.2^{-x}-2"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=1.2^{x}+.1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "8ff87593-8467-4169-9cee-8f9c5ffbbc55",
+          "title": "4번째 챌린지",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "1010aea5-3fba-4cbd-9c3d-f0ad158c8b9a",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -2.4518317503392133,
+                                "ymin": -11.79398220801525,
+                                "xmax": 20.451831750339213,
+                                "ymax": 21.793982208015244
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "62ca1bbd279dc4ee5b99f5599f3779e1",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "20",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식을 입력해 보세요. 필요하다면 여러 개의 방정식을 입력해도 됩니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "30",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/236b7a69effc29a03d4ed59cb6f38fa8",
+                          "start": [
+                            {
+                              "x": 2,
+                              "y": 12
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 4,
+                              "y": 8
+                            },
+                            {
+                              "x": 4,
+                              "y": 4
+                            },
+                            {
+                              "x": 18,
+                              "y": 6
+                            },
+                            {
+                              "x": 18,
+                              "y": 2
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=1.2^{-x}+7\\left\\{x<16\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=1.2^{\\left(x-20\\right)}+5\\left\\{6<x<21\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=1.2^{-x}+3\\left\\{x<16\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "92e51974-2f95-4fe5-9fa0-9f75f32ff0ad",
+          "title": "5번째 챌린지",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "8b50b1a9-51f8-4c85-83b2-59e029c82af2",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -14.314789687924016,
+                                "ymin": -18.492477760019057,
+                                "xmax": 14.314789687924016,
+                                "ymax": 23.492477760019057
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "1663011cf552180e3ccfd79f0ac0930a",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "20",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식을 입력해 보세요. 필요하다면 여러 개의 방정식을 입력해도 됩니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "31",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/8f7f1516afd958565a60bd7d3e204a97",
+                          "start": [
+                            {
+                              "x": 0,
+                              "y": 12
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 3,
+                              "y": 8
+                            },
+                            {
+                              "x": -3,
+                              "y": 8
+                            },
+                            {
+                              "x": 12,
+                              "y": 2
+                            },
+                            {
+                              "x": -12,
+                              "y": 2
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=1.21^{13+x}\\left\\{x<0\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=1.21^{13-x}\\left\\{x>0\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "c845bfdc-de21-400f-b30d-bc0f96b27ca6",
+          "title": "6번째 챌린지",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "ca973d5d-6298-444e-87c9-a4da75420939",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -23.742198100407055,
+                                "ymin": -16.152778649618295,
+                                "xmax": 3.7421981004070553,
+                                "ymax": 24.152778649618295
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "f3ec9bf687a9097a0abcec946600ef0e",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "20",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식을 입력해 보세요. 필요하다면 여러 개의 방정식을 입력해도 됩니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "32",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/aee9c3b85150484ba9c8006186fd25fb",
+                          "start": [
+                            {
+                              "x": 0,
+                              "y": 12
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": -5,
+                              "y": 9
+                            },
+                            {
+                              "x": -10,
+                              "y": 6
+                            },
+                            {
+                              "x": -15,
+                              "y": 3
+                            },
+                            {
+                              "x": -20,
+                              "y": 0
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=1.6^{\\left(x+2\\right)}+8\\left\\{x>-6\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=1.6^{\\left(x+12\\right)}+2\\left\\{-15<x<-9\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "524348a1-93cc-4514-93e1-bc783d721940",
+          "title": "7번째 챌린지",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "14c04cef-5283-44e8-8403-5fbfbe233f76",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4.677747625508822,
+                                "ymin": -16.190973312022873,
+                                "xmax": 29.67774762550882,
+                                "ymax": 34.19097331202288
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "a5a3074a7ace98154c704265dedc245e",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "20",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식을 입력해 보세요. 필요하다면 여러 개의 방정식을 입력해도 됩니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "33",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/54bb95bf47f0e5db26ea9f35b3e2dea2",
+                          "start": [
+                            {
+                              "x": 20,
+                              "y": 20
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 4,
+                              "y": 8
+                            },
+                            {
+                              "x": 7,
+                              "y": 8
+                            },
+                            {
+                              "x": 15,
+                              "y": 2
+                            },
+                            {
+                              "x": 18,
+                              "y": 2
+                            }
+                          ],
+                          "marbleSize": 0.5,
+                          "stars-raw": "(4,8), (7,8), (15,2), (18,2)",
+                          "start-raw": "(20,20)"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=2^{\\left(x-18\\right)}+8\\left\\{x>2\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=2^{\\left(-x-2\\right)}+2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "ae9bec8e-5ade-4670-b818-58fda7e8b79d",
+          "title": "8번째 챌린지",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "4369f48b-c982-4a81-b320-f39b8f17ca02",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -2.5970149253731343,
+                                "ymin": -13.47338042881677,
+                                "xmax": 22.597014925373134,
+                                "ymax": 23.473380428816775
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "e84f772af67fe7527cb9cbf2c789b9f8",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "20",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식을 입력해 보세요. 필요하다면 여러 개의 방정식을 입력해도 됩니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "34",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/89d72091b4a44db52a6788734afed8d9",
+                          "start": [
+                            {
+                              "x": 2,
+                              "y": 12
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 2,
+                              "y": 10
+                            },
+                            {
+                              "x": 8,
+                              "y": 7
+                            },
+                            {
+                              "x": 14,
+                              "y": 4
+                            },
+                            {
+                              "x": 20,
+                              "y": 1
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=1.5^{\\left(-x+5\\right)}+6\\left\\{x<8\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=1.5^{\\left(-x+16.5\\right)}\\left\\{14<x<20\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "954b72f2-8d88-4bdc-b10e-e990a6639939",
+          "title": "자유 활동",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "4014cda3-158f-42bb-8633-cc87772b64ae",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -7.422,
+                                "ymin": -17.310665,
+                                "xmax": 31.514,
+                                "ymax": 31.310665
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "420f050e5348b3ad3c29db5293ffe90c",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "21",
+                                  "text": "이 그래프에는 별이 없습니다. 자유롭게 지수함수를 그려보고 친구들이 재미있어할 만한 그래프를 만들어 보세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "22",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/c0e0f4802f8a58b4de35c76ea0a351b3",
+                          "start": [
+                            {
+                              "x": 1,
+                              "y": 100
+                            }
+                          ],
+                          "stars": [],
+                          "marbleSize": 0.5562285714285714
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 답변을 확인하고 교실과 공유하려면 교사 대시보드의 답변 모드를 이용하세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "activity": "activitybuilder",
+      "ancestors": [
+        {
+          "_id": "564ccd3872980858069fcbc4",
+          "user": {
+            "id": "5514ad075bb90671051acab6",
+            "displayName": "Dan Meyer"
+          }
+        },
+        {
+          "_id": "564e2d39e40cd4210cca3a9d",
+          "user": {
+            "id": "5514ad075bb90671051acab6",
+            "displayName": "Dan Meyer"
+          }
+        },
+        {
+          "_id": "565f960ab4f99d8d0eecb916",
+          "user": {
+            "id": "5514ad075bb90671051acab6",
+            "displayName": "Dan Meyer"
+          }
+        }
+      ],
+      "blurb": "구슬 굴리기는 재미있으면서도 수학 능력이 필요한 액티비티입니다. 이 액티비티에서는 지수함수를 수정하거나 추가해 구슬이 모든 별을 통과할 수 있도록 해야 합니다. 학생은 구슬을 발사해 결과를 확인하고 다음 챌린지를 시작하기 전에 답변을 수정할 수 있습니다.\n\n한국어 번역: Desmos 현지화 팀.",
+      "category": "development",
+      "collaborators": [
+        "5d5c81618a3b6156af14a89f",
+        "5d85bd4cfe8bdc626d4698c8"
+      ],
+      "teamDesmosAuthored": true,
+      "complete": true,
+      "edit_ts": "2022-08-19T12:52:35.666Z",
+      "keywords": [],
+      "licenses": [],
+      "retailAssetIds": [],
+      "permissionToShare": true,
+      "publishedTimestamp": "2022-08-19T12:52:35.666Z",
+      "thumb": "https://uploads.desmos.com/activitybuilder/9e9b25c3848a997219cd0c08e30b0950",
+      "timeEstimate": 45,
+      "authorTags": [
+        "desmos"
+      ],
+      "title": "구슬 굴리기: 지수함수",
+      "linkedActivities": [
+        {
+          "title": "원본 버전 (영어)",
+          "activityId": "566b317b4e38e1e21a10aafb",
+          "collectionIds": [],
+          "logical": {
+            "logicalActivityMetaId": "566b317b4e38e1e21a10aafb",
+            "logicalCollectionIds": []
+          }
+        }
+      ],
+      "user": {
+        "id": "5de6bbe49f524909d87db21a",
+        "displayName": "Kayla Muñoz"
+      },
+      "author": {
+        "id": "5d85bd4cfe8bdc626d4698c8",
+        "displayName": "영하 김"
+      },
+      "screenReaderFriendly": true,
+      "commitId": "62ff84280c309005d30bfd45",
+      "logicalId": "5f58033d81067227cad87c98",
+      "draftTitle": "구슬 굴리기: 지수함수",
+      "draftAuthor": {
+        "id": "5d85bd4cfe8bdc626d4698c8",
+        "displayName": "영하 김"
+      }
+    },
+    "noindex": false
+  },
+  "notes": [
+    "Public HTML exposes metadata and thumbnail.",
+    "The public POST /activity/:id route may expose the customLesson JSON for public activities.",
+    "Teacher sessions, dashboards, student responses, and editor-only diagnostics still require authorization.",
+    "Use this output as source evidence and template inspiration, not as an activity clone."
+  ]
+}

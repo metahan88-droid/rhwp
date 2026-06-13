@@ -1,0 +1,3330 @@
+{
+  "inspectedAt": "2026-06-13T12:29:59.108Z",
+  "url": "https://classroom.amplify.com/activity/5fadd855785f5f384d9426d1?lang=ko",
+  "activityId": "5fadd855785f5f384d9426d1",
+  "staticMeta": {
+    "canonical": "https://classroom.amplify.com/activity/5fadd855785f5f384d9426d1",
+    "title": "그래프로 동영상 설명하기",
+    "description": "이 액티비티는 수직선 등 하나의 변수로 표현되는 그래프를 배운 학생이 좌표평면에서 두 개의 변수로 표현되는 그래프를 배울 수 있도록 하기 위해 만들어진 액티비티입니다. 학생은 15초짜리 동영상을 보고 선생님의 도움을 받아 그래프로 동영상을 설명해야 합니다.\n\n동영상을 제공해주신 Adam Poetzel(@adampoetzel)님께 감사드립니다. (동영상은 CC-BY 라이선스 규정에 따라 사용되었습니다.)\n\n한국어 번역: Desmos 현지화 팀",
+    "twitterTitle": "그래프로 동영상 설명하기",
+    "twitterDescription": "이 액티비티는 수직선 등 하나의 변수로 표현되는 그래프를 배운 학생이 좌표평면에서 두 개의 변수로 표현되는 그래프를 배울 수 있도록 하기 위해 만들어진 액티비티입니다. 학생은 15초짜리 동영상을 보고 선생님의 도움을 받아 그래프로 동영상을 설명해야 합니다.\n\n동영상을 제공해주신 Adam Poetzel(@adampoetzel)님께 감사드립니다. (동영상은 CC-BY 라이선스 규정에 따라 사용되었습니다.)\n\n한국어 번역: Desmos 현지화 팀",
+    "image": "https://uploads.desmos.com/activitybuilder/50f72b687c0d51f0895d374b9519f0b6"
+  },
+  "activityMeta": {
+    "activities": [
+      {
+        "__brand": "NormalizedActivity",
+        "_id": "5fadd855785f5f384d9426d1",
+        "ancestorAuthorGroups": [],
+        "ancestors": [
+          {
+            "_id": "58797d35d81a612605304b1f",
+            "user": {
+              "id": "55fb1831efe3b67f175ca4a2",
+              "displayName": "Desmos _"
+            }
+          },
+          {
+            "_id": "5fadd6edcaafc338b64bd2a3",
+            "user": {
+              "id": "5de6bbe49f524909d87db21a",
+              "displayName": "Kayla Muñoz"
+            }
+          },
+          {
+            "_id": "5fadd71eafd42527b3ea8976",
+            "user": {
+              "id": "5de6bbe49f524909d87db21a",
+              "displayName": "Kayla Muñoz"
+            }
+          },
+          {
+            "_id": "5fadd734a8b4a127b8a0cfb7",
+            "user": {
+              "id": "5de6bbe49f524909d87db21a",
+              "displayName": "Kayla Muñoz"
+            }
+          },
+          {
+            "_id": "5fadd74c7d969f265282b9b2",
+            "user": {
+              "id": "5de6bbe49f524909d87db21a",
+              "displayName": "Kayla Muñoz"
+            }
+          },
+          {
+            "_id": "5fadd766837ca3285f3f9111",
+            "user": {
+              "id": "5de6bbe49f524909d87db21a",
+              "displayName": "Kayla Muñoz"
+            }
+          },
+          {
+            "_id": "5fadd77fafd42527b3ea89a6",
+            "user": {
+              "id": "5de6bbe49f524909d87db21a",
+              "displayName": "Kayla Muñoz"
+            }
+          },
+          {
+            "_id": "5fadd7a3da71b038b7f86099",
+            "user": {
+              "id": "5de6bbe49f524909d87db21a",
+              "displayName": "Kayla Muñoz"
+            }
+          },
+          {
+            "_id": "5fadd7bc70926828b054d91a",
+            "user": {
+              "id": "5de6bbe49f524909d87db21a",
+              "displayName": "Kayla Muñoz"
+            }
+          },
+          {
+            "_id": "5fadd7d77d01d929ecbc2ad3",
+            "user": {
+              "id": "5de6bbe49f524909d87db21a",
+              "displayName": "Kayla Muñoz"
+            }
+          }
+        ],
+        "category": "intro",
+        "collaborators": [
+          "5d85bd4cfe8bdc626d4698c8",
+          "5f0aa3a7367e812bf281e2e6"
+        ],
+        "customMetadata": {},
+        "teamDesmosAuthored": true,
+        "deleteURL": "/custom-lesson/delete/5fadd855785f5f384d9426d1",
+        "description": {
+          "schemaKey": "document",
+          "version": 3,
+          "content": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "이 액티비티는 수직선 등 하나의 변수로 표현되는 그래프를 배운 학생이 좌표평면에서 두 개의 변수로 표현되는 그래프를 배울 수 있도록 하기 위해 만들어진 액티비티입니다. 학생은 15초짜리 동영상을 보고 선생님의 도움을 받아 그래프로 동영상을 설명해야 합니다."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph"
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "동영상을 제공해주신 Adam Poetzel(@adampoetzel)님께 감사드립니다. (동영상은 CC-BY 라이선스 규정에 따라 사용되었습니다.)"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph"
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "한국어 번역: Desmos 현지화 팀"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "edit_ts": "2022-08-22T10:26:21.358Z",
+        "infoURL": "activity/5fadd855785f5f384d9426d1",
+        "keywords": [],
+        "licenses": [],
+        "activityLicenses": [],
+        "retailAssetIds": [],
+        "activityRetailAssetIds": [],
+        "private": false,
+        "searchable": false,
+        "thumbURL": "https://uploads.desmos.com/activitybuilder/50f72b687c0d51f0895d374b9519f0b6",
+        "timeEstimate": 60,
+        "isPaperActivity": false,
+        "hasSteps": true,
+        "hasAuthoredFeedback": false,
+        "isPresentation": false,
+        "accessibilityNotes": "이 액티비티는 스크린 리더에 최적화되지 않았습니다. 시각 장애 학생은 다른 학생과 함께 액티비티를 진행하는 것을 권장합니다.",
+        "authorTags": [],
+        "title": "그래프로 동영상 설명하기",
+        "linkedActivities": [
+          {
+            "title": "원본 버전 (영어)",
+            "activityId": "58797d35d81a612605304b1f",
+            "collectionIds": [],
+            "logical": {
+              "logicalActivityMetaId": "58797d35d81a612605304b1f",
+              "logicalCollectionIds": []
+            }
+          }
+        ],
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      }
+    ],
+    "deletedActivities": [],
+    "activityTranslations": {}
+  },
+  "activitySummary": {
+    "id": "5fadd855785f5f384d9426d1",
+    "title": "그래프로 동영상 설명하기",
+    "version": 1,
+    "commitId": "630348d508784c274ba015b1",
+    "publishedTimestamp": "2022-08-22T10:26:21.358Z",
+    "editTimestamp": "2022-08-22T10:26:21.358Z",
+    "permissionToShare": true,
+    "noindex": false,
+    "user": {
+      "id": "5de6bbe49f524909d87db21a",
+      "displayName": "Kayla Muñoz"
+    },
+    "author": {
+      "id": "5d85bd4cfe8bdc626d4698c8",
+      "displayName": "영하 김"
+    },
+    "ancestors": [
+      {
+        "_id": "58797d35d81a612605304b1f",
+        "user": {
+          "id": "55fb1831efe3b67f175ca4a2",
+          "displayName": "Desmos _"
+        }
+      },
+      {
+        "_id": "5fadd6edcaafc338b64bd2a3",
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      },
+      {
+        "_id": "5fadd71eafd42527b3ea8976",
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      },
+      {
+        "_id": "5fadd734a8b4a127b8a0cfb7",
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      },
+      {
+        "_id": "5fadd74c7d969f265282b9b2",
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      },
+      {
+        "_id": "5fadd766837ca3285f3f9111",
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      },
+      {
+        "_id": "5fadd77fafd42527b3ea89a6",
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      },
+      {
+        "_id": "5fadd7a3da71b038b7f86099",
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      },
+      {
+        "_id": "5fadd7bc70926828b054d91a",
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      },
+      {
+        "_id": "5fadd7d77d01d929ecbc2ad3",
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      }
+    ],
+    "thumb": "https://uploads.desmos.com/activitybuilder/50f72b687c0d51f0895d374b9519f0b6",
+    "screenCount": 12,
+    "componentCounts": {
+      "video": 19,
+      "exhibit/text": 2,
+      "input/text": 2,
+      "sketch": 11,
+      "background": 10,
+      "challenge": 1,
+      "multiple-choice": 1,
+      "cb481d89-249a-462e-9c22-631041fe2367": 1,
+      "84ae6087-dee8-4523-b10a-8fdf13c676e1": 1,
+      "a27cf367-20a9-4a36-bd18-4eefb1031c69": 1,
+      "478045ed-7270-471c-8962-090d7f7fd01e": 1,
+      "exhibit/image": 1,
+      "input/graph": 2
+    },
+    "screens": [
+      {
+        "index": 1,
+        "id": "1da173e8-7ea6-4d2c-b4a0-7e8320c0f5fb",
+        "type": "two-column",
+        "title": "동영상 시청하기",
+        "subtitle": "",
+        "componentCounts": {
+          "video": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 2,
+        "id": "02d9a899-b61e-496f-9dd6-d36cb6795fca",
+        "type": "two-column",
+        "title": "그래프 그리기",
+        "subtitle": "",
+        "componentCounts": {
+          "video": 1,
+          "sketch": 1,
+          "background": 1
+        }
+      },
+      {
+        "index": 3,
+        "id": "00a09598-4912-4c7d-96fe-28ef80d96d82",
+        "type": "two-column",
+        "title": "정답 확인하기",
+        "subtitle": "",
+        "componentCounts": {
+          "video": 1,
+          "sketch": 1,
+          "background": 1
+        }
+      },
+      {
+        "index": 4,
+        "id": "3ee88bae-627d-424d-ba80-749185b71941",
+        "type": "two-column",
+        "title": "그래프 그리기",
+        "subtitle": "",
+        "componentCounts": {
+          "video": 1,
+          "sketch": 1,
+          "background": 1
+        }
+      },
+      {
+        "index": 5,
+        "id": "44342ef5-6527-460e-96d2-9c42b69fdec4",
+        "type": "two-column",
+        "title": "그래프 그리기",
+        "subtitle": "",
+        "componentCounts": {
+          "video": 1,
+          "sketch": 1,
+          "background": 1
+        }
+      },
+      {
+        "index": 6,
+        "id": "5e67585b-3cc9-41dd-9c85-7aa84b2cf353",
+        "type": "two-column",
+        "title": "그래프 그리기",
+        "subtitle": "",
+        "componentCounts": {
+          "video": 1,
+          "sketch": 1,
+          "background": 1
+        }
+      },
+      {
+        "index": 7,
+        "id": "3d77fa5b-8eb2-497f-b7b9-90fa0545e4a9",
+        "type": "two-column",
+        "title": "그래프 그리기",
+        "subtitle": "",
+        "componentCounts": {
+          "video": 1,
+          "sketch": 1,
+          "background": 1
+        }
+      },
+      {
+        "index": 8,
+        "id": "6484a3cd-e4ac-4e80-a933-5c2445099073",
+        "type": "two-column",
+        "title": "정답 확인하기",
+        "subtitle": "",
+        "componentCounts": {
+          "video": 1,
+          "sketch": 1,
+          "background": 1
+        }
+      },
+      {
+        "index": 9,
+        "id": "3a54c098-78d0-456d-a470-5fa3cfc704b9",
+        "type": "two-column",
+        "title": "정답 확인하기",
+        "subtitle": "",
+        "componentCounts": {
+          "video": 1,
+          "sketch": 1,
+          "background": 1
+        }
+      },
+      {
+        "index": 10,
+        "id": "2e4b64c7-4d44-4444-a114-baa6a1115661",
+        "type": "two-column",
+        "title": "정답 확인하기",
+        "subtitle": "",
+        "componentCounts": {
+          "video": 1,
+          "sketch": 1,
+          "background": 1
+        }
+      },
+      {
+        "index": 11,
+        "id": "11fda005-cf6e-457f-8678-a508e638a098",
+        "type": "two-column",
+        "title": "정답 확인하기",
+        "subtitle": "",
+        "componentCounts": {
+          "video": 1,
+          "sketch": 1,
+          "background": 1
+        }
+      },
+      {
+        "index": 12,
+        "id": "6cb432e1-f3a9-437f-b95a-16cdbecb5519",
+        "type": "two-column",
+        "title": "",
+        "subtitle": "",
+        "componentCounts": {
+          "challenge": 1,
+          "multiple-choice": 1,
+          "cb481d89-249a-462e-9c22-631041fe2367": 1,
+          "84ae6087-dee8-4523-b10a-8fdf13c676e1": 1,
+          "a27cf367-20a9-4a36-bd18-4eefb1031c69": 1,
+          "478045ed-7270-471c-8962-090d7f7fd01e": 1,
+          "video": 8,
+          "exhibit/image": 1,
+          "exhibit/text": 1,
+          "input/text": 1,
+          "input/graph": 2,
+          "sketch": 1
+        }
+      }
+    ],
+    "aliases": [
+      {
+        "screen": 2,
+        "type": "video",
+        "alias": "v1",
+        "id": "14cb57bb-00a8-45e4-8ca7-3765003b0770"
+      },
+      {
+        "screen": 2,
+        "type": "sketch",
+        "alias": "s1",
+        "id": "1ff28815-fb63-4ee6-9e49-e60c8eb506bd"
+      },
+      {
+        "screen": 3,
+        "type": "video",
+        "alias": "videoans1",
+        "id": "b311ab70-a04e-4d5d-ab06-ef9eb5da55e8"
+      },
+      {
+        "screen": 4,
+        "type": "video",
+        "alias": "v2",
+        "id": "76199440-5977-403c-abbc-a5b229e07af1"
+      },
+      {
+        "screen": 4,
+        "type": "sketch",
+        "alias": "s2",
+        "id": "79841eac-ffd1-4990-98b4-8ad8d4eabf17"
+      },
+      {
+        "screen": 5,
+        "type": "video",
+        "alias": "v3",
+        "id": "8dda1805-bafc-4f59-943e-b638d07c0e24"
+      },
+      {
+        "screen": 5,
+        "type": "sketch",
+        "alias": "s3",
+        "id": "5d5603ce-c264-469e-9d4a-393986103cea"
+      },
+      {
+        "screen": 6,
+        "type": "video",
+        "alias": "v4",
+        "id": "989e3ed8-aebb-4bd7-a06c-5028e6aa7193"
+      },
+      {
+        "screen": 6,
+        "type": "sketch",
+        "alias": "s4",
+        "id": "5deb9b4d-f456-4e6c-841d-acf49c87c073"
+      },
+      {
+        "screen": 7,
+        "type": "video",
+        "alias": "v5",
+        "id": "e935eeff-dee7-4343-ab98-1705413d4e7c"
+      },
+      {
+        "screen": 7,
+        "type": "sketch",
+        "alias": "s5",
+        "id": "5d6ff277-36f3-443d-aae5-a9e48e5ac485"
+      },
+      {
+        "screen": 8,
+        "type": "video",
+        "alias": "videoans2",
+        "id": "0a902ccc-ca71-411c-865a-89cdd3476edd"
+      },
+      {
+        "screen": 9,
+        "type": "video",
+        "alias": "videoans3",
+        "id": "10f0f43b-0011-4136-a19f-1f74f32dfc8a"
+      },
+      {
+        "screen": 10,
+        "type": "video",
+        "alias": "videoans4",
+        "id": "84ff5cd4-6b55-47c8-8c40-52f880fa2d0c"
+      },
+      {
+        "screen": 11,
+        "type": "video",
+        "alias": "videoans5",
+        "id": "18221291-e588-4016-b586-450547ab943d"
+      },
+      {
+        "screen": 12,
+        "type": "multiple-choice",
+        "alias": "gcMC",
+        "id": "f918f931-190d-4b78-b6bd-ff7f68dd1c12"
+      },
+      {
+        "screen": 12,
+        "type": "input/text",
+        "alias": "yaxis",
+        "id": "abcd2f04-5427-463e-aae9-bfcd7fa9692b"
+      },
+      {
+        "screen": 12,
+        "type": "input/graph",
+        "alias": "tileGraph",
+        "id": "7a094d30-b887-4e35-907d-4a230304ba1f"
+      },
+      {
+        "screen": 12,
+        "type": "video",
+        "alias": "va",
+        "id": "d6328eb6-acca-4d3b-80d5-24d6174b0887"
+      },
+      {
+        "screen": 12,
+        "type": "video",
+        "alias": "vb",
+        "id": "baa0bba3-81e1-40c9-b6c5-e86c59309dd2"
+      },
+      {
+        "screen": 12,
+        "type": "video",
+        "alias": "vc",
+        "id": "33c05e55-f303-4bae-9224-c2e7c706f9c8"
+      },
+      {
+        "screen": 12,
+        "type": "video",
+        "alias": "vd",
+        "id": "d92f2c52-5c8b-438e-828b-6f04499dad95"
+      },
+      {
+        "screen": 12,
+        "type": "sketch",
+        "alias": "mySketch",
+        "id": "e6194b6c-73ca-46c4-9b98-1c5e62c5b616"
+      },
+      {
+        "screen": 12,
+        "type": "input/graph",
+        "alias": "resGraph",
+        "id": "8ca79470-bcd6-47a3-b907-0c69a07f87c4"
+      }
+    ],
+    "scripts": [
+      {
+        "screen": 2,
+        "screenTitle": "그래프 그리기",
+        "type": "sketch",
+        "alias": "s1",
+        "id": "1ff28815-fb63-4ee6-9e49-e60c8eb506bd",
+        "script": "number(\"b\"): v1.time"
+      },
+      {
+        "screen": 3,
+        "screenTitle": "정답 확인하기",
+        "type": "sketch",
+        "alias": null,
+        "id": "683c3827-a4f2-41f9-858c-814aa7daa079",
+        "script": "readOnly: true\n\nnumber(\"a\"): videoans1.time\n\nbounds: s1.bounds\nbackground: sketchLayer(s1.sketch.setColor(rgb(187,187,187)))"
+      },
+      {
+        "screen": 4,
+        "screenTitle": "그래프 그리기",
+        "type": "sketch",
+        "alias": "s2",
+        "id": "79841eac-ffd1-4990-98b4-8ad8d4eabf17",
+        "script": "number(\"b\"): v2.time"
+      },
+      {
+        "screen": 5,
+        "screenTitle": "그래프 그리기",
+        "type": "sketch",
+        "alias": "s3",
+        "id": "5d5603ce-c264-469e-9d4a-393986103cea",
+        "script": "number(\"b\"): v3.time\n\n"
+      },
+      {
+        "screen": 6,
+        "screenTitle": "그래프 그리기",
+        "type": "sketch",
+        "alias": "s4",
+        "id": "5deb9b4d-f456-4e6c-841d-acf49c87c073",
+        "script": "number(\"b\"): v4.time"
+      },
+      {
+        "screen": 7,
+        "screenTitle": "그래프 그리기",
+        "type": "sketch",
+        "alias": "s5",
+        "id": "5d6ff277-36f3-443d-aae5-a9e48e5ac485",
+        "script": "number(\"b\"): v5.time"
+      },
+      {
+        "screen": 8,
+        "screenTitle": "정답 확인하기",
+        "type": "sketch",
+        "alias": null,
+        "id": "f5c55926-7088-4243-a9c9-0bd3992ebb33",
+        "script": "readOnly: true\n\nnumber(\"a\"): videoans2.time\n\nbounds: s2.bounds\nbackground: sketchLayer(s2.sketch.setColor(rgb(187,187,187)))\n"
+      },
+      {
+        "screen": 9,
+        "screenTitle": "정답 확인하기",
+        "type": "sketch",
+        "alias": null,
+        "id": "29807f46-677a-4d84-9cc4-9ebff35ff299",
+        "script": "readOnly: true\n\nnumber(\"a\"): videoans3.time\n\nbounds: s3.bounds\nbackground: sketchLayer(s3.sketch.setColor(rgb(187,187,187)))"
+      },
+      {
+        "screen": 10,
+        "screenTitle": "정답 확인하기",
+        "type": "sketch",
+        "alias": null,
+        "id": "c947cc4c-c8b3-4482-bf0e-45c1ab6c820e",
+        "script": "readOnly: true\n\nnumber(\"a\"): videoans4.time\n\nbounds: s4.bounds\nbackground: sketchLayer(s4.sketch.setColor(rgb(187,187,187)))"
+      },
+      {
+        "screen": 11,
+        "screenTitle": "정답 확인하기",
+        "type": "sketch",
+        "alias": null,
+        "id": "881e7747-6989-4f7b-873e-fc15bc49aaf9",
+        "script": "readOnly: true\n\nnumber(\"a\"): videoans5.time\n\nbounds: s5.bounds\nbackground: sketchLayer(s5.sketch.setColor(rgb(187,187,187)))"
+      },
+      {
+        "screen": 12,
+        "screenTitle": "",
+        "type": "challenge",
+        "alias": null,
+        "id": "b20709a2-9876-4561-9f9e-dfc612c1e128",
+        "script": "preventChallengeCreationReason:\n\n    when isBlank(yaxis.content) \"측정할 변수를 정해야 합니다.\"\n    otherwise \"\"\n    \npreventSubmissionReason:\n\n\twhen sketchTotalStrokeLength(mySketch.sketch) = 0 \"그래프를 그려야 합니다.\"\n    otherwise \"\"\n\nchallengeText: \"${yaxis.content}\"\nchallengeBackground: graphLayer(tileGraph.calculatorState)\nchallengeBounds: makeBounds(tileGraph.number(\"x_m\"), tileGraph.number(\"x_M\"), tileGraph.number(\"y_m\"), tileGraph.number(\"y_M\"))\n\nresponseBounds: mySketch.bounds\nresponseBackground: layerStack(graphLayer(resGraph.calculatorState),sketchLayer(mySketch.sketch))"
+      },
+      {
+        "screen": 12,
+        "screenTitle": "",
+        "type": "video",
+        "alias": null,
+        "id": "c4fc9bd0-9a81-403d-9bdc-6cab9c4d3e4b",
+        "script": "hidden: not(gcMC.isSelected(1))"
+      },
+      {
+        "screen": 12,
+        "screenTitle": "",
+        "type": "video",
+        "alias": null,
+        "id": "b64be19c-cb0b-4985-b8bc-d5881e8e61f0",
+        "script": "hidden: not(gcMC.isSelected(2))"
+      },
+      {
+        "screen": 12,
+        "screenTitle": "",
+        "type": "video",
+        "alias": null,
+        "id": "c9682713-ccb6-4507-82fa-98c82f480f42",
+        "script": "hidden: not(gcMC.isSelected(3))"
+      },
+      {
+        "screen": 12,
+        "screenTitle": "",
+        "type": "video",
+        "alias": null,
+        "id": "c256329b-11db-479c-9368-3deb6e6bd62a",
+        "script": "hidden: not(gcMC.isSelected(4))"
+      },
+      {
+        "screen": 12,
+        "screenTitle": "",
+        "type": "exhibit/image",
+        "alias": null,
+        "id": "87d4cf89-20e0-4a2a-b3a1-30220f9e54ea",
+        "script": "hidden: gcMC.isSelected(1) or gcMC.isSelected(2) or gcMC.isSelected(3) or gcMC.isSelected(4)"
+      },
+      {
+        "screen": 12,
+        "screenTitle": "",
+        "type": "input/graph",
+        "alias": "tileGraph",
+        "id": "7a094d30-b887-4e35-907d-4a230304ba1f",
+        "script": "hidden: true\nnumber(\"c\"): when gcMC.isSelected(1) 1 when gcMC.isSelected(2) 2 when gcMC.isSelected(3) 3 when gcMC.isSelected(4) 4 otherwise 0\n"
+      },
+      {
+        "screen": 12,
+        "screenTitle": "",
+        "type": "video",
+        "alias": "va",
+        "id": "d6328eb6-acca-4d3b-80d5-24d6174b0887",
+        "script": "hidden: not(gcMC.isSelected(1))"
+      },
+      {
+        "screen": 12,
+        "screenTitle": "",
+        "type": "video",
+        "alias": "vb",
+        "id": "baa0bba3-81e1-40c9-b6c5-e86c59309dd2",
+        "script": "hidden: not(gcMC.isSelected(2))"
+      },
+      {
+        "screen": 12,
+        "screenTitle": "",
+        "type": "video",
+        "alias": "vc",
+        "id": "33c05e55-f303-4bae-9224-c2e7c706f9c8",
+        "script": "hidden: not(gcMC.isSelected(3))"
+      },
+      {
+        "screen": 12,
+        "screenTitle": "",
+        "type": "video",
+        "alias": "vd",
+        "id": "d92f2c52-5c8b-438e-828b-6f04499dad95",
+        "script": "hidden: not(gcMC.isSelected(4))"
+      },
+      {
+        "screen": 12,
+        "screenTitle": "",
+        "type": "sketch",
+        "alias": "mySketch",
+        "id": "e6194b6c-73ca-46c4-9b98-1c5e62c5b616",
+        "script": "\nyAxisLabel: yaxis.content\nnumber(\"b\"): \n  when gcMC.isSelected(1) va.time\n  when gcMC.isSelected(2) vb.time\n  when gcMC.isSelected(3) vc.time\n  otherwise vd.time"
+      },
+      {
+        "screen": 12,
+        "screenTitle": "",
+        "type": "input/graph",
+        "alias": "resGraph",
+        "id": "8ca79470-bcd6-47a3-b907-0c69a07f87c4",
+        "script": "background: sketchLayer(mySketch.sketch)\nhidden: true\nyAxisLabel: yaxis.content"
+      }
+    ]
+  },
+  "activityJson": {
+    "customLesson": {
+      "_id": "5fadd855785f5f384d9426d1",
+      "version": 1,
+      "steps": [
+        {
+          "type": "two-column",
+          "id": "1da173e8-7ea6-4d2c-b4a0-7e8320c0f5fb",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "video": {
+                          "videoDescription": "",
+                          "id": "5b68f768-a1e5-40d1-9989-afae6d7ae88b",
+                          "videoConfig": {
+                            "sources": [
+                              {
+                                "url": "https://uploads.desmos.com/videos/8f9eda26-51b3-40fc-b8b0-3a3fb069f20e-v4/webm.webm",
+                                "codec": "video/webm"
+                              },
+                              {
+                                "url": "https://uploads.desmos.com/videos/8f9eda26-51b3-40fc-b8b0-3a3fb069f20e-v4/mp4.mp4",
+                                "codec": "video/mp4"
+                              }
+                            ],
+                            "thumb": "https://uploads.desmos.com/videos/8f9eda26-51b3-40fc-b8b0-3a3fb069f20e-v4/jpg.jpg",
+                            "assemblySslUrl": "https://api2-ayeesha.transloadit.com/assemblies/24c71780369311e8bb215ff136ec8baf"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "There is a lot going on in this video.\n\nWhat different measurements are changing in this video over time?",
+                          "id": "bd5d9b9c-b92e-4ce1-9419-2714fd901daa",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"한 사람이 미끄럼틀을 타는 동영상을 시청해 주세요.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"동영상에서 시간에 따라 변화하는 변수들은 무엇인가요?\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "8ea58291-adfd-4c70-a222-0470de0412ef",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "동영상 시청하기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "독특한 답변을 학생과 공유해 보세요. 이 화면의 목적은 학생이 액티비티에 익숙해지고 동영상에서 "
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "strong"
+                          }
+                        ],
+                        "text": "그래프를 그릴 수 있는 변수가 많다"
+                      },
+                      {
+                        "type": "text",
+                        "text": "는 것을 깨닫도록 하는 것입니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생이 정확하게 답변할 수 있도록 지도해 주세요. 예를 들어 학생이 \"높이\"라고 답변한다면 \"어떤 것의 높이를 말하는 거니?\"라고 질문해 주세요. 동영상에 표시된 사람의 키는 변하지 않으며, "
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "strong"
+                          }
+                        ],
+                        "text": "땅으로부터의 높이"
+                      },
+                      {
+                        "type": "text",
+                        "text": "만 변합니다. 학생이 땅으로부터의 높이라고 답변했다면 땅으로부터의 "
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "strong"
+                          }
+                        ],
+                        "text": "높이를 어떤 기준으로 측정할 것인지"
+                      },
+                      {
+                        "type": "text",
+                        "text": " 질문해 주세요. 땅과 발 사이의 거리로 측정할 예정인가요? 아니면 땅과 머리 사이의 거리로 측정할 예정인가요?"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• 땅에서부터 허리까지의 높이"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• 화면 왼쪽 끝과 사람 사이의 거리"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• 온도"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• 스릴"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "02d9a899-b61e-496f-9dd6-d36cb6795fca",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "video": {
+                          "videoDescription": "",
+                          "id": "14cb57bb-00a8-45e4-8ca7-3765003b0770",
+                          "alias": "v1",
+                          "videoConfig": {
+                            "sources": [
+                              {
+                                "url": "https://uploads.desmos.com/videos/c0b6f5a5-231b-4cda-9b12-f3336f95e5f5-v4/webm.webm",
+                                "codec": "video/webm"
+                              },
+                              {
+                                "url": "https://uploads.desmos.com/videos/c0b6f5a5-231b-4cda-9b12-f3336f95e5f5-v4/mp4.mp4",
+                                "codec": "video/mp4"
+                              }
+                            ],
+                            "thumb": "https://uploads.desmos.com/videos/c0b6f5a5-231b-4cda-9b12-f3336f95e5f5-v4/jpg.jpg",
+                            "assemblySslUrl": "https://api2-avani.transloadit.com/assemblies/66ed72d0369311e88a558d8bc6e499b9"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "sketch": {
+                          "version": 2,
+                          "background": {
+                            "id": "graph",
+                            "type": "graph",
+                            "img": "/img/activitybuilder/graph.png"
+                          },
+                          "id": "1ff28815-fb63-4ee6-9e49-e60c8eb506bd",
+                          "img": "https://uploads.desmos.com/activitybuilder/1ec9e45767f6dbf7e359af4db0108a59",
+                          "alias": "s1",
+                          "script": "number(\"b\"): v1.time",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -1.9,
+                                "ymin": -0.677,
+                                "xmax": 17,
+                                "ymax": 5.5
+                              },
+                              "showGrid": false,
+                              "xAxisLabel": "시간(초)",
+                              "yAxisLabel": "땅에서부터 허리까지의 높이(미터)",
+                              "restrictGridToFirstQuadrant": true,
+                              "squareAxes": false
+                            },
+                            "randomSeed": "b04e0f4ad41422f7834247d53d4af075",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "224",
+                                  "color": "#bbb",
+                                  "latex": "x=\\min\\left(b,15\\right)\\left\\{y>0\\right\\}\\left\\{b>0\\right\\}",
+                                  "lineStyle": "DASHED",
+                                  "dragMode": "NONE"
+                                }
+                              ]
+                            }
+                          },
+                          "enabledTools": {
+                            "points": false,
+                            "line": true,
+                            "pencil": true,
+                            "math": true,
+                            "text": true
+                          },
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "그래프 그리기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생이 혼자서나 그룹으로 그래프를 그리는 동안 교실을 둘러보면서 학생이 그래프를 말로 설명할 수 있도록 질문해 보세요. 학생이 어려움을 겪는다면"
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "t=0"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 지점을 가리키고 \"동영상 "
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "strong"
+                          }
+                        ],
+                        "text": "시작"
+                      },
+                      {
+                        "type": "text",
+                        "text": " 부분에서 허리는 어디에 위치해 있니?\"라고 물어보세요. 학생들이 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "t=0"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 지점과 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "t=15"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 지점의 허리 위치를 표시할 수 있도록 도와주세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 그래프가 완전하지 않거나 성급하게 그래프를 그렸다고 생각된다면, "
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "strong"
+                          }
+                        ],
+                        "text": "수학적 정보"
+                      },
+                      {
+                        "type": "text",
+                        "text": "를 이용해 학생이 그래프를 수정할 수 있도록 지도해 주세요. 예를 들어 \"그래프를 보니 5초 지점의 높이가 1.2 미터인 동시에 2 미터라고 되어 있구나. 정확하다고 생각하면 그래프를 그대로 두고, 그렇지 않으면 그래프를 바꿔 보렴\"이라고 말 할 수 있습니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "모든 학생이 그래프를 그렸다면 학생이 모두 모일 수 있도록 해 주세요. 독특하고 재미있는 그래프를 보여주거나, 잘못된 그래프의 예시를 보여준 후 더욱 정확한 그래프를 보여주세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생이 각각의 그래프에서 마음에 드는 부분과 수정하고 싶은 부분을 설명할 수 있도록 해 주세요. 대화를 충분히 나눈 후 선생님의 답을 확인하기 전 자신의 답을 수정할 수 있도록 해 주세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "advancedLayout": true
+        },
+        {
+          "type": "two-column",
+          "id": "00a09598-4912-4c7d-96fe-28ef80d96d82",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "video": {
+                          "videoDescription": "",
+                          "id": "b311ab70-a04e-4d5d-ab06-ef9eb5da55e8",
+                          "alias": "videoans1",
+                          "videoConfig": {
+                            "sources": [
+                              {
+                                "url": "https://uploads.desmos.com/videos/7656bfec-f31a-473a-8e43-28f0c45336eb-v4/webm.webm",
+                                "codec": "video/webm"
+                              },
+                              {
+                                "url": "https://uploads.desmos.com/videos/7656bfec-f31a-473a-8e43-28f0c45336eb-v4/mp4.mp4",
+                                "codec": "video/mp4"
+                              }
+                            ],
+                            "thumb": "https://uploads.desmos.com/videos/7656bfec-f31a-473a-8e43-28f0c45336eb-v4/jpg.jpg",
+                            "assemblySslUrl": "https://api2-avani.transloadit.com/assemblies/c4f827d0369311e88891dd989fe62223"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "sketch": {
+                          "version": 2,
+                          "background": {
+                            "id": "graph",
+                            "type": "graph",
+                            "img": "/img/activitybuilder/graph.png"
+                          },
+                          "id": "683c3827-a4f2-41f9-858c-814aa7daa079",
+                          "img": "https://uploads.desmos.com/activitybuilder/1ec9e45767f6dbf7e359af4db0108a59",
+                          "script": "readOnly: true\n\nnumber(\"a\"): videoans1.time\n\nbounds: s1.bounds\nbackground: sketchLayer(s1.sketch.setColor(rgb(187,187,187)))",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -1.9,
+                                "ymin": -0.677,
+                                "xmax": 17,
+                                "ymax": 5.5
+                              },
+                              "showGrid": false,
+                              "xAxisLabel": "시간(초)",
+                              "yAxisLabel": "땅에서부터 허리까지의 높이(미터)",
+                              "restrictGridToFirstQuadrant": true,
+                              "squareAxes": false
+                            },
+                            "randomSeed": "5a31356eec40662339120aa30bda9acd",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "18",
+                                  "color": "#2d70b3",
+                                  "latex": "f\\left(x\\right)=\\left\\{0<x<1:2.85,1\\le x<5.4:\\frac{9.6-2.85}{5.4-1}\\left(x-1\\right)+2.85,5.4\\le x<6.7:-\\frac{1}{9}x+10.2,6.7\\le x<7.43:-4.2x+37.595,7.43\\le x<12:6.4,12\\le x<13.5:-3.3\\cdot x+46,13.5\\le x\\le15:\\frac{1.45}{1+.29\\cdot.001^{\\left(x-14.26\\right)}}+1.43\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "236",
+                                  "color": "#c74440",
+                                  "latex": "g\\left(x\\right)=\\frac{x}{3.28}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "69",
+                                  "color": "#000000",
+                                  "latex": "g\\left(f\\left(x\\right)\\right)\\left\\{0<x<a\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "74",
+                                  "color": "#c74440",
+                                  "latex": "a=0",
+                                  "hidden": true,
+                                  "slider": {
+                                    "hardMin": true,
+                                    "hardMax": true,
+                                    "min": "0",
+                                    "max": "15"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "224",
+                                  "color": "#bbb",
+                                  "latex": "x=\\min\\left(a,15\\right)\\left\\{y>0\\right\\}\\left\\{a>0\\right\\}",
+                                  "lineStyle": "DASHED",
+                                  "dragMode": "NONE"
+                                }
+                              ]
+                            }
+                          },
+                          "enabledTools": {
+                            "points": false,
+                            "line": true,
+                            "pencil": true,
+                            "math": true,
+                            "text": true
+                          },
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "정답 확인하기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "재생 버튼을 눌러 학생에게 정답 그래프를 보여주세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "strong"
+                          }
+                        ],
+                        "text": "다른 그래프도 정답이 될 수 있음"
+                      },
+                      {
+                        "type": "text",
+                        "text": "을 강조해 주세요. 학생에게 선생님이 그린 그래프에도 약간의 오차와 오류가 있을 수 있다는 사실을 알려 주세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생이 그래프에서 마음에 드는 부분과 수정하고 싶은 부분이 무엇인지 설명하도록 해 주세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "추가 질문으로 y축을 \"땅에서부터 "
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "strong"
+                          }
+                        ],
+                        "text": "허리"
+                      },
+                      {
+                        "type": "text",
+                        "text": "까지의 높이 (미터)\"를 \"땅에서부터 "
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "strong"
+                          }
+                        ],
+                        "text": "발"
+                      },
+                      {
+                        "type": "text",
+                        "text": "까지의 높이 (미터)\"로 바꾸면 그래프가 어떻게 변할지 물어보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "3ee88bae-627d-424d-ba80-749185b71941",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "video": {
+                          "videoDescription": "",
+                          "id": "76199440-5977-403c-abbc-a5b229e07af1",
+                          "alias": "v2",
+                          "videoConfig": {
+                            "sources": [
+                              {
+                                "url": "https://uploads.desmos.com/videos/e6c4739a-e073-4ea7-bb87-613561e570ff-v4/webm.webm",
+                                "codec": "video/webm"
+                              },
+                              {
+                                "url": "https://uploads.desmos.com/videos/e6c4739a-e073-4ea7-bb87-613561e570ff-v4/mp4.mp4",
+                                "codec": "video/mp4"
+                              }
+                            ],
+                            "thumb": "https://uploads.desmos.com/videos/e6c4739a-e073-4ea7-bb87-613561e570ff-v4/jpg.jpg",
+                            "assemblySslUrl": "https://api2-rayan.transloadit.com/assemblies/05edcb50369411e8af3c47e07d51a791"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "sketch": {
+                          "version": 2,
+                          "background": {
+                            "id": "graph",
+                            "type": "graph",
+                            "img": "/img/activitybuilder/graph.png"
+                          },
+                          "id": "79841eac-ffd1-4990-98b4-8ad8d4eabf17",
+                          "alias": "s2",
+                          "img": "https://uploads.desmos.com/activitybuilder/9ab2a1bc7ecd8cb454652f69e30deb03",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -1.9,
+                                "ymin": -0.64,
+                                "xmax": 17,
+                                "ymax": 5
+                              },
+                              "showGrid": false,
+                              "xAxisStep": 5,
+                              "yAxisStep": 1,
+                              "xAxisLabel": "시간(초)",
+                              "yAxisLabel": "그릇 속 물의 양(리터)",
+                              "restrictGridToFirstQuadrant": true,
+                              "squareAxes": false
+                            },
+                            "randomSeed": "3943050d21f669b1d48e6ff9a7ea8fca",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "227",
+                                  "color": "#bbb",
+                                  "latex": "x=\\min\\left(b,15\\right)\\left\\{y>0\\right\\}\\left\\{b>0\\right\\}",
+                                  "lineStyle": "DASHED",
+                                  "dragMode": "NONE"
+                                }
+                              ]
+                            }
+                          },
+                          "script": "number(\"b\"): v2.time",
+                          "enabledTools": {
+                            "points": false,
+                            "line": true,
+                            "pencil": true,
+                            "math": true,
+                            "text": true
+                          },
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "그래프 그리기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이어지는 4개의 화면에서 학생은 각기 다른 동영상을 시청한 후 동영상을 그래프로 표현하게 됩니다. 시간이 부족하다면 학생이 "
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "strong"
+                          }
+                        ],
+                        "text": "특정 화면"
+                      },
+                      {
+                        "type": "text",
+                        "text": "의 그래프만 그리도록 해 보세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "화면 2에 설명된 토론 테크닉을 사용해 이어지는 화면을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "44342ef5-6527-460e-96d2-9c42b69fdec4",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "video": {
+                          "videoDescription": "",
+                          "id": "8dda1805-bafc-4f59-943e-b638d07c0e24",
+                          "alias": "v3",
+                          "videoConfig": {
+                            "sources": [
+                              {
+                                "url": "https://uploads.desmos.com/videos/8963c726-3f49-45be-90b0-29b7186cc440-v4/webm.webm",
+                                "codec": "video/webm"
+                              },
+                              {
+                                "url": "https://uploads.desmos.com/videos/8963c726-3f49-45be-90b0-29b7186cc440-v4/mp4.mp4",
+                                "codec": "video/mp4"
+                              }
+                            ],
+                            "thumb": "https://uploads.desmos.com/videos/8963c726-3f49-45be-90b0-29b7186cc440-v4/jpg.jpg",
+                            "assemblySslUrl": "https://api2-ayeesha.transloadit.com/assemblies/267435d0369411e8bb215ff136ec8baf"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "sketch": {
+                          "version": 2,
+                          "background": {
+                            "id": "graph",
+                            "type": "graph",
+                            "img": "/img/activitybuilder/graph.png"
+                          },
+                          "id": "5d5603ce-c264-469e-9d4a-393986103cea",
+                          "alias": "s3",
+                          "img": "https://uploads.desmos.com/activitybuilder/bce55371085b625e553d03fe87fb0295",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -1.9,
+                                "ymin": -0.69,
+                                "xmax": 17,
+                                "ymax": 5.389
+                              },
+                              "showGrid": false,
+                              "xAxisStep": 5,
+                              "yAxisStep": 1,
+                              "xAxisLabel": "시간(초)",
+                              "yAxisLabel": "달걀판의 달걀 개수",
+                              "restrictGridToFirstQuadrant": true,
+                              "squareAxes": false
+                            },
+                            "randomSeed": "38535a19c214f0a7952878ce2cfca9f2",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "18",
+                                  "color": "#bbb",
+                                  "latex": "x=\\min\\left(b,15\\right)\\left\\{y>0\\right\\}\\left\\{b>0\\right\\}",
+                                  "lineStyle": "DASHED",
+                                  "dragMode": "NONE"
+                                }
+                              ]
+                            }
+                          },
+                          "script": "number(\"b\"): v3.time\n\n",
+                          "enabledTools": {
+                            "points": false,
+                            "line": true,
+                            "pencil": true,
+                            "math": true,
+                            "text": true
+                          },
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "그래프 그리기",
+          "text": "",
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "5e67585b-3cc9-41dd-9c85-7aa84b2cf353",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "video": {
+                          "videoDescription": "",
+                          "id": "989e3ed8-aebb-4bd7-a06c-5028e6aa7193",
+                          "alias": "v4",
+                          "videoConfig": {
+                            "sources": [
+                              {
+                                "url": "https://uploads.desmos.com/videos/20df5fd2-91c3-4e2d-a657-5de807fdf7e5-v4/webm.webm",
+                                "codec": "video/webm"
+                              },
+                              {
+                                "url": "https://uploads.desmos.com/videos/20df5fd2-91c3-4e2d-a657-5de807fdf7e5-v4/mp4.mp4",
+                                "codec": "video/mp4"
+                              }
+                            ],
+                            "thumb": "https://uploads.desmos.com/videos/20df5fd2-91c3-4e2d-a657-5de807fdf7e5-v4/jpg.jpg",
+                            "assemblySslUrl": "https://api2-blanka.transloadit.com/assemblies/88ddbcd036af11e8a5fac998a05b016a"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "sketch": {
+                          "version": 2,
+                          "background": {
+                            "id": "graph",
+                            "type": "graph",
+                            "img": "/img/activitybuilder/graph.png"
+                          },
+                          "id": "5deb9b4d-f456-4e6c-841d-acf49c87c073",
+                          "img": "https://uploads.desmos.com/activitybuilder/768a506415faaf39e0d7ba94fdceea27",
+                          "alias": "s4",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -1.9,
+                                "ymin": -0.45,
+                                "xmax": 17,
+                                "ymax": 3.5
+                              },
+                              "showGrid": false,
+                              "xAxisStep": 5,
+                              "yAxisStep": 1,
+                              "xAxisLabel": "시간(초)",
+                              "yAxisLabel": "카메라와 사람 사이의 거리(미터)",
+                              "restrictGridToFirstQuadrant": true,
+                              "squareAxes": false
+                            },
+                            "randomSeed": "c493de9da6f2f24e76e62c012d6e0445",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "18",
+                                  "color": "#bbb",
+                                  "latex": "x=\\min\\left(b,15\\right)\\left\\{y>0\\right\\}\\left\\{b>0\\right\\}",
+                                  "lineStyle": "DASHED",
+                                  "dragMode": "NONE"
+                                }
+                              ]
+                            }
+                          },
+                          "script": "number(\"b\"): v4.time",
+                          "enabledTools": {
+                            "points": false,
+                            "line": true,
+                            "pencil": true,
+                            "math": true,
+                            "text": true
+                          },
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "그래프 그리기",
+          "text": "",
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "3d77fa5b-8eb2-497f-b7b9-90fa0545e4a9",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "video": {
+                          "videoDescription": "",
+                          "id": "e935eeff-dee7-4343-ab98-1705413d4e7c",
+                          "alias": "v5",
+                          "videoConfig": {
+                            "sources": [
+                              {
+                                "url": "https://uploads.desmos.com/videos/c22ce035-44ff-493c-b33a-a1b85894a862-v4/webm.webm",
+                                "codec": "video/webm"
+                              },
+                              {
+                                "url": "https://uploads.desmos.com/videos/c22ce035-44ff-493c-b33a-a1b85894a862-v4/mp4.mp4",
+                                "codec": "video/mp4"
+                              }
+                            ],
+                            "thumb": "https://uploads.desmos.com/videos/c22ce035-44ff-493c-b33a-a1b85894a862-v4/jpg.jpg",
+                            "assemblySslUrl": "https://api2-avani.transloadit.com/assemblies/a413870036af11e88891dd989fe62223"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "sketch": {
+                          "version": 2,
+                          "background": {
+                            "id": "graph",
+                            "type": "graph",
+                            "img": "/img/activitybuilder/graph.png"
+                          },
+                          "id": "5d6ff277-36f3-443d-aae5-a9e48e5ac485",
+                          "img": "https://uploads.desmos.com/activitybuilder/94e236fcefe1bf4ac34b31043ef7b3c5",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -1.9,
+                                "ymin": -0.25,
+                                "xmax": 17,
+                                "ymax": 2
+                              },
+                              "showGrid": false,
+                              "xAxisStep": 5,
+                              "yAxisStep": 1,
+                              "xAxisLabel": "시간(초)",
+                              "yAxisLabel": "놀이기구 중앙과 사람 사이의 거리(미터)",
+                              "restrictGridToFirstQuadrant": true,
+                              "squareAxes": false
+                            },
+                            "randomSeed": "2cb1e516dbf2c322623b1fd99717323c",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "18",
+                                  "color": "#bbb",
+                                  "latex": "x=\\min\\left(b,15\\right)\\left\\{y>0\\right\\}\\left\\{b>0\\right\\}",
+                                  "lineStyle": "DASHED",
+                                  "dragMode": "NONE"
+                                }
+                              ]
+                            }
+                          },
+                          "script": "number(\"b\"): v5.time",
+                          "alias": "s5",
+                          "enabledTools": {
+                            "points": false,
+                            "line": true,
+                            "pencil": true,
+                            "math": true,
+                            "text": true
+                          },
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "그래프 그리기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "동영상은 이전 화면과 동일하지만 그래프의 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "축이 달라졌습니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "6484a3cd-e4ac-4e80-a933-5c2445099073",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "video": {
+                          "videoDescription": "",
+                          "id": "0a902ccc-ca71-411c-865a-89cdd3476edd",
+                          "alias": "videoans2",
+                          "videoConfig": {
+                            "sources": [
+                              {
+                                "url": "https://uploads.desmos.com/videos/4d1b2ab7-6460-4e93-b11f-22a708bdd015-v4/webm.webm",
+                                "codec": "video/webm"
+                              },
+                              {
+                                "url": "https://uploads.desmos.com/videos/4d1b2ab7-6460-4e93-b11f-22a708bdd015-v4/mp4.mp4",
+                                "codec": "video/mp4"
+                              }
+                            ],
+                            "thumb": "https://uploads.desmos.com/videos/4d1b2ab7-6460-4e93-b11f-22a708bdd015-v4/jpg.jpg",
+                            "assemblySslUrl": "https://api2-ayeesha.transloadit.com/assemblies/16123880369511e8bb215ff136ec8baf"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "sketch": {
+                          "version": 2,
+                          "background": {
+                            "id": "graph",
+                            "type": "graph",
+                            "img": "/img/activitybuilder/graph.png"
+                          },
+                          "id": "f5c55926-7088-4243-a9c9-0bd3992ebb33",
+                          "img": "https://uploads.desmos.com/activitybuilder/9ab2a1bc7ecd8cb454652f69e30deb03",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -1.9,
+                                "ymin": -0.64,
+                                "xmax": 17,
+                                "ymax": 5
+                              },
+                              "showGrid": false,
+                              "xAxisStep": 5,
+                              "yAxisStep": 1,
+                              "xAxisLabel": "시간(초)",
+                              "yAxisLabel": "그릇 속 물의 양(리터)",
+                              "restrictGridToFirstQuadrant": true,
+                              "squareAxes": false
+                            },
+                            "randomSeed": "3238f21d39281a09708e31087a94c5a2",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "18",
+                                  "color": "#2d70b3",
+                                  "latex": "f\\left(x\\right)=\\left\\{0\\le x<6.3:\\frac{1}{6}x+1,6.3\\le x<8:\\frac{2.967-2.05}{8-6.3}\\left(x-8\\right)+2.967,8\\le x\\le15:\\frac{1}{6}x+4-\\frac{7}{6}-2+.8\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "108",
+                                  "color": "#000000",
+                                  "latex": "f\\left(x\\right)\\left\\{0<x<a\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "109",
+                                  "color": "#2d70b3",
+                                  "latex": "a=-10",
+                                  "hidden": true,
+                                  "slider": {
+                                    "max": "15"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "227",
+                                  "color": "#bbb",
+                                  "latex": "x=\\min\\left(a,15\\right)\\left\\{y>0\\right\\}\\left\\{a>0\\right\\}",
+                                  "lineStyle": "DASHED",
+                                  "dragMode": "NONE"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "240",
+                                  "text": "챌린지 크리에이터에서 사용하고 있는 연산 레이어"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "241",
+                                  "color": "#2d70b3",
+                                  "latex": "C_{ompleteSketch}=\\left\\{\\operatorname{length}\\left(Y_2\\right)+\\operatorname{length}\\left(Y_4\\right)+\\operatorname{length}\\left(Y_6\\right)+\\operatorname{length}\\left(Y_8\\right)+\\operatorname{length}\\left(Y_{10}\\right)+\\operatorname{length}\\left(Y_{12}\\right)+\\operatorname{length}\\left(Y_{14}\\right)\\ge7:1,0\\right\\}"
+                                }
+                              ]
+                            }
+                          },
+                          "script": "readOnly: true\n\nnumber(\"a\"): videoans2.time\n\nbounds: s2.bounds\nbackground: sketchLayer(s2.sketch.setColor(rgb(187,187,187)))\n",
+                          "enabledTools": {
+                            "points": false,
+                            "line": true,
+                            "pencil": true,
+                            "math": true,
+                            "text": true
+                          },
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "정답 확인하기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이어지는 4개의 화면에서 학생이 그래프에서 마음에 드는 부분과 수정하고 싶은 부분을 설명할 수 있도록 해 주세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "3a54c098-78d0-456d-a470-5fa3cfc704b9",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "video": {
+                          "videoDescription": "",
+                          "id": "10f0f43b-0011-4136-a19f-1f74f32dfc8a",
+                          "alias": "videoans3",
+                          "videoConfig": {
+                            "sources": [
+                              {
+                                "url": "https://uploads.desmos.com/videos/558e9645-bec5-4dd1-8be4-48b9a86c595e-v4/webm.webm",
+                                "codec": "video/webm"
+                              },
+                              {
+                                "url": "https://uploads.desmos.com/videos/558e9645-bec5-4dd1-8be4-48b9a86c595e-v4/mp4.mp4",
+                                "codec": "video/mp4"
+                              }
+                            ],
+                            "thumb": "https://uploads.desmos.com/videos/558e9645-bec5-4dd1-8be4-48b9a86c595e-v4/jpg.jpg",
+                            "assemblySslUrl": "https://api2-rayan.transloadit.com/assemblies/1873a820369511e8af3c47e07d51a791"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "sketch": {
+                          "version": 2,
+                          "background": {
+                            "id": "graph",
+                            "type": "graph",
+                            "img": "/img/activitybuilder/graph.png"
+                          },
+                          "id": "29807f46-677a-4d84-9cc4-9ebff35ff299",
+                          "img": "https://uploads.desmos.com/activitybuilder/255def04afb9beb416353f4e7f53ff2b",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -1.9,
+                                "ymin": -0.69,
+                                "xmax": 17,
+                                "ymax": 5.389
+                              },
+                              "showGrid": false,
+                              "xAxisStep": 5,
+                              "yAxisStep": 1,
+                              "xAxisLabel": "시간(초)",
+                              "yAxisLabel": "달걀판의 달갈 개수",
+                              "restrictGridToFirstQuadrant": true,
+                              "squareAxes": false
+                            },
+                            "randomSeed": "964a68eb84bbd72c82961a377868a3bc",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "18",
+                                  "color": "#2d70b3",
+                                  "latex": "f\\left(x\\right)=\\left\\{0\\le x<1.347:5,1.347\\le x<5.765:4,5.765\\le x<6.697:3,6.697\\le x<12.069:2,12.069\\le x<13.837:1,13.837\\le x<15:0.01\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "139",
+                                  "color": "#c74440",
+                                  "latex": "A=\\left(a,0\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "113",
+                                  "color": "#000000",
+                                  "latex": "f\\left(x\\right)\\left\\{0<x<a\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "114",
+                                  "color": "#2d70b3",
+                                  "latex": "a=-10",
+                                  "hidden": true,
+                                  "slider": {
+                                    "max": "15"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "136",
+                                  "color": "#000000",
+                                  "latex": "x=a\\left\\{y>0\\right\\}",
+                                  "hidden": true,
+                                  "lineStyle": "DASHED",
+                                  "dragMode": "NONE"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "230",
+                                  "color": "#bbb",
+                                  "latex": "x=\\min\\left(a,15\\right)\\left\\{y>0\\right\\}\\left\\{a>0\\right\\}",
+                                  "lineStyle": "DASHED",
+                                  "dragMode": "NONE"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "231",
+                                  "color": "#000000",
+                                  "latex": "\\left(1.347,5\\left\\{a>1.347\\right\\}\\right)",
+                                  "hidden": true,
+                                  "pointStyle": "OPEN",
+                                  "dragMode": "NONE"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "232",
+                                  "color": "#000000",
+                                  "latex": "\\left(5.765,4\\left\\{a>5.765\\right\\}\\right)",
+                                  "hidden": true,
+                                  "pointStyle": "OPEN",
+                                  "dragMode": "NONE"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "233",
+                                  "color": "#000000",
+                                  "latex": "\\left(6.697,3\\left\\{a>6.697\\right\\}\\right)",
+                                  "hidden": true,
+                                  "pointStyle": "OPEN",
+                                  "dragMode": "NONE"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "234",
+                                  "color": "#000000",
+                                  "latex": "\\left(12.069,2\\left\\{a>12.069\\right\\}\\right)",
+                                  "hidden": true,
+                                  "pointStyle": "OPEN",
+                                  "dragMode": "NONE"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "235",
+                                  "color": "#000000",
+                                  "latex": "\\left(13.837,1\\left\\{a>13.837\\right\\}\\right)",
+                                  "hidden": true,
+                                  "pointStyle": "OPEN",
+                                  "dragMode": "NONE"
+                                }
+                              ]
+                            }
+                          },
+                          "script": "readOnly: true\n\nnumber(\"a\"): videoans3.time\n\nbounds: s3.bounds\nbackground: sketchLayer(s3.sketch.setColor(rgb(187,187,187)))",
+                          "enabledTools": {
+                            "points": false,
+                            "line": true,
+                            "pencil": true,
+                            "math": true,
+                            "text": true
+                          },
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "정답 확인하기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이 화면에서 학생에게 "
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "strong"
+                          }
+                        ],
+                        "text": "계단 함수"
+                      },
+                      {
+                        "type": "text",
+                        "text": "에 대해 설명해 주세요. 계단 함수란 각각의 구간에 대해 상수값을 갖는 함수를 말합니다. 동영상에서 1초 동안 달걀의 개수가 5개로 유지되는 것이 그 예시입니다. 계단 함수를 변경하면 함수가 곧바로 새로운 상수값으로 변하게 됩니다. 계단 함수는 연속함수와 대비되는 "
+                      },
+                      {
+                        "type": "text",
+                        "marks": [
+                          {
+                            "type": "strong"
+                          }
+                        ],
+                        "text": "불연속함수"
+                      },
+                      {
+                        "type": "text",
+                        "text": "의 한 종류입니다. 간단히 설명하면 연속함수는 값이 부드럽게 변하는 함수이며, 그래프를 연필을 떼지 않고 한 번에 종이에 그릴 수 있다면 연속함수의 그래프라고 할 수 있습니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "2e4b64c7-4d44-4444-a114-baa6a1115661",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "video": {
+                          "videoDescription": "",
+                          "id": "84ff5cd4-6b55-47c8-8c40-52f880fa2d0c",
+                          "alias": "videoans4",
+                          "videoConfig": {
+                            "sources": [
+                              {
+                                "url": "https://uploads.desmos.com/videos/02543eae-f5d4-4b10-9ab3-45a64e710253-v4/webm.webm",
+                                "codec": "video/webm"
+                              },
+                              {
+                                "url": "https://uploads.desmos.com/videos/02543eae-f5d4-4b10-9ab3-45a64e710253-v4/mp4.mp4",
+                                "codec": "video/mp4"
+                              }
+                            ],
+                            "thumb": "https://uploads.desmos.com/videos/02543eae-f5d4-4b10-9ab3-45a64e710253-v4/jpg.jpg",
+                            "assemblySslUrl": "https://api2-avani.transloadit.com/assemblies/a2803cd036af11e880635930d40b9cbd"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "sketch": {
+                          "version": 2,
+                          "background": {
+                            "id": "graph",
+                            "type": "graph",
+                            "img": "/img/activitybuilder/graph.png"
+                          },
+                          "id": "c947cc4c-c8b3-4482-bf0e-45c1ab6c820e",
+                          "img": "https://uploads.desmos.com/activitybuilder/768a506415faaf39e0d7ba94fdceea27",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -1.9,
+                                "ymin": -0.45,
+                                "xmax": 17,
+                                "ymax": 3.5
+                              },
+                              "showGrid": false,
+                              "xAxisStep": 5,
+                              "yAxisStep": 1,
+                              "xAxisLabel": "시간(초)",
+                              "yAxisLabel": "카메라와 사람 사이의 거리(미터)",
+                              "restrictGridToFirstQuadrant": true,
+                              "squareAxes": false
+                            },
+                            "randomSeed": "26964c9d29513c2b9898992839e2e7f3",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "18",
+                                  "color": "#2d70b3",
+                                  "latex": "f\\left(x\\right)=\\left\\{0\\le x<11.679+n_{udge}:3\\sin\\left(1.86\\left(x-.7-n_{udge}\\right)\\right)+5.8,11.679+n_{udge}\\le x<14:8.8,14\\le x\\le15:1.5x-12.2\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "238",
+                                  "color": "#c74440",
+                                  "latex": "n_{udge}=0"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "117",
+                                  "color": "#000000",
+                                  "latex": "g\\left(f\\left(x\\right)\\left\\{0<x<a\\right\\}\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "237",
+                                  "color": "#c74440",
+                                  "latex": "g\\left(x\\right)=\\frac{x}{3.28}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "119",
+                                  "color": "#388c46",
+                                  "latex": "a=-10",
+                                  "hidden": true,
+                                  "slider": {
+                                    "max": "15"
+                                  }
+                                },
+                                {
+                                  "type": "image",
+                                  "id": "147",
+                                  "image_url": "https://uploads.desmos.com/activitybuilder/b796c7f524e82cd9e786970b67b3dc1f",
+                                  "name": "Screen Shot 2017-01-15 at 5.56.16 PM.png",
+                                  "hidden": true,
+                                  "center": "\\left(6.1,3.9\\right)",
+                                  "width": "24.3",
+                                  "height": "15.46"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "233",
+                                  "color": "#bbb",
+                                  "latex": "x=\\min\\left(a,15\\right)\\left\\{y>0\\right\\}\\left\\{a>0\\right\\}",
+                                  "lineStyle": "DASHED",
+                                  "dragMode": "NONE"
+                                }
+                              ]
+                            }
+                          },
+                          "script": "readOnly: true\n\nnumber(\"a\"): videoans4.time\n\nbounds: s4.bounds\nbackground: sketchLayer(s4.sketch.setColor(rgb(187,187,187)))",
+                          "enabledTools": {
+                            "points": false,
+                            "line": true,
+                            "pencil": true,
+                            "math": true,
+                            "text": true
+                          },
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "정답 확인하기",
+          "text": "",
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "11fda005-cf6e-457f-8678-a508e638a098",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "video": {
+                          "videoDescription": "",
+                          "id": "18221291-e588-4016-b586-450547ab943d",
+                          "alias": "videoans5",
+                          "videoConfig": {
+                            "sources": [
+                              {
+                                "url": "https://uploads.desmos.com/videos/3c609e7e-f8be-4d71-a5d9-3fe4100c4fed-v4/webm.webm",
+                                "codec": "video/webm"
+                              },
+                              {
+                                "url": "https://uploads.desmos.com/videos/3c609e7e-f8be-4d71-a5d9-3fe4100c4fed-v4/mp4.mp4",
+                                "codec": "video/mp4"
+                              }
+                            ],
+                            "thumb": "https://uploads.desmos.com/videos/3c609e7e-f8be-4d71-a5d9-3fe4100c4fed-v4/jpg.jpg",
+                            "assemblySslUrl": "https://api2-ayeesha.transloadit.com/assemblies/a2b99c5036af11e892cd15b11d07ca3d"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "sketch": {
+                          "version": 2,
+                          "background": {
+                            "id": "graph",
+                            "type": "graph",
+                            "img": "/img/activitybuilder/graph.png"
+                          },
+                          "id": "881e7747-6989-4f7b-873e-fc15bc49aaf9",
+                          "img": "https://uploads.desmos.com/activitybuilder/94e236fcefe1bf4ac34b31043ef7b3c5",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -1.9,
+                                "ymin": -0.25,
+                                "xmax": 17,
+                                "ymax": 2
+                              },
+                              "showGrid": false,
+                              "xAxisStep": 5,
+                              "yAxisStep": 1,
+                              "xAxisLabel": "시간(초)",
+                              "yAxisLabel": "놀이기구 중앙과 사람 사이의 거리(미터)",
+                              "restrictGridToFirstQuadrant": true,
+                              "squareAxes": false
+                            },
+                            "randomSeed": "e5ffb6159ddc88f0fb67e0285abe0ef2",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "18",
+                                  "color": "#2d70b3",
+                                  "latex": "f\\left(x\\right)=\\left\\{0\\le x<14:3,14\\le x\\le15:1.5x-18\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "122",
+                                  "color": "#000000",
+                                  "latex": "g\\left(f\\left(x\\right)\\right)\\left\\{0<x<a\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "238",
+                                  "color": "#c74440",
+                                  "latex": "g\\left(x\\right)=\\frac{x}{3.28}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "123",
+                                  "color": "#2d70b3",
+                                  "latex": "a=-10",
+                                  "hidden": true,
+                                  "slider": {
+                                    "max": "15"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "236",
+                                  "color": "#bbb",
+                                  "latex": "x=\\min\\left(a,15\\right)\\left\\{y>0\\right\\}\\left\\{a>0\\right\\}",
+                                  "lineStyle": "DASHED",
+                                  "dragMode": "NONE"
+                                }
+                              ]
+                            }
+                          },
+                          "script": "readOnly: true\n\nnumber(\"a\"): videoans5.time\n\nbounds: s5.bounds\nbackground: sketchLayer(s5.sketch.setColor(rgb(187,187,187)))",
+                          "enabledTools": {
+                            "points": false,
+                            "line": true,
+                            "pencil": true,
+                            "math": true,
+                            "text": true
+                          },
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "정답 확인하기",
+          "text": "",
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "6cb432e1-f3a9-437f-b95a-16cdbecb5519",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "challenge": {
+                          "numResponseSteps": 1,
+                          "id": "b20709a2-9876-4561-9f9e-dfc612c1e128",
+                          "script": "preventChallengeCreationReason:\n\n    when isBlank(yaxis.content) \"측정할 변수를 정해야 합니다.\"\n    otherwise \"\"\n    \npreventSubmissionReason:\n\n\twhen sketchTotalStrokeLength(mySketch.sketch) = 0 \"그래프를 그려야 합니다.\"\n    otherwise \"\"\n\nchallengeText: \"${yaxis.content}\"\nchallengeBackground: graphLayer(tileGraph.calculatorState)\nchallengeBounds: makeBounds(tileGraph.number(\"x_m\"), tileGraph.number(\"x_M\"), tileGraph.number(\"y_m\"), tileGraph.number(\"y_M\"))\n\nresponseBounds: mySketch.bounds\nresponseBackground: layerStack(graphLayer(resGraph.calculatorState),sketchLayer(mySketch.sketch))",
+                          "activityConfig": {
+                            "steps": [
+                              {
+                                "type": "two-column",
+                                "id": "4198c5e4-f909-4077-b362-e43054b01b7a",
+                                "root": {
+                                  "linearlayout": {
+                                    "mainType": "columns",
+                                    "components": [
+                                      {
+                                        "linearlayout": {
+                                          "mainType": "rows",
+                                          "components": [
+                                            {
+                                              "multiple-choice": {
+                                                "choices": {
+                                                  "cb481d89-249a-462e-9c22-631041fe2367": {
+                                                    "id": "cb481d89-249a-462e-9c22-631041fe2367",
+                                                    "text": "미끄럼틀"
+                                                  },
+                                                  "84ae6087-dee8-4523-b10a-8fdf13c676e1": {
+                                                    "id": "84ae6087-dee8-4523-b10a-8fdf13c676e1",
+                                                    "text": "물"
+                                                  },
+                                                  "a27cf367-20a9-4a36-bd18-4eefb1031c69": {
+                                                    "id": "a27cf367-20a9-4a36-bd18-4eefb1031c69",
+                                                    "text": "달걀"
+                                                  },
+                                                  "478045ed-7270-471c-8962-090d7f7fd01e": {
+                                                    "id": "478045ed-7270-471c-8962-090d7f7fd01e",
+                                                    "text": "회전무대"
+                                                  }
+                                                },
+                                                "choiceIds": [
+                                                  "cb481d89-249a-462e-9c22-631041fe2367",
+                                                  "84ae6087-dee8-4523-b10a-8fdf13c676e1",
+                                                  "a27cf367-20a9-4a36-bd18-4eefb1031c69",
+                                                  "478045ed-7270-471c-8962-090d7f7fd01e"
+                                                ],
+                                                "multipleChoiceType": "simple",
+                                                "showPeerResponses": false,
+                                                "randomizeChoices": false,
+                                                "id": "f918f931-190d-4b78-b6bd-ff7f68dd1c12",
+                                                "choiceLayout": "segment",
+                                                "alias": "gcMC",
+                                                "showExplanation": false
+                                              }
+                                            },
+                                            {
+                                              "video": {
+                                                "videoDescription": "",
+                                                "id": "c4fc9bd0-9a81-403d-9bdc-6cab9c4d3e4b",
+                                                "videoConfig": {
+                                                  "sources": [
+                                                    {
+                                                      "url": "https://uploads.desmos.com/videos/481d3301-3145-4909-b3e9-f085246d456e-v4/webm.webm",
+                                                      "codec": "video/webm"
+                                                    },
+                                                    {
+                                                      "url": "https://uploads.desmos.com/videos/481d3301-3145-4909-b3e9-f085246d456e-v4/mp4.mp4",
+                                                      "codec": "video/mp4"
+                                                    }
+                                                  ],
+                                                  "thumb": "https://uploads.desmos.com/videos/481d3301-3145-4909-b3e9-f085246d456e-v4/jpg.jpg",
+                                                  "assemblySslUrl": "https://api2-diadi.transloadit.com/assemblies/845595e8a5584d94a7c0a249be9fb6ab"
+                                                },
+                                                "script": "hidden: not(gcMC.isSelected(1))"
+                                              }
+                                            },
+                                            {
+                                              "video": {
+                                                "videoDescription": "",
+                                                "id": "b64be19c-cb0b-4985-b8bc-d5881e8e61f0",
+                                                "script": "hidden: not(gcMC.isSelected(2))",
+                                                "videoConfig": {
+                                                  "sources": [
+                                                    {
+                                                      "url": "https://uploads.desmos.com/videos/c198f787-5d9e-40ab-9dad-b0a05d3d4144-v4/webm.webm",
+                                                      "codec": "video/webm"
+                                                    },
+                                                    {
+                                                      "url": "https://uploads.desmos.com/videos/c198f787-5d9e-40ab-9dad-b0a05d3d4144-v4/mp4.mp4",
+                                                      "codec": "video/mp4"
+                                                    }
+                                                  ],
+                                                  "thumb": "https://uploads.desmos.com/videos/c198f787-5d9e-40ab-9dad-b0a05d3d4144-v4/jpg.jpg",
+                                                  "assemblySslUrl": "https://api2-diadi.transloadit.com/assemblies/ac21c6b9eaea4ab79a38a01d24af59d8"
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "video": {
+                                                "videoDescription": "",
+                                                "id": "c9682713-ccb6-4507-82fa-98c82f480f42",
+                                                "videoConfig": {
+                                                  "sources": [
+                                                    {
+                                                      "url": "https://uploads.desmos.com/videos/382c2c61-1b24-4393-b9fb-5669a632c6b2-v4/webm.webm",
+                                                      "codec": "video/webm"
+                                                    },
+                                                    {
+                                                      "url": "https://uploads.desmos.com/videos/382c2c61-1b24-4393-b9fb-5669a632c6b2-v4/mp4.mp4",
+                                                      "codec": "video/mp4"
+                                                    }
+                                                  ],
+                                                  "thumb": "https://uploads.desmos.com/videos/382c2c61-1b24-4393-b9fb-5669a632c6b2-v4/jpg.jpg",
+                                                  "assemblySslUrl": "https://api2-diadi.transloadit.com/assemblies/b4c0e727e4d54636a9e002a781b34920"
+                                                },
+                                                "script": "hidden: not(gcMC.isSelected(3))"
+                                              }
+                                            },
+                                            {
+                                              "video": {
+                                                "videoDescription": "",
+                                                "id": "c256329b-11db-479c-9368-3deb6e6bd62a",
+                                                "videoConfig": {
+                                                  "sources": [
+                                                    {
+                                                      "url": "https://uploads.desmos.com/videos/34609ad4-9cbb-4ef8-a260-4ef4b3f0e841-v4/webm.webm",
+                                                      "codec": "video/webm"
+                                                    },
+                                                    {
+                                                      "url": "https://uploads.desmos.com/videos/34609ad4-9cbb-4ef8-a260-4ef4b3f0e841-v4/mp4.mp4",
+                                                      "codec": "video/mp4"
+                                                    }
+                                                  ],
+                                                  "thumb": "https://uploads.desmos.com/videos/34609ad4-9cbb-4ef8-a260-4ef4b3f0e841-v4/jpg.jpg",
+                                                  "assemblySslUrl": "https://api2-tejar.transloadit.com/assemblies/7923714540af43b1b4ac8e0887c9478c"
+                                                },
+                                                "script": "hidden: not(gcMC.isSelected(4))"
+                                              }
+                                            },
+                                            {
+                                              "exhibit/image": {
+                                                "alt": "",
+                                                "img": "https://uploads.desmos.com/activitybuilder/12714b7a49627d08fafa73c1021de128",
+                                                "id": "87d4cf89-20e0-4a2a-b3a1-30220f9e54ea",
+                                                "script": "hidden: gcMC.isSelected(1) or gcMC.isSelected(2) or gcMC.isSelected(3) or gcMC.isSelected(4)"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "linearlayout": {
+                                          "mainType": "rows",
+                                          "components": [
+                                            {
+                                              "exhibit/text": {
+                                                "text": "Pick one of these videos and choose a changing quantity to measure OTHER than the ones we originally assigned.\n\nWrite what you'll measure below and then continue to the next screen.",
+                                                "id": "b2f5e654-d605-4ce6-9f3f-2c7bc087b336",
+                                                "script": "",
+                                                "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"동영상 중 하나를 선택하고 측정할 변수를 선택해 주세요. 변수는 원래 동영상에서 측정한 변수와 다른 변수여야 합니다.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"아래에 측정할 변수를 입력하고 다음 화면으로 이동해 주세요.\"}]}]}"
+                                              }
+                                            },
+                                            {
+                                              "input/text": {
+                                                "showPeerResponses": false,
+                                                "id": "abcd2f04-5427-463e-aae9-bfcd7fa9692b",
+                                                "alias": "yaxis",
+                                                "shouldShowUploadImageButton": true,
+                                                "shouldShowUploadAudioButton": true,
+                                                "shouldShowTypeMathButton": true,
+                                                "shouldShowLargeBoxButton": false,
+                                                "shouldShowTextFormattingButton": false
+                                              }
+                                            },
+                                            {
+                                              "input/graph": {
+                                                "exhibitMode": true,
+                                                "id": "7a094d30-b887-4e35-907d-4a230304ba1f",
+                                                "img": "https://uploads.desmos.com/activitybuilder/fc7f1dcc0c78cddb7012b359b7b51aa9",
+                                                "script": "hidden: true\nnumber(\"c\"): when gcMC.isSelected(1) 1 when gcMC.isSelected(2) 2 when gcMC.isSelected(3) 3 when gcMC.isSelected(4) 4 otherwise 0\n",
+                                                "calculatorState": {
+                                                  "version": 8,
+                                                  "graph": {
+                                                    "viewport": {
+                                                      "xmin": -11.325510865417641,
+                                                      "ymin": -8.017336560025253,
+                                                      "xmax": 14.163075560363605,
+                                                      "ymax": 7.3141439968356465
+                                                    },
+                                                    "showGrid": false,
+                                                    "showXAxis": false,
+                                                    "showYAxis": false
+                                                  },
+                                                  "randomSeed": "1c964296b757c3116083982c7ce0bc0b",
+                                                  "expressions": {
+                                                    "list": [
+                                                      {
+                                                        "type": "image",
+                                                        "id": "5",
+                                                        "image_url": "https://uploads.desmos.com/calculator-images/763f0179b52f6f8bdc712ea479353b75",
+                                                        "name": "Screen Shot 2019-11-13 at 10.29.53 AM.png",
+                                                        "center": "\\left(3.81,0.04\\right)",
+                                                        "angle": "0\\left\\{c=1\\right\\}",
+                                                        "width": "17.93",
+                                                        "height": "10.042"
+                                                      },
+                                                      {
+                                                        "type": "image",
+                                                        "id": "4",
+                                                        "image_url": "https://uploads.desmos.com/calculator-images/da8ac8d3f1cbed08eb3b315f5ad4453e",
+                                                        "name": "Screen Shot 2019-11-13 at 10.30.50 AM.png",
+                                                        "center": "\\left(2.67,0.04\\right)",
+                                                        "angle": "0\\left\\{c=2\\right\\}",
+                                                        "width": "18.15",
+                                                        "height": "10.165"
+                                                      },
+                                                      {
+                                                        "type": "image",
+                                                        "id": "3",
+                                                        "image_url": "https://uploads.desmos.com/calculator-images/a30d861d87d12848311a5fe103a98f99",
+                                                        "name": "Screen Shot 2019-11-13 at 10.31.12 AM.png",
+                                                        "center": "\\left(5.22,1.5\\right)",
+                                                        "angle": "0\\left\\{c=3\\right\\}",
+                                                        "width": "23.267",
+                                                        "height": "13.038"
+                                                      },
+                                                      {
+                                                        "type": "image",
+                                                        "id": "6",
+                                                        "image_url": "https://uploads.desmos.com/calculator-images/66f32a810dc4b0ea840ce8e6eb6230cb",
+                                                        "name": "Screen Shot 2019-11-13 at 10.38.21 AM.png",
+                                                        "center": "\\left(0.53,0.02\\right)",
+                                                        "angle": "0\\left\\{c=4\\right\\}",
+                                                        "width": "17.906",
+                                                        "height": "10.027"
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "17",
+                                                        "color": "#fff",
+                                                        "latex": "\\operatorname{polygon}\\left(\\left[-10,-10,10,10\\right],\\left[-10,10,10,-10\\right]\\right)",
+                                                        "fillOpacity": "0.6"
+                                                      },
+                                                      {
+                                                        "type": "folder",
+                                                        "id": "7",
+                                                        "title": "뷰포트+",
+                                                        "hidden": true,
+                                                        "collapsed": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "8",
+                                                        "folderId": "7",
+                                                        "color": "#000000",
+                                                        "latex": "\\operatorname{polygon}\\left(\\left[x_m,\\ x_m,\\ x_M,\\ x_M\\right],\\ \\left[y_m,\\ y_M,\\ y_M\\ ,\\ y_m\\right]\\right)",
+                                                        "lineStyle": "DASHED",
+                                                        "fill": false
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "9",
+                                                        "folderId": "7",
+                                                        "color": "#388c46",
+                                                        "latex": "x_{m}=-5",
+                                                        "hidden": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "10",
+                                                        "folderId": "7",
+                                                        "color": "#6042a6",
+                                                        "latex": "x_{M}=5",
+                                                        "hidden": true,
+                                                        "slider": {
+                                                          "hardMin": true,
+                                                          "min": "x_m"
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "11",
+                                                        "folderId": "7",
+                                                        "color": "#000000",
+                                                        "latex": "y_{m}=-5",
+                                                        "hidden": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "12",
+                                                        "folderId": "7",
+                                                        "color": "#c74440",
+                                                        "latex": "y_{M}=5",
+                                                        "hidden": true,
+                                                        "slider": {
+                                                          "hardMin": true,
+                                                          "min": "y_m"
+                                                        }
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "13",
+                                                        "folderId": "7",
+                                                        "color": "#388c46",
+                                                        "latex": "v_w=x_M-x_m",
+                                                        "hidden": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "14",
+                                                        "folderId": "7",
+                                                        "color": "#2d70b3",
+                                                        "latex": "v_h=y_M-y_m",
+                                                        "hidden": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "15",
+                                                        "folderId": "7",
+                                                        "color": "#c74440",
+                                                        "latex": "v_x=0.5\\left(x_M+x_m\\right)",
+                                                        "hidden": true
+                                                      },
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "16",
+                                                        "folderId": "7",
+                                                        "color": "#2d70b3",
+                                                        "latex": "v_y=0.5\\left(y_M+y_m\\right)",
+                                                        "hidden": true
+                                                      }
+                                                    ]
+                                                  }
+                                                },
+                                                "alias": "tileGraph",
+                                                "legacyActionsOverrideSinks": true
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                "title": "측정할 변수 선택하기",
+                                "teacherTips": {
+                                  "teacher-moves": "Highlight unique answers for the class. Ask students to attend to precision in the relationships they're graphing. Have they precisely specified the units and measurements before they start graphing?"
+                                },
+                                "advancedLayout": true
+                              },
+                              {
+                                "type": "two-column",
+                                "id": "e7e12795-f518-4184-bab0-d46ebe271cb3",
+                                "root": {
+                                  "linearlayout": {
+                                    "mainType": "columns",
+                                    "components": [
+                                      {
+                                        "linearlayout": {
+                                          "mainType": "rows",
+                                          "components": [
+                                            {
+                                              "video": {
+                                                "videoDescription": "",
+                                                "id": "d6328eb6-acca-4d3b-80d5-24d6174b0887",
+                                                "videoConfig": {
+                                                  "sources": [
+                                                    {
+                                                      "url": "https://uploads.desmos.com/videos/481d3301-3145-4909-b3e9-f085246d456e-v4/webm.webm",
+                                                      "codec": "video/webm"
+                                                    },
+                                                    {
+                                                      "url": "https://uploads.desmos.com/videos/481d3301-3145-4909-b3e9-f085246d456e-v4/mp4.mp4",
+                                                      "codec": "video/mp4"
+                                                    }
+                                                  ],
+                                                  "thumb": "https://uploads.desmos.com/videos/481d3301-3145-4909-b3e9-f085246d456e-v4/jpg.jpg",
+                                                  "assemblySslUrl": "https://api2-diadi.transloadit.com/assemblies/845595e8a5584d94a7c0a249be9fb6ab"
+                                                },
+                                                "script": "hidden: not(gcMC.isSelected(1))",
+                                                "alias": "va"
+                                              }
+                                            },
+                                            {
+                                              "video": {
+                                                "videoDescription": "",
+                                                "id": "baa0bba3-81e1-40c9-b6c5-e86c59309dd2",
+                                                "script": "hidden: not(gcMC.isSelected(2))",
+                                                "videoConfig": {
+                                                  "sources": [
+                                                    {
+                                                      "url": "https://uploads.desmos.com/videos/c198f787-5d9e-40ab-9dad-b0a05d3d4144-v4/webm.webm",
+                                                      "codec": "video/webm"
+                                                    },
+                                                    {
+                                                      "url": "https://uploads.desmos.com/videos/c198f787-5d9e-40ab-9dad-b0a05d3d4144-v4/mp4.mp4",
+                                                      "codec": "video/mp4"
+                                                    }
+                                                  ],
+                                                  "thumb": "https://uploads.desmos.com/videos/c198f787-5d9e-40ab-9dad-b0a05d3d4144-v4/jpg.jpg",
+                                                  "assemblySslUrl": "https://api2-diadi.transloadit.com/assemblies/ac21c6b9eaea4ab79a38a01d24af59d8"
+                                                },
+                                                "alias": "vb"
+                                              }
+                                            },
+                                            {
+                                              "video": {
+                                                "videoDescription": "",
+                                                "id": "33c05e55-f303-4bae-9224-c2e7c706f9c8",
+                                                "videoConfig": {
+                                                  "sources": [
+                                                    {
+                                                      "url": "https://uploads.desmos.com/videos/382c2c61-1b24-4393-b9fb-5669a632c6b2-v4/webm.webm",
+                                                      "codec": "video/webm"
+                                                    },
+                                                    {
+                                                      "url": "https://uploads.desmos.com/videos/382c2c61-1b24-4393-b9fb-5669a632c6b2-v4/mp4.mp4",
+                                                      "codec": "video/mp4"
+                                                    }
+                                                  ],
+                                                  "thumb": "https://uploads.desmos.com/videos/382c2c61-1b24-4393-b9fb-5669a632c6b2-v4/jpg.jpg",
+                                                  "assemblySslUrl": "https://api2-diadi.transloadit.com/assemblies/b4c0e727e4d54636a9e002a781b34920"
+                                                },
+                                                "script": "hidden: not(gcMC.isSelected(3))",
+                                                "alias": "vc"
+                                              }
+                                            },
+                                            {
+                                              "video": {
+                                                "videoDescription": "",
+                                                "id": "d92f2c52-5c8b-438e-828b-6f04499dad95",
+                                                "videoConfig": {
+                                                  "sources": [
+                                                    {
+                                                      "url": "https://uploads.desmos.com/videos/34609ad4-9cbb-4ef8-a260-4ef4b3f0e841-v4/webm.webm",
+                                                      "codec": "video/webm"
+                                                    },
+                                                    {
+                                                      "url": "https://uploads.desmos.com/videos/34609ad4-9cbb-4ef8-a260-4ef4b3f0e841-v4/mp4.mp4",
+                                                      "codec": "video/mp4"
+                                                    }
+                                                  ],
+                                                  "thumb": "https://uploads.desmos.com/videos/34609ad4-9cbb-4ef8-a260-4ef4b3f0e841-v4/jpg.jpg",
+                                                  "assemblySslUrl": "https://api2-tejar.transloadit.com/assemblies/7923714540af43b1b4ac8e0887c9478c"
+                                                },
+                                                "script": "hidden: not(gcMC.isSelected(4))",
+                                                "alias": "vd"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      {
+                                        "linearlayout": {
+                                          "mainType": "rows",
+                                          "components": [
+                                            {
+                                              "sketch": {
+                                                "version": 2,
+                                                "background": {
+                                                  "type": "graph"
+                                                },
+                                                "id": "e6194b6c-73ca-46c4-9b98-1c5e62c5b616",
+                                                "img": "https://uploads.desmos.com/activitybuilder/097b2e3096d67c0664084c72d02953b4",
+                                                "alias": "mySketch",
+                                                "script": "\nyAxisLabel: yaxis.content\nnumber(\"b\"): \n  when gcMC.isSelected(1) va.time\n  when gcMC.isSelected(2) vb.time\n  when gcMC.isSelected(3) vc.time\n  otherwise vd.time",
+                                                "calculatorState": {
+                                                  "version": 8,
+                                                  "graph": {
+                                                    "viewport": {
+                                                      "xmin": -1.9,
+                                                      "ymin": -1.53,
+                                                      "xmax": 17,
+                                                      "ymax": 12
+                                                    },
+                                                    "showGrid": false,
+                                                    "xAxisStep": 5,
+                                                    "yAxisStep": 1,
+                                                    "xAxisLabel": "시간(초)",
+                                                    "restrictGridToFirstQuadrant": true,
+                                                    "squareAxes": false
+                                                  },
+                                                  "randomSeed": "55ecb9dc5d9327d531da40208b7c22f2",
+                                                  "expressions": {
+                                                    "list": [
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "18",
+                                                        "color": "#bbb",
+                                                        "latex": "x=\\min\\left(b,15\\right)\\left\\{y>0\\right\\}\\left\\{b>0\\right\\}",
+                                                        "lineStyle": "DASHED",
+                                                        "dragMode": "NONE"
+                                                      }
+                                                    ]
+                                                  }
+                                                },
+                                                "enabledTools": {
+                                                  "points": false,
+                                                  "line": true,
+                                                  "pencil": true,
+                                                  "math": true,
+                                                  "text": true
+                                                },
+                                                "legacyActionsOverrideSinks": true
+                                              }
+                                            },
+                                            {
+                                              "input/graph": {
+                                                "exhibitMode": true,
+                                                "id": "8ca79470-bcd6-47a3-b907-0c69a07f87c4",
+                                                "img": "https://uploads.desmos.com/activitybuilder/097b2e3096d67c0664084c72d02953b4",
+                                                "calculatorState": {
+                                                  "version": 8,
+                                                  "graph": {
+                                                    "viewport": {
+                                                      "xmin": -1.9,
+                                                      "ymin": -1.53,
+                                                      "xmax": 17,
+                                                      "ymax": 12
+                                                    },
+                                                    "showGrid": false,
+                                                    "xAxisStep": 5,
+                                                    "yAxisStep": 1,
+                                                    "xAxisLabel": "시간(초)",
+                                                    "restrictGridToFirstQuadrant": true,
+                                                    "squareAxes": false
+                                                  },
+                                                  "randomSeed": "55ecb9dc5d9327d531da40208b7c22f2",
+                                                  "expressions": {
+                                                    "list": [
+                                                      {
+                                                        "type": "expression",
+                                                        "id": "20",
+                                                        "color": "#2d70b3"
+                                                      }
+                                                    ]
+                                                  }
+                                                },
+                                                "script": "background: sketchLayer(mySketch.sketch)\nhidden: true\nyAxisLabel: yaxis.content",
+                                                "alias": "resGraph",
+                                                "legacyActionsOverrideSinks": true
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                "title": "그래프 그리기",
+                                "teacherTips": {
+                                  "teacher-moves": "Highlight unique answers for the class. Ask students to attend to precision in the relationships they're graphing. Have they precisely specified the units and measurements before they start graphing?"
+                                },
+                                "advancedLayout": true,
+                                "script": "title: when not(isBlank(yaxis.content)) \"시간과 ${yaxis.content} 사이의 관계를 나타내는 그래프를 그리세요\" otherwise \"그래프를 그리세요\""
+                              }
+                            ],
+                            "version": 1
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이 화면에서 학생은 자신만의 챌린지를 만들고 친구의 챌린지를 풀 수 있습니다. 학생이 챌린지를 만들기 전 모든 화면을 완료할 수 있도록 해 주세요. 챌린지 크리에이터 활동을 진행하는데는 약 30분 정도 소요됩니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생이 서로의 챌린지를 완료하고 자신이 만든 챌린지의 답변을 검토할 수 있도록 해 주세요. 교사 대시보드를 사용해 학생의 수학 이해도 향상을 위해 도움이 될만한 독특한 챌린지나 답변을 살펴 보세요. 챌린지나 답변을 학생과 공유하고 학생이 무엇을 배웠는지 질문해 주세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "챌린지 크리에이터는 사회성과 창의성을 기르기 위한 활동입니다. 학생에게 사회성과 창의성의 중요성을 강조해 주세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "activity": "activitybuilder",
+      "ancestors": [
+        {
+          "_id": "58797d35d81a612605304b1f",
+          "user": {
+            "id": "55fb1831efe3b67f175ca4a2",
+            "displayName": "Desmos _"
+          }
+        },
+        {
+          "_id": "5fadd6edcaafc338b64bd2a3",
+          "user": {
+            "id": "5de6bbe49f524909d87db21a",
+            "displayName": "Kayla Muñoz"
+          }
+        },
+        {
+          "_id": "5fadd71eafd42527b3ea8976",
+          "user": {
+            "id": "5de6bbe49f524909d87db21a",
+            "displayName": "Kayla Muñoz"
+          }
+        },
+        {
+          "_id": "5fadd734a8b4a127b8a0cfb7",
+          "user": {
+            "id": "5de6bbe49f524909d87db21a",
+            "displayName": "Kayla Muñoz"
+          }
+        },
+        {
+          "_id": "5fadd74c7d969f265282b9b2",
+          "user": {
+            "id": "5de6bbe49f524909d87db21a",
+            "displayName": "Kayla Muñoz"
+          }
+        },
+        {
+          "_id": "5fadd766837ca3285f3f9111",
+          "user": {
+            "id": "5de6bbe49f524909d87db21a",
+            "displayName": "Kayla Muñoz"
+          }
+        },
+        {
+          "_id": "5fadd77fafd42527b3ea89a6",
+          "user": {
+            "id": "5de6bbe49f524909d87db21a",
+            "displayName": "Kayla Muñoz"
+          }
+        },
+        {
+          "_id": "5fadd7a3da71b038b7f86099",
+          "user": {
+            "id": "5de6bbe49f524909d87db21a",
+            "displayName": "Kayla Muñoz"
+          }
+        },
+        {
+          "_id": "5fadd7bc70926828b054d91a",
+          "user": {
+            "id": "5de6bbe49f524909d87db21a",
+            "displayName": "Kayla Muñoz"
+          }
+        },
+        {
+          "_id": "5fadd7d77d01d929ecbc2ad3",
+          "user": {
+            "id": "5de6bbe49f524909d87db21a",
+            "displayName": "Kayla Muñoz"
+          }
+        }
+      ],
+      "blurb": {
+        "schemaKey": "document",
+        "version": 3,
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "이 액티비티는 수직선 등 하나의 변수로 표현되는 그래프를 배운 학생이 좌표평면에서 두 개의 변수로 표현되는 그래프를 배울 수 있도록 하기 위해 만들어진 액티비티입니다. 학생은 15초짜리 동영상을 보고 선생님의 도움을 받아 그래프로 동영상을 설명해야 합니다."
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "동영상을 제공해주신 Adam Poetzel(@adampoetzel)님께 감사드립니다. (동영상은 CC-BY 라이선스 규정에 따라 사용되었습니다.)"
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "한국어 번역: Desmos 현지화 팀"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "category": "intro",
+      "collaborators": [
+        "5d85bd4cfe8bdc626d4698c8",
+        "5f0aa3a7367e812bf281e2e6"
+      ],
+      "teamDesmosAuthored": true,
+      "complete": true,
+      "edit_ts": "2022-08-22T10:26:21.358Z",
+      "keywords": [],
+      "licenses": [],
+      "retailAssetIds": [],
+      "permissionToShare": true,
+      "publishedTimestamp": "2022-08-22T10:26:21.358Z",
+      "thumb": "https://uploads.desmos.com/activitybuilder/50f72b687c0d51f0895d374b9519f0b6",
+      "timeEstimate": 60,
+      "title": "그래프로 동영상 설명하기",
+      "linkedActivities": [
+        {
+          "title": "원본 버전 (영어)",
+          "activityId": "58797d35d81a612605304b1f",
+          "collectionIds": [],
+          "logical": {
+            "logicalActivityMetaId": "58797d35d81a612605304b1f",
+            "logicalCollectionIds": []
+          }
+        }
+      ],
+      "user": {
+        "id": "5de6bbe49f524909d87db21a",
+        "displayName": "Kayla Muñoz"
+      },
+      "author": {
+        "id": "5d85bd4cfe8bdc626d4698c8",
+        "displayName": "영하 김"
+      },
+      "accessibilityNotes": "이 액티비티는 스크린 리더에 최적화되지 않았습니다. 시각 장애 학생은 다른 학생과 함께 액티비티를 진행하는 것을 권장합니다.",
+      "commitId": "630348d508784c274ba015b1",
+      "logicalId": "5fadd855785f5f384d9426d1",
+      "draftTitle": "그래프로 동영상 설명하기",
+      "draftAuthor": {
+        "id": "5d85bd4cfe8bdc626d4698c8",
+        "displayName": "영하 김"
+      }
+    },
+    "noindex": false
+  },
+  "notes": [
+    "Public HTML exposes metadata and thumbnail.",
+    "The public POST /activity/:id route may expose the customLesson JSON for public activities.",
+    "Teacher sessions, dashboards, student responses, and editor-only diagnostics still require authorization.",
+    "Use this output as source evidence and template inspiration, not as an activity clone."
+  ]
+}

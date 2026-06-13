@@ -1,0 +1,4032 @@
+{
+  "inspectedAt": "2026-06-13T12:30:00.697Z",
+  "url": "https://classroom.amplify.com/activity/5f36d2dc6a424f2cdd19bc7a?lang=ko",
+  "activityId": "5f36d2dc6a424f2cdd19bc7a",
+  "staticMeta": {
+    "canonical": "https://classroom.amplify.com/activity/5f36d2dc6a424f2cdd19bc7a",
+    "title": "구슬 굴리기: 직선",
+    "description": "구슬 굴리기는 재미있으면서도 수학 능력이 필요한 액티비티입니다. 이 액티비티에서는 직선을 추가하거나 수정하여 구슬이 모든 별을 통과할 수 있도록 해야 합니다. 학생은 구슬을 발사하여 결과를 확인하고 다음 챌린지를 시작하기 전에 답변을 수정할 수 있습니다.\n\n한국어 번역: Desmos 현지화 팀",
+    "twitterTitle": "구슬 굴리기: 직선",
+    "twitterDescription": "구슬 굴리기는 재미있으면서도 수학 능력이 필요한 액티비티입니다. 이 액티비티에서는 직선을 추가하거나 수정하여 구슬이 모든 별을 통과할 수 있도록 해야 합니다. 학생은 구슬을 발사하여 결과를 확인하고 다음 챌린지를 시작하기 전에 답변을 수정할 수 있습니다.\n\n한국어 번역: Desmos 현지화 팀",
+    "image": "https://uploads.desmos.com/activitybuilder/d7da34325a4acc80cff5028834260083"
+  },
+  "activityMeta": {
+    "activities": [
+      {
+        "__brand": "NormalizedActivity",
+        "_id": "5f36d2dc6a424f2cdd19bc7a",
+        "ancestorAuthorGroups": [],
+        "ancestors": [
+          {
+            "_id": "565284a2cbfbcde732b55ae8",
+            "user": {
+              "id": "5514ad075bb90671051acab6",
+              "displayName": "Dan Meyer"
+            }
+          }
+        ],
+        "category": "development",
+        "collaborators": [
+          "5d5c81618a3b6156af14a89f",
+          "5d85bd4cfe8bdc626d4698c8"
+        ],
+        "customMetadata": {},
+        "teamDesmosAuthored": true,
+        "deleteURL": "/custom-lesson/delete/5f36d2dc6a424f2cdd19bc7a",
+        "description": "구슬 굴리기는 재미있으면서도 수학 능력이 필요한 액티비티입니다. 이 액티비티에서는 직선을 추가하거나 수정하여 구슬이 모든 별을 통과할 수 있도록 해야 합니다. 학생은 구슬을 발사하여 결과를 확인하고 다음 챌린지를 시작하기 전에 답변을 수정할 수 있습니다.\n\n한국어 번역: Desmos 현지화 팀",
+        "edit_ts": "2022-08-19T07:40:34.263Z",
+        "infoURL": "activity/5f36d2dc6a424f2cdd19bc7a",
+        "keywords": [],
+        "licenses": [],
+        "activityLicenses": [],
+        "retailAssetIds": [],
+        "activityRetailAssetIds": [],
+        "private": false,
+        "searchable": false,
+        "thumbURL": "https://uploads.desmos.com/activitybuilder/d7da34325a4acc80cff5028834260083",
+        "timeEstimate": 45,
+        "isPaperActivity": false,
+        "hasSteps": true,
+        "hasAuthoredFeedback": false,
+        "isPresentation": false,
+        "accessibilityNotes": "이 액티비티는 스크린 리더에 최적화되지 않았습니다. 시각 장애 학생은 다른 학생과 함께 액티비티를 진행하는 것을 권장합니다.",
+        "authorTags": [],
+        "title": "구슬 굴리기: 직선",
+        "linkedActivities": [
+          {
+            "title": "원본 버전 (영어)",
+            "activityId": "566b31734e38e1e21a10aac8",
+            "collectionIds": [],
+            "logical": {
+              "logicalActivityMetaId": "566b31734e38e1e21a10aac8",
+              "logicalCollectionIds": []
+            }
+          }
+        ],
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      }
+    ],
+    "deletedActivities": [],
+    "activityTranslations": {}
+  },
+  "activitySummary": {
+    "id": "5f36d2dc6a424f2cdd19bc7a",
+    "title": "구슬 굴리기: 직선",
+    "version": 1,
+    "commitId": "62ff38c4dcb919ce4612240e",
+    "publishedTimestamp": "2022-08-19T07:40:34.263Z",
+    "editTimestamp": "2022-08-19T07:40:34.263Z",
+    "permissionToShare": true,
+    "noindex": false,
+    "user": {
+      "id": "5de6bbe49f524909d87db21a",
+      "displayName": "Kayla Muñoz"
+    },
+    "author": {
+      "id": "5d85bd4cfe8bdc626d4698c8",
+      "displayName": "영하 김"
+    },
+    "ancestors": [
+      {
+        "_id": "565284a2cbfbcde732b55ae8",
+        "user": {
+          "id": "5514ad075bb90671051acab6",
+          "displayName": "Dan Meyer"
+        }
+      }
+    ],
+    "thumb": "https://uploads.desmos.com/activitybuilder/d7da34325a4acc80cff5028834260083",
+    "screenCount": 24,
+    "componentCounts": {
+      "marbleslides": 15,
+      "exhibit/image": 1,
+      "exhibit/text": 6,
+      "input/graph": 7,
+      "input/text": 4
+    },
+    "screens": [
+      {
+        "index": 1,
+        "id": "961e3a7c-bac6-44ab-9585-384a98a33271",
+        "type": "two-column",
+        "title": "구슬을 굴려 볼까요!",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 2,
+        "id": "d0490916-ebd5-422a-8001-bf6d0ef63136",
+        "type": "two-column",
+        "title": "직선 바꾸기 1",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 3,
+        "id": "e3f0b2ac-9739-47f9-9027-b187ff922695",
+        "type": "two-column",
+        "title": "화면 초기화 방법",
+        "subtitle": "",
+        "componentCounts": {
+          "exhibit/image": 1,
+          "exhibit/text": 1
+        }
+      },
+      {
+        "index": 4,
+        "id": "1c886478-76a6-4d59-95c5-1d160053c1f9",
+        "type": "two-column",
+        "title": "직선 바꾸기 2",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 5,
+        "id": "866527f8-6968-4303-a4dc-98341b503018",
+        "type": "two-column",
+        "title": "직선 바꾸기 3",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 6,
+        "id": "9535cd45-2ba1-4da9-bc14-c07cebe06518",
+        "type": "two-column",
+        "title": "직선 바꾸기 4",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 7,
+        "id": "4aaac536-f132-4060-8271-ef0a71e2c3ca",
+        "type": "two-column",
+        "title": "직선 예측하기 1",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 8,
+        "id": "a60bff2e-846b-4dce-ad41-5b5e9bbf23b0",
+        "type": "two-column",
+        "title": "직선 확인하기 1",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1
+        }
+      },
+      {
+        "index": 9,
+        "id": "5e089880-323e-4156-b436-f896240fd89c",
+        "type": "two-column",
+        "title": "직선 예측하기 2",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 10,
+        "id": "a3ffb37d-c9f4-49b9-827b-e76b78274cbf",
+        "type": "two-column",
+        "title": "직선 확인하기 2",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1
+        }
+      },
+      {
+        "index": 11,
+        "id": "5286c46d-7fb1-437f-9a12-3846efd802aa",
+        "type": "two-column",
+        "title": "직선 예측하기 3",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 12,
+        "id": "d080ae08-10ed-433e-a3bb-f5eb03ef7764",
+        "type": "two-column",
+        "title": "직선 확인하기 3",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1
+        }
+      },
+      {
+        "index": 13,
+        "id": "2ccc4b3a-3d4c-4ea4-9a90-2a1e7831e376",
+        "type": "two-column",
+        "title": "직선 예측하기 4",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 14,
+        "id": "55daa823-d4a9-4ca5-832f-1225c9dce053",
+        "type": "two-column",
+        "title": "직선 확인하기 4",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 15,
+        "id": "f7c31dd5-48a4-4519-83b8-34a024051d17",
+        "type": "two-column",
+        "title": "추가 챌린지를 풀어 보세요!",
+        "subtitle": "",
+        "componentCounts": {
+          "exhibit/text": 1
+        }
+      },
+      {
+        "index": 16,
+        "id": "d5c44ed4-b61c-4eb2-a1ef-288f21528be8",
+        "type": "two-column",
+        "title": "1번째 챌린지",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 17,
+        "id": "888d765d-6813-4836-b288-31fcaebd5d67",
+        "type": "two-column",
+        "title": "2번째 챌린지",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 18,
+        "id": "957c45be-5677-40b2-a016-89570b521ddb",
+        "type": "two-column",
+        "title": "3번째 챌린지",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 19,
+        "id": "aa379755-3c9f-4f16-9354-07d277a1d12f",
+        "type": "two-column",
+        "title": "4번째 챌린지",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 20,
+        "id": "002eb257-d902-476c-8285-520ec7a4e4ed",
+        "type": "two-column",
+        "title": "5번째 챌린지",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 21,
+        "id": "9301a13d-fe9b-4747-b333-128a8d5a8817",
+        "type": "two-column",
+        "title": "6번째 챌린지",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 22,
+        "id": "422533f7-24da-4afc-986a-93764e331be8",
+        "type": "two-column",
+        "title": "7번째 챌린지",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 23,
+        "id": "1a661f58-9bbb-4239-98e6-6cb3952098b8",
+        "type": "two-column",
+        "title": "8번째 챌린지",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      },
+      {
+        "index": 24,
+        "id": "f7d79cf1-452f-4725-8023-49b8c9f89d85",
+        "type": "two-column",
+        "title": "자유 활동",
+        "subtitle": "",
+        "componentCounts": {
+          "marbleslides": 1
+        }
+      }
+    ],
+    "aliases": [],
+    "scripts": [
+      {
+        "screen": 7,
+        "screenTitle": "직선 예측하기 1",
+        "type": "input/graph",
+        "alias": null,
+        "id": "2466d7d9-5ce0-497b-8fa3-acd76ff555a7",
+        "script": "narration: \"x와 y의 범위가 -10부터 10까지인 그래프입니다. 직선 `y=-0.14x+3\\\\left\\\\{x<2\\\\right\\\\}`가 표시되어 있습니다.\""
+      },
+      {
+        "screen": 9,
+        "screenTitle": "직선 예측하기 2",
+        "type": "input/graph",
+        "alias": null,
+        "id": "26df2eae-bb8c-4220-a6a8-3052ac514257",
+        "script": "narration: \"x와 y의 범위가 -10부터 10까지인 그래프입니다. 직선 `y=-0.14x+3\\\\left\\\\{x<2\\\\right\\\\}`가 표시되어 있습니다.\""
+      },
+      {
+        "screen": 11,
+        "screenTitle": "직선 예측하기 3",
+        "type": "input/graph",
+        "alias": null,
+        "id": "f64c7913-f076-4e68-a0f9-5383af34faeb",
+        "script": "narration: \"x와 y의 범위가 -10부터 10까지인 그래프입니다. 직선 `y=-0.14x+3\\\\left\\\\{x<2\\\\right\\\\}`가 표시되어 있습니다.\""
+      },
+      {
+        "screen": 13,
+        "screenTitle": "직선 예측하기 4",
+        "type": "input/graph",
+        "alias": null,
+        "id": "4554a40a-1ecc-401f-9530-50642e9db481",
+        "script": "narration(1): \"구슬은 점 '(5,15)'에서 떨어지기 시작하며, 별은 각각 점 `(1, 6)`, `(2, 8)`, `(3, 10)`, `(4, 12)`에 있습니다. 그래프에는 `y=\\frac{1}{2}x+4\\left\\{x<2\\right\\}`의 직선이 표시되어 있습니다.\""
+      }
+    ]
+  },
+  "activityJson": {
+    "customLesson": {
+      "_id": "5f36d2dc6a424f2cdd19bc7a",
+      "version": 1,
+      "steps": [
+        {
+          "type": "two-column",
+          "id": "961e3a7c-bac6-44ab-9585-384a98a33271",
+          "title": "구슬을 굴려 볼까요!",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "a97c818f-c274-40d0-b3f8-67e7d93d8b9b",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -7.342375427413387,
+                                "ymin": -6.801569355987242,
+                                "xmax": 11.88809067248486,
+                                "ymax": 8.558765441306482
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "d8e7fbab4c6c75e4cb60755dcd493dfa",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "3",
+                                  "text": "직선을 이용해 구슬이 모든 별을 통과하도록 해야 합니다."
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "4",
+                                  "text": "<발사> 버튼을 클릭해 보세요."
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "5",
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "6",
+                                  "folderId": "5",
+                                  "color": "#c74440",
+                                  "latex": "y=-2x+3.2\\left\\{3.7<y<5\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "7",
+                                  "folderId": "5",
+                                  "color": "#c74440",
+                                  "latex": "y=2x+3.2\\left\\{3.7<y<5\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "9",
+                                  "folderId": "5",
+                                  "color": "#c74440",
+                                  "latex": "x=.25\\left\\{3.2<y<3.7\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "10",
+                                  "folderId": "5",
+                                  "color": "#c74440",
+                                  "latex": "x=-.25\\left\\{3.2<y<3.7\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8",
+                                  "folderId": "5",
+                                  "color": "#c74440",
+                                  "latex": "y=-x+4.5\\left\\{-1.5<x<-1\\right\\}"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/787be4ef579e1dacc6540bf7ffc373a3",
+                          "start": [
+                            {
+                              "x": -1,
+                              "y": 6
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 0,
+                              "y": 1
+                            },
+                            {
+                              "x": 0,
+                              "y": 2
+                            },
+                            {
+                              "x": 0,
+                              "y": 3
+                            },
+                            {
+                              "x": 0,
+                              "y": 4
+                            }
+                          ],
+                          "start-raw": "(-1,6)",
+                          "marbleSize": 0.48076165249745617
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "d0490916-ebd5-422a-8001-bf6d0ef63136",
+          "title": "직선 바꾸기 1",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "e210c3db-0054-4d72-afe9-ce5f3394d5e9",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -5.819324813740113,
+                                "ymin": -15.981644846557801,
+                                "xmax": 18.905560171843344,
+                                "ymax": 21.57663282201898
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "e408f66160fcece3ee1aa9ec213e9569",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "3",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식의 숫자 중 하나를 바꿔 보세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "6",
+                                  "color": "#2d70b3",
+                                  "latex": "y=\\frac{1}{2}x",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/216f842af96208200face07ca16b7be8",
+                          "start": [
+                            {
+                              "x": 12,
+                              "y": 10
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 4,
+                              "y": 0.2
+                            },
+                            {
+                              "x": 6,
+                              "y": 1.2
+                            },
+                            {
+                              "x": 8,
+                              "y": 2.2
+                            },
+                            {
+                              "x": 10,
+                              "y": 3.2
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생이 한 번에 하나씩 숫자를 변경하고, 다른 숫자를 바꾸기 전에 이전에 바꾼 숫자를 원래대로 돌려 놓도록 하세요. 숫자에 따라 직선이 어떻게 변하는지 더 잘 이해하는 데 도움이 됩니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생들이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=\\frac{1}{2}x-2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "e3f0b2ac-9739-47f9-9027-b187ff922695",
+          "title": "화면 초기화 방법",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/image": {
+                          "alt": "설정 메뉴를 열고 초기화 버튼을 누르는 방법을 보여주는 사진입니다.",
+                          "img": "https://uploads.desmos.com/activitybuilder/71de8377b5164d4eed9975666eac67e5",
+                          "id": "598f76b6-2792-4bbd-ab29-a74eba809720"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "If you have too much fun, and you want to reset your Marbleslides screen to its original look, follow these instructions.",
+                          "id": "834ad477-c310-4dbd-acd3-56ecfacebb8b",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"화면을 초기화 하려면 다음 방법을 참고하세요.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"(1) 수식 리스트 위의 톱니바퀴 아이콘을 클릭하세요.\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"(2) 그 다음 <초기화> 버튼을 클릭하세요.\"}]}]}"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "1c886478-76a6-4d59-95c5-1d160053c1f9",
+          "title": "직선 바꾸기 2",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "68d5e58a-90db-494d-b2c8-f23538e84728",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -3.7110187110187116,
+                                "ymin": -1.7566761954261958,
+                                "xmax": 15.711018711018712,
+                                "ymax": 13.756676195426195
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "88e12d417856525fcb7c91c7c696824e",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "3",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식의 숫자 중 하나를 바꿔 보세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "6",
+                                  "color": "#2d70b3",
+                                  "latex": "y=4x+3",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/696a7e5567e241d2ae21ece4a84d7160",
+                          "start": [
+                            {
+                              "x": 14,
+                              "y": 12
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 4,
+                              "y": 5.2
+                            },
+                            {
+                              "x": 6,
+                              "y": 6.2
+                            },
+                            {
+                              "x": 8,
+                              "y": 7.2
+                            },
+                            {
+                              "x": 10,
+                              "y": 8.2
+                            }
+                          ],
+                          "marbleSize": 0.4855509355509356
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생이 한 번에 하나씩 숫자를 변경하고, 다른 숫자를 바꾸기 전에 이전에 바꾼 숫자를 원래대로 돌려 놓도록 하세요. 숫자에 따라 직선이 어떻게 변하는지 더 잘 이해하는 데 도움이 됩니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=\\frac{1}{2}x+3"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "866527f8-6968-4303-a4dc-98341b503018",
+          "title": "직선 바꾸기 3",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "196bad9f-c3b2-4360-a1c3-22d1aa5d2fa4",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -5.588873812754411,
+                                "ymin": -4.360362957937585,
+                                "xmax": 11.58887381275441,
+                                "ymax": 9.360362957937586
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "a5cc892268f6de7b6b051e3d8214f560",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "3",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식의 숫자 중 하나를 바꿔 보세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "6",
+                                  "color": "#2d70b3",
+                                  "latex": "y=-0.4x+6\\left\\{x<3\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/76e95b1dbce589dfc598c008f9269267",
+                          "start": [
+                            {
+                              "x": 0,
+                              "y": 7
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 2.5,
+                              "y": 5.2
+                            },
+                            {
+                              "x": 5,
+                              "y": 4.2
+                            },
+                            {
+                              "x": 7.5,
+                              "y": 3.2
+                            },
+                            {
+                              "x": 10,
+                              "y": 1.2
+                            }
+                          ],
+                          "marbleSize": 0.42944369063772053
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생이 한 번에 하나씩 숫자를 변경하고, 다른 숫자를 바꾸기 전에 이전에 바꾼 숫자를 원래대로 돌려 놓도록 하세요. 숫자에 따라 직선이 어떻게 변하는지 더 잘 이해하는 데 도움이 됩니다."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "힌트: 이 화면에서는 괄호 안의 정의역 범위를 조정하는 것이 좋습니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=-0.4x+6\\left\\{x<7\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "9535cd45-2ba1-4da9-bc14-c07cebe06518",
+          "title": "직선 바꾸기 4",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "135f2bad-6026-4677-bbf5-767d5e403a6d",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4.306648575305292,
+                                "ymin": -2.2324355495251007,
+                                "xmax": 16.306648575305292,
+                                "ymax": 14.232435549525103
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "0ccf14df1143599f575a8a04d794d450",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "3",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식을 수정해 보세요. 필요하다면 추가 방정식을 입력해도 좋습니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "9",
+                                  "color": "#2d70b3",
+                                  "latex": "y=\\frac{1}{2}x+6\\left\\{x>0\\right\\}"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/042694283ff3df2ad33345c3ec366a73",
+                          "start": [
+                            {
+                              "x": 12,
+                              "y": 13
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 4,
+                              "y": 5.2
+                            },
+                            {
+                              "x": 6,
+                              "y": 6.2
+                            },
+                            {
+                              "x": 8,
+                              "y": 10.2
+                            },
+                            {
+                              "x": 10,
+                              "y": 11.2
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=\\frac{1}{2}x+6\\left\\{x>10\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=\\frac{1}{2}x+3"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "4aaac536-f132-4060-8271-ef0a71e2c3ca",
+          "title": "직선 예측하기 1",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "exhibitMode": true,
+                          "id": "2466d7d9-5ce0-497b-8fa3-acd76ff555a7",
+                          "img": "https://uploads.desmos.com/activitybuilder/3b383f2c60aa6568e3432ce759337b6d",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "761fbba96f9381175cf67529caae129d",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -18.285714285714285,
+                                "ymin": -12.782437782353973,
+                                "xmax": 1.7142857142857153,
+                                "ymax": 18.13582124100059
+                              }
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#2d70b3",
+                                  "latex": "y=-.14x+3\\left\\{x<2\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "11",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(0,-7\\right)",
+                                  "showLabel": true,
+                                  "label": "`y=-0.14x+3\\left\\{x<2\\right\\}`",
+                                  "hidden": true,
+                                  "labelSize": "large"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "13",
+                                  "title": "범례 (윤곽 / 배경)"
+                                },
+                                {
+                                  "type": "image",
+                                  "id": "14",
+                                  "folderId": "13",
+                                  "image_url": "https://uploads.desmos.com/calculator-images/463216ae4877ddf62974b8df1b722ead",
+                                  "name": "white square.png",
+                                  "foreground": true,
+                                  "center": "\\left(l_x,l_y\\right)",
+                                  "width": "2d_x",
+                                  "height": "2d_y"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15",
+                                  "folderId": "13",
+                                  "color": "#999999",
+                                  "latex": "\\operatorname{polygon}\\left(\\left[l_x-d_x,l_x+d_x,l_x+d_x,l_x-d_x\\right],\\left[l_y-d_y,l_y-d_y,l_y+d_y,l_y+d_y\\right]\\right)",
+                                  "fill": false
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16",
+                                  "folderId": "13",
+                                  "color": "#c74440",
+                                  "latex": "l_x=0"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "17",
+                                  "folderId": "13",
+                                  "color": "#2d70b3",
+                                  "latex": "l_y=-7"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "18",
+                                  "folderId": "13",
+                                  "color": "#388c46",
+                                  "latex": "d_x=6"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "19",
+                                  "folderId": "13",
+                                  "color": "#6042a6",
+                                  "latex": "d_y=1.25"
+                                }
+                              ]
+                            }
+                          },
+                          "script": "narration: \"x와 y의 범위가 -10부터 10까지인 그래프입니다. 직선 `y=-0.14x+3\\\\left\\\\{x<2\\\\right\\\\}`가 표시되어 있습니다.\"",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "If we changed the –0.14 to a 2 in the equation, what would happen to the graph?",
+                          "id": "e3c39d13-f6bf-4d5b-bc27-da31336294f0",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"방정식의 숫자를\"},{\"type\":\"text\",\"marks\":[{\"type\":\"strong\"}],\"text\":\" -\"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"0.14\"}],\"marks\":[{\"type\":\"strong\"}]},{\"type\":\"text\",\"text\":\"에서 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"2\"}],\"marks\":[{\"type\":\"strong\"}]},{\"type\":\"text\",\"text\":\"로 바꾸면 그래프에 어떤 변화가 생길까요?\"}]},{\"type\":\"paragraph\"}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "623996eb-e225-4aff-8b18-ed72d69746db",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이 화면에서 학생의 답변을 공유해 보세요. 학생의 답변이 서로 달라도 괜찮습니다. 학생이 다른 친구의 답변에 대해 질문하고 자신의 답변을 설명하도록 해 보세요. 다음 화면에서 직선을 확인할 것입니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "숫자를 변경하면 직선의 기울기가 양수가 되므로, 완만하게 하강하는 직선 대신 급격하게 상승하는 직선으로 바뀌게 됩니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "a60bff2e-846b-4dce-ad41-5b5e9bbf23b0",
+          "title": "직선 확인하기 1",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "93b94ae0-591a-4be6-91c8-126808bd1f60",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10.983810939608638,
+                                "ymin": -17.389342496867165,
+                                "xmax": 10.266189060391358,
+                                "ymax": 17.420181312656638
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "3fce68ae40c45bbf69de76bf18f9d99e",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "2",
+                                  "text": "아래의 방정식을 수정해 이전 화면에서 제출한 답변이 정답인지 확인해 보세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#2d70b3",
+                                  "latex": "y=-0.14x+3\\left\\{x<2\\right\\}"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "3",
+                                  "text": "방정식의 숫자를 -0.14에서 2로 바꾸면 그래프에 어떤 변화가 생기나요?"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "69",
+                                  "collapsed": true,
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "68",
+                                  "folderId": "69",
+                                  "color": "#2d70b3",
+                                  "latex": "y=-0.14x+3\\left\\{x<2\\right\\}",
+                                  "lineStyle": "DASHED"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "70",
+                                  "color": "#c74440"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/3d9aedc38285243c0264b8d6dd633f1f",
+                          "exhibitMode": false,
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "5e089880-323e-4156-b436-f896240fd89c",
+          "title": "직선 예측하기 2",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "exhibitMode": true,
+                          "id": "26df2eae-bb8c-4220-a6a8-3052ac514257",
+                          "img": "https://uploads.desmos.com/activitybuilder/99eadd017717f240037da56a270bfc0e",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "a072e75478ab76f668c28eea60ee05d8",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -15.459129511677281,
+                                "xmax": 10,
+                                "ymax": 15.459129511677281
+                              }
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#2d70b3",
+                                  "latex": "y=-.14x+3\\left\\{x<2\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "11",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(0,-7\\right)",
+                                  "showLabel": true,
+                                  "label": "`y=-0.14x+3\\left\\{x<2\\right\\}`",
+                                  "hidden": true,
+                                  "labelSize": "large"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "29",
+                                  "title": "범례 (윤곽 / 배경)"
+                                },
+                                {
+                                  "type": "image",
+                                  "id": "30",
+                                  "folderId": "29",
+                                  "image_url": "https://uploads.desmos.com/calculator-images/463216ae4877ddf62974b8df1b722ead",
+                                  "name": "white square.png",
+                                  "foreground": true,
+                                  "center": "\\left(l_x,l_y\\right)",
+                                  "width": "2d_x",
+                                  "height": "2d_y"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "31",
+                                  "folderId": "29",
+                                  "color": "#999999",
+                                  "latex": "\\operatorname{polygon}\\left(\\left[l_x-d_x,l_x+d_x,l_x+d_x,l_x-d_x\\right],\\left[l_y-d_y,l_y-d_y,l_y+d_y,l_y+d_y\\right]\\right)",
+                                  "fill": false
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "32",
+                                  "folderId": "29",
+                                  "color": "#c74440",
+                                  "latex": "l_x=0"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "33",
+                                  "folderId": "29",
+                                  "color": "#2d70b3",
+                                  "latex": "l_y=-7"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "34",
+                                  "folderId": "29",
+                                  "color": "#388c46",
+                                  "latex": "d_x=6"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "35",
+                                  "folderId": "29",
+                                  "color": "#6042a6",
+                                  "latex": "d_y=1.25"
+                                }
+                              ]
+                            }
+                          },
+                          "script": "narration: \"x와 y의 범위가 -10부터 10까지인 그래프입니다. 직선 `y=-0.14x+3\\\\left\\\\{x<2\\\\right\\\\}`가 표시되어 있습니다.\"",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "If we changed the 3 to a 0 in the equation, what would happen to the graph?",
+                          "id": "85962f01-20d3-4930-a1b6-d344e8d426ec",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"방정식에서 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"+3\"}],\"marks\":[{\"type\":\"strong\"}]},{\"type\":\"text\",\"text\":\"을 지우면 그래프에 어떤 변화가 생길까요?\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "24f19bb7-f85f-4de7-bf83-a039d8b5f524",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이 화면에서 학생의 답변을 공유해 보세요. 학생의 답변이 서로 달라도 괜찮습니다. 학생이 다른 친구의 답변에 대해 질문하고 자신의 답변을 설명하도록 해 보세요. 다음 화면에서 직선을 확인할 것입니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "직선의 기울기는 동일하지만 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 절편이 3 대신 0이 됩니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "a3ffb37d-c9f4-49b9-827b-e76b78274cbf",
+          "title": "직선 확인하기 2",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "02363809-ed35-4df8-9b84-90925c3ba585",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10.986422025240385,
+                                "ymin": -6.666875400428032,
+                                "xmax": 11.591702974759615,
+                                "ymax": 6.427676893343011
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "d84a813fd36578966bbf304095e0dd21",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "2",
+                                  "text": "아래의 방정식을 수정해 이전 화면에서 제출한 답변이 정답인지 확인해 보세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#2d70b3",
+                                  "latex": "y=-0.14x+3\\left\\{x<2\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "3",
+                                  "text": "방정식에서 +3을 지우면 그래프에 어떤 변화가 생기나요?"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "86",
+                                  "collapsed": true,
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "85",
+                                  "folderId": "86",
+                                  "color": "#2d70b3",
+                                  "latex": "y=-0.14x+3\\left\\{x<2\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "lineStyle": "DASHED",
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "87",
+                                  "color": "#c74440"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/05c568f299af659a8b7c06c28324689a",
+                          "exhibitMode": false,
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "5286c46d-7fb1-437f-9a12-3846efd802aa",
+          "title": "직선 예측하기 3",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "exhibitMode": true,
+                          "id": "f64c7913-f076-4e68-a0f9-5383af34faeb",
+                          "img": "https://uploads.desmos.com/activitybuilder/99eadd017717f240037da56a270bfc0e",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "7b13507fcc531fc3a4a3f6145efdaa09",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -15.459129511677281,
+                                "xmax": 10,
+                                "ymax": 15.459129511677281
+                              }
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#2d70b3",
+                                  "latex": "y=-.14x+3\\left\\{x<2\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "11",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(0,-7\\right)",
+                                  "showLabel": true,
+                                  "label": "`y=-0.14x+3\\left\\{x<2\\right\\}`",
+                                  "hidden": true,
+                                  "labelSize": "large"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "13",
+                                  "title": "범례 (윤곽 / 배경)"
+                                },
+                                {
+                                  "type": "image",
+                                  "id": "14",
+                                  "folderId": "13",
+                                  "image_url": "https://uploads.desmos.com/calculator-images/463216ae4877ddf62974b8df1b722ead",
+                                  "name": "white square.png",
+                                  "foreground": true,
+                                  "center": "\\left(l_x,l_y\\right)",
+                                  "width": "2d_x",
+                                  "height": "2d_y"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15",
+                                  "folderId": "13",
+                                  "color": "#999999",
+                                  "latex": "\\operatorname{polygon}\\left(\\left[l_x-d_x,l_x+d_x,l_x+d_x,l_x-d_x\\right],\\left[l_y-d_y,l_y-d_y,l_y+d_y,l_y+d_y\\right]\\right)",
+                                  "fill": false
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16",
+                                  "folderId": "13",
+                                  "color": "#c74440",
+                                  "latex": "l_x=0"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "17",
+                                  "folderId": "13",
+                                  "color": "#2d70b3",
+                                  "latex": "l_y=-7"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "18",
+                                  "folderId": "13",
+                                  "color": "#388c46",
+                                  "latex": "d_x=6"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "19",
+                                  "folderId": "13",
+                                  "color": "#6042a6",
+                                  "latex": "d_y=1.25"
+                                }
+                              ]
+                            }
+                          },
+                          "script": "narration: \"x와 y의 범위가 -10부터 10까지인 그래프입니다. 직선 `y=-0.14x+3\\\\left\\\\{x<2\\\\right\\\\}`가 표시되어 있습니다.\"",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "If we changed the 2 to a 5 in the domain restriction `x<2`, what would happen to the graph?",
+                          "id": "3354c138-45b6-42f8-a05a-41732bb9fddd",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"정의역의 범위를 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"\\\\left\\\\{x<2\\\\right\\\\}\"}]},{\"type\":\"text\",\"text\":\"에서 \"},{\"type\":\"mq\",\"content\":[{\"type\":\"text\",\"text\":\"\\\\left\\\\{x<5\\\\right\\\\}\"}]},{\"type\":\"text\",\"text\":\"로 바꾸면 그래프에 어떤 변화가 생길까요?\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "5b8aa0e7-7746-45c1-9870-0c924ad8e267",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이 화면에서 학생의 답변을 공유해 보세요. 학생의 답변이 서로 달라도 괜찮습니다. 학생이 다른 친구의 답변에 대해 질문하고 자신의 답변을 설명하도록 해 보세요. 다음 화면에서 직선을 확인할 것입니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "정의역의 범위를 변경하면 직선이 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x=5"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "까지 연장됩니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "d080ae08-10ed-433e-a3bb-f5eb03ef7764",
+          "title": "직선 확인하기 3",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "a18afe3d-dc89-4ab5-a505-c5cfc68964ff",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -16.38095238095238,
+                                "xmax": 10,
+                                "ymax": 16.38095238095238
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "7fca35b4382412b5cc3ab18c89a783d2",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "2",
+                                  "text": "아래의 방정식을 수정해 이전 화면에서 제출한 답변이 정답인지 확인해 보세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#2d70b3",
+                                  "latex": "y=-0.14x+3\\left\\{x<2\\right\\}"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "3",
+                                  "text": "정의역의 범위를 {x<2}에서 {x<5}로 바꾸면 그래프에 어떤 변화가 생기나요?"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "104",
+                                  "collapsed": true,
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "103",
+                                  "folderId": "104",
+                                  "color": "#2d70b3",
+                                  "latex": "y=-0.14x+3\\left\\{x<2\\right\\}",
+                                  "lineStyle": "DASHED"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "108",
+                                  "color": "#6042a6"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/dfb96366fdd0c5a4e3ab1820e3c0f5c5",
+                          "exhibitMode": false,
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "2ccc4b3a-3d4c-4ea4-9a90-2a1e7831e376",
+          "title": "직선 예측하기 4",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "exhibitMode": true,
+                          "id": "4554a40a-1ecc-401f-9530-50642e9db481",
+                          "img": "https://uploads.desmos.com/activitybuilder/76f1ba224811069684847d665277dc13",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "70bcd3db13ceea026f6d6f02523f778f",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -8,
+                                "ymin": -4,
+                                "xmax": 16,
+                                "ymax": 20
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4,
+                              "squareAxes": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "expression",
+                                  "id": "4",
+                                  "color": "#2d70b3",
+                                  "latex": "y=\\frac{1}{2}x+4\\left\\{x<2\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "24",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(l_x,l_y\\right)",
+                                  "showLabel": true,
+                                  "label": "`y=\\frac{1}{2}x+4\\left\\{x<2\\right\\}`",
+                                  "hidden": true,
+                                  "labelSize": "large"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "7",
+                                  "title": "범례 (윤곽 / 배경)"
+                                },
+                                {
+                                  "type": "image",
+                                  "id": "8",
+                                  "folderId": "7",
+                                  "image_url": "https://uploads.desmos.com/calculator-images/463216ae4877ddf62974b8df1b722ead",
+                                  "name": "white square.png",
+                                  "foreground": true,
+                                  "center": "\\left(l_x,l_y\\right)",
+                                  "width": "2d_x",
+                                  "height": "2d_y"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "9",
+                                  "folderId": "7",
+                                  "color": "#999999",
+                                  "latex": "\\operatorname{polygon}\\left(\\left[l_x-d_x,l_x+d_x,l_x+d_x,l_x-d_x\\right],\\left[l_y-d_y,l_y-d_y,l_y+d_y,l_y+d_y\\right]\\right)",
+                                  "fill": false
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "10",
+                                  "folderId": "7",
+                                  "color": "#c74440",
+                                  "latex": "l_x=4"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "11",
+                                  "folderId": "7",
+                                  "color": "#2d70b3",
+                                  "latex": "l_y=-1"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "12",
+                                  "folderId": "7",
+                                  "color": "#388c46",
+                                  "latex": "d_x=7"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "13",
+                                  "folderId": "7",
+                                  "color": "#6042a6",
+                                  "latex": "d_y=2"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "15",
+                                  "title": "별 및 구슬"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "22",
+                                  "folderId": "15",
+                                  "color": "#2d70b3",
+                                  "latex": "s=\\frac{1}{2500}\\cdot24"
+                                },
+                                {
+                                  "id": "18",
+                                  "type": "table",
+                                  "folderId": "15",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4"
+                                      ],
+                                      "hidden": true,
+                                      "id": "19",
+                                      "color": "#000000",
+                                      "latex": "S_{x}"
+                                    },
+                                    {
+                                      "values": [
+                                        "6",
+                                        "8",
+                                        "10",
+                                        "12"
+                                      ],
+                                      "hidden": true,
+                                      "id": "20",
+                                      "color": "#6042a6",
+                                      "latex": "S_{y}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "image",
+                                  "id": "16",
+                                  "folderId": "15",
+                                  "image_url": "https://uploads.desmos.com/calculator-images/1c955aa61f8d7748d4c076b22e16f8c5",
+                                  "name": "star.png",
+                                  "foreground": true,
+                                  "center": "\\left(S_x,S_y\\right)",
+                                  "width": "96s",
+                                  "height": "88s"
+                                },
+                                {
+                                  "type": "image",
+                                  "id": "26",
+                                  "folderId": "15",
+                                  "image_url": "https://uploads.desmos.com/calculator-images/9e2ad3283b7836a93e1a5294efea8b4e",
+                                  "name": "ball.png",
+                                  "foreground": true,
+                                  "center": "(5,15)",
+                                  "width": "96s",
+                                  "height": "96s"
+                                }
+                              ]
+                            }
+                          },
+                          "script": "narration(1): \"구슬은 점 '(5,15)'에서 떨어지기 시작하며, 별은 각각 점 `(1, 6)`, `(2, 8)`, `(3, 10)`, `(4, 12)`에 있습니다. 그래프에는 `y=\\frac{1}{2}x+4\\left\\{x<2\\right\\}`의 직선이 표시되어 있습니다.\"",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Your friend won't get many stars like this! What changes would you make to the equation to help your friend collect all the stars? Why are those changes going to work?",
+                          "id": "feac22f0-34b9-4525-93cc-1cd37db42b77",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"여러분의 친구는 왼쪽과 같이 직선을 그렸지만 이 직선으로는 구슬이 모든 별을 통과할 수 없습니다.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"구슬이 모든 별을 통과하려면 방정식을 어떻게 수정해야 할까요? \"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"왜 그렇게 생각하는지도 설명해 주세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "f8e73156-62b3-46b6-8a45-f14996140e9d",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생과 공유해 주세요. 먼저 자유롭게 추론하는 시간을 갖고, 학생이 공식적인 수학 용어를 사용해 추론할 수 있도록 해 주세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "직선의 기울기를 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\frac{1}{2}"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "에서 2로 바꾸고, 정의역 범위를 해제해 직선이 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x=6"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "까지 연장되도록 해야 합니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "55daa823-d4a9-4ca5-832f-1225c9dce053",
+          "title": "직선 확인하기 4",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "d31fb33b-ea78-4ff4-bca8-dd95d9974fd8",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -7.024423337856174,
+                                "ymin": -2.1045081411126176,
+                                "xmax": 17.024423337856174,
+                                "ymax": 17.10450814111262
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "b23a40442198974d520c51cc2b30c345",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "3",
+                                  "text": "이전 화면에서 답변한 대로 직선을 수정하고 결과를 확인해 보세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "4",
+                                  "color": "#2d70b3",
+                                  "latex": "y=\\frac{1}{2}x+4\\left\\{x<2\\right\\}"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/fa6b8c46dd95b06921d5d44a5d7ebadf",
+                          "start": [
+                            {
+                              "x": 5,
+                              "y": 15
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 1,
+                              "y": 6
+                            },
+                            {
+                              "x": 2,
+                              "y": 8
+                            },
+                            {
+                              "x": 3,
+                              "y": 10
+                            },
+                            {
+                              "x": 4,
+                              "y": 12
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "f7c31dd5-48a4-4519-83b8-34a024051d17",
+          "title": "추가 챌린지를 풀어 보세요!",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Now move on to several final challenges. Try to complete them with ONLY linear equations and as FEW linear equations as possible.",
+                          "id": "c49ca421-291c-4342-acb0-81ff05f9b59b",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"직선만 사용해 구슬이 모든 별을 통과하도록 해야 합니다. 가능한 적은 수의 직선만 사용해 챌린지를 풀어 보세요.\"}]}]}"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {}
+        },
+        {
+          "type": "two-column",
+          "id": "d5c44ed4-b61c-4eb2-a1ef-288f21528be8",
+          "title": "1번째 챌린지",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "24a296d3-78f3-45c6-b7d4-b98d1acabe53",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -6.032564450474897,
+                                "ymin": -14.35422885572139,
+                                "xmax": 26.032564450474897,
+                                "ymax": 34.354228855721395
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "58a27ce03e64eadb42945213d23a55cb",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "30",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식을 입력해 보세요. 필요하다면 여러 개의 방정식을 입력해도 됩니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "31",
+                                  "color": "#c74440"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/2218300d62dd20d4592b42676df78235",
+                          "start": [
+                            {
+                              "x": 10,
+                              "y": 20
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 5,
+                              "y": 10
+                            },
+                            {
+                              "x": 10,
+                              "y": 15
+                            },
+                            {
+                              "x": 10,
+                              "y": 5
+                            },
+                            {
+                              "x": 15,
+                              "y": 10
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=x+5\\left\\{6<x<10\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=-x+25\\left\\{10<x<14\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=x-5\\left\\{x>11\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=-x+15\\left\\{x<9\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "888d765d-6813-4836-b288-31fcaebd5d67",
+          "title": "2번째 챌린지",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "d3cfe302-df44-4f3d-947b-dd2ba84a7823",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -5.524423337856174,
+                                "ymin": -10.765671641791046,
+                                "xmax": 18.524423337856174,
+                                "ymax": 25.765671641791045
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "49d1291a19d544aafea77627f1c9d875",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "28",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식을 입력해 보세요. 필요하다면 여러 개의 방정식을 입력해도 됩니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "105",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "106",
+                                  "color": "#c74440"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "52",
+                                  "collapsed": true,
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "folderId": "52",
+                                  "color": "#2d70b3",
+                                  "latex": "x=4\\left\\{10<y<12\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "7",
+                                  "folderId": "52",
+                                  "color": "#2d70b3",
+                                  "latex": "x=5\\left\\{10<y<12\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "10",
+                                  "folderId": "52",
+                                  "color": "#2d70b3",
+                                  "latex": "x=11\\left\\{5<y<7\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "11",
+                                  "folderId": "52",
+                                  "color": "#2d70b3",
+                                  "latex": "x=12\\left\\{5<y<7\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/34cd2c6c0a3ee11a1dd2dc21901d1348",
+                          "start": [
+                            {
+                              "x": 0,
+                              "y": 15
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 4.5,
+                              "y": 10.5
+                            },
+                            {
+                              "x": 4.5,
+                              "y": 11.5
+                            },
+                            {
+                              "x": 11.5,
+                              "y": 5.5
+                            },
+                            {
+                              "x": 11.5,
+                              "y": 6.5
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=-\\frac{1}{4}x+13\\left\\{x<4\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=-\\frac{1}{4}x+10\\left\\{x<10\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "957c45be-5677-40b2-a016-89570b521ddb",
+          "title": "3번째 챌린지",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "5d07de8e-1517-46f3-b57e-227569456519",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4.306648575305292,
+                                "ymin": -10.65628997867804,
+                                "xmax": 16.306648575305292,
+                                "ymax": 20.65628997867804
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "4ecfaa3f9b17f05dbf6022cef2153cec",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "45",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식을 입력해 보세요. 필요하다면 여러 개의 방정식을 입력해도 됩니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "106",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "107",
+                                  "color": "#c74440"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "84",
+                                  "collapsed": true,
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "18",
+                                  "folderId": "84",
+                                  "color": "#2d70b3",
+                                  "latex": "y=4\\left\\{x>7\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "folderId": "84",
+                                  "color": "#2d70b3",
+                                  "latex": "y=10\\left\\{x<6\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "12",
+                                  "folderId": "84",
+                                  "color": "#2d70b3",
+                                  "latex": "y=10\\left\\{x>7\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "13",
+                                  "folderId": "84",
+                                  "color": "#2d70b3",
+                                  "latex": "y=8\\left\\{x>7\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "14",
+                                  "folderId": "84",
+                                  "color": "#2d70b3",
+                                  "latex": "y=8\\left\\{x<6\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15",
+                                  "folderId": "84",
+                                  "color": "#2d70b3",
+                                  "latex": "y=6\\left\\{x>7\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "16",
+                                  "folderId": "84",
+                                  "color": "#2d70b3",
+                                  "latex": "y=6\\left\\{x<6\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "17",
+                                  "folderId": "84",
+                                  "color": "#2d70b3",
+                                  "latex": "y=4\\left\\{x<6\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/bd7f0af960fc7fe2f5122a94b61e2eee",
+                          "start": [
+                            {
+                              "x": 0,
+                              "y": 12
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 6.5,
+                              "y": 10
+                            },
+                            {
+                              "x": 6.5,
+                              "y": 8
+                            },
+                            {
+                              "x": 6.5,
+                              "y": 6
+                            },
+                            {
+                              "x": 6.5,
+                              "y": 4
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=-x+11\\left\\{x<1\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "aa379755-3c9f-4f16-9354-07d277a1d12f",
+          "title": "4번째 챌린지",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "d32ba902-39e4-46c4-8d70-1f386abe1aa6",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -2.6764654002713693,
+                                "ymin": -9.916702203269367,
+                                "xmax": 15.64646540027137,
+                                "ymax": 17.916702203269367
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "de01241d3b0cd3a0cadd51b18df7be89",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "3",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식을 입력해 보세요. 필요하다면 여러 개의 방정식을 입력해도 됩니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "51",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "52",
+                                  "color": "#c74440"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/a7d9b2a85adc962a421069ff878eadc4",
+                          "start": [
+                            {
+                              "x": 1,
+                              "y": 10
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 4,
+                              "y": 0.2
+                            },
+                            {
+                              "x": 6,
+                              "y": 1.2
+                            },
+                            {
+                              "x": 8,
+                              "y": 2.2
+                            },
+                            {
+                              "x": 10,
+                              "y": 3.2
+                            }
+                          ],
+                          "marbleSize": 0.45807327001356846
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=-\\frac{1}{2}x+10\\left\\{x<10\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=\\frac{1}{2}x-2"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "002eb257-d902-476c-8285-520ec7a4e4ed",
+          "title": "5번째 챌린지",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "9070a2e0-8606-495e-b2e1-197ebac61a2a",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -0.879240162822251,
+                                "ymin": -11.026083866382375,
+                                "xmax": 20.879240162822256,
+                                "ymax": 22.026083866382375
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "82ed3b6dd119cebf9a0c68a030e345a2",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "3",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식을 입력해 보세요. 필요하다면 여러 개의 방정식을 입력해도 됩니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "51",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "52",
+                                  "color": "#c74440"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/d6c9621b9ccf2d4e3368b63ac98c7c2e",
+                          "start": [
+                            {
+                              "x": 20,
+                              "y": 12
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 2,
+                              "y": 8
+                            },
+                            {
+                              "x": 2,
+                              "y": 4
+                            },
+                            {
+                              "x": 8,
+                              "y": 6
+                            },
+                            {
+                              "x": 14,
+                              "y": 4
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=\\frac{1}{10}x+9\\left\\{x>4\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=-\\frac{1}{3}x+8\\left\\{x<6\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=6\\left\\{6<x<14\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=x-12\\left\\{x>16\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=4\\left\\{x<16\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "9301a13d-fe9b-4747-b333-128a8d5a8817",
+          "title": "6번째 챌린지",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "808c3d67-3150-4bda-89ae-36058462c24a",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -3.73405698778833,
+                                "ymin": -9.286496090973703,
+                                "xmax": 15.73405698778833,
+                                "ymax": 20.2864960909737
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "5d7ae20acdc99c4796b36112aebd5ab1",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "3",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식을 입력해 보세요. 필요하다면 여러 개의 방정식을 입력해도 됩니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "51",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "151",
+                                  "color": "#2d70b3",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/30716a14f5cfa5ae194182b5b90d8cdf",
+                          "start": [
+                            {
+                              "x": 7,
+                              "y": 12
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 2,
+                              "y": 6
+                            },
+                            {
+                              "x": 7,
+                              "y": 6
+                            },
+                            {
+                              "x": 7,
+                              "y": 2
+                            },
+                            {
+                              "x": 12,
+                              "y": 6
+                            }
+                          ],
+                          "marbleSize": 0.4867028493894165
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=x+5\\left\\{4<x<7\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=-x+19\\left\\{7<x<10\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "422533f7-24da-4afc-986a-93764e331be8",
+          "title": "7번째 챌린지",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "816dcf0b-4f62-4cf5-acf0-17acef60f168",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -9.069020453906441,
+                                "ymin": -14.528359976858274,
+                                "xmax": 23.542218894884655,
+                                "ymax": 35.009665510114864
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "d738eafda1bdacc20932cb6e403fde6a",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "3",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식을 입력해 보세요. 필요하다면 여러 개의 방정식을 입력해도 됩니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "51",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "52",
+                                  "color": "#c74440"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/c3098035fc93a8fd9326515345c61380",
+                          "start": [
+                            {
+                              "x": 8,
+                              "y": 20
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 2,
+                              "y": 4
+                            },
+                            {
+                              "x": 6,
+                              "y": 4
+                            },
+                            {
+                              "x": 10,
+                              "y": 4
+                            },
+                            {
+                              "x": 14,
+                              "y": 4
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=x+8\\left\\{4<x<8\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=-x+24\\left\\{8<x<12\\right\\}"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=x-10"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=-x+6"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=4"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "1a661f58-9bbb-4239-98e6-6cb3952098b8",
+          "title": "8번째 챌린지",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "8371df65-da86-4f86-8d00-4b4449b11b8b",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -1.4518317503392133,
+                                "ymin": -12.395877754086708,
+                                "xmax": 21.451831750339213,
+                                "ymax": 22.395877754086708
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "009aa02a7bd59c9be06563bbe002ce84",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "3",
+                                  "text": "구슬이 모든 별을 통과하도록 방정식을 입력해 보세요. 필요하다면 여러 개의 방정식을 입력해도 됩니다."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "51",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "52",
+                                  "color": "#c74440"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/299084245c8051c44ef861f1bb105a10",
+                          "start": [
+                            {
+                              "x": 2,
+                              "y": 12
+                            }
+                          ],
+                          "stars": [
+                            {
+                              "x": 2,
+                              "y": 10
+                            },
+                            {
+                              "x": 8,
+                              "y": 7
+                            },
+                            {
+                              "x": 14,
+                              "y": 4
+                            },
+                            {
+                              "x": 20,
+                              "y": 1
+                            }
+                          ],
+                          "marbleSize": 0.5
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 파악하려면 교사 대시보드의 답변 모드를 이용하세요. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 1,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=-\\frac{1}{2}x+11"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "f7d79cf1-452f-4725-8023-49b8c9f89d85",
+          "title": "자유 활동",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "marbleslides": {
+                          "id": "563d304d-4ba8-4001-9ac6-516665e7c338",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -23.85112796117232,
+                                "ymin": -18.56244211573543,
+                                "xmax": 43.340370153241054,
+                                "ymax": 35.10676700315217
+                              },
+                              "xAxisStep": 4,
+                              "yAxisStep": 4
+                            },
+                            "randomSeed": "59b2ebc361926a30c319ee618e72c383",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "46",
+                                  "text": "이 그래프에는 별이 없습니다. 자유롭게 직선을 그려보고 친구들이 재미있어할 만한 그래프를 만들어 보세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "47",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/c4c219ca34e589b599af557f1e267d32",
+                          "start": [
+                            {
+                              "x": 1,
+                              "y": 100
+                            }
+                          ],
+                          "stars": [],
+                          "marbleSize": 0.9598785444916197
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 답변을 확인하고 교실과 공유하려면 교사 대시보드의 답변 모드를 이용하세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "activity": "activitybuilder",
+      "ancestors": [
+        {
+          "_id": "565284a2cbfbcde732b55ae8",
+          "user": {
+            "id": "5514ad075bb90671051acab6",
+            "displayName": "Dan Meyer"
+          }
+        }
+      ],
+      "blurb": "구슬 굴리기는 재미있으면서도 수학 능력이 필요한 액티비티입니다. 이 액티비티에서는 직선을 추가하거나 수정하여 구슬이 모든 별을 통과할 수 있도록 해야 합니다. 학생은 구슬을 발사하여 결과를 확인하고 다음 챌린지를 시작하기 전에 답변을 수정할 수 있습니다.\n\n한국어 번역: Desmos 현지화 팀",
+      "category": "development",
+      "collaborators": [
+        "5d5c81618a3b6156af14a89f",
+        "5d85bd4cfe8bdc626d4698c8"
+      ],
+      "teamDesmosAuthored": true,
+      "complete": true,
+      "edit_ts": "2022-08-19T07:40:34.263Z",
+      "keywords": [],
+      "licenses": [],
+      "retailAssetIds": [],
+      "permissionToShare": true,
+      "publishedTimestamp": "2022-08-19T07:40:34.263Z",
+      "thumb": "https://uploads.desmos.com/activitybuilder/d7da34325a4acc80cff5028834260083",
+      "timeEstimate": 45,
+      "title": "구슬 굴리기: 직선",
+      "linkedActivities": [
+        {
+          "title": "원본 버전 (영어)",
+          "activityId": "566b31734e38e1e21a10aac8",
+          "collectionIds": [],
+          "logical": {
+            "logicalActivityMetaId": "566b31734e38e1e21a10aac8",
+            "logicalCollectionIds": []
+          }
+        }
+      ],
+      "user": {
+        "id": "5de6bbe49f524909d87db21a",
+        "displayName": "Kayla Muñoz"
+      },
+      "author": {
+        "id": "5d85bd4cfe8bdc626d4698c8",
+        "displayName": "영하 김"
+      },
+      "accessibilityNotes": "이 액티비티는 스크린 리더에 최적화되지 않았습니다. 시각 장애 학생은 다른 학생과 함께 액티비티를 진행하는 것을 권장합니다.",
+      "commitId": "62ff38c4dcb919ce4612240e",
+      "logicalId": "5f36d2dc6a424f2cdd19bc7a",
+      "draftTitle": "구슬 굴리기: 직선",
+      "draftAuthor": {
+        "id": "5d85bd4cfe8bdc626d4698c8",
+        "displayName": "영하 김"
+      }
+    },
+    "noindex": false
+  },
+  "notes": [
+    "Public HTML exposes metadata and thumbnail.",
+    "The public POST /activity/:id route may expose the customLesson JSON for public activities.",
+    "Teacher sessions, dashboards, student responses, and editor-only diagnostics still require authorization.",
+    "Use this output as source evidence and template inspiration, not as an activity clone."
+  ]
+}

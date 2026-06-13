@@ -1,0 +1,2915 @@
+{
+  "inspectedAt": "2026-06-13T12:30:03.838Z",
+  "url": "https://classroom.amplify.com/activity/5f6d36796611e32c29d41fc6?lang=ko",
+  "activityId": "5f6d36796611e32c29d41fc6",
+  "staticMeta": {
+    "canonical": "https://classroom.amplify.com/activity/5f6d36796611e32c29d41fc6",
+    "title": "원뿔곡선 그리기",
+    "description": "이 액티비티에서 학생들은 그래프 그리기 챌린지를 통해 원뿔곡선의 방정식과 그래프 사이의 관계에 대해 배울 수 있습니다.\n\n한국어 번역: Desmos 현지화 팀",
+    "twitterTitle": "원뿔곡선 그리기",
+    "twitterDescription": "이 액티비티에서 학생들은 그래프 그리기 챌린지를 통해 원뿔곡선의 방정식과 그래프 사이의 관계에 대해 배울 수 있습니다.\n\n한국어 번역: Desmos 현지화 팀",
+    "image": "https://uploads.desmos.com/activitybuilder/9ab007aacdd7c7cdfc3c8720f5555b8d"
+  },
+  "activityMeta": {
+    "activities": [
+      {
+        "__brand": "NormalizedActivity",
+        "_id": "5f6d36796611e32c29d41fc6",
+        "ancestorAuthorGroups": [],
+        "ancestors": [
+          {
+            "_id": "55f0f5e2589b760f3afb39cd",
+            "user": {
+              "id": "5514b1585bb90671051e1ece",
+              "displayName": "Dylan Kane"
+            }
+          }
+        ],
+        "category": "practice",
+        "collaborators": [
+          "5d5c81618a3b6156af14a89f",
+          "5d85bd4cfe8bdc626d4698c8"
+        ],
+        "customMetadata": {},
+        "teamDesmosAuthored": true,
+        "deleteURL": "/custom-lesson/delete/5f6d36796611e32c29d41fc6",
+        "description": {
+          "schemaKey": "document",
+          "version": 3,
+          "content": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "이 액티비티에서 학생들은 그래프 그리기 챌린지를 통해 원뿔곡선의 방정식과 그래프 사이의 관계에 대해 배울 수 있습니다."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph"
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "한국어 번역: Desmos 현지화 팀"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "edit_ts": "2022-08-19T12:37:12.108Z",
+        "infoURL": "activity/5f6d36796611e32c29d41fc6",
+        "keywords": [],
+        "licenses": [],
+        "activityLicenses": [],
+        "retailAssetIds": [],
+        "activityRetailAssetIds": [],
+        "private": false,
+        "searchable": false,
+        "thumbURL": "https://uploads.desmos.com/activitybuilder/9ab007aacdd7c7cdfc3c8720f5555b8d",
+        "timeEstimate": 45,
+        "isPaperActivity": false,
+        "hasSteps": true,
+        "hasAuthoredFeedback": false,
+        "isPresentation": false,
+        "accessibilityNotes": "이 액티비티는 스크린 리더에 최적화되지 않았습니다. 시각 장애 학생은 다른 학생과 함께 액티비티를 진행하는 것을 권장합니다.",
+        "authorTags": [],
+        "title": "원뿔곡선 그리기",
+        "linkedActivities": [
+          {
+            "title": "원본 버전 (영어)",
+            "activityId": "56030ac728462f1706872e72",
+            "collectionIds": [],
+            "logical": {
+              "logicalActivityMetaId": "56030ac728462f1706872e72",
+              "logicalCollectionIds": []
+            }
+          }
+        ],
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      }
+    ],
+    "deletedActivities": [],
+    "activityTranslations": {}
+  },
+  "activitySummary": {
+    "id": "5f6d36796611e32c29d41fc6",
+    "title": "원뿔곡선 그리기",
+    "version": 1,
+    "commitId": "62ff82faffa995cf2de50990",
+    "publishedTimestamp": "2022-08-19T12:37:12.108Z",
+    "editTimestamp": "2022-08-19T12:37:12.108Z",
+    "permissionToShare": true,
+    "noindex": false,
+    "user": {
+      "id": "5de6bbe49f524909d87db21a",
+      "displayName": "Kayla Muñoz"
+    },
+    "author": {
+      "id": "5d85bd4cfe8bdc626d4698c8",
+      "displayName": "영하 김"
+    },
+    "ancestors": [
+      {
+        "_id": "55f0f5e2589b760f3afb39cd",
+        "user": {
+          "id": "5514b1585bb90671051e1ece",
+          "displayName": "Dylan Kane"
+        }
+      }
+    ],
+    "thumb": "https://uploads.desmos.com/activitybuilder/9ab007aacdd7c7cdfc3c8720f5555b8d",
+    "screenCount": 13,
+    "componentCounts": {
+      "input/graph": 11,
+      "exhibit/text": 9,
+      "input/expression": 5,
+      "sketch": 1,
+      "background": 1,
+      "multiple-choice": 1,
+      "90367f1c-3b99-4d95-86c2-bb04332ad225": 1,
+      "60a4be18-812a-4ecf-9745-1bd4329053cd": 1,
+      "6418011a-4fdd-44e6-93b8-2a3975f7059a": 1,
+      "a7bf105a-8637-4b90-b72d-60256bb82823": 1,
+      "input/text": 2
+    },
+    "screens": [
+      {
+        "index": 1,
+        "id": "60bd2aaf-a364-4923-8f2e-9c8b43338be9",
+        "type": "two-column",
+        "title": "1번째 챌린지 (1/2)",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1
+        }
+      },
+      {
+        "index": 2,
+        "id": "58930145-7fbc-4fd9-8a1b-68a7166a4205",
+        "type": "two-column",
+        "title": "1번째 챌린지 (2/2): 원 그리기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/expression": 1
+        }
+      },
+      {
+        "index": 3,
+        "id": "f15158f6-642b-443c-8c1e-fda50a0f8217",
+        "type": "two-column",
+        "title": "2번째 챌린지 (1/2)",
+        "subtitle": "",
+        "componentCounts": {
+          "sketch": 1,
+          "background": 1,
+          "exhibit/text": 1,
+          "multiple-choice": 1,
+          "90367f1c-3b99-4d95-86c2-bb04332ad225": 1,
+          "60a4be18-812a-4ecf-9745-1bd4329053cd": 1,
+          "6418011a-4fdd-44e6-93b8-2a3975f7059a": 1,
+          "a7bf105a-8637-4b90-b72d-60256bb82823": 1
+        }
+      },
+      {
+        "index": 4,
+        "id": "c6ddbb92-41c3-4ac5-901c-92f1ff4e7eff",
+        "type": "two-column",
+        "title": "2번째 챌린지 (2/2): 타원 그리기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/expression": 1
+        }
+      },
+      {
+        "index": 5,
+        "id": "a289e1e7-c640-4ec1-b8c6-02ce0466d6a1",
+        "type": "two-column",
+        "title": "3번째 챌린지: 포물선 그리기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/expression": 1
+        }
+      },
+      {
+        "index": 6,
+        "id": "81bbde27-86ea-4f48-ba37-a3ba55df6fa5",
+        "type": "two-column",
+        "title": "4번째 챌린지: 쌍곡선 그리기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/expression": 1
+        }
+      },
+      {
+        "index": 7,
+        "id": "a48e70e8-6cd2-4f70-8e45-3af6d918ee47",
+        "type": "two-column",
+        "title": "5번째 챌린지: 원 그리기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/expression": 1
+        }
+      },
+      {
+        "index": 8,
+        "id": "856e9111-7bc5-4ff8-bf82-ba6c89cf65f9",
+        "type": "two-column",
+        "title": "생각해 보기",
+        "subtitle": "",
+        "componentCounts": {
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 9,
+        "id": "189dc08d-6543-46fe-9fd6-a0f3d972830e",
+        "type": "two-column",
+        "title": "6번째 챌린지 (1/2): 관찰하기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 10,
+        "id": "f8c8bd00-9ba9-4084-8999-c3531a920dfe",
+        "type": "two-column",
+        "title": "6번째 챌린지 (2/2): 그래프의 규칙 찾기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1
+        }
+      },
+      {
+        "index": 11,
+        "id": "627aa707-8c87-4268-a787-bb2fa88059a1",
+        "type": "two-column",
+        "title": "7번째 챌린지: 그래프의 규칙 찾기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1
+        }
+      },
+      {
+        "index": 12,
+        "id": "78e92957-ebae-41dd-80cd-63e87cc12903",
+        "type": "two-column",
+        "title": "8번째 챌린지: 그래프의 규칙 찾기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1
+        }
+      },
+      {
+        "index": 13,
+        "id": "94025879-63a2-4739-b726-0e47245d6a2f",
+        "type": "two-column",
+        "title": "9번째 챌린지",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1
+        }
+      }
+    ],
+    "aliases": [
+      {
+        "screen": 1,
+        "type": "input/graph",
+        "alias": "graph1",
+        "id": "badb20d7-fe54-4316-a6e4-e2f973baa7ec"
+      },
+      {
+        "screen": 2,
+        "type": "input/expression",
+        "alias": "input3",
+        "id": "dd3a661b-3225-4932-8b6b-10c9dcd48fea"
+      },
+      {
+        "screen": 4,
+        "type": "input/expression",
+        "alias": "input5",
+        "id": "7d0e6b7e-c1d0-46d3-aa48-13f7882dadb8"
+      },
+      {
+        "screen": 5,
+        "type": "input/expression",
+        "alias": "input7",
+        "id": "ef778460-24f1-4dbd-8c96-794c15aa4c4e"
+      },
+      {
+        "screen": 6,
+        "type": "input/expression",
+        "alias": "input6b",
+        "id": "017b87a5-7bad-4932-981a-2995f1439991"
+      },
+      {
+        "screen": 7,
+        "type": "input/expression",
+        "alias": "input6",
+        "id": "28525a5d-17e3-4fc3-9f2d-7e800f988716"
+      }
+    ],
+    "scripts": [
+      {
+        "screen": 1,
+        "screenTitle": "1번째 챌린지 (1/2)",
+        "type": "input/graph",
+        "alias": "graph1",
+        "id": "badb20d7-fe54-4316-a6e4-e2f973baa7ec",
+        "script": "\ncorrect: graph1.number(\"I\")=1"
+      },
+      {
+        "screen": 2,
+        "screenTitle": "1번째 챌린지 (2/2): 원 그리기",
+        "type": "input/graph",
+        "alias": null,
+        "id": "1e2f592d-d93c-47b2-ac2e-509d235fe52f",
+        "script": "in = input3\n\nreadOnly: true\n\nnumber(\"n\") : in.submitCount\n\nfunction(\"f\"): parseEquation(in.latex).differenceFunction(\"x\",\"y\")\nnumber(\"s\"): when in.submitted 1 otherwise 0"
+      },
+      {
+        "screen": 2,
+        "screenTitle": "1번째 챌린지 (2/2): 원 그리기",
+        "type": "exhibit/text",
+        "alias": null,
+        "id": "b6623322-8564-4cb6-b643-36dd46af661f",
+        "script": "s=input3.submitCount\n\ncontent:\n\nwhen s=0 \"모든 파란색 점을 포함하는 원의 방정식을 작성해 보세요. 원이 빨간색 점을 포함해서는 안 됩니다.\n\n시도 횟수: 0\"\n\notherwise \"모든 파란색 점을 포함하는 원의 방정식을 작성해 보세요. 원이 빨간색 점을 포함해서는 안 됩니다.\n\n시도 횟수: ${s}\""
+      },
+      {
+        "screen": 4,
+        "screenTitle": "2번째 챌린지 (2/2): 타원 그리기",
+        "type": "input/graph",
+        "alias": null,
+        "id": "986cc196-b30a-4f9b-8a2b-8aff0f4c555a",
+        "script": "in = input5\n\nreadOnly: true\n\nfunction(\"f\"): parseEquation(in.latex).differenceFunction(\"x\",\"y\")\nnumber(\"s\"): when in.submitted 1 otherwise 0"
+      },
+      {
+        "screen": 4,
+        "screenTitle": "2번째 챌린지 (2/2): 타원 그리기",
+        "type": "exhibit/text",
+        "alias": null,
+        "id": "d4a7a768-4e36-439b-8333-c00a19148fb9",
+        "script": "s=input5.submitCount\n\ncontent:\n\nwhen s=0 \"모든 파란색 점을 포함하는 타원의 방정식을 입력해 보세요. 타원이 빨간색 점을 포함해서는 안 됩니다.\n\n시도 횟수: 0\"\n\notherwise \"모든 파란색 점을 포함하는 타원의 방정식을 입력해 보세요. 타원이 빨간색 점을 포함해서는 안 됩니다.\n\n시도 횟수: ${s}\""
+      },
+      {
+        "screen": 5,
+        "screenTitle": "3번째 챌린지: 포물선 그리기",
+        "type": "input/graph",
+        "alias": null,
+        "id": "3a975e31-ebba-4417-a344-7046fe94f9f3",
+        "script": "in = input7\n\nreadOnly: true\n\nfunction(\"f\"): parseEquation(in.latex).differenceFunction(\"x\",\"y\")\nnumber(\"s\"): when in.submitted 1 otherwise 0"
+      },
+      {
+        "screen": 5,
+        "screenTitle": "3번째 챌린지: 포물선 그리기",
+        "type": "exhibit/text",
+        "alias": null,
+        "id": "d07ab2be-b901-4e2b-bed7-31d017c750e0",
+        "script": "s=input7.submitCount\n\ncontent:\n\nwhen s=0 \"파란색 점들과 빨간색 점들을 서로 분리할 수 있도록 포물선의 방정식을 입력해 주세요.\n\n시도 횟수: 0\"\n\notherwise \"파란색 점들과 빨간색 점들을 서로 분리할 수 있도록 포물선의 방정식을 입력해 주세요.\n\n시도 횟수: ${s}\"\n"
+      },
+      {
+        "screen": 6,
+        "screenTitle": "4번째 챌린지: 쌍곡선 그리기",
+        "type": "input/graph",
+        "alias": null,
+        "id": "84aa4057-f22b-443b-b745-1eb5017870c0",
+        "script": "in = input6b\n\nfunction(\"f\"): parseEquation(in.latex).differenceFunction(\"x\",\"y\")\nnumber(\"s\"): when in.submitted 1 otherwise 0 "
+      },
+      {
+        "screen": 6,
+        "screenTitle": "4번째 챌린지: 쌍곡선 그리기",
+        "type": "exhibit/text",
+        "alias": null,
+        "id": "6e50fb5e-3427-430a-8459-0627b783e2f4",
+        "script": "s=input6b.submitCount\n\ncontent:\n\nwhen s=0 \"파란색 점들과 빨간색 점들을 서로 분리할 수 있도록 쌍곡선의 방정식을 입력해 주세요.\n\n시도 횟수: 0\"\n\notherwise \"파란색 점들과 빨간색 점들을 서로 분리할 수 있도록 쌍곡선의 방정식을 입력해 주세요.\n\n시도 횟수: ${s}\"\n"
+      },
+      {
+        "screen": 7,
+        "screenTitle": "5번째 챌린지: 원 그리기",
+        "type": "input/graph",
+        "alias": null,
+        "id": "21dd5695-d787-41da-a67c-0cec314e74f3",
+        "script": "in = input6\n\nfunction(\"f\"): parseEquation(in.latex).differenceFunction(\"x\",\"y\")\nnumber(\"s\"): when in.submitted 1 otherwise 0 "
+      },
+      {
+        "screen": 7,
+        "screenTitle": "5번째 챌린지: 원 그리기",
+        "type": "exhibit/text",
+        "alias": null,
+        "id": "f770c0f4-4bda-41f4-bfa7-76aa32106252",
+        "script": "s=input6.submitCount\n\ncontent:\n\nwhen s=0 \"빨간색 선이 원의 지름이 되도록 원의 방정식을 입력해 주세요.\n\n시도 횟수: 0\"\n\notherwise \"빨간색 선이 원의 지름이 되도록 원의 방정식을 입력해 주세요.\n\n시도 횟수: ${s}\"\n"
+      }
+    ]
+  },
+  "activityJson": {
+    "customLesson": {
+      "_id": "5f6d36796611e32c29d41fc6",
+      "version": 1,
+      "steps": [
+        {
+          "type": "two-column",
+          "id": "60bd2aaf-a364-4923-8f2e-9c8b43338be9",
+          "title": "1번째 챌린지 (1/2)",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "4315fce56ade2a1e2b616ddacac19389",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -6,
+                                "ymin": -6.042552785672052,
+                                "xmax": 14,
+                                "ymax": 6.0884243453050795
+                              }
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "10",
+                                  "title": "점",
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "folderId": "10",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(3,-3\\right),\\left(2,1\\right),\\left(-1,-3\\right),\\left(5,-4\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "3",
+                                  "folderId": "10",
+                                  "color": "#c74440",
+                                  "latex": "\\left(-1,1\\right),\\left(4,3\\right),\\left(10,1\\right),\\left(0,-9\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "376",
+                                  "color": "#000000",
+                                  "latex": "\\left(x-a\\right)^2+\\left(y-b\\right)^2=r^2"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "379",
+                                  "color": "#fa7e19",
+                                  "latex": "a=0",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "378",
+                                  "color": "#388c46",
+                                  "latex": "b=0",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "377",
+                                  "color": "#2d70b3",
+                                  "latex": "r=1",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "380",
+                                  "color": "#000000",
+                                  "latex": "\\left(a,b\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "384",
+                                  "color": "#c74440",
+                                  "latex": "a_1=a",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "390",
+                                  "color": "#c74440",
+                                  "latex": "b_1=b"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "381",
+                                  "color": "#000000",
+                                  "latex": "\\left(a_1+r,b_1\\right)"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "392",
+                                  "title": "정확성 확인"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "393",
+                                  "folderId": "392",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(x-a\\right)^2+\\left(y-b\\right)^2=r^2",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "394",
+                                  "folderId": "392",
+                                  "color": "#388c46",
+                                  "latex": "g\\left(x\\right)=b-\\sqrt{r^2-\\left(x-a\\right)^2}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "395",
+                                  "folderId": "392",
+                                  "color": "#fa7e19",
+                                  "latex": "f\\left(x\\right)=b+\\sqrt{r^2-\\left(x-a\\right)^2}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "396",
+                                  "folderId": "392",
+                                  "color": "#6042a6",
+                                  "latex": "\\left(3,-3\\right),\\left(2,1\\right),\\left(-1,-3\\right),\\left(5,-4\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "403",
+                                  "folderId": "392",
+                                  "color": "#6042a6",
+                                  "latex": "X_1=\\left[3,2,-1,5\\right]"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "404",
+                                  "folderId": "392",
+                                  "color": "#000000",
+                                  "latex": "Y_1=\\left[-3,1,-3,-4\\right]"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "397",
+                                  "folderId": "392",
+                                  "color": "#000000",
+                                  "latex": "\\left(-1,1\\right),\\left(4,3\\right),\\left(10,1\\right),\\left(0,-9\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "405",
+                                  "folderId": "392",
+                                  "color": "#c74440",
+                                  "latex": "X_2=\\left[-1,4,10,0\\right]"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "406",
+                                  "folderId": "392",
+                                  "color": "#2d70b3",
+                                  "latex": "Y_2=\\left[1,3,1,-9\\right]"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "399",
+                                  "folderId": "392",
+                                  "text": "파란색 점들이 원 내부에 위치하고 빨간색 점들이 원 외부에 위치하는지 확인"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "400",
+                                  "folderId": "392",
+                                  "color": "#2d70b3",
+                                  "latex": "I_1=\\left\\{\\operatorname{total}\\left(\\left\\{g\\left(X_1\\right)<Y_1<f\\left(X_1\\right):1,0\\right\\}\\right)=4:1,0\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "401",
+                                  "folderId": "392",
+                                  "color": "#388c46",
+                                  "latex": "I_2=\\left\\{\\operatorname{total}\\left(\\left\\{g\\left(X_2\\right)<Y_2<f\\left(X_2\\right):1,0\\right\\}\\right)=0:1,0\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "407",
+                                  "folderId": "392",
+                                  "color": "#388c46",
+                                  "latex": "I=I_1\\cdot I_2",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "408",
+                                  "folderId": "392",
+                                  "color": "#fa7e19"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/b2733ed842d6965833317cd59c3c9f00",
+                          "id": "badb20d7-fe54-4316-a6e4-e2f973baa7ec",
+                          "exhibitMode": true,
+                          "script": "\ncorrect: graph1.number(\"I\")=1",
+                          "alias": "graph1",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Drag the black points to create a circle that separates the blue points from the red points.",
+                          "id": "356cbefc-222a-4346-bf7e-67c4d5f1fa20",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"검은색 점을 드래그해 모든 파란색 점을 포함하는 원을 그려 보세요. 원이 빨간색 점을 포함해서는 안 됩니다.\"}]}]}"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생과 공유해 보세요. 다양한 답변을 살펴보고 답변의 공통점이 무엇인지 토론해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "58930145-7fbc-4fd9-8a1b-68a7166a4205",
+          "title": "1번째 챌린지 (2/2): 원 그리기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "142d4c50e1dc2769ca6f9f803da53f38",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -6,
+                                "ymin": -6.0654885654885655,
+                                "xmax": 14,
+                                "ymax": 6.0654885654885655
+                              }
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "10",
+                                  "title": "점"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "folderId": "10",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(3,-3\\right),\\left(2,1\\right),\\left(-1,-3\\right),\\left(5,-4\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "3",
+                                  "folderId": "10",
+                                  "color": "#c74440",
+                                  "latex": "\\left(-1,1\\right),\\left(4,3\\right),\\left(10,1\\right),\\left(0,-9\\right)"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "12",
+                                  "title": "정확성 확인"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "13",
+                                  "folderId": "12",
+                                  "color": "#2d70b3"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "14",
+                                  "color": "#000000",
+                                  "latex": "0=f\\left(x,y\\right)\\left\\{s=1\\right\\}"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/1b7ea2bcef4933d33bc80d40a804c60e",
+                          "id": "1e2f592d-d93c-47b2-ac2e-509d235fe52f",
+                          "exhibitMode": true,
+                          "script": "in = input3\n\nreadOnly: true\n\nnumber(\"n\") : in.submitCount\n\nfunction(\"f\"): parseEquation(in.latex).differenceFunction(\"x\",\"y\")\nnumber(\"s\"): when in.submitted 1 otherwise 0",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Write the equation of a circle whose graph separates the blue points from the red points.",
+                          "id": "b6623322-8564-4cb6-b643-36dd46af661f",
+                          "script": "s=input3.submitCount\n\ncontent:\n\nwhen s=0 \"모든 파란색 점을 포함하는 원의 방정식을 작성해 보세요. 원이 빨간색 점을 포함해서는 안 됩니다.\n\n시도 횟수: 0\"\n\notherwise \"모든 파란색 점을 포함하는 원의 방정식을 작성해 보세요. 원이 빨간색 점을 포함해서는 안 됩니다.\n\n시도 횟수: ${s}\"",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"모든 파란색 점을 포함하는 원의 방정식을 작성해 보세요. 원이 빨간색 점을 포함해서는 안 됩니다.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/expression": {
+                          "showPeerResponses": false,
+                          "id": "dd3a661b-3225-4932-8b6b-10c9dcd48fea",
+                          "alias": "input3"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생과 공유해 보세요. 다양한 답변을 살펴보고 답변의 공통점이 무엇인지 토론해 보세요. 학생이 이 화면과 다른 화면의 챌린지를 푸는 데 어려움을 겪고 있다면 먼저 손가락으로 원을 그려 보도록 하세요. 그리고 그 원의 특징이 무엇인지 물어보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\left(x-5\\right)^{2}+\\left(y+4\\right)^{2}=40"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "f15158f6-642b-443c-8c1e-fda50a0f8217",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "sketch": {
+                          "id": "67ac0973-38e8-48a5-b10e-938e357b92d8",
+                          "background": {
+                            "id": "graph",
+                            "type": "graph",
+                            "img": "/img/activitybuilder/graph.png"
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/416e5d06488403e24607957adb8f296a",
+                          "calculatorState": {
+                            "version": 3,
+                            "graph": {
+                              "showGrid": true,
+                              "showXAxis": true,
+                              "showYAxis": true,
+                              "xAxisStep": 0,
+                              "yAxisStep": 0,
+                              "xAxisMinorSubdivisions": 0,
+                              "yAxisMinorSubdivisions": 0,
+                              "xAxisArrowMode": "NONE",
+                              "yAxisArrowMode": "NONE",
+                              "xAxisLabel": "",
+                              "yAxisLabel": "",
+                              "xAxisNumbers": true,
+                              "yAxisNumbers": true,
+                              "polarMode": false,
+                              "polarNumbers": true,
+                              "degreeMode": false,
+                              "projectorMode": false,
+                              "squareAxes": true,
+                              "viewport": {
+                                "xmin": -12,
+                                "ymin": -13.065,
+                                "xmax": 12,
+                                "ymax": 1.066
+                              }
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "id": "1",
+                                  "type": "expression",
+                                  "latex": "\\left(1,-8\\right),\\left(4,-9\\right),\\left(-7,-8\\right),\\left(-2,-7\\right)",
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "label": "",
+                                  "hidden": false,
+                                  "secret": false,
+                                  "color": "#2d70b3",
+                                  "style": "point",
+                                  "dragMode": "AUTO",
+                                  "residualVariable": "",
+                                  "regressionParameters": {},
+                                  "isLogModeRegression": false
+                                },
+                                {
+                                  "id": "399",
+                                  "type": "expression",
+                                  "latex": "\\left(-9,-7\\right),\\left(-6,-5\\right),\\left(-1,-11\\right),\\left(6,-4\\right)",
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "label": "",
+                                  "hidden": false,
+                                  "secret": false,
+                                  "color": "#c74440",
+                                  "style": "point",
+                                  "dragMode": "AUTO",
+                                  "residualVariable": "",
+                                  "regressionParameters": {},
+                                  "isLogModeRegression": false
+                                }
+                              ]
+                            }
+                          },
+                          "enabledTools": {
+                            "points": false,
+                            "line": true,
+                            "pencil": true,
+                            "math": true,
+                            "text": true
+                          },
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "What shapes can we draw here that separate the red points from the blue points?\n\nUse the sketch tool to show your thinking.",
+                          "id": "02d76373-249e-41ac-bc3d-37e3986911d2",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"빨간색 점들과 파란색 점들을 서로 분리하려면 어떤 도형을 사용해야 할까요?\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"그림판을 이용해 답변을 설명해 주세요.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\"},{\"type\":\"paragraph\"}]}"
+                        }
+                      },
+                      {
+                        "multiple-choice": {
+                          "id": "b25c5a78-6669-4098-9095-0bacf9ddb727",
+                          "choices": {
+                            "90367f1c-3b99-4d95-86c2-bb04332ad225": {
+                              "id": "90367f1c-3b99-4d95-86c2-bb04332ad225",
+                              "text": "원"
+                            },
+                            "60a4be18-812a-4ecf-9745-1bd4329053cd": {
+                              "id": "60a4be18-812a-4ecf-9745-1bd4329053cd",
+                              "text": "타원"
+                            },
+                            "6418011a-4fdd-44e6-93b8-2a3975f7059a": {
+                              "id": "6418011a-4fdd-44e6-93b8-2a3975f7059a",
+                              "text": "포물선"
+                            },
+                            "a7bf105a-8637-4b90-b72d-60256bb82823": {
+                              "id": "a7bf105a-8637-4b90-b72d-60256bb82823",
+                              "text": "쌍곡선"
+                            }
+                          },
+                          "choiceIds": [
+                            "90367f1c-3b99-4d95-86c2-bb04332ad225",
+                            "60a4be18-812a-4ecf-9745-1bd4329053cd",
+                            "6418011a-4fdd-44e6-93b8-2a3975f7059a",
+                            "a7bf105a-8637-4b90-b72d-60256bb82823"
+                          ],
+                          "multipleChoiceType": "multi",
+                          "showPeerResponses": false,
+                          "answerKey": {
+                            "choiceIds": {
+                              "60a4be18-812a-4ecf-9745-1bd4329053cd": true,
+                              "6418011a-4fdd-44e6-93b8-2a3975f7059a": true,
+                              "a7bf105a-8637-4b90-b72d-60256bb82823": true
+                            }
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "2번째 챌린지 (1/2)",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "흥미롭고 독특한 그림이 있다면 학생과 공유해 보세요. 학생에게 답변을 설명하고 그림 간의 공통점과 차이점을 알 수 있도록 해 주세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• 중심이 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\left(2,-8\\right)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "이고, "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "x"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 축 길이가 20, "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 축 길이가 4인 타원"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• 중심이 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\left(-8,8\\right)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "이고 왼쪽으로 볼록한 포물선"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "•"
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\frac{\\left(x+20\\right)^{2}}{100}-\\left(y+8\\right)^{2}=1"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "와 같이 좌우로 대칭인 쌍곡선"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "c6ddbb92-41c3-4ac5-901c-92f1ff4e7eff",
+          "title": "2번째 챌린지 (2/2): 타원 그리기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -12,
+                                "ymin": -13.217545112781956,
+                                "xmax": 12,
+                                "ymax": 1.2185451127819542
+                              }
+                            },
+                            "randomSeed": "074f90ada91b3159d30484f8f3ae077a",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "14",
+                                  "text": "2번째 행에 빨간색 점들만 포함하는 타원의 방정식을 입력해 주세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "16",
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "folderId": "16",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(1,-8\\right),\\left(4,-9\\right),\\left(-7,-8\\right),\\left(-2,-7\\right)",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "8",
+                                  "folderId": "16",
+                                  "color": "#c74440",
+                                  "latex": "\\left(-9,-7\\right),\\left(-6,-5\\right),\\left(-1,-11\\right),\\left(6,-4\\right)",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "427",
+                                  "color": "#000000",
+                                  "latex": "x+8=\\left(y+8\\right)^2",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "hidden": true,
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "428",
+                                  "color": "#000000",
+                                  "latex": "0=f\\left(x,y\\right)\\left\\{s=1\\right\\}"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/416e5d06488403e24607957adb8f296a",
+                          "id": "986cc196-b30a-4f9b-8a2b-8aff0f4c555a",
+                          "exhibitMode": true,
+                          "script": "in = input5\n\nreadOnly: true\n\nfunction(\"f\"): parseEquation(in.latex).differenceFunction(\"x\",\"y\")\nnumber(\"s\"): when in.submitted 1 otherwise 0",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Write the equation of an ellipse whose graph separates the blue points from the red points.",
+                          "id": "d4a7a768-4e36-439b-8333-c00a19148fb9",
+                          "script": "s=input5.submitCount\n\ncontent:\n\nwhen s=0 \"모든 파란색 점을 포함하는 타원의 방정식을 입력해 보세요. 타원이 빨간색 점을 포함해서는 안 됩니다.\n\n시도 횟수: 0\"\n\notherwise \"모든 파란색 점을 포함하는 타원의 방정식을 입력해 보세요. 타원이 빨간색 점을 포함해서는 안 됩니다.\n\n시도 횟수: ${s}\"",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"모든 파란색 점을 포함하는 타원의 방정식을 입력해 보세요. 타원이 빨간색 점을 포함해서는 안 됩니다.\"}]},{\"type\":\"paragraph\"}]}"
+                        }
+                      },
+                      {
+                        "input/expression": {
+                          "showPeerResponses": false,
+                          "id": "7d0e6b7e-c1d0-46d3-aa48-13f7882dadb8",
+                          "alias": "input5"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생과 공유해 보세요. 다양한 답변을 살펴보고 답변의 공통점이 무엇인지 토론해 보세요. 학생이 이 화면과 다른 화면의 챌린지를 푸는 데 어려움을 겪고 있다면 먼저 손가락으로 원을 그려 보도록 하세요. 그리고 그 원의 특징이 무엇인지 물어보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\frac{\\left(x-2\\right)^{2}}{100}+\\frac{\\left(y+8\\right)^{2}}{4}=1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "a289e1e7-c640-4ec1-b8c6-02ce0466d6a1",
+          "title": "3번째 챌린지: 포물선 그리기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -5,
+                                "xmax": 8,
+                                "ymax": 20
+                              },
+                              "squareAxes": false
+                            },
+                            "randomSeed": "7b379fc18281afc461b4eafc4d6579d4",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "17",
+                                  "text": "2번째 행에 빨간색 점들만 포함하는 포물선의 방정식을 입력해 주세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "18",
+                                  "color": "#2d70b3",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "19",
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "folderId": "19",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(-5,10\\right),\\left(-3,6\\right),\\left(-2,6\\right),\\left(0,15\\right)",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "10",
+                                  "folderId": "19",
+                                  "color": "#c74440",
+                                  "latex": "\\left(-6,3\\right),\\left(-4,2\\right),\\left(0,5\\right),\\left(5,12\\right)",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "20",
+                                  "color": "#000000",
+                                  "latex": "0=f\\left(x,y\\right)\\left\\{s=1\\right\\}"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/ae9fd36606129d72d362a3c1fdc0f6c5",
+                          "id": "3a975e31-ebba-4417-a344-7046fe94f9f3",
+                          "exhibitMode": true,
+                          "script": "in = input7\n\nreadOnly: true\n\nfunction(\"f\"): parseEquation(in.latex).differenceFunction(\"x\",\"y\")\nnumber(\"s\"): when in.submitted 1 otherwise 0",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Write the equation of a parabola whose graph separates the blue points from the red points.",
+                          "id": "d07ab2be-b901-4e2b-bed7-31d017c750e0",
+                          "script": "s=input7.submitCount\n\ncontent:\n\nwhen s=0 \"파란색 점들과 빨간색 점들을 서로 분리할 수 있도록 포물선의 방정식을 입력해 주세요.\n\n시도 횟수: 0\"\n\notherwise \"파란색 점들과 빨간색 점들을 서로 분리할 수 있도록 포물선의 방정식을 입력해 주세요.\n\n시도 횟수: ${s}\"\n",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"파란색 점들과 빨간색 점들을 서로 분리할 수 있도록 포물선의 방정식을 입력해 주세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/expression": {
+                          "showPeerResponses": false,
+                          "id": "ef778460-24f1-4dbd-8c96-794c15aa4c4e",
+                          "alias": "input7"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생과 공유해 보세요. 다양한 답변을 살펴보고 답변의 공통점이 무엇인지 토론해 보세요. 학생이 이 화면과 다른 화면의 챌린지를 푸는 데 어려움을 겪고 있다면 먼저 손가락으로 원을 그려 보도록 하세요. 그리고 그 원의 특징이 무엇인지 물어보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=\\frac{1}{2}\\left(x+4\\right)^{2}+3"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "81bbde27-86ea-4f48-ba37-a3ba55df6fa5",
+          "title": "4번째 챌린지: 쌍곡선 그리기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -6.015037593984962,
+                                "xmax": 10,
+                                "ymax": 6.015037593984962
+                              }
+                            },
+                            "randomSeed": "92ded77b024b9cede4fe226fb74f6b8c",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "17",
+                                  "text": "2번째 행에 빨간색 점들만 포함하는 포물선의 방정식을 입력해 주세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "18",
+                                  "color": "#2d70b3",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "19",
+                                  "collapsed": true,
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "folderId": "19",
+                                  "color": "#2d70b3",
+                                  "latex": "\\left(-5,10\\right),\\left(-3,6\\right),\\left(-2,6\\right),\\left(0,15\\right)",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "hidden": true,
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "id": "446",
+                                  "type": "table",
+                                  "folderId": "19",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "5",
+                                        "4",
+                                        "-5",
+                                        "-4"
+                                      ],
+                                      "hidden": true,
+                                      "id": "447",
+                                      "color": "#c74440",
+                                      "latex": "x_{1}"
+                                    },
+                                    {
+                                      "values": [
+                                        "4",
+                                        "-1",
+                                        "4",
+                                        "-2"
+                                      ],
+                                      "id": "448",
+                                      "color": "#2d70b3",
+                                      "latex": "y_{1}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "450",
+                                  "type": "table",
+                                  "folderId": "19",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "1",
+                                        "-2",
+                                        "1",
+                                        "-2"
+                                      ],
+                                      "hidden": true,
+                                      "id": "451",
+                                      "color": "#fa7e19",
+                                      "latex": "x_{2}"
+                                    },
+                                    {
+                                      "values": [
+                                        "-2",
+                                        "-1",
+                                        "3",
+                                        "1"
+                                      ],
+                                      "id": "452",
+                                      "color": "#c74440",
+                                      "latex": "y_{2}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "10",
+                                  "folderId": "19",
+                                  "color": "#c74440",
+                                  "latex": "\\left(-6,3\\right),\\left(-4,2\\right),\\left(0,5\\right),\\left(5,12\\right)",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "hidden": true,
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "455",
+                                  "color": "#000000",
+                                  "latex": "0=f\\left(x,y\\right)\\left\\{s=1\\right\\}"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "459",
+                                  "color": "#6042a6"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/54342b87159250d543f68d36adbcea49",
+                          "id": "84aa4057-f22b-443b-b745-1eb5017870c0",
+                          "exhibitMode": true,
+                          "script": "in = input6b\n\nfunction(\"f\"): parseEquation(in.latex).differenceFunction(\"x\",\"y\")\nnumber(\"s\"): when in.submitted 1 otherwise 0 ",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Write the equation of a hyperbola whose graph separates the blue points from the red points.",
+                          "id": "6e50fb5e-3427-430a-8459-0627b783e2f4",
+                          "script": "s=input6b.submitCount\n\ncontent:\n\nwhen s=0 \"파란색 점들과 빨간색 점들을 서로 분리할 수 있도록 쌍곡선의 방정식을 입력해 주세요.\n\n시도 횟수: 0\"\n\notherwise \"파란색 점들과 빨간색 점들을 서로 분리할 수 있도록 쌍곡선의 방정식을 입력해 주세요.\n\n시도 횟수: ${s}\"\n",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"파란색 점들과 빨간색 점들을 서로 분리할 수 있도록 쌍곡선의 방정식을 입력해 주세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/expression": {
+                          "showPeerResponses": false,
+                          "id": "017b87a5-7bad-4932-981a-2995f1439991",
+                          "alias": "input6b"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생과 공유해 보세요. 다양한 답변을 살펴보고 답변의 공통점이 무엇인지 토론해 보세요. 학생이 이 화면과 다른 화면의 챌린지를 푸는 데 어려움을 겪고 있다면 먼저 손가락으로 원을 그려 보도록 하세요. 그리고 그 원의 특징이 무엇인지 물어보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\frac{\\left(x+1\\right)^{2}}{2}-\\frac{y^{2}}{3}=1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "a48e70e8-6cd2-4f70-8e45-3af6d918ee47",
+          "title": "5번째 챌린지: 원 그리기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -5.826,
+                                "ymin": -3.907075187969922,
+                                "xmax": 13.825,
+                                "ymax": 7.913075187969928
+                              }
+                            },
+                            "randomSeed": "2023ec954174764f0ee95c2b9355e137",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "25",
+                                  "text": "2번째 행에 빨간색 선이 지름이 되는 원의 방정식을 입력해 주세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "14",
+                                  "color": "#2d70b3",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "26",
+                                  "collapsed": true,
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "15",
+                                  "folderId": "26",
+                                  "color": "#c74440",
+                                  "latex": "y=\\frac{1}{3}\\left(x-1\\right)\\left\\{-2<x<10\\right\\}",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "27",
+                                  "color": "#000000",
+                                  "latex": "0=f\\left(x,y\\right)\\left\\{s=1\\right\\}"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/b3afe5db5615c97fdd846c10808d1625",
+                          "id": "21dd5695-d787-41da-a67c-0cec314e74f3",
+                          "exhibitMode": true,
+                          "script": "in = input6\n\nfunction(\"f\"): parseEquation(in.latex).differenceFunction(\"x\",\"y\")\nnumber(\"s\"): when in.submitted 1 otherwise 0 ",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Write the equation of a circle so that the red line forms its diameter.",
+                          "id": "f770c0f4-4bda-41f4-bfa7-76aa32106252",
+                          "script": "s=input6.submitCount\n\ncontent:\n\nwhen s=0 \"빨간색 선이 원의 지름이 되도록 원의 방정식을 입력해 주세요.\n\n시도 횟수: 0\"\n\notherwise \"빨간색 선이 원의 지름이 되도록 원의 방정식을 입력해 주세요.\n\n시도 횟수: ${s}\"\n",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"빨간색 선이 원의 지름이 되도록 원의 방정식을 입력해 주세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/expression": {
+                          "showPeerResponses": false,
+                          "id": "28525a5d-17e3-4fc3-9f2d-7e800f988716",
+                          "alias": "input6"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "원 하나만이 정답이 될 수 있지만 방정식의 형태는 서로 다를 수 있습니다. 학생과 이에 대해 토론해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\left(x-4\\right)^{2}+\\left(y-1\\right)^{2}=40"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "856e9111-7bc5-4ff8-bf82-ba6c89cf65f9",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "What mathematical ideas helped you complete Challenges 1-5? What challenges did you encounter?",
+                          "id": "53f531dd-1f6b-4eec-974f-357b37d11f19",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"챌린지를 풀 때 어떤 수학적 지식을 이용했나요? \"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"또 어떤 점이 어려웠나요?\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "41d63c94-b0f2-4c26-a22f-eb3d86334d27",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "생각해 보기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생과 공유해 보세요. 먼저 자유롭게 추론하는 시간을 갖고, 학생이 공식적인 수학 용어를 사용해 추론할 수 있도록 해 주세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "189dc08d-6543-46fe-9fd6-a0f3d972830e",
+          "title": "6번째 챌린지 (1/2): 관찰하기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "ffe63f394cf513947e9717c5227161f1",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -6.0654885654885655,
+                                "xmax": 10,
+                                "ymax": 6.0654885654885655
+                              }
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "101",
+                                  "title": "패턴 함수",
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "106",
+                                  "folderId": "101",
+                                  "color": "#000000",
+                                  "latex": "\\left(x-2\\right)^2+\\left(y-2\\right)^2=4",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "119",
+                                  "folderId": "101",
+                                  "color": "#000000",
+                                  "latex": "\\left(x-2\\right)^2+\\left(y-1\\right)^2=1",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "120",
+                                  "folderId": "101",
+                                  "color": "#000000",
+                                  "latex": "\\left(x-2\\right)^2+\\left(y-1.5\\right)^2=2.25",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "137",
+                                  "folderId": "101",
+                                  "color": "#000000",
+                                  "latex": "-2\\left(x-2\\right)^2",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "148",
+                                  "folderId": "101",
+                                  "color": "#000000",
+                                  "latex": "-\\left(x-2\\right)^2",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "149",
+                                  "folderId": "101",
+                                  "color": "#000000",
+                                  "latex": "-\\frac{1}{2}\\left(x-2\\right)^2",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "27",
+                                  "text": "2번째와 3번째 행에 규칙에 맞는 원과 포물선의 방정식을 입력해 주세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "36",
+                                  "color": "#2d70b3",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/ba500fea454fc880e89e620d3c62fcb0",
+                          "id": "8589ff6f-7be3-4b97-a4be-a0b596169936",
+                          "exhibitMode": true,
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "What do these circles and parabolas have in common?",
+                          "id": "ffdb2323-c1b1-45aa-9831-28986c6ddd72",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이 포물선들과 원들의 공통점은 무엇인가요?\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "413d8851-d56c-4bd0-8921-0fd92434d432",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생과 공유해 보세요. 먼저 자유롭게 추론하는 시간을 갖고, 학생이 공식적인 수학 용어를 사용해 추론할 수 있도록 해 주세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "모든 포물선과 원이 점 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\left(2,0\\right)"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "을 지납니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "f8c8bd00-9ba9-4084-8999-c3531a920dfe",
+          "title": "6번째 챌린지 (2/2): 그래프의 규칙 찾기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "e2ab93c5fb5fe76913ef43a5e90d8207",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -12.143186003683242,
+                                "xmax": 10,
+                                "ymax": 12.143186003683242
+                              }
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "101",
+                                  "title": "패턴 함수",
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "106",
+                                  "folderId": "101",
+                                  "color": "#000000",
+                                  "latex": "\\left(x-2\\right)^2+\\left(y-2\\right)^2=4"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "119",
+                                  "folderId": "101",
+                                  "color": "#000000",
+                                  "latex": "\\left(x-2\\right)^2+\\left(y-1\\right)^2=1"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "120",
+                                  "folderId": "101",
+                                  "color": "#000000",
+                                  "latex": "\\left(x-2\\right)^2+\\left(y-1.5\\right)^2=2.25"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "137",
+                                  "folderId": "101",
+                                  "color": "#000000",
+                                  "latex": "-2\\left(x-2\\right)^2"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "148",
+                                  "folderId": "101",
+                                  "color": "#000000",
+                                  "latex": "-\\left(x-2\\right)^2"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "149",
+                                  "folderId": "101",
+                                  "color": "#000000",
+                                  "latex": "-\\frac{1}{2}\\left(x-2\\right)^2"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "27",
+                                  "text": "그래프의 원과 포물선의 폭은 일정한 규칙에 따라 점점 커지고 있습니다. 규칙을 찾고 다음에 그려야 할 원과 포물선의 방정식을 입력해 주세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#c74440"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "36",
+                                  "color": "#2d70b3"
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/ba500fea454fc880e89e620d3c62fcb0",
+                          "id": "ed5bf692-77f1-4ee8-976d-8e1d6402a912",
+                          "exhibitMode": false,
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생과 공유해 보세요. 다양한 답변을 살펴보고 답변의 공통점이 무엇인지 토론해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\left(x-2\\right)^{2}+\\left(y-2.5\\right)^{2}=6.25"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=-\\frac{1}{4}\\left(x-2\\right)^{2}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "627aa707-8c87-4268-a787-bb2fa88059a1",
+          "title": "7번째 챌린지: 그래프의 규칙 찾기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "9d3e2f929891e2bf42544da16ac889af",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -2.1049152542372873,
+                                "ymin": -7.2685865483659535,
+                                "xmax": 18.10491525423729,
+                                "ymax": 17.272586548365954
+                              }
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "174",
+                                  "title": "패턴 함수",
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "177",
+                                  "folderId": "174",
+                                  "color": "#000000",
+                                  "latex": "\\left(x-5\\right)^2+\\left(y-5\\right)^2=4",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "188",
+                                  "folderId": "174",
+                                  "color": "#000000",
+                                  "latex": "\\frac{\\left(x-5\\right)^2}{4}+\\frac{\\left(y-5\\right)^2}{9}=1",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "191",
+                                  "folderId": "174",
+                                  "color": "#000000",
+                                  "latex": "\\frac{\\left(x-5\\right)^2}{9}+\\frac{\\left(y-5\\right)^2}{4}=1",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "192",
+                                  "folderId": "174",
+                                  "color": "#000000",
+                                  "latex": "\\frac{\\left(x-5\\right)^2}{4}+\\frac{\\left(y-5\\right)^2}{16}=1",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "193",
+                                  "folderId": "174",
+                                  "color": "#000000",
+                                  "latex": "\\frac{\\left(x-5\\right)^2}{16}+\\frac{\\left(y-5\\right)^2}{4}=1",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "29",
+                                  "text": "그래프의 타원은 일정한 규칙에 따라 상하 및 좌우로 점점 늘어나고 있습니다. 규칙을 찾고 다음에 그려야 할 타원의 방정식을 입력해 주세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "30",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "34",
+                                  "color": "#2d70b3",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/dccc4c0edce1c36c41593c2014f3559e",
+                          "id": "f1ee2848-44bc-4712-a322-7b62fe7e1095",
+                          "exhibitMode": false,
+                          "script": "",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생과 공유해 보세요. 다양한 답변을 살펴보고 답변의 공통점이 무엇인지 토론해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\frac{\\left(x-5\\right)^{2}}{4}+\\frac{\\left(y-5\\right)^{2}}{25}=1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "78e92957-ebae-41dd-80cd-63e87cc12903",
+          "title": "8번째 챌린지: 그래프의 규칙 찾기",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "a0706c2517e4143e245287d7afb4a054",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -10,
+                                "ymin": -12.141186003683242,
+                                "xmax": 10,
+                                "ymax": 12.145186003683243
+                              }
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "260",
+                                  "title": "패턴 함수",
+                                  "secret": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "269",
+                                  "folderId": "260",
+                                  "color": "#000000",
+                                  "latex": "\\frac{\\left(x-1\\right)^2}{4}+\\frac{\\left(y+1\\right)^2}{1}=1",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "290",
+                                  "folderId": "260",
+                                  "color": "#000000",
+                                  "latex": "\\frac{\\left(x-1\\right)^2}{3}+\\frac{\\left(y+1\\right)^2}{1}=1",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "291",
+                                  "folderId": "260",
+                                  "color": "#000000",
+                                  "latex": "\\frac{\\left(x-1\\right)^2}{2}+\\frac{\\left(y+1\\right)^2}{1}=1",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "292",
+                                  "folderId": "260",
+                                  "color": "#000000",
+                                  "latex": "\\frac{\\left(y+1\\right)^2}{1}-\\frac{\\left(x-1\\right)^2}{1}=1",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "295",
+                                  "folderId": "260",
+                                  "color": "#000000",
+                                  "latex": "\\frac{\\left(y+1\\right)^2}{1}-\\frac{\\left(x-1\\right)^2}{2}=1",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "300",
+                                  "folderId": "260",
+                                  "color": "#000000",
+                                  "latex": "\\frac{\\left(y+1\\right)^2}{1}-\\frac{\\left(x-1\\right)^2}{3}=1",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "356",
+                                  "text": "그래프의 쌍곡선과 타원은 일정한 규칙에 따라 좌우로 점점 늘어나고 있습니다. 규칙을 찾고 다음에 그려야 할 쌍곡선과 타원의 방정식을 입력해 주세요."
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "33",
+                                  "color": "#2d70b3",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "img": "https://uploads.desmos.com/activitybuilder/7bff351e9405a5bac41be19b6a4d57fd",
+                          "id": "9cf03190-bdc7-419d-8597-99c17cf66a92",
+                          "exhibitMode": false,
+                          "script": "",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생과 공유해 보세요. 다양한 답변을 살펴보고 답변의 공통점이 무엇인지 토론해 보세요. 만약 학생이 먼저 타원을 추가했다면 추가한 타원에 맞는 쌍곡선의 방정식은 무엇일지 물어보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• 타원: "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\frac{\\left(x-1\\right)^{2}}{5}+\\frac{\\left(y+1\\right)^{2}}{1}=1"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "• 쌍곡선: "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "\\frac{\\left(y+1\\right)^{2}}{1}-\\frac{\\left(x-1\\right)^{2}}{5}=1"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "94025879-63a2-4739-b726-0e47245d6a2f",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "41b9c5d0-c432-4646-bad1-34a437e7aba1",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -74.8684924920973,
+                                "ymin": -51.54397357014928,
+                                "xmax": 71.47229200365818,
+                                "ymax": 33.32875413824762
+                              }
+                            },
+                            "randomSeed": "1d115aa16e881e397ed8c1f449c4f98c",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "text",
+                                  "id": "365",
+                                  "text": "아래에 방정식을 입력해 이전 챌린지의 그래프처럼 규칙적으로 변화하는 원뿔곡선을 그려 보세요."
+                                }
+                              ]
+                            }
+                          },
+                          "exhibitMode": false,
+                          "showBackground": true,
+                          "img": "https://uploads.desmos.com/activitybuilder/07ca524389cf6749e45ef7dd4278fdf3",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "9번째 챌린지",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "독특한 답변을 학생과 공유해 보세요. 학생에게 어떤 방식으로 규칙을 만들었는지 물어보거나 규칙을 만들 때 어떤 수학적 지식을 사용했는지 설명하도록 해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "activity": "activitybuilder",
+      "ancestors": [
+        {
+          "_id": "55f0f5e2589b760f3afb39cd",
+          "user": {
+            "id": "5514b1585bb90671051e1ece",
+            "displayName": "Dylan Kane"
+          }
+        }
+      ],
+      "blurb": {
+        "schemaKey": "document",
+        "version": 3,
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "이 액티비티에서 학생들은 그래프 그리기 챌린지를 통해 원뿔곡선의 방정식과 그래프 사이의 관계에 대해 배울 수 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "한국어 번역: Desmos 현지화 팀"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "category": "practice",
+      "collaborators": [
+        "5d5c81618a3b6156af14a89f",
+        "5d85bd4cfe8bdc626d4698c8"
+      ],
+      "teamDesmosAuthored": true,
+      "complete": true,
+      "edit_ts": "2022-08-19T12:37:12.108Z",
+      "keywords": [],
+      "licenses": [],
+      "retailAssetIds": [],
+      "permissionToShare": true,
+      "publishedTimestamp": "2022-08-19T12:37:12.108Z",
+      "thumb": "https://uploads.desmos.com/activitybuilder/9ab007aacdd7c7cdfc3c8720f5555b8d",
+      "timeEstimate": 45,
+      "title": "원뿔곡선 그리기",
+      "linkedActivities": [
+        {
+          "title": "원본 버전 (영어)",
+          "activityId": "56030ac728462f1706872e72",
+          "collectionIds": [],
+          "logical": {
+            "logicalActivityMetaId": "56030ac728462f1706872e72",
+            "logicalCollectionIds": []
+          }
+        }
+      ],
+      "user": {
+        "id": "5de6bbe49f524909d87db21a",
+        "displayName": "Kayla Muñoz"
+      },
+      "author": {
+        "id": "5d85bd4cfe8bdc626d4698c8",
+        "displayName": "영하 김"
+      },
+      "accessibilityNotes": "이 액티비티는 스크린 리더에 최적화되지 않았습니다. 시각 장애 학생은 다른 학생과 함께 액티비티를 진행하는 것을 권장합니다.",
+      "commitId": "62ff82faffa995cf2de50990",
+      "logicalId": "5f6d36796611e32c29d41fc6",
+      "draftTitle": "원뿔곡선 그리기",
+      "draftAuthor": {
+        "id": "5d85bd4cfe8bdc626d4698c8",
+        "displayName": "영하 김"
+      }
+    },
+    "noindex": false
+  },
+  "notes": [
+    "Public HTML exposes metadata and thumbnail.",
+    "The public POST /activity/:id route may expose the customLesson JSON for public activities.",
+    "Teacher sessions, dashboards, student responses, and editor-only diagnostics still require authorization.",
+    "Use this output as source evidence and template inspiration, not as an activity clone."
+  ]
+}

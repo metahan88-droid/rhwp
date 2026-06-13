@@ -1,0 +1,3457 @@
+{
+  "inspectedAt": "2026-06-13T12:30:03.879Z",
+  "url": "https://classroom.amplify.com/activity/5f6d374e7a3b802b45e2d66c?lang=ko",
+  "activityId": "5f6d374e7a3b802b45e2d66c",
+  "staticMeta": {
+    "canonical": "https://classroom.amplify.com/activity/5f6d374e7a3b802b45e2d66c",
+    "title": "타오르는 태양",
+    "description": "학생은 이 액티비티에서 사인 함수를 이용해 미국 알래스카주 페어뱅크스와 플로리다주 마이애미의 일조량 데이터를 분석해야 합니다. 학생은 특정 연도에 일조량이 더 높은 도시는 어느 도시인지 예측하고, 함수를 이용해 예측 결과를 계산해야 합니다.\n\n미적분을 공부하는 학생은 이 액티비티에서 정적분을 연습할 수 있으며, 먼저 사인 함수의 평균값은 함수의 중선과 일치한다는 사실을 인지한 후 액티비티를 시작하는 것이 좋습니다.\n\n데이터 출처: http://aa.usno.navy.mil/data/docs/Dur_OneYear.php\n\n한국어 번역: Desmos 현지화 팀",
+    "twitterTitle": "타오르는 태양",
+    "twitterDescription": "학생은 이 액티비티에서 사인 함수를 이용해 미국 알래스카주 페어뱅크스와 플로리다주 마이애미의 일조량 데이터를 분석해야 합니다. 학생은 특정 연도에 일조량이 더 높은 도시는 어느 도시인지 예측하고, 함수를 이용해 예측 결과를 계산해야 합니다.\n\n미적분을 공부하는 학생은 이 액티비티에서 정적분을 연습할 수 있으며, 먼저 사인 함수의 평균값은 함수의 중선과 일치한다는 사실을 인지한 후 액티비티를 시작하는 것이 좋습니다.\n\n데이터 출처: http://aa.usno.navy.mil/data/docs/Dur_OneYear.php\n\n한국어 번역: Desmos 현지화 팀",
+    "image": "https://uploads.desmos.com/activitybuilder/f7c00e130d416e7c6111a72905bb4253"
+  },
+  "activityMeta": {
+    "activities": [
+      {
+        "__brand": "NormalizedActivity",
+        "_id": "5f6d374e7a3b802b45e2d66c",
+        "ancestorAuthorGroups": [],
+        "ancestors": [
+          {
+            "_id": "56d8aee5637a85a2078c257d",
+            "user": {
+              "id": "55fb1831efe3b67f175ca4a2",
+              "displayName": "Desmos _"
+            }
+          }
+        ],
+        "category": "application",
+        "collaborators": [
+          "5d5c81618a3b6156af14a89f",
+          "5d85bd4cfe8bdc626d4698c8"
+        ],
+        "customMetadata": {},
+        "teamDesmosAuthored": true,
+        "deleteURL": "/custom-lesson/delete/5f6d374e7a3b802b45e2d66c",
+        "description": {
+          "schemaKey": "document",
+          "version": 3,
+          "content": {
+            "type": "doc",
+            "content": [
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "학생은 이 액티비티에서 사인 함수를 이용해 미국 알래스카주 페어뱅크스와 플로리다주 마이애미의 일조량 데이터를 분석해야 합니다. 학생은 특정 연도에 일조량이 더 높은 도시는 어느 도시인지 예측하고, 함수를 이용해 예측 결과를 계산해야 합니다."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph"
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "미적분을 공부하는 학생은 이 액티비티에서 정적분을 연습할 수 있으며, 먼저 사인 함수의 평균값은 함수의 중선과 일치한다는 사실을 인지한 후 액티비티를 시작하는 것이 좋습니다."
+                  }
+                ]
+              },
+              {
+                "type": "paragraph"
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "데이터 출처: "
+                  },
+                  {
+                    "type": "text",
+                    "marks": [
+                      {
+                        "type": "link",
+                        "attrs": {
+                          "href": "http://aa.usno.navy.mil/data/docs/Dur_OneYear.php",
+                          "title": null,
+                          "target": "_blank"
+                        }
+                      }
+                    ],
+                    "text": "http://aa.usno.navy.mil/data/docs/Dur_OneYear.php"
+                  }
+                ]
+              },
+              {
+                "type": "paragraph"
+              },
+              {
+                "type": "paragraph",
+                "content": [
+                  {
+                    "type": "text",
+                    "text": "한국어 번역: Desmos 현지화 팀"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "edit_ts": "2022-08-22T09:40:02.050Z",
+        "infoURL": "activity/5f6d374e7a3b802b45e2d66c",
+        "keywords": [],
+        "licenses": [],
+        "activityLicenses": [],
+        "retailAssetIds": [],
+        "activityRetailAssetIds": [],
+        "private": false,
+        "searchable": false,
+        "thumbURL": "https://uploads.desmos.com/activitybuilder/f7c00e130d416e7c6111a72905bb4253",
+        "timeEstimate": 45,
+        "isPaperActivity": false,
+        "hasSteps": true,
+        "hasAuthoredFeedback": false,
+        "isPresentation": false,
+        "accessibilityNotes": "이 액티비티는 스크린 리더에 최적화되지 않았습니다. 시각 장애 학생은 다른 학생과 함께 액티비티를 진행하는 것을 권장합니다.",
+        "authorTags": [],
+        "title": "타오르는 태양",
+        "linkedActivities": [
+          {
+            "title": "원본 버전 (영어)",
+            "activityId": "56d8aee5637a85a2078c257d",
+            "collectionIds": [],
+            "logical": {
+              "logicalActivityMetaId": "56d8aee5637a85a2078c257d",
+              "logicalCollectionIds": []
+            }
+          }
+        ],
+        "user": {
+          "id": "5de6bbe49f524909d87db21a",
+          "displayName": "Kayla Muñoz"
+        }
+      }
+    ],
+    "deletedActivities": [],
+    "activityTranslations": {}
+  },
+  "activitySummary": {
+    "id": "5f6d374e7a3b802b45e2d66c",
+    "title": "타오르는 태양",
+    "version": 1,
+    "commitId": "630348c4ac8f8a9eb252e9a1",
+    "publishedTimestamp": "2022-08-22T09:40:02.050Z",
+    "editTimestamp": "2022-08-22T09:40:02.050Z",
+    "permissionToShare": true,
+    "noindex": false,
+    "user": {
+      "id": "5de6bbe49f524909d87db21a",
+      "displayName": "Kayla Muñoz"
+    },
+    "author": {
+      "id": "5d85bd4cfe8bdc626d4698c8",
+      "displayName": "영하 김"
+    },
+    "ancestors": [
+      {
+        "_id": "56d8aee5637a85a2078c257d",
+        "user": {
+          "id": "55fb1831efe3b67f175ca4a2",
+          "displayName": "Desmos _"
+        }
+      }
+    ],
+    "thumb": "https://uploads.desmos.com/activitybuilder/f7c00e130d416e7c6111a72905bb4253",
+    "screenCount": 10,
+    "componentCounts": {
+      "exhibit/image": 1,
+      "exhibit/text": 10,
+      "multiple-choice": 2,
+      "56ab04f9-895d-42b0-901d-68bea467d13a": 1,
+      "2ef74eac-b531-483c-9dbb-1bee9db81b60": 1,
+      "input/graph": 5,
+      "faeeae82-18ee-46cd-a00e-20371fbfbb00": 1,
+      "8abe395a-4ff3-47f7-ac22-bd10ef2582c5": 1,
+      "input/expression": 2,
+      "sketch": 4,
+      "background": 4,
+      "input/text": 4,
+      "table": 1,
+      "action-button": 1
+    },
+    "screens": [
+      {
+        "index": 1,
+        "id": "e9ce456a-e626-4151-bf16-b010b8b9f428",
+        "type": "two-column",
+        "title": "페어뱅크스와 마이애미",
+        "subtitle": "",
+        "componentCounts": {
+          "exhibit/image": 1,
+          "exhibit/text": 1,
+          "multiple-choice": 1,
+          "56ab04f9-895d-42b0-901d-68bea467d13a": 1,
+          "2ef74eac-b531-483c-9dbb-1bee9db81b60": 1
+        }
+      },
+      {
+        "index": 2,
+        "id": "45ec3790-26bd-484c-a961-b696bbb02aa7",
+        "type": "two-column",
+        "title": "어떤 도시의 그래프일까요?",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "multiple-choice": 1,
+          "faeeae82-18ee-46cd-a00e-20371fbfbb00": 1,
+          "8abe395a-4ff3-47f7-ac22-bd10ef2582c5": 1
+        }
+      },
+      {
+        "index": 3,
+        "id": "331ae9f6-e727-4e7b-8ed9-624ddd445b9b",
+        "type": "two-column",
+        "title": "분석용 함수 만들기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/expression": 1
+        }
+      },
+      {
+        "index": 4,
+        "id": "c257fe8b-4160-4912-81aa-3815e3b8c73a",
+        "type": "two-column",
+        "title": "분석용 함수 만들기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/expression": 1
+        }
+      },
+      {
+        "index": 5,
+        "id": "668d26a7-c167-43dd-bdba-1f4b5e96e1d6",
+        "type": "two-column",
+        "title": "비교 및 대조하기",
+        "subtitle": "",
+        "componentCounts": {
+          "sketch": 1,
+          "background": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 6,
+        "id": "86324a0e-49bb-4289-a48f-8ece2e3cb73e",
+        "type": "two-column",
+        "title": "일조 시간 계산하기",
+        "subtitle": "",
+        "componentCounts": {
+          "sketch": 1,
+          "background": 1,
+          "exhibit/text": 1,
+          "table": 1
+        }
+      },
+      {
+        "index": 7,
+        "id": "2eb54435-1ea0-4d9a-9444-2f62feef3346",
+        "type": "two-column",
+        "title": "답변 기록하기",
+        "subtitle": "",
+        "componentCounts": {
+          "sketch": 1,
+          "background": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 8,
+        "id": "5630e2f1-e79f-428e-93fb-b594f2479822",
+        "type": "two-column",
+        "title": "알래스카주 배로",
+        "subtitle": "",
+        "componentCounts": {
+          "sketch": 1,
+          "background": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      },
+      {
+        "index": 9,
+        "id": "b99a2e43-f6fb-47da-9d75-a01cfcc2b74b",
+        "type": "two-column",
+        "title": "결과 확인하기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "action-button": 1
+        }
+      },
+      {
+        "index": 10,
+        "id": "8da1a786-8e62-4917-acd9-089feb8a86ac",
+        "type": "two-column",
+        "title": "그래프 해석하기",
+        "subtitle": "",
+        "componentCounts": {
+          "input/graph": 1,
+          "exhibit/text": 1,
+          "input/text": 1
+        }
+      }
+    ],
+    "aliases": [
+      {
+        "screen": 2,
+        "type": "multiple-choice",
+        "alias": "mc1",
+        "id": "bb2c7205-f5cb-4fcb-8ea5-daf934cfaecf"
+      },
+      {
+        "screen": 3,
+        "type": "input/graph",
+        "alias": "graph3",
+        "id": "3e9f3eb1-9355-4313-808d-9d6c448e11e9"
+      },
+      {
+        "screen": 3,
+        "type": "input/expression",
+        "alias": "equation1",
+        "id": "bb271e02-deaf-45e6-b95f-b247d1504753"
+      },
+      {
+        "screen": 4,
+        "type": "input/graph",
+        "alias": "graph4",
+        "id": "949a03d7-fc19-4400-b1f3-13a513074c11"
+      },
+      {
+        "screen": 4,
+        "type": "input/expression",
+        "alias": "equation2",
+        "id": "946e24d9-f889-4c76-9fd0-dd7e944dd8ad"
+      },
+      {
+        "screen": 6,
+        "type": "table",
+        "alias": "table6",
+        "id": "06a7ea21-f110-43c2-b6af-4994bf41cf58"
+      },
+      {
+        "screen": 8,
+        "type": "sketch",
+        "alias": "sketch8",
+        "id": "10638a4c-e887-4b39-83d5-91d31f4ec057"
+      },
+      {
+        "screen": 9,
+        "type": "input/graph",
+        "alias": "graph9",
+        "id": "53f74dc5-4bdd-4cd6-9e8f-aaa99ff18567"
+      },
+      {
+        "screen": 9,
+        "type": "action-button",
+        "alias": "button9",
+        "id": "e5eb3697-f800-4cc4-ad0a-878c964ee9bb"
+      },
+      {
+        "screen": 10,
+        "type": "input/graph",
+        "alias": "graph10",
+        "id": "a8fe1438-44fc-4931-a52b-1f4bbd981606"
+      }
+    ],
+    "scripts": [
+      {
+        "screen": 2,
+        "screenTitle": "어떤 도시의 그래프일까요?",
+        "type": "input/graph",
+        "alias": null,
+        "id": "5005bb93-48e1-4cab-944f-1e68110d69a1",
+        "script": "readOnly: true"
+      },
+      {
+        "screen": 3,
+        "screenTitle": "분석용 함수 만들기",
+        "type": "input/graph",
+        "alias": "graph3",
+        "id": "3e9f3eb1-9355-4313-808d-9d6c448e11e9",
+        "script": "function(\"f\"): simpleFunction(equation1.latex)\n\nnumber(\"v_1\"): table6.cellNumericValue(1,2)\nnumber(\"v_2\"): table6.cellNumericValue(2,2)\n\nreadOnly: true"
+      },
+      {
+        "screen": 3,
+        "screenTitle": "분석용 함수 만들기",
+        "type": "exhibit/text",
+        "alias": null,
+        "id": "22b32318-79f9-417a-9a1d-a6b9289d2163",
+        "script": "a = mc1.isSelected(1)\nb = mc1.isSelected(2)\n\n\ncontent: \nwhen a\n\"맞습니다. 마이애미의 일조량 그래프는 오렌지색 그래프입니다!\n\n방정식을 입력해 마이애미의 일조량 그래프를 함수로 나타내 주세요.\"\n\nwhen b\n\"마이애미의 일조량 그래프가 보라색 그래프라고 답변했습니다.\n\n하지만 사실 마이애미의 일조량 그래프는 바로 오렌지색 그래프입니다! \n\n마이애미는 적도에 가까워 일조량의 변화가 크지 않습니다.\n\n방정식을 입력해 마이애미의 일조량 그래프를 함수로 나타내 주세요.\"\n\notherwise\n\"마이애미의 일조량 그래프는 오렌지색 그래프입니다. \n\n마이애미는 적도에 가까워 일조량의 변화가 크지 않습니다.\n\n방정식을 입력해 마이애미의 일조량 그래프를 함수로 나타내 주세요.\"\n"
+      },
+      {
+        "screen": 3,
+        "screenTitle": "분석용 함수 만들기",
+        "type": "input/expression",
+        "alias": "equation1",
+        "id": "bb271e02-deaf-45e6-b95f-b247d1504753",
+        "script": "correct: graph3.number(\"I\") = 1"
+      },
+      {
+        "screen": 4,
+        "screenTitle": "분석용 함수 만들기",
+        "type": "input/graph",
+        "alias": "graph4",
+        "id": "949a03d7-fc19-4400-b1f3-13a513074c11",
+        "script": "function(\"f\") : simpleFunction(equation1.latex)\nfunction(\"g\") : simpleFunction(equation2.latex)\n\nreadOnly: true"
+      },
+      {
+        "screen": 4,
+        "screenTitle": "분석용 함수 만들기",
+        "type": "input/expression",
+        "alias": "equation2",
+        "id": "946e24d9-f889-4c76-9fd0-dd7e944dd8ad",
+        "script": "correct: graph4.number(\"I\") = 1"
+      },
+      {
+        "screen": 5,
+        "screenTitle": "비교 및 대조하기",
+        "type": "sketch",
+        "alias": null,
+        "id": "baa3d688-a78b-4304-860a-b0b17105cd0c",
+        "script": "studentFunctionf = simpleFunction(equation1.latex)\nstudentFunctiong = simpleFunction(equation2.latex)\n\ndefaultFunction = simpleFunction(\"0x+100\")\n\nfunction(\"f\"): firstDefinedValue(studentFunctionf, defaultFunction)\nfunction(\"g\"): firstDefinedValue(studentFunctiong, defaultFunction)\n\nreadOnly: true"
+      },
+      {
+        "screen": 5,
+        "screenTitle": "비교 및 대조하기",
+        "type": "exhibit/text",
+        "alias": null,
+        "id": "0de5d948-531d-452e-adaa-f429636363c0",
+        "script": "message = \"   이전 화면에서 그린 함수의 그래프가 표시되어 있습니다.\n\n두 함수의 차이점과 공통점은 무엇인가요?\n\n필요하다면 그림판을 이용해 답변을 설명해 보세요.\"\n\nwarning1 = \"3번 화면에서 방정식을 입력하세요.\"\nwarning2 = \"4번 화면에서 방정식을 입력하세요.\"\nwarning3 = \"3-4번 화면에서 방정식을 입력하세요.\"\n\nmissingEquation1 = isBlank(equation1.latex)\nmissingEquation2 = isBlank(equation2.latex)\n\ncontent:\n\twhen missingEquation1 and missingEquation2 \"${warning3}\"\n    when missingEquation1 \"${warning1}\"\n    when missingEquation2 \"${warning2}\"\n    otherwise \"${message}\"\n    \n "
+      },
+      {
+        "screen": 6,
+        "screenTitle": "일조 시간 계산하기",
+        "type": "sketch",
+        "alias": null,
+        "id": "693ff346-7b54-4c3f-927d-1fd4370cccc0",
+        "script": "studentFunctionf = simpleFunction(equation1.latex)\nstudentFunctiong = simpleFunction(equation2.latex)\n\ndefaultFunction = simpleFunction(\"0x+100\")\n\nfunction(\"f\"): firstDefinedValue(studentFunctionf, defaultFunction)\nfunction(\"g\"): firstDefinedValue(studentFunctiong, defaultFunction)\n\nreadOnly: true"
+      },
+      {
+        "screen": 6,
+        "screenTitle": "일조 시간 계산하기",
+        "type": "exhibit/text",
+        "alias": null,
+        "id": "e0602d19-8f19-49f3-a01a-ce0cf2b9bb8e",
+        "script": "#equation1 = \"`y=12.15+1.6\\\\cos \\\\left(\\\\frac{2\\\\pi }{12}\\\\left(x-6.7\\\\right)\\\\right)`\"\n#equation2 = \"`y=12.15+1.6\\\\cos \\\\left(\\\\frac{2\\\\pi }{12}\\\\left(x-6.7\\\\right)\\\\right)`\"\n\nmessage = \"이전 화면에서 입력한 방정식은 다음과 같습니다:\n\n마이애미: `${equation1.latex}`\n페어뱅크스: `${equation2.latex}`\n\n함수의 그래프를 이용해 마이애미와 페어뱅크스의 2016년 총 일조 시간을 계산하고 표에 답을 입력하세요.\n\n필요하다면 그림판을 이용해 답변을 설명해 보세요.\"\n\nwarning1 = \"3번 화면에서 방정식을 입력하세요.\"\nwarning2 = \"4번 화면에서 방정식을 입력하세요.\"\nwarning3 = \"3-4번 화면에서 방정식을 입력하세요.\"\n\n#warningX =\n#\twhen not(isBlank(equation1.latex)) and not(isBlank(equation2.latex)) \"${warning3}\"\n#\twhen not(isBlank(equation1.latex)) \"${warning1}\"\n#\twhen not(isBlank(equation2.latex)) \"${warning2}\"\n#    otherwise \"\"\n\nmissingEquation1 = isBlank(equation1.latex)\nmissingEquation2 = isBlank(equation2.latex)\n\ncontent:\n\twhen missingEquation1 and missingEquation2 \"${warning3}\"\n    when missingEquation1 \"${warning1}\"\n    when missingEquation2 \"${warning2}\"\n    otherwise \"${message}\""
+      },
+      {
+        "screen": 6,
+        "screenTitle": "일조 시간 계산하기",
+        "type": "table",
+        "alias": "table6",
+        "id": "06a7ea21-f110-43c2-b6af-4994bf41cf58",
+        "script": "correct: graph3.number(\"I_{c6}\") = 1"
+      },
+      {
+        "screen": 7,
+        "screenTitle": "답변 기록하기",
+        "type": "sketch",
+        "alias": null,
+        "id": "a5df0c89-87a2-422f-9c79-c990b2ade1b7",
+        "script": "studentFunctionf = simpleFunction(equation1.latex)\nstudentFunctiong = simpleFunction(equation2.latex)\n\ndefaultFunction = simpleFunction(\"0x+100\")\n\nfunction(\"f\"): firstDefinedValue(studentFunctionf, defaultFunction)\nfunction(\"g\"): firstDefinedValue(studentFunctiong, defaultFunction)\n\nreadOnly: true"
+      },
+      {
+        "screen": 7,
+        "screenTitle": "답변 기록하기",
+        "type": "exhibit/text",
+        "alias": null,
+        "id": "348b1147-0ae7-4dd5-90a6-ad1b5fb961a6",
+        "script": "H1 = graph9.number(\"H_1\")\nH2 = graph9.number(\"H_2\")\n\nmiamiHours = when H1 = 1 \"마이애미: ${H1}시간\" when H1 > 0 \"마이애미: ${H1}시간\" otherwise \"\"\nfairbanksHours = when H2 = 1 \"페어뱅크스: ${H2}시간\" when H2 > 0 \"페어뱅크스: ${H2}시간\" otherwise \"\"\n\nmessage = \"이전 화면에서 답한 일조 시간은 다음과 같습니다:\n\n${miamiHours}\n${fairbanksHours}\n\n어떤 방법으로 일조 시간을 계산했는지 설명해 주세요.\n\n필요하다면 그림판을 이용해 답변을 설명해 보세요.\"\n\nwarning = \"6번 화면에서 일조 시간을 입력해 주세요.\"\n\ncontent: when H1 > 0 and H2 > 0 \"${message}\" otherwise \"${warning}\""
+      },
+      {
+        "screen": 8,
+        "screenTitle": "알래스카주 배로",
+        "type": "sketch",
+        "alias": "sketch8",
+        "id": "10638a4c-e887-4b39-83d5-91d31f4ec057",
+        "script": "bounds: makeBounds(-4,28,-4,28)"
+      },
+      {
+        "screen": 9,
+        "screenTitle": "결과 확인하기",
+        "type": "input/graph",
+        "alias": "graph9",
+        "id": "53f74dc5-4bdd-4cd6-9e8f-aaa99ff18567",
+        "script": "readOnly: true\n\nbounds: sketch8.bounds\nbackground: sketchLayer(sketch8.sketch.setColor(rgb(187,187,187)))\n\nnumber(\"h_1\"): firstDefinedValue(table6.cellNumericValue(1,2),0)\nnumber(\"h_2\"): firstDefinedValue(table6.cellNumericValue(2,2),0)\n\nnumber(\"t_p\"): button9.timeSincePress\n\nnumberList(\"X_{12}\"): sketchYValues(sketch8.sketch,12)"
+      },
+      {
+        "screen": 9,
+        "screenTitle": "결과 확인하기",
+        "type": "exhibit/text",
+        "alias": null,
+        "id": "dc56ed8c-ebc5-432c-a4dd-0b28ded68517",
+        "script": "messageWithSketch = \"이전 화면에서 그린 배로의 일조량 그래프가 표시되어 있습니다.\n\n<정답 확인> 버튼을 클릭해 정답을 확인하세요.\"\n\nmessageWithoutSketch = \"<정답 확인> 버튼을 클릭해 정답을 확인하세요.\"\n\nsketchPresent = graph9.number(\"x_{12}\") = graph9.number(\"x_{12}\")\n\ncontent: when sketchPresent \"${messageWithSketch}\" otherwise \"${messageWithoutSketch}\""
+      },
+      {
+        "screen": 9,
+        "screenTitle": "결과 확인하기",
+        "type": "action-button",
+        "alias": "button9",
+        "id": "e5eb3697-f800-4cc4-ad0a-878c964ee9bb",
+        "script": "disabled: button9.pressCount > 0"
+      },
+      {
+        "screen": 10,
+        "screenTitle": "그래프 해석하기",
+        "type": "input/graph",
+        "alias": "graph10",
+        "id": "a8fe1438-44fc-4931-a52b-1f4bbd981606",
+        "script": "readOnly: true"
+      }
+    ]
+  },
+  "activityJson": {
+    "customLesson": {
+      "_id": "5f6d374e7a3b802b45e2d66c",
+      "version": 1,
+      "steps": [
+        {
+          "type": "two-column",
+          "id": "e9ce456a-e626-4151-bf16-b010b8b9f428",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/image": {
+                          "alt": "",
+                          "img": "https://uploads.desmos.com/activitybuilder/914f87122fcfda7e9e51399fd3156fc7",
+                          "id": "b5150a2b-3a9e-4d57-a676-2611a172aed2"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Fairbanks is a city in Alaska. It's one of the northernmost cities in the United States.\n\nMiami is a city in Florida. It's one of the southernmost cities in the United States.\n\nWhich city do you think has more total hours of daylight during an entire year?\n\n(Note: Daylight is the time between sunrise and sunset, regardless of that day's weather.)",
+                          "id": "414f7749-a084-4c50-8fe4-164c767ae00a",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"페어뱅크스는 알래스카주의 도시이며, 미국에서 가장 북쪽에 있는 도시 중 하나입니다.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"마이애미는 플로리다주의 도시이며, 미국에서 가장 남쪽에 있는 도시 중 하나입니다.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"페어뱅크스와 마이애미 중 1년 동안 일조 시간이 더 긴 도시는 어느 도시일까요?\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"참고: 일조 시간이란 날씨에 상관 없이 해가 뜰 때부터 질 때까지의 시간을 의미합니다.\"}]}]}"
+                        }
+                      },
+                      {
+                        "multiple-choice": {
+                          "id": "f5ccf86a-4919-41c7-9d1e-2cb00736dd76",
+                          "choices": {
+                            "56ab04f9-895d-42b0-901d-68bea467d13a": {
+                              "id": "56ab04f9-895d-42b0-901d-68bea467d13a",
+                              "text": "페어뱅크스"
+                            },
+                            "2ef74eac-b531-483c-9dbb-1bee9db81b60": {
+                              "id": "2ef74eac-b531-483c-9dbb-1bee9db81b60",
+                              "text": "마이애미"
+                            }
+                          },
+                          "choiceIds": [
+                            "56ab04f9-895d-42b0-901d-68bea467d13a",
+                            "2ef74eac-b531-483c-9dbb-1bee9db81b60"
+                          ],
+                          "multipleChoiceType": "simple",
+                          "showPeerResponses": true,
+                          "showExplanation": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "페어뱅크스와 마이애미",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생들과 공유해 주세요. 먼저 자유롭게 추론하는 시간을 갖고, 학생이 공식적인 수학 용어를 사용해 추론할 수 있도록 해 주세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "45ec3790-26bd-484c-a961-b696bbb02aa7",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "5005bb93-48e1-4cab-944f-1e68110d69a1",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -3.7306761713973517,
+                                "ymin": -2.791003460207616,
+                                "xmax": 26.38697088742618,
+                                "ymax": 27.326643598615917
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 8,
+                              "xAxisLabel": "시기 (월)",
+                              "yAxisLabel": "평균 일조량 (시간)",
+                              "squareAxes": false
+                            },
+                            "randomSeed": "2a312b76ebd8eedd09b000a7087c9dd6",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "8",
+                                  "title": "데이터",
+                                  "collapsed": true,
+                                  "secret": true
+                                },
+                                {
+                                  "id": "16",
+                                  "type": "table",
+                                  "folderId": "8",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6",
+                                        "7",
+                                        "8",
+                                        "9",
+                                        "10",
+                                        "11",
+                                        "12",
+                                        "13",
+                                        "14",
+                                        "15",
+                                        "16",
+                                        "17",
+                                        "18",
+                                        "19",
+                                        "20",
+                                        "21",
+                                        "22",
+                                        "23",
+                                        "24"
+                                      ],
+                                      "hidden": true,
+                                      "id": "17",
+                                      "color": "#c74440",
+                                      "latex": "x_{1}"
+                                    },
+                                    {
+                                      "values": [
+                                        "4.0333",
+                                        "6.95",
+                                        "10.1167",
+                                        "13.6",
+                                        "17.0333",
+                                        "20.55",
+                                        "21.4",
+                                        "18.1667",
+                                        "14.6333",
+                                        "11.3167",
+                                        "7.85",
+                                        "4.7167",
+                                        "4.0167",
+                                        "6.9333",
+                                        "10.2",
+                                        "13.6833",
+                                        "17.1167",
+                                        "20.6333",
+                                        "21.35",
+                                        "18.0833",
+                                        "14.55",
+                                        "11.2333",
+                                        "7.7667",
+                                        "4.65"
+                                      ],
+                                      "id": "18",
+                                      "color": "#6042a6",
+                                      "latex": "y_{1}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "22",
+                                  "type": "table",
+                                  "folderId": "8",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6",
+                                        "7",
+                                        "8",
+                                        "9",
+                                        "10",
+                                        "11",
+                                        "12",
+                                        "13",
+                                        "14",
+                                        "15",
+                                        "16",
+                                        "17",
+                                        "18",
+                                        "19",
+                                        "20",
+                                        "21",
+                                        "22",
+                                        "23",
+                                        "24"
+                                      ],
+                                      "hidden": true,
+                                      "id": "23",
+                                      "color": "#2d70b3",
+                                      "latex": "x_{2}"
+                                    },
+                                    {
+                                      "values": [
+                                        "10.5667",
+                                        "11",
+                                        "11.6333",
+                                        "12.4167",
+                                        "13.1333",
+                                        "13.65",
+                                        "13.7167",
+                                        "13.3333",
+                                        "12.65",
+                                        "11.9167",
+                                        "11.1667",
+                                        "10.65",
+                                        "10.5667",
+                                        "10.9833",
+                                        "11.65",
+                                        "12.4333",
+                                        "13.15",
+                                        "13.65",
+                                        "13.7167",
+                                        "13.3167",
+                                        "12.6333",
+                                        "11.9",
+                                        "11.15",
+                                        "10.65"
+                                      ],
+                                      "id": "24",
+                                      "color": "#fa7e19",
+                                      "latex": "y_{2}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "1",
+                                  "color": "#c74440",
+                                  "parametricDomain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  },
+                                  "domain": {
+                                    "min": "0",
+                                    "max": "1"
+                                  }
+                                }
+                              ]
+                            }
+                          },
+                          "exhibitMode": true,
+                          "img": "https://uploads.desmos.com/activitybuilder/b85589294bcf4af7c52ba0a9764e5832",
+                          "script": "readOnly: true",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "The graph here shows the number of hours of daylight on the first day of each month for 2015 and 2016.\n\nWhich graph represents Miami, Florida?",
+                          "id": "7c9425cf-30bb-4b71-961f-ed9036180248",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"2015년과 2016년의 각각의 월별 평균 일조 시간을 표시한 그래프입니다. (원점: 2015년 1월, 24: 2016년 12월)\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"어떤 그래프가 마이애미의 일조량 그래프일까요?\"}]},{\"type\":\"paragraph\"}]}"
+                        }
+                      },
+                      {
+                        "multiple-choice": {
+                          "id": "bb2c7205-f5cb-4fcb-8ea5-daf934cfaecf",
+                          "choices": {
+                            "faeeae82-18ee-46cd-a00e-20371fbfbb00": {
+                              "id": "faeeae82-18ee-46cd-a00e-20371fbfbb00",
+                              "text": "오렌지색 그래프"
+                            },
+                            "8abe395a-4ff3-47f7-ac22-bd10ef2582c5": {
+                              "id": "8abe395a-4ff3-47f7-ac22-bd10ef2582c5",
+                              "text": "보라색 그래프"
+                            }
+                          },
+                          "choiceIds": [
+                            "faeeae82-18ee-46cd-a00e-20371fbfbb00",
+                            "8abe395a-4ff3-47f7-ac22-bd10ef2582c5"
+                          ],
+                          "multipleChoiceType": "simple",
+                          "showPeerResponses": true,
+                          "alias": "mc1",
+                          "answerKey": {
+                            "choiceIds": {
+                              "faeeae82-18ee-46cd-a00e-20371fbfbb00": true
+                            }
+                          },
+                          "showExplanation": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "어떤 도시의 그래프일까요?",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이 화면에서 학생의 답변을 비교해 보세요. 지금은 학생마다 의견이 달라도 괜찮습니다. 액티비티를 진행하면서 학생이 의견을 조율하도록 할 것입니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "오렌지색 그래프가 마이애미의 일조량 그래프입니다. 마이애미는 적도에 가깝기 때문에 알래스카보다 일조량 변화가 적습니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "331ae9f6-e727-4e7b-8ed9-624ddd445b9b",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "3e9f3eb1-9355-4313-808d-9d6c448e11e9",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4,
+                                "ymin": -4,
+                                "xmax": 28,
+                                "ymax": 28
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 8,
+                              "xAxisLabel": "시기 (월)",
+                              "yAxisLabel": "평균 일조량 (시간)",
+                              "squareAxes": false
+                            },
+                            "randomSeed": "9a42cbb27f2e41a0b15eaa6e7b620cc8",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "8",
+                                  "title": "데이터",
+                                  "collapsed": true
+                                },
+                                {
+                                  "id": "16",
+                                  "type": "table",
+                                  "folderId": "8",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6",
+                                        "7",
+                                        "8",
+                                        "9",
+                                        "10",
+                                        "11",
+                                        "12",
+                                        "13",
+                                        "14",
+                                        "15",
+                                        "16",
+                                        "17",
+                                        "18",
+                                        "19",
+                                        "20",
+                                        "21",
+                                        "22",
+                                        "23",
+                                        "24"
+                                      ],
+                                      "hidden": true,
+                                      "id": "17",
+                                      "color": "#c74440",
+                                      "latex": "x_{1}"
+                                    },
+                                    {
+                                      "values": [
+                                        "4.0333",
+                                        "6.95",
+                                        "10.1167",
+                                        "13.6",
+                                        "17.0333",
+                                        "20.55",
+                                        "21.4",
+                                        "18.1667",
+                                        "14.6333",
+                                        "11.3167",
+                                        "7.85",
+                                        "4.7167",
+                                        "4.0167",
+                                        "6.9333",
+                                        "10.2",
+                                        "13.6833",
+                                        "17.1167",
+                                        "20.6333",
+                                        "21.35",
+                                        "18.0833",
+                                        "14.55",
+                                        "11.2333",
+                                        "7.7667",
+                                        "4.65"
+                                      ],
+                                      "hidden": true,
+                                      "id": "18",
+                                      "color": "#6042a6",
+                                      "latex": "y_{1}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "22",
+                                  "type": "table",
+                                  "folderId": "8",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6",
+                                        "7",
+                                        "8",
+                                        "9",
+                                        "10",
+                                        "11",
+                                        "12",
+                                        "13",
+                                        "14",
+                                        "15",
+                                        "16",
+                                        "17",
+                                        "18",
+                                        "19",
+                                        "20",
+                                        "21",
+                                        "22",
+                                        "23",
+                                        "24"
+                                      ],
+                                      "hidden": true,
+                                      "id": "23",
+                                      "color": "#2d70b3",
+                                      "latex": "x_{2}"
+                                    },
+                                    {
+                                      "values": [
+                                        "10.5667",
+                                        "11",
+                                        "11.6333",
+                                        "12.4167",
+                                        "13.1333",
+                                        "13.65",
+                                        "13.7167",
+                                        "13.3333",
+                                        "12.65",
+                                        "11.9167",
+                                        "11.1667",
+                                        "10.65",
+                                        "10.5667",
+                                        "10.9833",
+                                        "11.65",
+                                        "12.4333",
+                                        "13.15",
+                                        "13.65",
+                                        "13.7167",
+                                        "13.3167",
+                                        "12.6333",
+                                        "11.9",
+                                        "11.15",
+                                        "10.65"
+                                      ],
+                                      "id": "24",
+                                      "color": "#fa7e19",
+                                      "latex": "y_{2}"
+                                    },
+                                    {
+                                      "values": [
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        "",
+                                        ""
+                                      ],
+                                      "id": "169",
+                                      "color": "#000000",
+                                      "latex": "e_{2}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "161",
+                                  "color": "#fa7e19",
+                                  "latex": "y=f\\left(x\\right)"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "165",
+                                  "title": "정확성 확인",
+                                  "collapsed": true
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "171",
+                                  "folderId": "165",
+                                  "text": "잔차 목록 (실제 - 예측)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "172",
+                                  "folderId": "165",
+                                  "color": "#2d70b3",
+                                  "latex": "R=y_2-f\\left(x_2\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "173",
+                                  "folderId": "165",
+                                  "color": "#388c46",
+                                  "latex": "I=\\left\\{\\operatorname{total}\\left(\\left|R\\right|\\right)<10:1,0\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "657",
+                                  "title": "정확성 확인 (6번 화면)",
+                                  "collapsed": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "654",
+                                  "folderId": "657",
+                                  "color": "#388c46",
+                                  "latex": "c_1\\left(x\\right)=12.15+1.6\\cos\\left(\\frac{2\\pi}{12}\\left(x-6.7\\right)\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "658",
+                                  "folderId": "657",
+                                  "color": "#000000",
+                                  "latex": "c_2\\left(x\\right)=12.7+8.8\\cos\\left(\\frac{2\\pi}{12}\\left(x-6.7\\right)\\right)",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "659",
+                                  "folderId": "657",
+                                  "color": "#c74440",
+                                  "latex": "a_1=30\\cdot\\int_0^{12}c_1\\left(x\\right)dx",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "660",
+                                  "folderId": "657",
+                                  "color": "#2d70b3",
+                                  "latex": "a_2=30\\cdot\\int_0^{12}c_2\\left(x\\right)dx",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "661",
+                                  "folderId": "657",
+                                  "color": "#388c46",
+                                  "latex": "I_1=\\left\\{\\left|v_1-a_1\\right|<0.05\\cdot a_1\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "662",
+                                  "folderId": "657",
+                                  "color": "#fa7e19",
+                                  "latex": "I_2=\\left\\{\\left|v_2-a_2\\right|<0.05\\cdot a_2\\right\\}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "663",
+                                  "folderId": "657",
+                                  "color": "#6042a6",
+                                  "latex": "I_{c6}=I_1\\cdot I_2"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "655",
+                                  "color": "#fa7e19"
+                                }
+                              ]
+                            }
+                          },
+                          "exhibitMode": true,
+                          "img": "https://uploads.desmos.com/activitybuilder/e02076952a1b8f9212fbbbd84a9076bc",
+                          "script": "function(\"f\"): simpleFunction(equation1.latex)\n\nnumber(\"v_1\"): table6.cellNumericValue(1,2)\nnumber(\"v_2\"): table6.cellNumericValue(2,2)\n\nreadOnly: true",
+                          "alias": "graph3",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Right on! The orange graph represents hours of daylight in Miami!\n\nWrite an equation to represent the number of hours of daylight as a function of time (in months) for Miami.",
+                          "id": "22b32318-79f9-417a-9a1d-a6b9289d2163",
+                          "script": "a = mc1.isSelected(1)\nb = mc1.isSelected(2)\n\n\ncontent: \nwhen a\n\"맞습니다. 마이애미의 일조량 그래프는 오렌지색 그래프입니다!\n\n방정식을 입력해 마이애미의 일조량 그래프를 함수로 나타내 주세요.\"\n\nwhen b\n\"마이애미의 일조량 그래프가 보라색 그래프라고 답변했습니다.\n\n하지만 사실 마이애미의 일조량 그래프는 바로 오렌지색 그래프입니다! \n\n마이애미는 적도에 가까워 일조량의 변화가 크지 않습니다.\n\n방정식을 입력해 마이애미의 일조량 그래프를 함수로 나타내 주세요.\"\n\notherwise\n\"마이애미의 일조량 그래프는 오렌지색 그래프입니다. \n\n마이애미는 적도에 가까워 일조량의 변화가 크지 않습니다.\n\n방정식을 입력해 마이애미의 일조량 그래프를 함수로 나타내 주세요.\"\n",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"마이애미의 일조량 그래프는 바로 오렌지색 그래프입니다!\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"방정식을 입력해 마이애미의 일조량 그래프를 함수로 나타내 주세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/expression": {
+                          "showPeerResponses": true,
+                          "id": "bb271e02-deaf-45e6-b95f-b247d1504753",
+                          "alias": "equation1",
+                          "script": "correct: graph3.number(\"I\") = 1"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "분석용 함수 만들기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생의 진행 상황을 점검하기 좋은 화면입니다. 도움이 필요한 학생을 개인적으로 도와주거나, 많은 학생들이 어려워한다면 간단하게 교실 토론을 진행해 보세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=12.15+1.6\\cos\\left(\\frac{2\\pi}{12}\\left(x-6.7\\right)\\right)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "참고: 학생의 답변이 예시 답변만큼 정확할 필요는 없습니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "c257fe8b-4160-4912-81aa-3815e3b8c73a",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "id": "949a03d7-fc19-4400-b1f3-13a513074c11",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4,
+                                "ymin": -4,
+                                "xmax": 28,
+                                "ymax": 28
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 8,
+                              "xAxisLabel": "시기 (월)",
+                              "yAxisLabel": "평균 일조량 (시간)",
+                              "squareAxes": false
+                            },
+                            "randomSeed": "9605901aa115e402c170df4baa2f775b",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "8",
+                                  "title": "데이터",
+                                  "collapsed": true
+                                },
+                                {
+                                  "id": "16",
+                                  "type": "table",
+                                  "folderId": "8",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6",
+                                        "7",
+                                        "8",
+                                        "9",
+                                        "10",
+                                        "11",
+                                        "12",
+                                        "13",
+                                        "14",
+                                        "15",
+                                        "16",
+                                        "17",
+                                        "18",
+                                        "19",
+                                        "20",
+                                        "21",
+                                        "22",
+                                        "23",
+                                        "24"
+                                      ],
+                                      "hidden": true,
+                                      "id": "17",
+                                      "color": "#c74440",
+                                      "latex": "x_{1}"
+                                    },
+                                    {
+                                      "values": [
+                                        "4.0333",
+                                        "6.95",
+                                        "10.1167",
+                                        "13.6",
+                                        "17.0333",
+                                        "20.55",
+                                        "21.4",
+                                        "18.1667",
+                                        "14.6333",
+                                        "11.3167",
+                                        "7.85",
+                                        "4.7167",
+                                        "4.0167",
+                                        "6.9333",
+                                        "10.2",
+                                        "13.6833",
+                                        "17.1167",
+                                        "20.6333",
+                                        "21.35",
+                                        "18.0833",
+                                        "14.55",
+                                        "11.2333",
+                                        "7.7667",
+                                        "4.65"
+                                      ],
+                                      "id": "18",
+                                      "color": "#6042a6",
+                                      "latex": "y_{1}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "22",
+                                  "type": "table",
+                                  "folderId": "8",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6",
+                                        "7",
+                                        "8",
+                                        "9",
+                                        "10",
+                                        "11",
+                                        "12",
+                                        "13",
+                                        "14",
+                                        "15",
+                                        "16",
+                                        "17",
+                                        "18",
+                                        "19",
+                                        "20",
+                                        "21",
+                                        "22",
+                                        "23",
+                                        "24"
+                                      ],
+                                      "hidden": true,
+                                      "id": "23",
+                                      "color": "#2d70b3",
+                                      "latex": "x_{2}"
+                                    },
+                                    {
+                                      "values": [
+                                        "10.5667",
+                                        "11",
+                                        "11.6333",
+                                        "12.4167",
+                                        "13.1333",
+                                        "13.65",
+                                        "13.7167",
+                                        "13.3333",
+                                        "12.65",
+                                        "11.9167",
+                                        "11.1667",
+                                        "10.65",
+                                        "10.5667",
+                                        "10.9833",
+                                        "11.65",
+                                        "12.4333",
+                                        "13.15",
+                                        "13.65",
+                                        "13.7167",
+                                        "13.3167",
+                                        "12.6333",
+                                        "11.9",
+                                        "11.15",
+                                        "10.65"
+                                      ],
+                                      "hidden": true,
+                                      "id": "24",
+                                      "color": "#fa7e19",
+                                      "latex": "y_{2}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "161",
+                                  "color": "#6042a6",
+                                  "latex": "y=g\\left(x\\right)"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "180",
+                                  "title": "정확성 확인",
+                                  "collapsed": true
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "184",
+                                  "folderId": "180",
+                                  "text": "잔차 목록 (실제 - 예측)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "182",
+                                  "folderId": "180",
+                                  "color": "#6042a6",
+                                  "latex": "R=y_1-g\\left(x_1\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "183",
+                                  "folderId": "180",
+                                  "color": "#000000",
+                                  "latex": "I=\\left\\{\\operatorname{total}\\left(\\left|R\\right|\\right)<40:1,0\\right\\}",
+                                  "hidden": true
+                                }
+                              ]
+                            }
+                          },
+                          "exhibitMode": true,
+                          "img": "https://uploads.desmos.com/activitybuilder/8da374c9d3c724c6615c34f396d70865",
+                          "script": "function(\"f\") : simpleFunction(equation1.latex)\nfunction(\"g\") : simpleFunction(equation2.latex)\n\nreadOnly: true",
+                          "alias": "graph4",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "The purple graph represents hours of daylight in Fairbanks!\n\nWrite an equation to represent the number of hours of daylight as a function of time (in months) for Fairbanks.",
+                          "id": "3863bc78-c024-45a1-b6cd-f563c08b2851",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"페어뱅크스의 일조량 그래프는 보라색 그래프입니다!\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"방정식을 입력해 페어뱅크스의 일조량 그래프를 함수로 나타내 주세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/expression": {
+                          "showPeerResponses": true,
+                          "id": "946e24d9-f889-4c76-9fd0-dd7e944dd8ad",
+                          "alias": "equation2",
+                          "script": "correct: graph4.number(\"I\") = 1"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "분석용 함수 만들기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "이 화면을 통해 학생이 매개변수와 함수 간의 관계를 이해할 수 있도록 해 주세요. 어떤 것이 동일한가요? (예시: 주기 및 중선) 어떤 것이 변하나요? (예시: 진폭)"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "간단한 삼각함수로는 일조량 그래프를 그리기 어렵습니다. 학생이 최대한 정확한 그래프를 그릴 수 있도록 지도해 주세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=12.7+8.8\\cos\\left(\\frac{2\\pi}{12}\\left(x-6.7\\right)\\right)"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "참고: 학생의 답변이 예시 답변만큼 정확할 필요는 없습니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "668d26a7-c167-43dd-bdba-1f4b5e96e1d6",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "sketch": {
+                          "version": 2,
+                          "background": {
+                            "id": "graph",
+                            "type": "graph",
+                            "img": "/img/activitybuilder/graph.png"
+                          },
+                          "id": "baa3d688-a78b-4304-860a-b0b17105cd0c",
+                          "img": "https://uploads.desmos.com/activitybuilder/ff295a6cc0e2d93d528814c67d2de962",
+                          "script": "studentFunctionf = simpleFunction(equation1.latex)\nstudentFunctiong = simpleFunction(equation2.latex)\n\ndefaultFunction = simpleFunction(\"0x+100\")\n\nfunction(\"f\"): firstDefinedValue(studentFunctionf, defaultFunction)\nfunction(\"g\"): firstDefinedValue(studentFunctiong, defaultFunction)\n\nreadOnly: true",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4,
+                                "ymin": -4,
+                                "xmax": 28,
+                                "ymax": 28
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 8,
+                              "xAxisLabel": "시기 (월)",
+                              "yAxisLabel": "평균 일조량 (시간)",
+                              "squareAxes": false
+                            },
+                            "randomSeed": "af96cb22e1d9483d9f0091e8f5dfbb67",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "8",
+                                  "title": "데이터",
+                                  "collapsed": true
+                                },
+                                {
+                                  "id": "16",
+                                  "type": "table",
+                                  "folderId": "8",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6",
+                                        "7",
+                                        "8",
+                                        "9",
+                                        "10",
+                                        "11",
+                                        "12",
+                                        "13",
+                                        "14",
+                                        "15",
+                                        "16",
+                                        "17",
+                                        "18",
+                                        "19",
+                                        "20",
+                                        "21",
+                                        "22",
+                                        "23",
+                                        "24"
+                                      ],
+                                      "hidden": true,
+                                      "id": "17",
+                                      "color": "#c74440",
+                                      "latex": "x_{1}"
+                                    },
+                                    {
+                                      "values": [
+                                        "4.0333",
+                                        "6.95",
+                                        "10.1167",
+                                        "13.6",
+                                        "17.0333",
+                                        "20.55",
+                                        "21.4",
+                                        "18.1667",
+                                        "14.6333",
+                                        "11.3167",
+                                        "7.85",
+                                        "4.7167",
+                                        "4.0167",
+                                        "6.9333",
+                                        "10.2",
+                                        "13.6833",
+                                        "17.1167",
+                                        "20.6333",
+                                        "21.35",
+                                        "18.0833",
+                                        "14.55",
+                                        "11.2333",
+                                        "7.7667",
+                                        "4.65"
+                                      ],
+                                      "hidden": true,
+                                      "id": "18",
+                                      "color": "#6042a6",
+                                      "latex": "y_{1}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "22",
+                                  "type": "table",
+                                  "folderId": "8",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6",
+                                        "7",
+                                        "8",
+                                        "9",
+                                        "10",
+                                        "11",
+                                        "12",
+                                        "13",
+                                        "14",
+                                        "15",
+                                        "16",
+                                        "17",
+                                        "18",
+                                        "19",
+                                        "20",
+                                        "21",
+                                        "22",
+                                        "23",
+                                        "24"
+                                      ],
+                                      "hidden": true,
+                                      "id": "23",
+                                      "color": "#2d70b3",
+                                      "latex": "x_{2}"
+                                    },
+                                    {
+                                      "values": [
+                                        "10.5667",
+                                        "11",
+                                        "11.6333",
+                                        "12.4167",
+                                        "13.1333",
+                                        "13.65",
+                                        "13.7167",
+                                        "13.3333",
+                                        "12.65",
+                                        "11.9167",
+                                        "11.1667",
+                                        "10.65",
+                                        "10.5667",
+                                        "10.9833",
+                                        "11.65",
+                                        "12.4333",
+                                        "13.15",
+                                        "13.65",
+                                        "13.7167",
+                                        "13.3167",
+                                        "12.6333",
+                                        "11.9",
+                                        "11.15",
+                                        "10.65"
+                                      ],
+                                      "hidden": true,
+                                      "id": "24",
+                                      "color": "#fa7e19",
+                                      "latex": "y_{2}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "631",
+                                  "color": "#fa7e19",
+                                  "latex": "y=f\\left(x\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "161",
+                                  "color": "#6042a6",
+                                  "latex": "y=g\\left(x\\right)"
+                                }
+                              ]
+                            }
+                          },
+                          "enabledTools": {
+                            "points": false,
+                            "line": true,
+                            "pencil": true,
+                            "math": true,
+                            "text": true
+                          },
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Here are the functions you plotted on the previous screens. \n\nHow are they similar to one another, and how are they different?\n\nUse the sketch tool if that helps to illustrate your thinking.",
+                          "id": "0de5d948-531d-452e-adaa-f429636363c0",
+                          "script": "message = \"   이전 화면에서 그린 함수의 그래프가 표시되어 있습니다.\n\n두 함수의 차이점과 공통점은 무엇인가요?\n\n필요하다면 그림판을 이용해 답변을 설명해 보세요.\"\n\nwarning1 = \"3번 화면에서 방정식을 입력하세요.\"\nwarning2 = \"4번 화면에서 방정식을 입력하세요.\"\nwarning3 = \"3-4번 화면에서 방정식을 입력하세요.\"\n\nmissingEquation1 = isBlank(equation1.latex)\nmissingEquation2 = isBlank(equation2.latex)\n\ncontent:\n\twhen missingEquation1 and missingEquation2 \"${warning3}\"\n    when missingEquation1 \"${warning1}\"\n    when missingEquation2 \"${warning2}\"\n    otherwise \"${message}\"\n    \n ",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이전 화면에서 그린 함수의 그래프가 표시되어 있습니다.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"두 함수의 차이점과 공통점은 무엇인가요?\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"필요하다면 그림판을 이용해 답변을 설명해 보세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "b1adfdd1-4b31-4bcb-8bef-08b719d169fb",
+                          "alias": "",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "비교 및 대조하기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생과 공유해 주세요. 먼저 자유롭게 추론하는 시간을 갖고, 학생이 공식적인 수학 용어를 사용해 추론할 수 있도록 해 주세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "86324a0e-49bb-4289-a48f-8ece2e3cb73e",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "sketch": {
+                          "version": 2,
+                          "background": {
+                            "id": "graph",
+                            "type": "graph",
+                            "img": "/img/activitybuilder/graph.png"
+                          },
+                          "id": "693ff346-7b54-4c3f-927d-1fd4370cccc0",
+                          "img": "https://uploads.desmos.com/activitybuilder/ff295a6cc0e2d93d528814c67d2de962",
+                          "script": "studentFunctionf = simpleFunction(equation1.latex)\nstudentFunctiong = simpleFunction(equation2.latex)\n\ndefaultFunction = simpleFunction(\"0x+100\")\n\nfunction(\"f\"): firstDefinedValue(studentFunctionf, defaultFunction)\nfunction(\"g\"): firstDefinedValue(studentFunctiong, defaultFunction)\n\nreadOnly: true",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4,
+                                "ymin": -4,
+                                "xmax": 28,
+                                "ymax": 28
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 8,
+                              "xAxisLabel": "시기 (월)",
+                              "yAxisLabel": "평균 일조량 (시간)",
+                              "squareAxes": false
+                            },
+                            "randomSeed": "b2ae6458da1b35e9274b35f67ee86bbc",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "8",
+                                  "title": "데이터",
+                                  "collapsed": true
+                                },
+                                {
+                                  "id": "16",
+                                  "type": "table",
+                                  "folderId": "8",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6",
+                                        "7",
+                                        "8",
+                                        "9",
+                                        "10",
+                                        "11",
+                                        "12",
+                                        "13",
+                                        "14",
+                                        "15",
+                                        "16",
+                                        "17",
+                                        "18",
+                                        "19",
+                                        "20",
+                                        "21",
+                                        "22",
+                                        "23",
+                                        "24"
+                                      ],
+                                      "hidden": true,
+                                      "id": "17",
+                                      "color": "#c74440",
+                                      "latex": "x_{1}"
+                                    },
+                                    {
+                                      "values": [
+                                        "4.0333",
+                                        "6.95",
+                                        "10.1167",
+                                        "13.6",
+                                        "17.0333",
+                                        "20.55",
+                                        "21.4",
+                                        "18.1667",
+                                        "14.6333",
+                                        "11.3167",
+                                        "7.85",
+                                        "4.7167",
+                                        "4.0167",
+                                        "6.9333",
+                                        "10.2",
+                                        "13.6833",
+                                        "17.1167",
+                                        "20.6333",
+                                        "21.35",
+                                        "18.0833",
+                                        "14.55",
+                                        "11.2333",
+                                        "7.7667",
+                                        "4.65"
+                                      ],
+                                      "hidden": true,
+                                      "id": "18",
+                                      "color": "#6042a6",
+                                      "latex": "y_{1}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "22",
+                                  "type": "table",
+                                  "folderId": "8",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6",
+                                        "7",
+                                        "8",
+                                        "9",
+                                        "10",
+                                        "11",
+                                        "12",
+                                        "13",
+                                        "14",
+                                        "15",
+                                        "16",
+                                        "17",
+                                        "18",
+                                        "19",
+                                        "20",
+                                        "21",
+                                        "22",
+                                        "23",
+                                        "24"
+                                      ],
+                                      "hidden": true,
+                                      "id": "23",
+                                      "color": "#2d70b3",
+                                      "latex": "x_{2}"
+                                    },
+                                    {
+                                      "values": [
+                                        "10.5667",
+                                        "11",
+                                        "11.6333",
+                                        "12.4167",
+                                        "13.1333",
+                                        "13.65",
+                                        "13.7167",
+                                        "13.3333",
+                                        "12.65",
+                                        "11.9167",
+                                        "11.1667",
+                                        "10.65",
+                                        "10.5667",
+                                        "10.9833",
+                                        "11.65",
+                                        "12.4333",
+                                        "13.15",
+                                        "13.65",
+                                        "13.7167",
+                                        "13.3167",
+                                        "12.6333",
+                                        "11.9",
+                                        "11.15",
+                                        "10.65"
+                                      ],
+                                      "hidden": true,
+                                      "id": "24",
+                                      "color": "#fa7e19",
+                                      "latex": "y_{2}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "631",
+                                  "color": "#fa7e19",
+                                  "latex": "y=f\\left(x\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "161",
+                                  "color": "#6042a6",
+                                  "latex": "y=g\\left(x\\right)"
+                                }
+                              ]
+                            }
+                          },
+                          "enabledTools": {
+                            "points": false,
+                            "line": true,
+                            "pencil": true,
+                            "math": true,
+                            "text": true
+                          },
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Here are the equations you entered earlier:\n\nMiami: EQUATION1\nFairbanks: EQUATION2\n\nUse your graphs and functions to calculate the total number of hours of daylight each city received in 2016.\n\nEnter your answers in the table.\n\nUse the sketch tool if that helps to illustrate your thinking.",
+                          "id": "e0602d19-8f19-49f3-a01a-ce0cf2b9bb8e",
+                          "script": "#equation1 = \"`y=12.15+1.6\\\\cos \\\\left(\\\\frac{2\\\\pi }{12}\\\\left(x-6.7\\\\right)\\\\right)`\"\n#equation2 = \"`y=12.15+1.6\\\\cos \\\\left(\\\\frac{2\\\\pi }{12}\\\\left(x-6.7\\\\right)\\\\right)`\"\n\nmessage = \"이전 화면에서 입력한 방정식은 다음과 같습니다:\n\n마이애미: `${equation1.latex}`\n페어뱅크스: `${equation2.latex}`\n\n함수의 그래프를 이용해 마이애미와 페어뱅크스의 2016년 총 일조 시간을 계산하고 표에 답을 입력하세요.\n\n필요하다면 그림판을 이용해 답변을 설명해 보세요.\"\n\nwarning1 = \"3번 화면에서 방정식을 입력하세요.\"\nwarning2 = \"4번 화면에서 방정식을 입력하세요.\"\nwarning3 = \"3-4번 화면에서 방정식을 입력하세요.\"\n\n#warningX =\n#\twhen not(isBlank(equation1.latex)) and not(isBlank(equation2.latex)) \"${warning3}\"\n#\twhen not(isBlank(equation1.latex)) \"${warning1}\"\n#\twhen not(isBlank(equation2.latex)) \"${warning2}\"\n#    otherwise \"\"\n\nmissingEquation1 = isBlank(equation1.latex)\nmissingEquation2 = isBlank(equation2.latex)\n\ncontent:\n\twhen missingEquation1 and missingEquation2 \"${warning3}\"\n    when missingEquation1 \"${warning1}\"\n    when missingEquation2 \"${warning2}\"\n    otherwise \"${message}\"",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이전 화면에서 입력한 방정식은 다음과 같습니다:\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"마이애미: 1번 방정식\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"페어뱅크스: 2번 방정식\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"함수의 그래프를 이용해 마이애미와 페어뱅크스의 2016년 총 일조 시간을 계산하고 표에 답을 입력하세요.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"필요하다면 그림판을 이용해 답변을 설명해 보세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "table": {
+                          "rowIds": [
+                            "e0d28158-1ff1-40c9-82f0-24db54594e84",
+                            "23a8976a-0d4e-432a-b58e-a363fede4bfe",
+                            "fc4e9fa1-a887-4d71-a335-0e81ecd2f8f8"
+                          ],
+                          "rows": {
+                            "e0d28158-1ff1-40c9-82f0-24db54594e84": [
+                              "75f37df5-64ce-4336-aea9-aa9428a60744",
+                              "a164d283-a4c4-452f-a326-d6e8d83c2633"
+                            ],
+                            "23a8976a-0d4e-432a-b58e-a363fede4bfe": [
+                              "c1e9558c-f59d-499f-bb22-eb616e7275d0",
+                              "8e71853e-3ae3-4caa-a13e-6bd6cc5dcadc"
+                            ],
+                            "fc4e9fa1-a887-4d71-a335-0e81ecd2f8f8": [
+                              "d8f52287-779a-415b-9b20-1e15af53f9d8",
+                              "f936c1e9-bfce-4a87-86e2-f98d36eae3be"
+                            ]
+                          },
+                          "cells": {
+                            "75f37df5-64ce-4336-aea9-aa9428a60744": {
+                              "content": "도시"
+                            },
+                            "a164d283-a4c4-452f-a326-d6e8d83c2633": {
+                              "content": "일조 시간"
+                            },
+                            "c1e9558c-f59d-499f-bb22-eb616e7275d0": {
+                              "content": "마이애미"
+                            },
+                            "8e71853e-3ae3-4caa-a13e-6bd6cc5dcadc": {
+                              "content": ""
+                            },
+                            "d8f52287-779a-415b-9b20-1e15af53f9d8": {
+                              "content": "페어뱅크스"
+                            },
+                            "f936c1e9-bfce-4a87-86e2-f98d36eae3be": {
+                              "content": ""
+                            }
+                          },
+                          "columnTypes": [
+                            1,
+                            0
+                          ],
+                          "fullyEditable": false,
+                          "tableLayout": "vertical",
+                          "id": "06a7ea21-f110-43c2-b6af-4994bf41cf58",
+                          "alias": "table6",
+                          "script": "correct: graph3.number(\"I_{c6}\") = 1",
+                          "canAddRows": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "일조 시간 계산하기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "학생은 다양한 방식으로 이 문제를 풀 수 있습니다. 어떤 학생은 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "f"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "와 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "g"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "를 적분할 수도 있고, 다른 학생은 중선을 그려 문제를 풀 수도 있고, 또 다른 학생은 합계를 계산해 문제를 풀 수도 있습니다. 학생이 어떤 방법을 사용하더라도 정답은 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "4,400"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "시간이나 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "4,500"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "시간이 될 것입니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "2eb54435-1ea0-4d9a-9444-2f62feef3346",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "sketch": {
+                          "version": 2,
+                          "background": {
+                            "id": "graph",
+                            "type": "graph",
+                            "img": "/img/activitybuilder/graph.png"
+                          },
+                          "id": "a5df0c89-87a2-422f-9c79-c990b2ade1b7",
+                          "img": "https://uploads.desmos.com/activitybuilder/ff295a6cc0e2d93d528814c67d2de962",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4,
+                                "ymin": -4,
+                                "xmax": 28,
+                                "ymax": 28
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 8,
+                              "xAxisLabel": "시기 (월)",
+                              "yAxisLabel": "평균 일조량 (시간)",
+                              "squareAxes": false
+                            },
+                            "randomSeed": "16f683bb613e4a0a5d603c249f0d4573",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "8",
+                                  "title": "데이터",
+                                  "collapsed": true
+                                },
+                                {
+                                  "id": "16",
+                                  "type": "table",
+                                  "folderId": "8",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6",
+                                        "7",
+                                        "8",
+                                        "9",
+                                        "10",
+                                        "11",
+                                        "12",
+                                        "13",
+                                        "14",
+                                        "15",
+                                        "16",
+                                        "17",
+                                        "18",
+                                        "19",
+                                        "20",
+                                        "21",
+                                        "22",
+                                        "23",
+                                        "24"
+                                      ],
+                                      "hidden": true,
+                                      "id": "17",
+                                      "color": "#c74440",
+                                      "latex": "x_{1}"
+                                    },
+                                    {
+                                      "values": [
+                                        "4.0333",
+                                        "6.95",
+                                        "10.1167",
+                                        "13.6",
+                                        "17.0333",
+                                        "20.55",
+                                        "21.4",
+                                        "18.1667",
+                                        "14.6333",
+                                        "11.3167",
+                                        "7.85",
+                                        "4.7167",
+                                        "4.0167",
+                                        "6.9333",
+                                        "10.2",
+                                        "13.6833",
+                                        "17.1167",
+                                        "20.6333",
+                                        "21.35",
+                                        "18.0833",
+                                        "14.55",
+                                        "11.2333",
+                                        "7.7667",
+                                        "4.65"
+                                      ],
+                                      "hidden": true,
+                                      "id": "18",
+                                      "color": "#6042a6",
+                                      "latex": "y_{1}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "22",
+                                  "type": "table",
+                                  "folderId": "8",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6",
+                                        "7",
+                                        "8",
+                                        "9",
+                                        "10",
+                                        "11",
+                                        "12",
+                                        "13",
+                                        "14",
+                                        "15",
+                                        "16",
+                                        "17",
+                                        "18",
+                                        "19",
+                                        "20",
+                                        "21",
+                                        "22",
+                                        "23",
+                                        "24"
+                                      ],
+                                      "hidden": true,
+                                      "id": "23",
+                                      "color": "#2d70b3",
+                                      "latex": "x_{2}"
+                                    },
+                                    {
+                                      "values": [
+                                        "10.5667",
+                                        "11",
+                                        "11.6333",
+                                        "12.4167",
+                                        "13.1333",
+                                        "13.65",
+                                        "13.7167",
+                                        "13.3333",
+                                        "12.65",
+                                        "11.9167",
+                                        "11.1667",
+                                        "10.65",
+                                        "10.5667",
+                                        "10.9833",
+                                        "11.65",
+                                        "12.4333",
+                                        "13.15",
+                                        "13.65",
+                                        "13.7167",
+                                        "13.3167",
+                                        "12.6333",
+                                        "11.9",
+                                        "11.15",
+                                        "10.65"
+                                      ],
+                                      "hidden": true,
+                                      "id": "24",
+                                      "color": "#fa7e19",
+                                      "latex": "y_{2}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "631",
+                                  "color": "#fa7e19",
+                                  "latex": "y=f\\left(x\\right)"
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "161",
+                                  "color": "#6042a6",
+                                  "latex": "y=g\\left(x\\right)"
+                                }
+                              ]
+                            }
+                          },
+                          "script": "studentFunctionf = simpleFunction(equation1.latex)\nstudentFunctiong = simpleFunction(equation2.latex)\n\ndefaultFunction = simpleFunction(\"0x+100\")\n\nfunction(\"f\"): firstDefinedValue(studentFunctionf, defaultFunction)\nfunction(\"g\"): firstDefinedValue(studentFunctiong, defaultFunction)\n\nreadOnly: true",
+                          "enabledTools": {
+                            "points": false,
+                            "line": true,
+                            "pencil": true,
+                            "math": true,
+                            "text": true
+                          },
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Here are your answers for the total number of hours of daylight each city received in 2016.\n\nMiami: TK hours\nFairbanks: TK hours\n\nDescribe the method you used to find those answers.\n\nUse the sketch tool if that helps to illustrate your thinking.",
+                          "id": "348b1147-0ae7-4dd5-90a6-ad1b5fb961a6",
+                          "script": "H1 = graph9.number(\"H_1\")\nH2 = graph9.number(\"H_2\")\n\nmiamiHours = when H1 = 1 \"마이애미: ${H1}시간\" when H1 > 0 \"마이애미: ${H1}시간\" otherwise \"\"\nfairbanksHours = when H2 = 1 \"페어뱅크스: ${H2}시간\" when H2 > 0 \"페어뱅크스: ${H2}시간\" otherwise \"\"\n\nmessage = \"이전 화면에서 답한 일조 시간은 다음과 같습니다:\n\n${miamiHours}\n${fairbanksHours}\n\n어떤 방법으로 일조 시간을 계산했는지 설명해 주세요.\n\n필요하다면 그림판을 이용해 답변을 설명해 보세요.\"\n\nwarning = \"6번 화면에서 일조 시간을 입력해 주세요.\"\n\ncontent: when H1 > 0 and H2 > 0 \"${message}\" otherwise \"${warning}\"",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이전 화면에서 답한 일조 시간은 다음과 같습니다:\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"마이애미: TK 시간\"}]},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"페어뱅크스: TK 시간\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"어떤 방법으로 일조 시간을 계산했는지 설명해 주세요.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"필요하다면 그림판을 이용해 답변을 설명해 보세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "82347e46-6e73-4566-bbaf-932a90ac0bd1",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "답변 기록하기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "일부 학생의 답변을 다른 학생과 공유해 주세요. 먼저 자유롭게 추론하는 시간을 갖고, 학생이 공식적인 수학 용어를 사용해 추론할 수 있도록 해 주세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "5630e2f1-e79f-428e-93fb-b594f2479822",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "sketch": {
+                          "version": 2,
+                          "background": {
+                            "id": "graph",
+                            "type": "graph",
+                            "img": "/img/activitybuilder/graph.png"
+                          },
+                          "id": "10638a4c-e887-4b39-83d5-91d31f4ec057",
+                          "alias": "sketch8",
+                          "img": "https://uploads.desmos.com/activitybuilder/499d00cd1ae439d21d3c3a46c3a4eaab",
+                          "script": "bounds: makeBounds(-4,28,-4,28)",
+                          "calculatorState": {
+                            "version": 8,
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4,
+                                "ymin": -4,
+                                "xmax": 28,
+                                "ymax": 28
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 8,
+                              "xAxisLabel": "시기 (월)",
+                              "yAxisLabel": "평균 일조량 (시간)",
+                              "squareAxes": false
+                            },
+                            "randomSeed": "9b58c5300b90d7fcd31e5f1b10fda82d",
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "487",
+                                  "title": "1번 세트",
+                                  "hidden": true,
+                                  "collapsed": true
+                                },
+                                {
+                                  "id": "489",
+                                  "type": "table",
+                                  "folderId": "487",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6",
+                                        "7",
+                                        "8",
+                                        "9",
+                                        "10",
+                                        "11",
+                                        "12",
+                                        "13",
+                                        "14",
+                                        "15",
+                                        "16",
+                                        "17",
+                                        "18",
+                                        "19",
+                                        "20",
+                                        "21",
+                                        "22",
+                                        "23",
+                                        "24"
+                                      ],
+                                      "hidden": true,
+                                      "id": "490",
+                                      "color": "#388c46",
+                                      "latex": "x_{1}"
+                                    },
+                                    {
+                                      "values": [
+                                        "4.0333",
+                                        "6.95",
+                                        "10.1167",
+                                        "13.6",
+                                        "17.0333",
+                                        "20.55",
+                                        "21.4",
+                                        "18.1667",
+                                        "14.6333",
+                                        "11.3167",
+                                        "7.85",
+                                        "4.7167",
+                                        "4.0167",
+                                        "6.9333",
+                                        "10.2",
+                                        "13.6833",
+                                        "17.1167",
+                                        "20.6333",
+                                        "21.35",
+                                        "18.0833",
+                                        "14.55",
+                                        "11.2333",
+                                        "7.7667",
+                                        "4.65"
+                                      ],
+                                      "id": "491",
+                                      "color": "#6042a6",
+                                      "latex": "y_{1}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "500",
+                                  "color": "#6042a6",
+                                  "latex": "y=12.7+8.8\\cos\\left(\\frac{2\\pi}{12}\\left(x-6.7\\right)\\right)",
+                                  "residualVariable": "e_{1}"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "493",
+                                  "title": "2번 세트",
+                                  "hidden": true,
+                                  "collapsed": true
+                                },
+                                {
+                                  "id": "495",
+                                  "type": "table",
+                                  "folderId": "493",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6",
+                                        "7",
+                                        "8",
+                                        "9",
+                                        "10",
+                                        "11",
+                                        "12",
+                                        "13",
+                                        "14",
+                                        "15",
+                                        "16",
+                                        "17",
+                                        "18",
+                                        "19",
+                                        "20",
+                                        "21",
+                                        "22",
+                                        "23",
+                                        "24"
+                                      ],
+                                      "hidden": true,
+                                      "id": "496",
+                                      "color": "#c74440",
+                                      "latex": "x_{2}"
+                                    },
+                                    {
+                                      "values": [
+                                        "10.5667",
+                                        "11",
+                                        "11.6333",
+                                        "12.4167",
+                                        "13.1333",
+                                        "13.65",
+                                        "13.7167",
+                                        "13.3333",
+                                        "12.6333",
+                                        "11.9167",
+                                        "10.65",
+                                        "10.5667",
+                                        "10.5667",
+                                        "10.9833",
+                                        "11.65",
+                                        "12.4333",
+                                        "13.15",
+                                        "13.65",
+                                        "13.7167",
+                                        "13.3167",
+                                        "12.6333",
+                                        "11.9",
+                                        "11.15",
+                                        "10.65"
+                                      ],
+                                      "id": "497",
+                                      "color": "#fa7e19",
+                                      "latex": "y_{2}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "501",
+                                  "color": "#fa7e19",
+                                  "latex": "y=12.15+1.6\\cos\\left(\\frac{2\\pi}{12}\\left(x-6.7\\right)\\right)",
+                                  "residualVariable": "e_{2}"
+                                }
+                              ]
+                            }
+                          },
+                          "enabledTools": {
+                            "points": false,
+                            "line": true,
+                            "pencil": true,
+                            "math": true,
+                            "text": true
+                          },
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Barrow, Alaska is the northernmost city in the United States.\n\nSketch what you think the graph of daylight hours looks like for Barrow.\n\nExplain your thinking.",
+                          "id": "de6e6e55-bcf3-42c3-9aba-7fbb417182c2",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"배로는 알래스카주의 도시로, 미국에서 가장 북쪽에 있는 도시입니다.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"배로의 일조량 그래프를 한 번 그려 보고, 왜 그렇게 그렸는지도 설명해 주세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "e9d27ec7-74da-4be6-ae37-1274d7e1febe",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "알래스카주 배로",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "수업 속도 조절 기능을 사용해 학생이 8~10번 화면을 한 번에 하나씩 완료할 수 있도록 해 주세요."
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "독특한 답변을 학생과 공유하고 학생이 자신의 답변을 설명하거나 다른 학생의 답변을 평가할 수 있도록 하세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "배로는 미국에서 가장 북쪽에 있는 도시이기 때문에 일조량 그래프의 변화가 페어뱅크스보다 더 크게 나타납니다. "
+                      }
+                    ]
+                  },
+                  {
+                    "type": "paragraph"
+                  },
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "평균 일조 시간이 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "0"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 미만이거나 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "24"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 이상일 수는 없기 때문에 함수는"
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=0"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": "과 "
+                      },
+                      {
+                        "type": "mq",
+                        "content": [
+                          {
+                            "type": "text",
+                            "text": "y=24"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "text",
+                        "text": " 사이에 있어야 합니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "b99a2e43-f6fb-47da-9d75-a01cfcc2b74b",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "exhibitMode": true,
+                          "id": "53f74dc5-4bdd-4cd6-9e8f-aaa99ff18567",
+                          "img": "https://uploads.desmos.com/activitybuilder/ff295a6cc0e2d93d528814c67d2de962",
+                          "script": "readOnly: true\n\nbounds: sketch8.bounds\nbackground: sketchLayer(sketch8.sketch.setColor(rgb(187,187,187)))\n\nnumber(\"h_1\"): firstDefinedValue(table6.cellNumericValue(1,2),0)\nnumber(\"h_2\"): firstDefinedValue(table6.cellNumericValue(2,2),0)\n\nnumber(\"t_p\"): button9.timeSincePress\n\nnumberList(\"X_{12}\"): sketchYValues(sketch8.sketch,12)",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "b4ce1de5cd8571b77f37d7f4b88f90a9",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4,
+                                "ymin": -4,
+                                "xmax": 28,
+                                "ymax": 28
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 8,
+                              "xAxisLabel": "시기 (월)",
+                              "yAxisLabel": "평균 일조량 (시간)",
+                              "squareAxes": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "664",
+                                  "title": "데이터",
+                                  "collapsed": true
+                                },
+                                {
+                                  "id": "666",
+                                  "type": "table",
+                                  "folderId": "664",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "0",
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6",
+                                        "7",
+                                        "8",
+                                        "9",
+                                        "10",
+                                        "11",
+                                        "12",
+                                        "13",
+                                        "14",
+                                        "15",
+                                        "16",
+                                        "17",
+                                        "18",
+                                        "19",
+                                        "20",
+                                        "21",
+                                        "22",
+                                        "23",
+                                        "24"
+                                      ],
+                                      "hidden": true,
+                                      "id": "667",
+                                      "color": "#2d70b3",
+                                      "latex": "x_{1}"
+                                    },
+                                    {
+                                      "values": [
+                                        "0",
+                                        "0",
+                                        "4.1833",
+                                        "9.35",
+                                        "14.2333",
+                                        "19.7333",
+                                        "24",
+                                        "24",
+                                        "24",
+                                        "15.7167",
+                                        "11.0333",
+                                        "5.8667",
+                                        "0",
+                                        "0",
+                                        "4.1167",
+                                        "9.4667",
+                                        "14.35",
+                                        "19.9333",
+                                        "24",
+                                        "24",
+                                        "24",
+                                        "15.5833",
+                                        "10.9167",
+                                        "5.7167",
+                                        "0"
+                                      ],
+                                      "hidden": true,
+                                      "id": "668",
+                                      "color": "#c74440",
+                                      "points": false,
+                                      "lines": true,
+                                      "latex": "y_{1}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "686",
+                                  "title": "반올림한 시간(7번 화면 참고)",
+                                  "collapsed": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "687",
+                                  "folderId": "686",
+                                  "color": "#fa7e19",
+                                  "latex": "H_1=\\frac{\\operatorname{round}\\left(10h_1\\right)}{10}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "688",
+                                  "folderId": "686",
+                                  "color": "#6042a6",
+                                  "latex": "H_2=\\frac{\\operatorname{round}\\left(10h_2\\right)}{10}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "691",
+                                  "title": "공개",
+                                  "collapsed": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "706",
+                                  "folderId": "691",
+                                  "color": "#c74440",
+                                  "latex": "\\left(x_1,y_1\\left\\{x_1\\le\\frac{24}{10}t_p\\right\\}\\left\\{t_p>0\\right\\}\\right)"
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "713",
+                                  "title": "그림이 x = 12를 지나나요?",
+                                  "collapsed": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "714",
+                                  "folderId": "713",
+                                  "color": "#fa7e19",
+                                  "latex": "x_{12}=\\operatorname{total}\\left(X_{12}\\right)",
+                                  "hidden": true
+                                }
+                              ]
+                            }
+                          },
+                          "alias": "graph9",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Here is your sketch for the number of daylight hours as a function of time (month of the year) for Barrow, Alaska.\n\nPress \"Show Answer\" to reveal the actual data.",
+                          "id": "dc56ed8c-ebc5-432c-a4dd-0b28ded68517",
+                          "script": "messageWithSketch = \"이전 화면에서 그린 배로의 일조량 그래프가 표시되어 있습니다.\n\n<정답 확인> 버튼을 클릭해 정답을 확인하세요.\"\n\nmessageWithoutSketch = \"<정답 확인> 버튼을 클릭해 정답을 확인하세요.\"\n\nsketchPresent = graph9.number(\"x_{12}\") = graph9.number(\"x_{12}\")\n\ncontent: when sketchPresent \"${messageWithSketch}\" otherwise \"${messageWithoutSketch}\"",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"이전 화면에서 그린 배로의 일조량 그래프가 표시되어 있습니다.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"<정답 확인> 버튼을 클릭해 정답을 확인하세요.\"}]}]}"
+                        }
+                      },
+                      {
+                        "action-button": {
+                          "label": "정답 확인",
+                          "id": "e5eb3697-f800-4cc4-ad0a-878c964ee9bb",
+                          "alias": "button9",
+                          "script": "disabled: button9.pressCount > 0"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "결과 확인하기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "10번 화면에서 그래프에 대해 학생과 토론해 주세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "type": "two-column",
+          "id": "8da1a786-8e62-4917-acd9-089feb8a86ac",
+          "root": {
+            "linearlayout": {
+              "mainType": "columns",
+              "components": [
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "input/graph": {
+                          "exhibitMode": true,
+                          "id": "a8fe1438-44fc-4931-a52b-1f4bbd981606",
+                          "img": "https://uploads.desmos.com/activitybuilder/7c9ed8fac9668b024603cd1d9d4b15d2",
+                          "script": "readOnly: true",
+                          "calculatorState": {
+                            "version": 9,
+                            "randomSeed": "a8736bca8f1f3970f1f58a7bf33cd0da",
+                            "graph": {
+                              "viewport": {
+                                "xmin": -4,
+                                "ymin": -4,
+                                "xmax": 28,
+                                "ymax": 28
+                              },
+                              "xAxisStep": 8,
+                              "yAxisStep": 8,
+                              "xAxisLabel": "시기 (월)",
+                              "yAxisLabel": "평균 일조량 (시간)",
+                              "squareAxes": false
+                            },
+                            "expressions": {
+                              "list": [
+                                {
+                                  "type": "folder",
+                                  "id": "664",
+                                  "title": "데이터",
+                                  "collapsed": true
+                                },
+                                {
+                                  "id": "666",
+                                  "type": "table",
+                                  "folderId": "664",
+                                  "columns": [
+                                    {
+                                      "values": [
+                                        "0",
+                                        "1",
+                                        "2",
+                                        "3",
+                                        "4",
+                                        "5",
+                                        "6",
+                                        "7",
+                                        "8",
+                                        "9",
+                                        "10",
+                                        "11",
+                                        "12",
+                                        "13",
+                                        "14",
+                                        "15",
+                                        "16",
+                                        "17",
+                                        "18",
+                                        "19",
+                                        "20",
+                                        "21",
+                                        "22",
+                                        "23",
+                                        "24"
+                                      ],
+                                      "hidden": true,
+                                      "id": "667",
+                                      "color": "#2d70b3",
+                                      "latex": "x_{1}"
+                                    },
+                                    {
+                                      "values": [
+                                        "0",
+                                        "0",
+                                        "4.1833",
+                                        "9.35",
+                                        "14.2333",
+                                        "19.7333",
+                                        "24",
+                                        "24",
+                                        "24",
+                                        "15.7167",
+                                        "11.0333",
+                                        "5.8667",
+                                        "0",
+                                        "0",
+                                        "4.1167",
+                                        "9.4667",
+                                        "14.35",
+                                        "19.9333",
+                                        "24",
+                                        "24",
+                                        "24",
+                                        "15.5833",
+                                        "10.9167",
+                                        "5.7167",
+                                        "0"
+                                      ],
+                                      "id": "668",
+                                      "color": "#c74440",
+                                      "latex": "y_{1}"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "folder",
+                                  "id": "686",
+                                  "title": "반올림한 시간(7번 화면 참고)",
+                                  "collapsed": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "687",
+                                  "folderId": "686",
+                                  "color": "#fa7e19",
+                                  "latex": "H_1=\\frac{\\operatorname{round}\\left(10h_1\\right)}{10}",
+                                  "hidden": true
+                                },
+                                {
+                                  "type": "expression",
+                                  "id": "688",
+                                  "folderId": "686",
+                                  "color": "#6042a6",
+                                  "latex": "H_2=\\frac{\\operatorname{round}\\left(10h_2\\right)}{10}",
+                                  "hidden": true
+                                }
+                              ]
+                            }
+                          },
+                          "alias": "graph10",
+                          "legacyActionsOverrideSinks": true
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "linearlayout": {
+                    "mainType": "rows",
+                    "components": [
+                      {
+                        "exhibit/text": {
+                          "text": "Here is the graph of daylight hours as a function of time (day of the year) for Barrow, Alaska.\n\nWhat do the horizontal pieces of the graph say about Barrow, AK?",
+                          "id": "21cc8799-eda4-4e0f-9f5d-ef41221e5640",
+                          "doc": "{\"type\":\"doc\",\"content\":[{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"배로의 일조량 그래프가 표시되어 있습니다.\"}]},{\"type\":\"paragraph\"},{\"type\":\"paragraph\",\"content\":[{\"type\":\"text\",\"text\":\"그래프의 수평축을 통해 알 수 있는 사실은 무엇인가요?\"}]}]}"
+                        }
+                      },
+                      {
+                        "input/text": {
+                          "showPeerResponses": true,
+                          "id": "ccd801dc-fa36-4423-b532-5d0d7ead03b8",
+                          "shouldShowUploadImageButton": true,
+                          "shouldShowUploadAudioButton": true,
+                          "shouldShowTypeMathButton": true,
+                          "shouldShowLargeBoxButton": false,
+                          "shouldShowTextFormattingButton": false
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          "title": "그래프 해석하기",
+          "teacherTips": {
+            "teacher-moves": {
+              "schemaKey": "document",
+              "version": 3,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "독특한 답변을 학생과 공유하고 학생이 자신의 답변을 설명하거나 다른 학생의 답변을 평가할 수 있도록 하세요."
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            "sample-responses": {
+              "schemaKey": "document",
+              "version": 2,
+              "content": {
+                "type": "doc",
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "content": [
+                      {
+                        "type": "text",
+                        "text": "배로에서는 여름에 거의 하루 종일 해가 떠 있으며, 겨울에는 거의 해가 뜨지 않습니다."
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "activity": "activitybuilder",
+      "ancestors": [
+        {
+          "_id": "56d8aee5637a85a2078c257d",
+          "user": {
+            "id": "55fb1831efe3b67f175ca4a2",
+            "displayName": "Desmos _"
+          }
+        }
+      ],
+      "blurb": {
+        "schemaKey": "document",
+        "version": 3,
+        "content": {
+          "type": "doc",
+          "content": [
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "학생은 이 액티비티에서 사인 함수를 이용해 미국 알래스카주 페어뱅크스와 플로리다주 마이애미의 일조량 데이터를 분석해야 합니다. 학생은 특정 연도에 일조량이 더 높은 도시는 어느 도시인지 예측하고, 함수를 이용해 예측 결과를 계산해야 합니다."
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "미적분을 공부하는 학생은 이 액티비티에서 정적분을 연습할 수 있으며, 먼저 사인 함수의 평균값은 함수의 중선과 일치한다는 사실을 인지한 후 액티비티를 시작하는 것이 좋습니다."
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "데이터 출처: "
+                },
+                {
+                  "type": "text",
+                  "marks": [
+                    {
+                      "type": "link",
+                      "attrs": {
+                        "href": "http://aa.usno.navy.mil/data/docs/Dur_OneYear.php",
+                        "title": null,
+                        "target": "_blank"
+                      }
+                    }
+                  ],
+                  "text": "http://aa.usno.navy.mil/data/docs/Dur_OneYear.php"
+                }
+              ]
+            },
+            {
+              "type": "paragraph"
+            },
+            {
+              "type": "paragraph",
+              "content": [
+                {
+                  "type": "text",
+                  "text": "한국어 번역: Desmos 현지화 팀"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "category": "application",
+      "collaborators": [
+        "5d5c81618a3b6156af14a89f",
+        "5d85bd4cfe8bdc626d4698c8"
+      ],
+      "teamDesmosAuthored": true,
+      "complete": true,
+      "edit_ts": "2022-08-22T09:40:02.050Z",
+      "keywords": [],
+      "licenses": [],
+      "retailAssetIds": [],
+      "permissionToShare": true,
+      "publishedTimestamp": "2022-08-22T09:40:02.050Z",
+      "thumb": "https://uploads.desmos.com/activitybuilder/f7c00e130d416e7c6111a72905bb4253",
+      "timeEstimate": 45,
+      "title": "타오르는 태양",
+      "linkedActivities": [
+        {
+          "title": "원본 버전 (영어)",
+          "activityId": "56d8aee5637a85a2078c257d",
+          "collectionIds": [],
+          "logical": {
+            "logicalActivityMetaId": "56d8aee5637a85a2078c257d",
+            "logicalCollectionIds": []
+          }
+        }
+      ],
+      "user": {
+        "id": "5de6bbe49f524909d87db21a",
+        "displayName": "Kayla Muñoz"
+      },
+      "author": {
+        "id": "5d85bd4cfe8bdc626d4698c8",
+        "displayName": "영하 김"
+      },
+      "accessibilityNotes": "이 액티비티는 스크린 리더에 최적화되지 않았습니다. 시각 장애 학생은 다른 학생과 함께 액티비티를 진행하는 것을 권장합니다.",
+      "commitId": "630348c4ac8f8a9eb252e9a1",
+      "logicalId": "5f6d374e7a3b802b45e2d66c",
+      "draftTitle": "타오르는 태양",
+      "draftAuthor": {
+        "id": "5d85bd4cfe8bdc626d4698c8",
+        "displayName": "영하 김"
+      }
+    },
+    "noindex": false
+  },
+  "notes": [
+    "Public HTML exposes metadata and thumbnail.",
+    "The public POST /activity/:id route may expose the customLesson JSON for public activities.",
+    "Teacher sessions, dashboards, student responses, and editor-only diagnostics still require authorization.",
+    "Use this output as source evidence and template inspiration, not as an activity clone."
+  ]
+}

@@ -17,10 +17,11 @@ const BASE = "https://classroom.amplify.com";
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 function parseArgs(argv) {
-  const a = { cmd: null, id: null };
+  const a = { cmd: null, id: null, spec: null };
   for (let i = 0; i < argv.length; i++) {
     if (argv[i] === "--smoke") a.cmd = "smoke";
     else if (argv[i] === "--full") a.cmd = "full";
+    else if (argv[i] === "--spec") { a.cmd = "spec"; a.spec = argv[++i]; }
     else if (argv[i] === "--activity") { a.cmd = "activity"; a.id = argv[++i]; }
   }
   return a;
@@ -78,9 +79,10 @@ async function addScreen(page) {
   await sleep(2800);
 }
 
-async function buildFull(page) {
-  for (let i = 0; i < SLIDES.length; i++) {
-    const s = SLIDES[i];
+// 임의 슬라이드 배열로 빌드 (내장 SLIDES 또는 외부 --spec 공통)
+async function buildFromSlides(page, slides) {
+  for (let i = 0; i < slides.length; i++) {
+    const s = slides[i];
     if (i > 0) await addScreen(page);
     await setScreenTitle(page, s.title);
     for (const c of s.components) {
@@ -94,9 +96,11 @@ async function buildFull(page) {
         if (!r.ok) console.log(`  ⚠ CL(${c.label}): ${r.note}`);
       }
     }
-    console.log(`슬라이드 ${i + 1}/${SLIDES.length}: ${s.title} ✓`);
+    console.log(`슬라이드 ${i + 1}/${slides.length}: ${s.title} ✓`);
   }
 }
+
+async function buildFull(page) { await buildFromSlides(page, SLIDES); }
 
 // ---- 편집기 원자 동작 (실측 확정 셀렉터) ----
 
@@ -215,6 +219,17 @@ async function main() {
   await sleep(800);
 
   let page, id;
+  if (args.cmd === "spec") {
+    const spec = JSON.parse(require("fs").readFileSync(args.spec, "utf8"));
+    ({ page, id } = await createActivity(ctx, spec.title));
+    console.log(`활동 생성: ${id} | "${spec.title}" | ${spec.slides.length}슬라이드`);
+    await buildFromSlides(page, spec.slides);
+    await page.screenshot({ path: "/tmp/amp-spec-result.png" }).catch(() => {});
+    console.log(`\n✓ 스펙 기반 활동(${spec.slides.length}화면) 자동 구현 완료 (비공개)`);
+    console.log(`${BASE}/activity/${id}/edit`);
+    await browser.close().catch(() => {});
+    return;
+  }
   if (args.cmd === "full") {
     ({ page, id } = await createActivity(ctx, "기울기는 변화율 — 직접 탐구하는 일차함수"));
     console.log("활동 생성:", id, "| URL:", page.url().slice(0, 60));
