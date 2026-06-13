@@ -117,7 +117,7 @@
       "prompt": "친구에게 '기울기'를 설명한다면? 'x가 1 증가할 때'라는 표현을 사용해, y=ax+b에서 a와 b가 각각 무엇을 결정하는지 설명하세요."
     }
   ],
-  "generatedAt": "2026-06-13T01:26:52.808Z",
+  "generatedAt": "2026-06-13T03:05:53.768Z",
   "generator": "desmos-cl-vibe-lab@0.1.0",
   "templateIds": [
     "cover_fact_card",

@@ -1,8 +1,25 @@
 # Claude in Chrome 배포 런북 — 생성 팩을 Activity Builder에 올리기
 
 생성기 산출물(`generated/<activity-id>/`)을 classroom.amplify.com Activity Builder에 옮기는 단계별 절차.
-Claude in Chrome(브라우저 확장)에게 이 문서와 생성 팩을 주면 사람 대신 수행할 수 있다.
 근거: desmos-cl 위키 gap research (2026-06-12). 미확인 UI 항목은 ⚠로 표시 — 첫 실행 때 실측으로 갱신할 것.
+
+두 가지 배포 경로:
+- **CDP attach (권장, 자동)** — 이미 로그인된 크롬에 Playwright가 붙어 직접 조작. 아래 "CDP 자동 경로" 참고.
+- **Claude in Chrome 확장 / 수동** — 이 문서 본문 절차를 사람 또는 브라우저 확장이 따라간다.
+
+## CDP 자동 경로 (hotdel@g.jbedu.kr 로그인 세션 활용)
+
+```bash
+cd /Users/han/project/rhwp/tools/desmos-activity
+bash scripts/chrome-debug.sh        # 기존 크롬 종료 후 9222 디버그 모드 재기동(프로필=로그인 유지)
+node src/deploy-cdp.mjs --probe      # 계정 확인 + 편집기 실측 → generated/inspections/ab-editor-probe/
+node src/deploy-cdp.mjs --open <id>  # 활동 생성 페이지 열기 + 붙여넣기 자료 제시
+```
+
+- `chrome-debug.sh`는 같은 프로필을 쓰는 기존 크롬을 종료해야 포트가 열린다(로그인은 프로필에 보존).
+- `--probe`가 스크린샷·DOM 요소 덤프를 남긴다 → 이걸로 아래 ⚠ 셀렉터(코드 패널·뷰포트 잠금·Labs 토글)를 확정한 뒤 화면 생성/붙여넣기 자동화를 `deploy-cdp.mjs`에 추가한다.
+- **발행(되돌리기 어려운 쓰기)은 자동으로 진행하지 않는다** — 사용자 확인 후.
+- 루프: 활동 여러 개면 id마다 `generate → lint → deploy-cdp --open`을 순차 반복.
 
 ## 사전 조건
 
