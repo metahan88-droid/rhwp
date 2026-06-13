@@ -11,6 +11,7 @@ PORT="${CDP_PORT:-9222}"
 CHROME="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 SRC="${HOME}/Library/Application Support/Google/Chrome"      # 기존(로그인된) 프로필
 DBG="${HOME}/.desmos-chrome-debug"                            # 디버그 전용 디렉토리
+PROFILE="${CHROME_PROFILE:-Profile 1}"                        # hotdel@g.jbedu.kr = Profile 1
 
 # 이미 9222가 열려 있으면 재기동하지 않는다(세션 보존).
 if curl -s --max-time 2 "http://127.0.0.1:${PORT}/json/version" >/dev/null 2>&1; then
@@ -26,22 +27,22 @@ pkill -x "Google Chrome" 2>/dev/null || true
 sleep 1
 
 # 디버그 전용 디렉토리에 로그인 데이터를 동기화(캐시류 제외 → 빠름).
-echo "로그인 데이터를 디버그 디렉토리로 동기화: ${DBG}"
-mkdir -p "${DBG}/Default"
+echo "로그인 데이터를 디버그 디렉토리로 동기화: ${DBG} (프로필: ${PROFILE})"
+mkdir -p "${DBG}/${PROFILE}"
 cp -f "${SRC}/Local State" "${DBG}/Local State" 2>/dev/null || true
 rsync -a --delete \
   --exclude 'Cache' --exclude 'Code Cache' --exclude 'GPUCache' \
   --exclude 'Service Worker' --exclude 'DawnGraphiteCache' --exclude 'DawnWebGPUCache' \
   --exclude 'Application Cache' --exclude 'GrShaderCache' --exclude 'ShaderCache' \
   --exclude 'component_crx_cache' --exclude 'extensions_crx_cache' \
-  "${SRC}/Default/" "${DBG}/Default/" 2>/dev/null || \
-  cp -R "${SRC}/Default/." "${DBG}/Default/" 2>/dev/null || true
+  "${SRC}/${PROFILE}/" "${DBG}/${PROFILE}/" 2>/dev/null || \
+  cp -R "${SRC}/${PROFILE}/." "${DBG}/${PROFILE}/" 2>/dev/null || true
 
-echo "디버그 모드로 기동 (포트 ${PORT}, 전용 디렉토리)..."
+echo "디버그 모드로 기동 (포트 ${PORT}, 프로필 '${PROFILE}')..."
 "${CHROME}" \
   --remote-debugging-port="${PORT}" \
   --user-data-dir="${DBG}" \
-  --profile-directory="Default" \
+  --profile-directory="${PROFILE}" \
   --no-first-run --no-default-browser-check \
   "https://classroom.amplify.com/" \
   >/dev/null 2>&1 &

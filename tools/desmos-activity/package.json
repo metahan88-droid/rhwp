@@ -20,7 +20,9 @@
     "chrome:debug": "bash scripts/chrome-debug.sh",
     "deploy:account": "node src/deploy-cdp.mjs --account",
     "deploy:probe": "node src/deploy-cdp.mjs --probe",
-    "deploy:open": "node src/deploy-cdp.mjs --open"
+    "deploy:open": "node src/deploy-cdp.mjs --open",
+    "deploy:login": "node src/deploy-cdp.mjs --login",
+    "deploy:watch": "node src/deploy-cdp.mjs --watch"
   },
   "engines": {
     "node": ">=20"
