@@ -1,0 +1,949 @@
+{
+  "version": 5,
+  "graph": {
+    "showGrid": false,
+    "showXAxis": false,
+    "showYAxis": false,
+    "squareAxes": false,
+    "viewport": {
+      "xmin": -3,
+      "ymin": -3,
+      "xmax": 11,
+      "ymax": 11
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "1219",
+        "color": "#fa7e19",
+        "latex": "T=0",
+        "sliderHardMin": true,
+        "sliderHardMax": true,
+        "sliderAnimationPeriod": 8000,
+        "sliderLoopMode": "LOOP_FORWARD",
+        "sliderMin": "0",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1422",
+        "color": "#000000",
+        "latex": "\\left(s\\cdot\\left(B_1+B_2\\right)\\left\\{T=0\\right\\},s\\cdot H_2\\right)",
+        "dragMode": "Y",
+        "style": "SOLID"
+      },
+      {
+        "type": "folder",
+        "id": "229",
+        "title": "Define each of the triangles",
+        "hidden": true,
+        "collapsed": true,
+        "memberIds": {
+          "8": true,
+          "9": true,
+          "16": true,
+          "26": true,
+          "28": true,
+          "29": true,
+          "230": true,
+          "233": true,
+          "234": true,
+          "1196": true,
+          "1198": true,
+          "1311": true,
+          "1314": true,
+          "1315": true,
+          "1357": true,
+          "1358": true,
+          "1359": true,
+          "1360": true,
+          "1361": true,
+          "1362": true,
+          "1363": true,
+          "1423": true
+        }
+      },
+      {
+        "type": "text",
+        "id": "1196",
+        "text": "Raw widths & heights"
+      },
+      {
+        "type": "expression",
+        "id": "1357",
+        "color": "#c74440",
+        "latex": "B_1=3",
+        "sliderMax": "29",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1359",
+        "color": "#388c46",
+        "latex": "H_1=2",
+        "sliderMax": "30",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1360",
+        "color": "#fa7e19",
+        "latex": "B_2=9",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1361",
+        "color": "#6042a6",
+        "latex": "H_2=2",
+        "sliderHardMin": true,
+        "sliderHardMax": true,
+        "sliderMin": "2",
+        "sliderMax": "14",
+        "sliderInterval": "2",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1362",
+        "color": "#000000",
+        "latex": "B_3=6",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1363",
+        "color": "#c74440",
+        "latex": "H_3=4",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1358",
+        "color": "#2d70b3",
+        "latex": "`s=\\frac{9}{\\max\\left(9,\\ H_1+H_2+H_3,\\ B_1+B_2+B_3\\right)}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1423",
+        "color": "#c74440",
+        "latex": "s=0.5",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "8",
+        "color": "#000000",
+        "latex": "b_1=sB_1",
+        "sliderHardMin": true,
+        "sliderMin": "0",
+        "sliderMax": "22",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "9",
+        "color": "#c74440",
+        "latex": "h_1=sH_1",
+        "sliderHardMin": true,
+        "sliderMin": "0",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "16",
+        "color": "#000000",
+        "latex": "b_2=sB_2",
+        "sliderHardMin": true,
+        "sliderMin": "0",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "29",
+        "color": "#6042a6",
+        "latex": "h_2=sH_2",
+        "sliderHardMin": true,
+        "sliderHardMax": true,
+        "sliderMin": "0",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "26",
+        "color": "#2d70b3",
+        "latex": "b_3=sB_3",
+        "sliderHardMin": true,
+        "sliderMin": "0",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "28",
+        "color": "#fa7e19",
+        "latex": "h_3=sH_3",
+        "sliderHardMin": true,
+        "sliderMin": "0",
+        "style": "SOLID"
+      },
+      {
+        "type": "text",
+        "id": "1198",
+        "text": "Slopes"
+      },
+      {
+        "type": "expression",
+        "id": "234",
+        "color": "#fa7e19",
+        "latex": "m_1=\\frac{h_1}{b_1}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "233",
+        "color": "#388c46",
+        "latex": "m_2=\\frac{h_2}{b_2}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "230",
+        "color": "#000000",
+        "latex": "m_3=\\frac{h_3}{b_3}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1311",
+        "color": "#2d70b3",
+        "latex": "a_1=-\\arctan\\left(h_1,\\ b_1\\right)",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1314",
+        "color": "#6042a6",
+        "latex": "a_2=-\\arctan\\left(h_2,\\ b_2\\right)",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1315",
+        "color": "#c74440",
+        "latex": "a_3=-\\arctan\\left(h_3,b_3\\right)",
+        "style": "SOLID"
+      },
+      {
+        "type": "folder",
+        "id": "1211",
+        "title": "Compute the lists of positions",
+        "hidden": true,
+        "collapsed": true,
+        "memberIds": {
+          "1203": true,
+          "1208": true,
+          "1209": true,
+          "1212": true,
+          "1214": true,
+          "1215": true,
+          "1216": true,
+          "1218": true,
+          "1226": true,
+          "1227": true
+        }
+      },
+      {
+        "type": "text",
+        "id": "1214",
+        "text": "p_raise is percentage raised"
+      },
+      {
+        "type": "expression",
+        "id": "1215",
+        "color": "#c74440",
+        "latex": "p_{raise}=\\min\\left(1,\\ \\frac{T}{2}\\right)",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1203",
+        "color": "#388c46",
+        "latex": "B=\\left[b_1,b_2,b_3\\right]",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1208",
+        "color": "#2d70b3",
+        "latex": "H=\\left[h_1,h_2,h_3\\right]",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1209",
+        "color": "#388c46",
+        "latex": "C_x=\\left[\\frac{b_1}{2},\\ b_1+\\frac{b_2}{2},\\ b_1+b_2+\\frac{b_3}{2},b_1+b_2+b_3+\\frac{P}{2}\\right]",
+        "style": "SOLID"
+      },
+      {
+        "type": "text",
+        "id": "1218",
+        "text": "Pole heights"
+      },
+      {
+        "type": "expression",
+        "id": "1216",
+        "color": "#2d70b3",
+        "latex": "P_h=\\left[0,\\ p_{raise}h_1,\\ p_{raise}\\left(h_1+h_2\\right),\\ p_{raise}\\left(h_1+h_2\\right)+h_3\\right]",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1212",
+        "color": "#6042a6",
+        "latex": "C_y=\\left[\\frac{h_1}{2},\\ \\frac{h_2}{2},\\ \\frac{h_3}{2}\\right]+P_h",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1226",
+        "color": "#2d70b3",
+        "latex": "b_t=b_1+b_2+b_3",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1227",
+        "color": "#388c46",
+        "latex": "h_t=h_1+h_2+h_3",
+        "style": "SOLID"
+      },
+      {
+        "type": "folder",
+        "id": "36",
+        "title": "Render the ramp etc",
+        "collapsed": true,
+        "memberIds": {
+          "1200": true,
+          "1252": true,
+          "1253": true,
+          "1254": true,
+          "1255": true,
+          "1348": true,
+          "1356": true
+        }
+      },
+      {
+        "type": "expression",
+        "id": "1255",
+        "color": "#c74440",
+        "latex": "C_x-.2s\\le x\\le C_x+.2s\\left\\{0<y<P_h\\right\\}",
+        "style": "SOLID"
+      },
+      {
+        "type": "image",
+        "id": "1200",
+        "image_url": "https://uploads.desmos.com/calculator-images/d279cf64884cf7cd65007817f74b4b3a",
+        "name": "triangle.png",
+        "height": "H",
+        "width": "B",
+        "opacity": 0.6,
+        "x": "C_x",
+        "y": "C_y"
+      },
+      {
+        "type": "expression",
+        "id": "1252",
+        "color": "#000000",
+        "latex": "y=C_y-\\frac{H}{2}\\left\\{C_x-\\frac{B}{2}<x<C_x+\\frac{B}{2}\\right\\}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1253",
+        "color": "#000000",
+        "latex": "x=C_x+\\frac{B}{2}\\left\\{C_y-\\frac{H}{2}<y<C_y+\\frac{H}{2}\\right\\}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1254",
+        "color": "#388c46",
+        "latex": "y\\le0\\left\\{x>0\\right\\}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1348",
+        "color": "#2d70b3",
+        "latex": "-10\\le x\\le0\\left\\{y<0\\right\\}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1356",
+        "color": "#2d70b3",
+        "latex": "y=0\\left\\{x<0\\right\\}",
+        "style": "SOLID"
+      },
+      {
+        "type": "folder",
+        "id": "1239",
+        "title": "Render board coming down from the sky",
+        "collapsed": true,
+        "memberIds": {
+          "1245": true,
+          "1246": true,
+          "1247": true,
+          "1249": true,
+          "1250": true,
+          "1259": true,
+          "1260": true,
+          "1266": true,
+          "1267": true,
+          "1268": true,
+          "1269": true,
+          "1271": true,
+          "1272": true,
+          "1273": true,
+          "1275": true,
+          "1277": true,
+          "1278": true,
+          "1284": true,
+          "1310": true,
+          "1312": true,
+          "1313": true,
+          "1316": true,
+          "1317": true,
+          "1319": true,
+          "1321": true,
+          "1323": true,
+          "1324": true,
+          "1326": true,
+          "1328": true,
+          "1329": true,
+          "1330": true
+        }
+      },
+      {
+        "type": "text",
+        "id": "1319",
+        "text": "These are the final resting points"
+      },
+      {
+        "type": "expression",
+        "id": "1246",
+        "color": "#000000",
+        "latex": "p_{1x}=\\left[0,\\ b_1,\\ b_1+b_2,\\ b_1+b_2+b_3\\right]",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1247",
+        "color": "#c74440",
+        "latex": "p_{1y}=\\left[0,\\ h_1,\\ h_1+h_2,\\ h_1+h_2+h_3\\right]",
+        "style": "SOLID"
+      },
+      {
+        "type": "text",
+        "id": "1321",
+        "text": "Compute the point where we first make contact with the track, and where the points lie"
+      },
+      {
+        "type": "expression",
+        "id": "1245",
+        "color": "#6042a6",
+        "latex": "m=\\frac{h_t}{b_t}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1249",
+        "color": "#388c46",
+        "latex": "b=\\max\\left(p_{1y}-m\\cdot p_{1x}\\right)",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1250",
+        "color": "#000000",
+        "latex": "f\\left(x\\right)=mx+b",
+        "hidden": true,
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1259",
+        "color": "#c74440",
+        "latex": "x_0=-\\frac{b}{m+\\frac{1}{m}}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1266",
+        "color": "#2d70b3",
+        "latex": "x_1=\\frac{\\frac{b_1}{m}+h_1-b}{m+\\frac{1}{m}}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1267",
+        "color": "#388c46",
+        "latex": "x_2=\\frac{\\frac{b_1+b_2}{m}+h_1+h_2-b}{m+\\frac{1}{m}}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1268",
+        "color": "#fa7e19",
+        "latex": "x_3=\\frac{\\frac{b_1+b_2+b_3}{m}+h_1+h_2+h_3-b}{m+\\frac{1}{m}}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1260",
+        "color": "#000000",
+        "latex": "p_{0x}=\\left[x_0,x_1,x_2,x_3\\right]",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1269",
+        "color": "#6042a6",
+        "latex": "p_{0y}=f\\left(p_{0x}\\right)",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1271",
+        "color": "#c74440",
+        "latex": "t_{anim}=\\min\\left(1,T-4\\right)\\left\\{T>2\\right\\}",
+        "hidden": true,
+        "style": "SOLID"
+      },
+      {
+        "type": "text",
+        "id": "1323",
+        "text": "Linearly interpolate between those initial contact points and the final points."
+      },
+      {
+        "type": "expression",
+        "id": "1272",
+        "color": "#2d70b3",
+        "latex": "X=\\left\\{t_{anim}<0:\\ p_{0x}+t_{anim},\\ t_{anim}p_{1x}+\\left(1-t_{anim}\\right)p_{0x}\\right\\}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1273",
+        "color": "#388c46",
+        "latex": "Y=\\left\\{t_{anim}<0:\\ p_{0y}-t_{anim},\\ t_{anim}p_{1y}+\\left(1-t_{anim}\\right)p_{0y}\\right\\}",
+        "style": "SOLID"
+      },
+      {
+        "type": "text",
+        "id": "1326",
+        "text": "Since we don't allow variables in parametric domains (#yet #growthmindset), we need another way to define these limits. l is whether it includes the left edge, u is whether it includes the right edge"
+      },
+      {
+        "type": "expression",
+        "id": "1324",
+        "color": "#fa7e19",
+        "latex": "t_{parim}\\left(t,l,u\\right)=\\frac{t}{1+.1l+.1u}+.1l",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1328",
+        "color": "#c74440",
+        "latex": "t_1=t_{parim}\\left(t,0,\\left\\{T<4.5:0,\\ E_1=0:0,\\ 1\\right\\}\\right)",
+        "hidden": true,
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1329",
+        "color": "#2d70b3",
+        "latex": "t_2=t_{parim}\\left(t,\\left\\{T<4.5:0,\\ E_1=0:0,\\ 1\\right\\},\\left\\{T<4.5:0,\\ E_2=0:0,\\ 1\\right\\}\\right)",
+        "hidden": true,
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1330",
+        "color": "#388c46",
+        "latex": "t_3=t_{parim}\\left(t,\\left\\{T<4.5:0,\\ E_2=0:0,\\ 1\\right\\},0\\right)",
+        "hidden": true,
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1275",
+        "color": "#000000",
+        "latex": "\\left(X\\left[1\\right]+t_1\\left(X\\left[2\\right]-X\\left[1\\right]\\right),Y\\left[1\\right]+t_1\\left(Y\\left[2\\right]-Y\\left[1\\right]\\right)\\ \\right)",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1277",
+        "color": "#000000",
+        "latex": "\\left(X\\left[2\\right]+t_2\\left(X\\left[3\\right]-X\\left[2\\right]\\right),Y\\left[2\\right]+t_2\\left(Y\\left[3\\right]-Y\\left[2\\right]\\right)\\ \\right)",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1278",
+        "color": "#000000",
+        "latex": "\\left(X\\left[3\\right]+t_3\\left(X\\left[4\\right]-X\\left[3\\right]\\right),Y\\left[3\\right]+t_3\\left(Y\\left[4\\right]-Y\\left[3\\right]\\right)\\ \\right)",
+        "style": "SOLID"
+      },
+      {
+        "type": "text",
+        "id": "1310",
+        "text": "jagged"
+      },
+      {
+        "type": "expression",
+        "id": "1284",
+        "color": "#000000",
+        "latex": "j\\left(x\\right)=-.2\\left(x+.7\\right)+.8\\left(x+.7\\right)\\left|.5+\\operatorname{floor}\\left(\\left(2\\left(x+.7\\right)\\right)^3\\right)-\\left(2\\left(x+.7\\right)\\right)^3\\right|",
+        "hidden": true,
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1312",
+        "color": "#000000",
+        "latex": "\\left(X\\left[2\\right]+t\\cos a_1+j\\left(t\\right)\\sin\\left(a_1\\right),\\ Y\\left[2\\right]+j\\left(t\\right)\\cos\\left(a_1\\right)-t\\sin\\left(a_1\\right)\\left\\{T>5\\right\\}\\left\\{E_1=1\\right\\}\\right)",
+        "domain": {
+          "max": "-.2",
+          "min": "-0.7"
+        },
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1316",
+        "color": "#000000",
+        "latex": "\\left(X\\left[3\\right]+t\\cos a_2+j\\left(t\\right)\\sin\\left(a_2\\right),\\ Y\\left[3\\right]+j\\left(t\\right)\\cos\\left(a_2\\right)-t\\sin\\left(a_2\\right)\\left\\{T>5\\right\\}\\left\\{E_2=1\\right\\}\\right)",
+        "domain": {
+          "max": "-.2",
+          "min": "-0.7"
+        },
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1313",
+        "color": "#000000",
+        "latex": "\\left(X\\left[2\\right]+t\\cos a_2+j\\left(-t\\right)\\sin\\left(a_2\\right),\\ Y\\left[2\\right]+j\\left(-t\\right)\\cos\\left(a_2\\right)-t\\sin\\left(a_2\\right)\\left\\{T>5\\right\\}\\left\\{E_1=1\\right\\}\\right)",
+        "domain": {
+          "max": ".7",
+          "min": ".2"
+        },
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1317",
+        "color": "#000000",
+        "latex": "\\left(X\\left[3\\right]+t\\cos a_3+j\\left(-t\\right)\\sin\\left(a_3\\right),\\ Y\\left[3\\right]+j\\left(-t\\right)\\cos\\left(a_3\\right)-t\\sin\\left(a_3\\right)\\left\\{T>5\\right\\}\\left\\{E_2=1\\right\\}\\right)",
+        "domain": {
+          "max": ".7",
+          "min": ".2"
+        },
+        "style": "SOLID"
+      },
+      {
+        "type": "folder",
+        "id": "1235",
+        "title": "Render the diver and platform",
+        "memberIds": {
+          "1223": true,
+          "1294": true,
+          "1296": true,
+          "1301": true,
+          "1302": true,
+          "1335": true,
+          "1339": true,
+          "1345": true,
+          "1346": true,
+          "1347": true,
+          "1349": true,
+          "1351": true,
+          "1353": true,
+          "1354": true,
+          "1355": true,
+          "1376": true,
+          "1458": true
+        }
+      },
+      {
+        "type": "text",
+        "id": "1296",
+        "text": "Platform width"
+      },
+      {
+        "type": "expression",
+        "id": "1223",
+        "color": "#000000",
+        "latex": "P=1.53",
+        "sliderHardMin": true,
+        "sliderHardMax": true,
+        "sliderMin": "0",
+        "sliderMax": "4",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1294",
+        "color": "#000000",
+        "latex": "y=P_h\\left[4\\right]\\left\\{b_t<x<b_t+P\\right\\}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1376",
+        "color": "#c74440",
+        "latex": "S=\\max\\left(1.5s,.5\\right)",
+        "hidden": true,
+        "style": "SOLID"
+      },
+      {
+        "type": "image",
+        "id": "1345",
+        "image_url": "https://uploads.desmos.com/calculator-images/86af225765e5ec7a40e07070012d3afa",
+        "name": "sitting-original.png",
+        "height": "2S",
+        "width": "2S",
+        "angle": "0\\left\\{4.5\\le T\\right\\}\\left\\{c_y\\ge\\frac{h_t}{3}\\right\\}\\left\\{C=1\\right\\}",
+        "x": "c_x-.4S",
+        "y": "c_y+.4S"
+      },
+      {
+        "type": "image",
+        "id": "1347",
+        "image_url": "https://uploads.desmos.com/calculator-images/19b04f68df6b66c363458cd30cba1945",
+        "name": "cannonball.png",
+        "height": "2S",
+        "width": "2S",
+        "angle": "0\\left\\{4.5\\le T\\right\\}\\left\\{c_y<\\frac{h_t}{3}\\right\\}\\left\\{C=1\\right\\}",
+        "x": "c_x-.3S",
+        "y": "c_y+.3S"
+      },
+      {
+        "type": "image",
+        "id": "1346",
+        "image_url": "https://uploads.desmos.com/calculator-images/06ff65ed764b1e988847ccb530210b27",
+        "name": "standing.png",
+        "height": "2S",
+        "width": "2S",
+        "angle": "0\\left\\{T<4.5,C=0\\right\\}",
+        "x": "b_t+.6S",
+        "y": "P_h\\left[4\\right]+1S"
+      },
+      {
+        "type": "expression",
+        "id": "1339",
+        "color": "#c74440",
+        "latex": "A=\\max\\left(2,-10\\sin\\left(a_1\\right)\\right)",
+        "hidden": true,
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1335",
+        "color": "#6042a6",
+        "latex": "T_{slide}=\\max\\left(0,T-\\ 4.5\\right)",
+        "hidden": true,
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1301",
+        "color": "#c74440",
+        "latex": "c_x=b_t-\\frac{1}{2}A\\cos\\left(a_1\\right)T_{slide}^2",
+        "hidden": true,
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1302",
+        "color": "#2d70b3",
+        "latex": "c_y=P_h\\left[4\\right]+\\frac{1}{2}A\\sin\\left(a_1\\right)T_{slide}^2",
+        "hidden": true,
+        "style": "SOLID"
+      },
+      {
+        "type": "text",
+        "id": "1353",
+        "text": "a is the time of the splash"
+      },
+      {
+        "type": "expression",
+        "id": "1354",
+        "color": "#6042a6",
+        "latex": "a=2\\cdot\\max\\left(0,T-\\left(4.5+\\sqrt{\\frac{b_t}{\\frac{1}{2}A\\cos\\left(a_1\\right)}}\\right)\\right)",
+        "hidden": true,
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1349",
+        "color": "#c74440",
+        "latex": "f_1\\left(x\\right)=-s_p\\frac{\\left|\\frac{x}{s_p}\\right|\\left(\\left|\\frac{x}{s_p}\\right|-2+a\\right)}{\\max\\left(a+.5,\\ 1\\right)}",
+        "hidden": true,
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1351",
+        "color": "#388c46",
+        "latex": "f_2\\left(x\\right)=-s_p\\frac{\\left(\\left|\\frac{x}{s_p}\\right|-a\\right)\\left(\\left|\\frac{x}{s_p}\\right|-a-2.\\right)}{\\max\\left(a+.5,\\ 1\\right)}+.5-a",
+        "hidden": true,
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1355",
+        "color": "#2d70b3",
+        "latex": "\\max\\left(0,f_2\\left(x+1.5s_p\\right)\\right)\\le y\\le f_1\\left(x+1.5s_p\\right)\\left\\{C=1\\right\\}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1458",
+        "color": "#c74440",
+        "latex": "s_p=\\min\\left(S,3\\right)",
+        "hidden": true,
+        "style": "SOLID"
+      },
+      {
+        "type": "folder",
+        "id": "1343",
+        "title": "Correctness checks and explosions",
+        "collapsed": true,
+        "memberIds": {
+          "1286": true,
+          "1287": true,
+          "1288": true,
+          "1289": true,
+          "1290": true
+        }
+      },
+      {
+        "type": "image",
+        "id": "1286",
+        "image_url": "https://uploads.desmos.com/calculator-images/5278c669d791c094a35a50966720edda",
+        "name": "crash.png",
+        "height": "1.5\\cdot E_1",
+        "width": "1.5",
+        "opacity": 0.6,
+        "x": "X\\left[2\\right]",
+        "y": "Y\\left[2\\right]\\left\\{4.5<T<5\\right\\}"
+      },
+      {
+        "type": "image",
+        "id": "1287",
+        "image_url": "https://uploads.desmos.com/calculator-images/5278c669d791c094a35a50966720edda",
+        "name": "crash.png",
+        "height": "1.5\\cdot E_2",
+        "width": "1.5",
+        "opacity": 0.6,
+        "x": "X\\left[3\\right]",
+        "y": "Y\\left[3\\right]\\left\\{4.5<T<5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "1288",
+        "color": "#c74440",
+        "latex": "E_1=\\left\\{\\left|m_1-m_2\\right|<.02:0,1\\right\\}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1289",
+        "color": "#2d70b3",
+        "latex": "E_2=\\left\\{\\left|m_3-m_2\\right|<.02:0,1\\right\\}",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1290",
+        "color": "#388c46",
+        "latex": "C=\\left\\{E_1+E_2=0:1,0\\right\\}",
+        "style": "SOLID"
+      },
+      {
+        "type": "folder",
+        "id": "1365",
+        "title": "Crane",
+        "collapsed": true,
+        "memberIds": {
+          "1366": true,
+          "1367": true,
+          "1368": true,
+          "1369": true,
+          "1373": true,
+          "1375": true
+        }
+      },
+      {
+        "type": "image",
+        "id": "1367",
+        "image_url": "https://uploads.desmos.com/calculator-images/ea85df9e7bd1069fd7d67d7b3fe8b9f0",
+        "name": "crane2.png",
+        "height": "1",
+        "x": "c_{rx}-5+.155",
+        "y": "c_{ry}"
+      },
+      {
+        "type": "expression",
+        "id": "1368",
+        "color": "#388c46",
+        "latex": "c_{rx}=\\frac{X\\left[1\\right]+X\\left[4\\right]}{2}",
+        "hidden": true,
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1369",
+        "color": "#fa7e19",
+        "latex": "c_{ry}=10+\\left\\{T>4:\\ 2\\left(T-4\\right),\\ 0\\right\\}",
+        "hidden": true,
+        "sliderMax": "15",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1375",
+        "color": "#000000",
+        "latex": "x=c_{rx}\\left\\{Y\\left[1\\right]+m\\cdot\\frac{X\\left[4\\right]-X\\left[1\\right]}{2}<y<c_{ry}-.48\\right\\}\\left\\{T\\le4\\right\\}",
+        "lineStyle": "DASHED",
+        "dragMode": "NONE",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1366",
+        "color": "#000000",
+        "latex": "\\left(c_{rx},c_{ry}-.48\\left\\{T\\le4\\right\\}\\right)",
+        "pointStyle": "OPEN",
+        "dragMode": "NONE",
+        "style": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "1373",
+        "color": "#000000",
+        "latex": "\\left(c_{rx},Y\\left[1\\right]+m\\cdot\\frac{X\\left[4\\right]-X\\left[1\\right]}{2}\\left\\{T\\le4\\right\\}\\right)",
+        "pointStyle": "OPEN",
+        "dragMode": "NONE",
+        "style": "SOLID"
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "version": 11,
+  "graph": {
+    "viewport": {
+      "xmin": -2,
+      "ymin": -2,
+      "xmax": 12,
+      "ymax": 10
+    },
+    "showGrid": true,
+    "showXAxis": true,
+    "showYAxis": true,
+    "userLockedViewport": true
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "text",
+        "id": "1",
+        "text": "CL이 주입: g(x) 학생 함수, T 경과 시간. (미리보기에서 보고 싶으면 g(x)=-0.5x+6을 임시로 넣었다가 CL 연결 전에 삭제 — function() sink는 그래프 내 동일 함수 정의와 충돌할 수 있음)"
+      },
+      {
+        "type": "expression",
+        "id": "2",
+        "latex": "T=0"
+      },
+      {
+        "type": "folder",
+        "id": "3",
+        "title": "공 (낙하 후 곡선을 따라 굴러감)"
+      },
+      {
+        "type": "expression",
+        "id": "4",
+        "latex": "b_{x}=1",
+        "folderId": "3"
+      },
+      {
+        "type": "expression",
+        "id": "5",
+        "latex": "b_{y}=8",
+        "folderId": "3"
+      },
+      {
+        "type": "expression",
+        "id": "6",
+        "latex": "y_{hit}=g\\left(b_{x}\\right)",
+        "hidden": true,
+        "folderId": "3"
+      },
+      {
+        "type": "expression",
+        "id": "7",
+        "latex": "t_{1}=\\max\\left(0,\\frac{b_{y}-y_{hit}}{4}\\right)",
+        "hidden": true,
+        "folderId": "3"
+      },
+      {
+        "type": "expression",
+        "id": "8",
+        "latex": "x_{b}=\\left\\{T<t_{1}:b_{x},b_{x}+2\\left(T-t_{1}\\right)\\right\\}",
+        "hidden": true,
+        "folderId": "3"
+      },
+      {
+        "type": "expression",
+        "id": "9",
+        "latex": "y_{b}=\\left\\{T<t_{1}:b_{y}-4T,g\\left(x_{b}\\right)\\right\\}",
+        "hidden": true,
+        "folderId": "3"
+      },
+      {
+        "type": "expression",
+        "id": "10",
+        "latex": "\\left(x_{b},y_{b}\\right)",
+        "dragMode": "NONE",
+        "folderId": "3",
+        "showLabel": true,
+        "label": "●"
+      },
+      {
+        "type": "folder",
+        "id": "11",
+        "title": "별과 판정 (CL은 S, C만 읽는다)"
+      },
+      {
+        "type": "expression",
+        "id": "12",
+        "latex": "S_{x}=\\left[3,6\\right]",
+        "folderId": "11"
+      },
+      {
+        "type": "expression",
+        "id": "13",
+        "latex": "S_{y}=\\left[4,2.5\\right]",
+        "folderId": "11"
+      },
+      {
+        "type": "expression",
+        "id": "14",
+        "latex": "H=\\left\\{\\left|g\\left(S_{x}\\right)-S_{y}\\right|<0.35:1,0\\right\\}",
+        "hidden": true,
+        "folderId": "11"
+      },
+      {
+        "type": "expression",
+        "id": "15",
+        "latex": "P=\\left\\{x_{b}>S_{x}:1,0\\right\\}",
+        "hidden": true,
+        "folderId": "11"
+      },
+      {
+        "type": "expression",
+        "id": "16",
+        "latex": "S=\\operatorname{total}\\left(HP\\right)",
+        "hidden": true,
+        "folderId": "11"
+      },
+      {
+        "type": "expression",
+        "id": "17",
+        "latex": "C=\\left\\{S=2:1,0\\right\\}",
+        "hidden": true,
+        "folderId": "11"
+      },
+      {
+        "type": "expression",
+        "id": "18",
+        "latex": "\\left(S_{x},S_{y}\\right)",
+        "folderId": "11",
+        "showLabel": true,
+        "label": "⭐"
+      }
+    ]
+  }
+}

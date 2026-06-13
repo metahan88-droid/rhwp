@@ -1,0 +1,113 @@
+{
+  "id": "calorie-down-stairs",
+  "title": "칼로리 DOWN: 하늘 계단 291개",
+  "language": "ko",
+  "audience": "중학교 수학, 비례식과 단위비율",
+  "learningGoals": [
+    "실생활 수치를 단위비율로 해석한다.",
+    "10계단당 kcal를 전체 계단 수에 적용한다.",
+    "계산 결과를 그래프와 설명으로 검증한다.",
+    "랜덤 문제에서 같은 구조의 비례 계산을 반복 연습한다."
+  ],
+  "sourceInspiration": {
+    "url": "https://classroom.amplify.com/activity/6a2a1e755c2f2268f8e2eb7d?utm_campaign=share&utm_content=activity&lang=ko",
+    "confirmedFacts": [
+      {
+        "label": "공개 제목",
+        "value": "26.6.15 공개수업"
+      },
+      {
+        "label": "작성자",
+        "value": "선생님 한윤석"
+      },
+      {
+        "label": "썸네일 문구",
+        "value": "하늘 계단의 개수 291개, 10계단에 1.4 kcal, 1분에 12 kcal"
+      }
+    ]
+  },
+  "variables": {
+    "stairs": 291,
+    "kcalPerTen": 1.4,
+    "kcalPerMinute": 12
+  },
+  "screens": [
+    {
+      "id": "s01-cover",
+      "title": "칼로리 DOWN 상황 읽기",
+      "template": "cover_fact_card",
+      "purpose": "하늘 계단 291개와 칼로리 정보를 카드처럼 보여주고 핵심 질문을 연다.",
+      "prompt": "하늘 계단 291개를 내려가면 몇 kcal를 사용할까?",
+      "note": "intro",
+      "visual": "stairsVisual",
+      "teacherMoves": [
+        "계단 수, 10계단당 kcal, 분당 kcal 중 어떤 정보가 이번 질문에 필요한지 묻는다."
+      ]
+    },
+    {
+      "id": "s02-predict",
+      "title": "먼저 예상하기",
+      "template": "notice_predict",
+      "purpose": "계산 전에 학생의 직관을 수집한다.",
+      "choice": "prediction",
+      "reason": "predictionReason",
+      "feedback": "predictionFeedback",
+      "beforeSubmitMessage": "계산하기 전에 어림값을 골라 보세요.",
+      "afterSubmitMessage": "좋아요. 이제 10계단당 1.4 kcal라는 단위비율로 확인해 봅시다."
+    },
+    {
+      "id": "s03-unit-rate",
+      "title": "291계단의 kcal 계산",
+      "template": "unit_rate_model",
+      "purpose": "291 ÷ 10 × 1.4를 계산하고 그래프 변수로 넘긴다.",
+      "stairs": 291,
+      "kcalPerTen": 1.4,
+      "input": "kcalAnswer",
+      "feedback": "kcalFeedback",
+      "graph": "kcalGraph"
+    },
+    {
+      "id": "s04-time",
+      "title": "운동 시간으로 바꾸기",
+      "template": "numeric_check",
+      "purpose": "분당 12 kcal 조건을 사용해 같은 칼로리를 쓰는 시간을 구한다.",
+      "answer": 3.395,
+      "tolerance": 0.06,
+      "input": "timeAnswer",
+      "feedback": "timeFeedback",
+      "correctMessage": "맞아요. 약 3.4분입니다.",
+      "tryAgainMessage": "291계단의 kcal를 먼저 구한 뒤 12로 나눠 보세요."
+    },
+    {
+      "id": "s05-random",
+      "title": "새 계단 수로 반복 연습",
+      "template": "randomized_practice",
+      "purpose": "학생별로 다른 계단 수를 뽑아 같은 단위비율 구조를 반복한다.",
+      "button": "newProblem",
+      "problem": "randomProblem",
+      "input": "randomAnswer",
+      "feedback": "randomFeedback",
+      "kcalPerTen": 1.4,
+      "minTens": 3,
+      "maxTens": 40
+    },
+    {
+      "id": "s06-table",
+      "title": "비례표 완성",
+      "template": "table_check",
+      "purpose": "10, 20, 30계단의 kcal 표를 완성하고 비례 관계를 확인한다.",
+      "table": "ratioTable",
+      "feedback": "tableFeedback",
+      "expectedRows": [1.4, 2.8, 4.2]
+    },
+    {
+      "id": "s07-reflect",
+      "title": "전략 설명하기",
+      "template": "reflection",
+      "purpose": "학생이 사용한 단위비율 전략을 문장으로 설명한다.",
+      "response": "reflection",
+      "note": "teacherPrompt",
+      "prompt": "291계단 문제에서 10계단당 1.4 kcal 정보를 어떻게 사용했는지 설명하세요."
+    }
+  ]
+}

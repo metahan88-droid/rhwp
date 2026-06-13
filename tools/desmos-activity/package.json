@@ -1,0 +1,23 @@
+{
+  "name": "desmos-activity",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Prompt-first Desmos/Amplify Computation Layer activity planning toolkit.",
+  "scripts": {
+    "generate": "node src/generate.mjs",
+    "generate:calorie": "node src/generate.mjs activities/calorie-down-stairs.json --out generated",
+    "generate:smooth-slide": "node src/generate.mjs activities/smooth-slide-linear-functions.json --out generated",
+    "inspect": "node src/inspect-amplify.mjs",
+    "lint": "node src/lint.mjs",
+    "lint:calorie": "node src/lint.mjs activities/calorie-down-stairs.json",
+    "list:templates": "node src/generate.mjs --list-templates",
+    "check": "node --check src/generate.mjs && node --check src/templates.mjs && node --check src/gameTemplates.mjs && node --check src/state.mjs && node --check src/lint.mjs && node --check src/inspect-amplify.mjs && node src/generate.mjs --list-templates && node src/lint.mjs activities/calorie-down-stairs.json && node src/lint.mjs activities/smooth-slide-linear-functions.json && node src/lint.mjs activities/marble-run-linear.json && node src/lint.mjs activities/mario-quadratic-jump.json && node src/lint.mjs activities/sheep-pasture-inequality.json && node src/generate.mjs activities/calorie-down-stairs.json --out generated && node src/generate.mjs activities/smooth-slide-linear-functions.json --out generated && node src/generate.mjs activities/marble-run-linear.json --out generated && node src/generate.mjs activities/mario-quadratic-jump.json --out generated && node src/generate.mjs activities/sheep-pasture-inequality.json --out generated",
+    "generate:marble": "node src/generate.mjs activities/marble-run-linear.json --out generated",
+    "generate:mario": "node src/generate.mjs activities/mario-quadratic-jump.json --out generated",
+    "generate:sheep": "node src/generate.mjs activities/sheep-pasture-inequality.json --out generated"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

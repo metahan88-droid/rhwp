@@ -1,0 +1,71 @@
+{
+  "id": "sheep-pasture-inequality",
+  "title": "양떼 지키기: 부등식 울타리",
+  "language": "ko",
+  "audience": "중2~고1 수학, 일차부등식의 영역",
+  "learningGoals": [
+    "부등식의 해를 좌표평면의 영역으로 해석한다.",
+    "점이 영역에 포함되는 조건을 부등식에 대입해 판단한다.",
+    "엄격(<)과 비엄격(≤) 부등호의 차이를 경계 처리로 설명한다."
+  ],
+  "sourceInspiration": {
+    "url": "https://classroom.amplify.com/activity/5f80b2099c15a9270328b8c8",
+    "confirmedFacts": [
+      { "label": "원형", "value": "Shira the Sheep (Desmos 공식) + Point Collector: Lines + Foxes and Chickens" },
+      { "label": "핵심 함수", "value": "parseInequality.differenceFunction — 해집합은 항상 f>0 (CL 뉴스레터 2020-11, 검증 confirmed)" },
+      { "label": "설계 어록", "value": "stars are discrete and inequalities are continuous. But grass can be continuous! (Zack Miller)" }
+    ]
+  },
+  "screens": [
+    {
+      "id": "s01-intro",
+      "title": "양치기의 고민",
+      "template": "cover_fact_card",
+      "purpose": "양은 울타리 안에, 늑대는 밖에 — 부등식 하나로 해결하는 상황을 소개한다.",
+      "prompt": "직선 울타리 한 줄(부등식 하나)로 양 3마리를 지키고 늑대를 막아야 합니다."
+    },
+    {
+      "id": "s02-first-fence",
+      "title": "첫 울타리 치기",
+      "template": "inequality_pasture",
+      "purpose": "양 3마리를 모두 포함하고 늑대를 제외하는 부등식을 만든다.",
+      "input": "s02_fence",
+      "graph": "s02_pasture",
+      "feedback": "s02_feedback",
+      "sheep": [[1, 1], [2, 3], [3, 2]],
+      "wolves": [[-2, -1]]
+    },
+    {
+      "id": "s03-predict",
+      "title": "부등호를 바꾸면?",
+      "template": "notice_predict",
+      "purpose": "<를 ≤로 바꾸면 경계 위의 양은 어떻게 되는지 예상한다.",
+      "choice": "s03_prediction",
+      "reason": "s03_reason",
+      "feedback": "s03_predFeedback",
+      "beforeSubmitMessage": "양 한 마리가 정확히 경계선 위에 있다면, < 와 ≤ 중 무엇을 써야 할까요?",
+      "afterSubmitMessage": "다음 화면에서 경계선 위의 양으로 직접 실험해 봅시다."
+    },
+    {
+      "id": "s04-boundary",
+      "title": "경계선 위의 양",
+      "template": "inequality_pasture",
+      "purpose": "경계 위에 있는 양 때문에 비엄격 부등호가 필요한 상황을 해결한다.",
+      "input": "s04_fence",
+      "graph": "s04_pasture",
+      "feedback": "s04_feedback",
+      "sheep": [[0, 1], [2, 3], [4, 5]],
+      "wolves": [[3, -2], [-3, -3]],
+      "teacherMoves": ["양 (0,1),(2,3),(4,5)는 y=x+1 위의 점들입니다. y ≥ x+1 같은 비엄격 해가 자연스럽게 나옵니다."]
+    },
+    {
+      "id": "s05-reflect",
+      "title": "울타리 설계 설명",
+      "template": "reflection",
+      "purpose": "점을 부등식에 대입해 포함 여부를 판단하는 방법을 언어화한다.",
+      "response": "s05_reflection",
+      "note": "s05_prompt",
+      "prompt": "양 (2,3)이 울타리 y ≥ x+1 안에 있는지 계산으로 확인하는 과정을 설명하세요."
+    }
+  ]
+}

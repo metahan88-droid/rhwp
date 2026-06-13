@@ -1,0 +1,117 @@
+{
+  "id": "smooth-slide-linear-functions",
+  "title": "매끄러운 미끄럼틀과 일차함수",
+  "language": "ko",
+  "audience": "중학교 수학, 일차함수의 기울기와 절편",
+  "learningGoals": [
+    "기울기를 두 양의 변화량의 비로 해석한다.",
+    "여러 선분이 하나의 직선처럼 이어지는 조건을 기울기로 설명한다.",
+    "그래프 조작 결과를 수식 판정값과 연결한다.",
+    "x절편과 y절편의 의미를 실제 맥락에서 설명한다."
+  ],
+  "sourceInspiration": {
+    "url": "https://classroom.amplify.com/activity/6a2a1e755c2f2268f8e2eb7d?utm_campaign=share&utm_content=activity&lang=ko",
+    "confirmedFacts": [
+      {
+        "label": "공개 제목",
+        "value": "26.6.15 공개수업"
+      },
+      {
+        "label": "작성자",
+        "value": "선생님 한윤석"
+      },
+      {
+        "label": "공개 JSON 화면 수",
+        "value": "22"
+      },
+      {
+        "label": "핵심 화면",
+        "value": "미끄럼틀 만들기, 매끄러운 미끄럼틀이 될까?, 매끄러운 미끄럼틀 만들기"
+      }
+    ]
+  },
+  "screens": [
+    {
+      "id": "s01-notice",
+      "title": "어느 길이 더 가파를까?",
+      "template": "notice_predict",
+      "purpose": "그림/상황을 보고 가파른 정도를 먼저 직관적으로 비교한다.",
+      "choice": "s01_prediction",
+      "reason": "s01_reason",
+      "feedback": "s01_feedback",
+      "beforeSubmitMessage": "먼저 어느 쪽이 더 가파른지 예상해 보세요.",
+      "afterSubmitMessage": "좋아요. 이제 가파른 정도를 수로 나타내는 방법을 찾아봅시다."
+    },
+    {
+      "id": "s02-slope-calc",
+      "title": "기울기를 계산하기",
+      "template": "numeric_check",
+      "purpose": "높이 변화량과 가로 변화량의 비를 계산한다.",
+      "answer": 0.6667,
+      "tolerance": 0.01,
+      "input": "s02_slope",
+      "feedback": "s02_feedback",
+      "correctMessage": "맞아요. 높이 변화량을 가로 변화량으로 나눈 값입니다.",
+      "tryAgainMessage": "높이 변화량 ÷ 가로 변화량으로 다시 계산해 보세요."
+    },
+    {
+      "id": "s03-demo",
+      "title": "미끄럼틀 애니메이션 보기",
+      "template": "smooth_slide_graph_check",
+      "purpose": "버튼을 누르면 T가 증가하고 그래프의 점이 미끄럼틀을 따라 움직인다.",
+      "graph": "s03_slideGraph",
+      "button": "s03_runSlide",
+      "feedback": "s03_feedback",
+      "duration": 11,
+      "graphNumbers": {
+        "B_1": 3,
+        "H_1": 2,
+        "B_2": 9,
+        "H_2": 6,
+        "B_3": 6,
+        "H_3": 4
+      },
+      "teacherMoves": [
+        "이 화면은 시범용이면 Graph CL에서 `readOnly: true`를 추가해도 됩니다."
+      ]
+    },
+    {
+      "id": "s04-build",
+      "title": "매끄러운 미끄럼틀 만들기",
+      "template": "smooth_slide_graph_check",
+      "purpose": "학생이 그래프의 조절점을 움직여 세 선분의 기울기를 맞춘다.",
+      "graph": "s04_slideGraph",
+      "button": "s04_runSlide",
+      "feedback": "s04_feedback",
+      "duration": 11
+    },
+    {
+      "id": "s05-explain",
+      "title": "왜 매끄러웠을까?",
+      "template": "reflection",
+      "purpose": "기울기가 같다는 조건을 학생 언어로 설명한다.",
+      "response": "s05_reflection",
+      "note": "s05_prompt",
+      "prompt": "세 구간의 기울기가 어떤 관계일 때 미끄럼틀이 매끄럽게 이어지는지 설명하세요."
+    },
+    {
+      "id": "s06-intercepts",
+      "title": "절편으로 상황 설명하기",
+      "template": "graph_match",
+      "purpose": "일차함수 그래프에서 x절편과 y절편이 상황에서 무엇을 뜻하는지 연결한다.",
+      "input": "s06_value",
+      "graph": "s06_graph",
+      "feedback": "s06_feedback"
+    }
+  ],
+  "generatedAt": "2026-06-12T13:56:51.134Z",
+  "generator": "desmos-cl-vibe-lab@0.1.0",
+  "templateIds": [
+    "notice_predict",
+    "numeric_check",
+    "smooth_slide_graph_check",
+    "smooth_slide_graph_check",
+    "reflection",
+    "graph_match"
+  ]
+}

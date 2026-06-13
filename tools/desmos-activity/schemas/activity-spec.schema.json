@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.rhwp/desmos-cl-vibe-lab/activity-spec.schema.json",
+  "title": "Desmos CL Vibe Activity Spec",
+  "type": "object",
+  "required": ["id", "title", "screens"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "title": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string",
+      "default": "ko"
+    },
+    "audience": {
+      "type": "string"
+    },
+    "learningGoals": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sourceInspiration": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string"
+        },
+        "confirmedFacts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["label", "value"],
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "value": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "variables": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "screens": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "template"],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "template": {
+            "type": "string",
+            "enum": [
+              "cover_fact_card",
+              "notice_predict",
+              "numeric_check",
+              "unit_rate_model",
+              "randomized_practice",
+              "graph_match",
+              "smooth_slide_graph_check",
+              "table_check",
+              "card_sort_check",
+              "reflection",
+              "marbleslides_style",
+              "platformer_mario",
+              "inequality_pasture"
+            ]
+          },
+          "purpose": {
+            "type": "string"
+          },
+          "teacherMoves": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "values": {
+            "type": "object",
+            "additionalProperties": true
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

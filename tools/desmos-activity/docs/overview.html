@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desmos CL 액티비티 제작 시스템 — 사용방법 · 구현내용</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0d1420;
+  --bg2:#111a2a;
+  --panel:#16213380;
+  --panel-solid:#162133;
+  --grid:#1d2b42;
+  --grid-major:#24375555;
+  --ink:#dce6f5;
+  --ink-dim:#8da3c0;
+  --ink-faint:#5a708f;
+  --red:#e0635f;    --red-deep:#c74440;
+  --blue:#5b9bd9;   --blue-deep:#2d70b3;
+  --green:#5fb877;  --green-deep:#388c46;
+  --purple:#9b7fd4; --purple-deep:#6042a6;
+  --orange:#fa9d4f; --orange-deep:#fa7e19;
+  --cyan:#56c8d8;
+  --mono:'IBM Plex Mono',monospace;
+  --sans:'IBM Plex Sans KR',sans-serif;
+  --disp:'Bricolage Grotesque','IBM Plex Sans KR',sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--sans);
+  background:
+    linear-gradient(rgba(13,20,32,0) 0%, rgba(13,20,32,.4) 100%),
+    repeating-linear-gradient(0deg, transparent 0 23px, var(--grid) 23px 24px),
+    repeating-linear-gradient(90deg, transparent 0 23px, var(--grid) 23px 24px),
+    repeating-linear-gradient(0deg, transparent 0 119px, var(--grid-major) 119px 121px),
+    repeating-linear-gradient(90deg, transparent 0 119px, var(--grid-major) 119px 121px),
+    var(--bg);
+  color:var(--ink);
+  line-height:1.65;
+  letter-spacing:-.01em;
+}
+::selection{background:var(--blue-deep);color:#fff}
+
+/* ---------- layout ---------- */
+.wrap{max-width:1060px;margin:0 auto;padding:0 28px}
+section{padding:72px 0 8px}
+
+/* ---------- hero ---------- */
+header{position:relative;overflow:hidden;border-bottom:1px solid var(--grid-major)}
+.hero{padding:92px 0 64px;position:relative}
+.hero-kicker{
+  font-family:var(--mono);font-size:13px;color:var(--cyan);
+  letter-spacing:.18em;text-transform:uppercase;
+  display:flex;align-items:center;gap:12px;margin-bottom:26px;
+  animation:rise .7s ease both;
+}
+.hero-kicker::before{content:"";width:36px;height:1px;background:var(--cyan)}
+h1{
+  font-family:var(--disp);font-weight:800;
+  font-size:clamp(40px,6.4vw,68px);line-height:1.06;letter-spacing:-.03em;
+  animation:rise .7s .08s ease both;
+}
+h1 .acc{color:var(--orange)}
+.hero-sub{
+  margin-top:26px;max-width:560px;color:var(--ink-dim);font-size:16.5px;font-weight:300;
+  animation:rise .7s .16s ease both;
+}
+.hero-sub b{color:var(--ink);font-weight:600}
+.hero-meta{
+  margin-top:38px;display:flex;gap:10px;flex-wrap:wrap;
+  animation:rise .7s .24s ease both;
+}
+.chip{
+  font-family:var(--mono);font-size:12px;padding:7px 13px;
+  border:1px solid var(--grid-major);border-radius:99px;color:var(--ink-dim);
+  background:var(--panel);backdrop-filter:blur(4px);
+}
+.chip i{font-style:normal;margin-right:7px}
+/* hero graph */
+.hero-graph{
+  position:absolute;right:-60px;top:30px;width:560px;max-width:60vw;opacity:.95;
+  pointer-events:none;
+}
+.hero-graph .curve{
+  stroke-dasharray:1200;stroke-dashoffset:1200;
+  animation:draw 2.2s .5s cubic-bezier(.45,0,.2,1) forwards;
+}
+.hero-graph .star{opacity:0;animation:pop .5s ease forwards}
+.hero-graph .star:nth-of-type(1){animation-delay:1.5s}
+.hero-graph .star:nth-of-type(2){animation-delay:1.9s}
+.hero-graph .star:nth-of-type(3){animation-delay:2.3s}
+.hero-graph .ball{animation:roll 3.4s 1s cubic-bezier(.3,.1,.6,1) infinite}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes pop{0%{opacity:0;transform:scale(.2)}70%{transform:scale(1.35)}100%{opacity:1;transform:scale(1)}}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes roll{
+  0%{offset-distance:0%;opacity:0}
+  8%{opacity:1}
+  92%{opacity:1}
+  100%{offset-distance:100%;opacity:0}
+}
+@media(max-width:880px){.hero-graph{display:none}}
+
+/* ---------- nav ---------- */
+nav{
+  position:sticky;top:0;z-index:50;
+  background:rgba(13,20,32,.86);backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--grid-major);
+}
+nav .wrap{display:flex;gap:4px;overflow-x:auto;padding-top:0;padding-bottom:0}
+nav a{
+  font-family:var(--mono);font-size:12.5px;color:var(--ink-dim);text-decoration:none;
+  padding:14px 14px;white-space:nowrap;border-bottom:2px solid transparent;transition:.2s;
+}
+nav a:hover{color:var(--ink);border-bottom-color:var(--cyan)}
+nav a b{color:var(--cyan);font-weight:500;margin-right:6px}
+
+/* ---------- section heading: expression-row style ---------- */
+.sec-head{display:flex;align-items:baseline;gap:18px;margin-bottom:34px}
+.sec-num{
+  font-family:var(--mono);font-size:13px;color:var(--ink-faint);
+  border:1px solid var(--grid-major);min-width:44px;text-align:center;
+  padding:8px 0;border-radius:4px;background:var(--panel-solid);
+}
+h2{font-family:var(--disp);font-weight:600;font-size:clamp(26px,3.4vw,36px);letter-spacing:-.02em}
+h2 .dot{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:13px;vertical-align:2px}
+.sec-cap{color:var(--ink-faint);font-size:14px;margin:-26px 0 34px 62px;font-weight:300}
+
+/* ---------- pillars ---------- */
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media(max-width:780px){.pillars{grid-template-columns:1fr}}
+.pillar{
+  background:var(--panel-solid);border:1px solid var(--grid-major);border-radius:10px;
+  padding:26px 24px 22px;position:relative;overflow:hidden;transition:transform .25s,border-color .25s;
+}
+.pillar:hover{transform:translateY(-4px);border-color:var(--ink-faint)}
+.pillar::before{content:"";position:absolute;inset:0 0 auto 0;height:3px}
+.pillar.p-blue::before{background:var(--blue-deep)} .pillar.p-green::before{background:var(--green-deep)} .pillar.p-orange::before{background:var(--orange-deep)}
+.pillar h3{font-size:17px;font-weight:700;margin-bottom:4px}
+.pillar .path{font-family:var(--mono);font-size:11.5px;color:var(--cyan);word-break:break-all;display:block;margin-bottom:12px}
+.pillar p{font-size:13.5px;color:var(--ink-dim);font-weight:300}
+.pillar .tag{position:absolute;top:18px;right:18px;font-family:var(--mono);font-size:10px;color:var(--ink-faint);letter-spacing:.12em}
+
+/* ---------- pipeline ---------- */
+.pipe{display:flex;align-items:stretch;gap:0;flex-wrap:wrap;margin-top:8px}
+.pipe-step{
+  flex:1;min-width:150px;background:var(--panel-solid);border:1px solid var(--grid-major);
+  padding:18px 16px 16px;position:relative;margin-right:26px;border-radius:8px;margin-bottom:26px;
+}
+.pipe-step:last-child{margin-right:0}
+.pipe-step::after{
+  content:"→";position:absolute;right:-23px;top:50%;transform:translateY(-50%);
+  color:var(--ink-faint);font-size:18px;font-family:var(--mono);
+}
+.pipe-step:last-child::after{display:none}
+.pipe-step .n{font-family:var(--mono);font-size:10.5px;color:var(--orange);letter-spacing:.15em;display:block;margin-bottom:8px}
+.pipe-step b{font-size:14px;display:block;margin-bottom:5px}
+.pipe-step span{font-size:12px;color:var(--ink-dim);font-weight:300;display:block;line-height:1.5}
+.pipe-step code{font-family:var(--mono);font-size:11px;color:var(--cyan)}
+
+/* ---------- code ---------- */
+.codebox{
+  background:#0a101c;border:1px solid var(--grid-major);border-radius:10px;
+  margin:18px 0;overflow:hidden;
+}
+.codebox .bar{
+  display:flex;justify-content:space-between;align-items:center;
+  font-family:var(--mono);font-size:11px;color:var(--ink-faint);
+  padding:9px 16px;border-bottom:1px solid var(--grid-major);letter-spacing:.08em;
+  background:var(--panel-solid);
+}
+.codebox .bar .lang{color:var(--orange)}
+.codebox pre{padding:18px 20px;overflow-x:auto;font-family:var(--mono);font-size:13px;line-height:1.75;color:var(--ink)}
+.codebox .c{color:var(--ink-faint);font-style:italic}
+.codebox .sink{color:var(--cyan)}
+.codebox .str{color:var(--green)}
+.codebox .kw{color:var(--purple)}
+.codebox .num{color:var(--orange)}
+.codebox .fn{color:var(--blue)}
+
+/* ---------- template cards ---------- */
+.tcards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px}
+@media(max-width:880px){.tcards{grid-template-columns:1fr}}
+.tcard{
+  border:1px solid var(--grid-major);border-radius:12px;overflow:hidden;
+  background:var(--panel-solid);display:flex;flex-direction:column;transition:transform .25s;
+}
+.tcard:hover{transform:translateY(-4px)}
+.tcard .thead{padding:22px 22px 16px;border-bottom:1px dashed var(--grid-major)}
+.tcard.t-red .thead{background:linear-gradient(135deg,#c7444022,transparent)}
+.tcard.t-blue .thead{background:linear-gradient(135deg,#2d70b322,transparent)}
+.tcard.t-green .thead{background:linear-gradient(135deg,#388c4622,transparent)}
+.tcard .emoji{font-size:30px;display:block;margin-bottom:10px}
+.tcard h3{font-size:17px;font-weight:700}
+.tcard .tid{font-family:var(--mono);font-size:11.5px;margin-top:3px;display:block}
+.t-red .tid{color:var(--red)} .t-blue .tid{color:var(--blue)} .t-green .tid{color:var(--green)}
+.tcard .tbody{padding:18px 22px 20px;font-size:13px;color:var(--ink-dim);font-weight:300;flex:1}
+.tcard .tbody b{color:var(--ink);font-weight:600}
+.tcard .tfoot{padding:0 22px 20px}
+.tcard .run{
+  font-family:var(--mono);font-size:11.5px;color:var(--cyan);
+  background:#0a101c;border:1px solid var(--grid-major);border-radius:6px;
+  padding:9px 13px;display:block;
+}
+.tcard ul{list-style:none;margin-top:10px}
+.tcard li{padding-left:18px;position:relative;margin-bottom:5px}
+.tcard li::before{content:"·";position:absolute;left:4px;color:var(--orange)}
+
+/* ---------- principles: expression list ---------- */
+.exprlist{border:1px solid var(--grid-major);border-radius:12px;overflow:hidden;background:var(--panel-solid)}
+.expr{
+  display:grid;grid-template-columns:52px 1fr;border-bottom:1px solid var(--grid);
+  transition:background .2s;
+}
+.expr:last-child{border-bottom:none}
+.expr:hover{background:#1a2740}
+.expr .idx{
+  font-family:var(--mono);font-size:11.5px;color:var(--ink-faint);
+  display:flex;align-items:flex-start;justify-content:center;padding-top:19px;
+  border-right:1px solid var(--grid);
+}
+.expr .body{padding:16px 22px 16px 18px}
+.expr .rule{font-size:14.5px;font-weight:600;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.expr .rule .pill{
+  font-family:var(--mono);font-size:10px;font-weight:500;letter-spacing:.1em;
+  padding:3px 9px;border-radius:99px;
+}
+.pill.verified{background:#388c4626;color:var(--green);border:1px solid #388c4655}
+.pill.pitfall{background:#c7444026;color:var(--red);border:1px solid #c7444055}
+.expr .why{font-size:13px;color:var(--ink-dim);font-weight:300;margin-top:5px}
+.expr .why code{font-family:var(--mono);font-size:11.5px;color:var(--cyan);background:#0a101c;padding:2px 6px;border-radius:4px}
+
+/* ---------- stats ---------- */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:8px 0 26px}
+@media(max-width:780px){.stats{grid-template-columns:repeat(2,1fr)}}
+.stat{
+  background:var(--panel-solid);border:1px solid var(--grid-major);border-radius:10px;
+  padding:22px 20px 18px;position:relative;overflow:hidden;
+}
+.stat .v{font-family:var(--disp);font-weight:800;font-size:42px;line-height:1;letter-spacing:-.02em}
+.stat .l{font-size:12.5px;color:var(--ink-dim);margin-top:8px;font-weight:300}
+.stat:nth-child(1) .v{color:var(--blue)} .stat:nth-child(2) .v{color:var(--green)}
+.stat:nth-child(3) .v{color:var(--orange)} .stat:nth-child(4) .v{color:var(--red)}
+
+/* ---------- timeline ---------- */
+.timeline{position:relative;margin-left:10px;padding-left:34px}
+.timeline::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--blue-deep),var(--purple-deep),var(--orange-deep))}
+.tl-item{position:relative;padding-bottom:30px}
+.tl-item::before{
+  content:"";position:absolute;left:-40px;top:5px;width:12px;height:12px;border-radius:50%;
+  background:var(--bg);border:3px solid var(--blue);
+}
+.tl-item:nth-child(2)::before{border-color:var(--green)}
+.tl-item:nth-child(3)::before{border-color:var(--purple)}
+.tl-item:nth-child(4)::before{border-color:var(--orange)}
+.tl-item:nth-child(5)::before{border-color:var(--red)}
+.tl-item h3{font-size:16.5px;font-weight:700}
+.tl-item h3 small{font-family:var(--mono);font-weight:400;font-size:11px;color:var(--ink-faint);margin-left:10px;letter-spacing:.08em}
+.tl-item p{font-size:13.5px;color:var(--ink-dim);font-weight:300;margin-top:6px;max-width:760px}
+.tl-item p code{font-family:var(--mono);font-size:11.5px;color:var(--cyan)}
+
+/* ---------- fixes table ---------- */
+.fixes{width:100%;border-collapse:collapse;border:1px solid var(--grid-major);border-radius:12px;overflow:hidden;display:block}
+.fixes table{width:100%;border-collapse:collapse}
+.fixes th{
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-align:left;color:var(--ink-faint);
+  padding:12px 18px;background:var(--panel-solid);border-bottom:1px solid var(--grid-major);font-weight:500;
+}
+.fixes td{padding:14px 18px;border-bottom:1px solid var(--grid);font-size:13.5px;vertical-align:top}
+.fixes tr:last-child td{border-bottom:none}
+.fixes tr:hover td{background:#1a2740}
+.sev{font-family:var(--mono);font-size:10px;letter-spacing:.1em;padding:3px 9px;border-radius:99px;white-space:nowrap}
+.sev.crit{background:#c7444026;color:var(--red);border:1px solid #c7444055}
+.sev.major{background:#fa7e1926;color:var(--orange);border:1px solid #fa7e1955}
+.fixes .fix-d{color:var(--ink-dim);font-weight:300;font-size:12.5px;margin-top:4px}
+.fixes code{font-family:var(--mono);font-size:11.5px;color:var(--cyan)}
+
+/* ---------- wiki map ---------- */
+.wikimap{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media(max-width:700px){.wikimap{grid-template-columns:1fr}}
+.wpage{
+  border:1px solid var(--grid-major);border-radius:8px;background:var(--panel-solid);
+  padding:15px 18px;display:flex;gap:14px;align-items:flex-start;transition:border-color .2s;
+}
+.wpage:hover{border-color:var(--ink-faint)}
+.wpage .wdot{width:9px;height:9px;border-radius:50%;margin-top:7px;flex-shrink:0}
+.wpage b{font-family:var(--mono);font-size:12.5px;display:block;color:var(--ink)}
+.wpage span{font-size:12.5px;color:var(--ink-dim);font-weight:300}
+
+/* ---------- warn list ---------- */
+.warnbox{
+  border:1px solid #fa7e1944;border-radius:12px;background:#fa7e190d;
+  padding:24px 26px;margin-top:8px;
+}
+.warnbox h3{font-size:15px;color:var(--orange);margin-bottom:12px;display:flex;gap:10px;align-items:center}
+.warnbox ul{list-style:none}
+.warnbox li{padding:7px 0 7px 24px;position:relative;font-size:13.5px;color:var(--ink-dim);font-weight:300;border-bottom:1px dashed #fa7e1922}
+.warnbox li:last-child{border-bottom:none}
+.warnbox li::before{content:"⚠";position:absolute;left:0;color:var(--orange);font-size:12px}
+
+/* ---------- prompt box ---------- */
+.promptbox{border:1px solid #56c8d844;background:#56c8d80d;border-radius:12px;padding:4px}
+
+/* ---------- footer ---------- */
+footer{margin-top:90px;border-top:1px solid var(--grid-major);padding:34px 0 50px}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;font-family:var(--mono);font-size:11.5px;color:var(--ink-faint)}
+footer .axis{color:var(--cyan)}
+
+/* reveal on scroll */
+.rv{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
+.rv.in{opacity:1;transform:none}
+</style>
+</head>
+<body>
+
+<header>
+  <svg class="hero-graph" viewBox="0 0 560 420" fill="none" aria-hidden="true">
+    <line x1="40" y1="380" x2="540" y2="380" stroke="#24375588" stroke-width="1.5"/>
+    <line x1="60" y1="20" x2="60" y2="400" stroke="#24375588" stroke-width="1.5"/>
+    <path id="heroPath" class="curve" d="M 70 60 Q 200 80 280 200 T 520 330" stroke="#fa7e19" stroke-width="3" stroke-linecap="round"/>
+    <g class="star" style="transform-origin:210px 122px"><text x="196" y="134" font-size="26">⭐</text></g>
+    <g class="star" style="transform-origin:330px 252px"><text x="316" y="264" font-size="26">⭐</text></g>
+    <g class="star" style="transform-origin:470px 318px"><text x="456" y="330" font-size="26">⭐</text></g>
+    <circle class="ball" r="9" fill="#5b9bd9" style="offset-path:path('M 70 60 Q 200 80 280 200 T 520 330')"/>
+  </svg>
+  <div class="wrap hero">
+    <div class="hero-kicker">DESMOS · COMPUTATION LAYER · VIBE-CODING KIT</div>
+    <h1>그래프가 곧<br><span class="acc">게임 엔진</span>이다</h1>
+    <p class="hero-sub">
+      미끄럼틀 · 슈퍼마리오 · 양떼 부등식 — 게임형 수학 액티비티를 로컬에서 <b>바이브코딩</b>으로 설계하고,
+      <b>붙여넣기 팩</b>으로 변환해 Amplify Classroom(Desmos) Activity Builder에 올리는 시스템의
+      사용방법과 구현내용.
+    </p>
+    <div class="hero-meta">
+      <span class="chip"><i>📅</i>2026-06-12 구축</span>
+      <span class="chip"><i>🔬</i>리서치 8차원 · 에이전트 87</span>
+      <span class="chip"><i>📚</i>위키 21페이지</span>
+      <span class="chip"><i>🛠</i>템플릿 13종</span>
+      <span class="chip"><i>🛡</i>적대 리뷰 18건 수정</span>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <div class="wrap">
+    <a href="#sys"><b>1</b>시스템 구조</a>
+    <a href="#quick"><b>2</b>빠른 시작</a>
+    <a href="#templates"><b>3</b>게임 템플릿</a>
+    <a href="#deploy"><b>4</b>배포 (Claude in Chrome)</a>
+    <a href="#rules"><b>5</b>검증된 설계 원칙</a>
+    <a href="#impl"><b>6</b>구현 내역</a>
+    <a href="#fixes"><b>7</b>리뷰 결함 수정</a>
+    <a href="#wiki"><b>8</b>위키 맵</a>
+    <a href="#todo"><b>9</b>미확인 항목</a>
+  </div>
+</nav>
+
+<main class="wrap">
+
+<!-- ============ 1. 시스템 구조 ============ -->
+<section id="sys">
+  <div class="sec-head rv"><span class="sec-num">f(1)</span><h2><span class="dot" style="background:var(--blue)"></span>시스템 구조 — 3개의 거점</h2></div>
+  <div class="pillars">
+    <div class="pillar p-blue rv">
+      <span class="tag">KNOWLEDGE</span>
+      <h3>📚 Obsidian 위키</h3>
+      <span class="path">~/ObsidianVault/03-Resources/desmos-cl/</span>
+      <p>CL 언어·게임 패턴·공식 활동 메커니즘의 지식 베이스. 전부 1차 자료 검증 + qmd 시맨틱 검색.
+      <code style="font-family:var(--mono);font-size:11px;color:var(--cyan)">/llm-wiki:wiki query "..."</code>로 질의.</p>
+    </div>
+    <div class="pillar p-green rv">
+      <span class="tag">FACTORY</span>
+      <h3>🛠 desmos-activity 툴킷</h3>
+      <span class="path">~/project/rhwp/tools/desmos-activity/</span>
+      <p>활동 스펙 JSON → 화면 설계 + 붙여넣기용 CL 초안 + <b style="color:var(--ink)">version-11 그래프 상태 팩</b>까지 자동 생성하는 로컬 공장. 템플릿 13종.</p>
+    </div>
+    <div class="pillar p-orange rv">
+      <span class="tag">DEPLOY</span>
+      <h3>🚀 배포 런북</h3>
+      <span class="path">docs/claude-in-chrome-runbook.md</span>
+      <p>생성 팩을 classroom.amplify.com Activity Builder에 올리는 단계별 절차. Claude in Chrome에게 그대로 주면 사람 대신 수행.</p>
+    </div>
+  </div>
+
+  <div class="pipe rv" style="margin-top:30px">
+    <div class="pipe-step"><span class="n">STEP 01</span><b>아이디어 → 스펙</b><span>활동 아이디어를 <code>activities/*.json</code>으로 구조화 (화면·템플릿·좌표)</span></div>
+    <div class="pipe-step"><span class="n">STEP 02</span><b>생성</b><span><code>npm run generate</code> → 팩 6종 (설계·CL·그래프상태·체크리스트·프롬프트)</span></div>
+    <div class="pipe-step"><span class="n">STEP 03</span><b>검증</b><span><code>npm run check</code> — 스키마·컴포넌트 참조 lint 전체 green 확인</span></div>
+    <div class="pipe-step"><span class="n">STEP 04</span><b>배포</b><span>Claude in Chrome이 런북대로 Activity Builder에 붙여넣기 + 미리보기 검증</span></div>
+  </div>
+</section>
+
+<!-- ============ 2. 빠른 시작 ============ -->
+<section id="quick">
+  <div class="sec-head rv"><span class="sec-num">f(2)</span><h2><span class="dot" style="background:var(--green)"></span>빠른 시작</h2></div>
+  <div class="codebox rv">
+    <div class="bar"><span>terminal</span><span class="lang">bash</span></div>
+    <pre><span class="c"># 툴킷으로 이동</span>
+cd ~/project/rhwp/tools/desmos-activity
+
+<span class="c"># 전체 검증 (구문 체크 + lint 5종 + 생성 5종)</span>
+npm run check
+
+<span class="c"># 게임 액티비티 3종 생성</span>
+npm run generate:marble   <span class="c"># 구슬 미끄럼틀 — 일차함수로 별 모으기</span>
+npm run generate:mario    <span class="c"># 점프! 이차함수 코인 러시</span>
+npm run generate:sheep    <span class="c"># 양떼 지키기 — 부등식 울타리</span>
+
+<span class="c"># 새 활동 만들기: 기존 스펙 복사 → 수정 → 생성</span>
+cp activities/sheep-pasture-inequality.json activities/my-activity.json
+node src/generate.mjs activities/my-activity.json --out generated
+node src/lint.mjs activities/my-activity.json
+
+<span class="c"># 공개 Amplify 활동 역공학 (읽기 전용)</span>
+node src/inspect-amplify.mjs 'https://classroom.amplify.com/activity/&lt;id&gt;' --out generated/inspections</pre>
+  </div>
+
+  <p class="rv" style="color:var(--ink-dim);font-size:14px;margin-top:6px">생성 결과물 — <code style="font-family:var(--mono);font-size:12px;color:var(--cyan)">generated/&lt;활동id&gt;/</code></p>
+  <div class="codebox rv">
+    <div class="bar"><span>output pack</span><span class="lang">6 files</span></div>
+    <pre><span class="fn">activity-plan.md</span>        <span class="c"># 화면별 설계도 — 컴포넌트 이름·교사 무브·품질 게이트</span>
+<span class="fn">screen-cl.md</span>            <span class="c"># 컴포넌트별 CL 스크립트 (붙여넣기용)</span>
+<span class="fn">graph-states.md</span>         <span class="c"># ★ 그래프 표현식 붙여넣기 목록 (폴더/숨김/라벨 지시 포함)</span>
+<span class="fn">graph-state.*.json</span>      <span class="c"># ★ version-11 calculatorState 전체 (API 임베드/자동화용)</span>
+<span class="fn">paste-checklist.md</span>      <span class="c"># 화면별 검증 체크리스트</span>
+<span class="fn">vibe-prompt-pack.md</span>     <span class="c"># 활동 개선/디버그용 LLM 프롬프트</span></pre>
+  </div>
+</section>
+
+<!-- ============ 3. 템플릿 ============ -->
+<section id="templates">
+  <div class="sec-head rv"><span class="sec-num">f(3)</span><h2><span class="dot" style="background:var(--red)"></span>게임 템플릿 3종</h2></div>
+  <p class="sec-cap">기존 10종(도입·예측·수치판정·랜덤연습·표·카드분류 등)에 게임형 3종 추가 — 그래프 상태 팩 동반 생성</p>
+
+  <div class="tcards">
+    <div class="tcard t-red rv">
+      <div class="thead">
+        <span class="emoji">🎢</span>
+        <h3>구슬 미끄럼틀</h3>
+        <span class="tid">marbleslides_style</span>
+      </div>
+      <div class="tbody">
+        학생이 함수를 입력하면 공이 낙하 후 곡선을 타고 굴러 ⭐를 수집.
+        <ul>
+          <li><b>graph-clone 전략</b> — real marbleslides엔 CL이 전무(포럼 7년치 확인)해서 일반 그래프로 재구현</li>
+          <li>점수·잠금·대시보드 <code style="font-family:var(--mono);font-size:11px;color:var(--cyan)">correct:</code> 전부 가능</li>
+          <li>Fix It → Predict → Challenge 공식 난이도 구조</li>
+        </ul>
+      </div>
+      <div class="tfoot"><span class="run">$ npm run generate:marble</span></div>
+    </div>
+
+    <div class="tcard t-blue rv">
+      <div class="thead">
+        <span class="emoji">🍄</span>
+        <h3>함수 점프 플랫포머</h3>
+        <span class="tid">platformer_mario</span>
+      </div>
+      <div class="tbody">
+        조이스틱 대신 <b>함수가 조종간</b>. 학생이 쓴 곡선을 따라 캐릭터가 달리며 🪙 수집.
+        <ul>
+          <li>Super Mario Quadratics(John Rowe) 패턴</li>
+          <li>충돌 판정 <code style="font-family:var(--mono);font-size:11px;color:var(--cyan)">{|g(C_x)-C_y|&lt;0.4}</code> — 그래프 소유</li>
+          <li>키보드 입력 불가 확정 → 버튼/클릭/드래그 3종 조작만 설계</li>
+        </ul>
+      </div>
+      <div class="tfoot"><span class="run">$ npm run generate:mario</span></div>
+    </div>
+
+    <div class="tcard t-green rv">
+      <div class="thead">
+        <span class="emoji">🐑</span>
+        <h3>양떼 부등식</h3>
+        <span class="tid">inequality_pasture</span>
+      </div>
+      <div class="tbody">
+        부등식 울타리를 입력하면 영역이 음영되고 울타리 안의 🐑 수를 그래프가 카운트. 🐺는 막아야 함.
+        <ul>
+          <li>Shira the Sheep + Point Collector 공식 패턴</li>
+          <li><code style="font-family:var(--mono);font-size:11px;color:var(--cyan)">parseInequality</code> 음영 + 경계선 실선/점선 이중화</li>
+          <li>경계 위의 양은 ≤일 때만 포함 (strict 분기 내장)</li>
+        </ul>
+      </div>
+      <div class="tfoot"><span class="run">$ npm run generate:sheep</span></div>
+    </div>
+  </div>
+
+  <p class="rv" style="color:var(--ink-dim);font-size:14px;margin-top:30px">핵심 배선 — 모든 게임 템플릿의 공통 골격:</p>
+  <div class="codebox rv">
+    <div class="bar"><span>computation layer — graph component</span><span class="lang">CL</span></div>
+    <pre><span class="c"># CL은 입출력 글루만 담당한다. 판정·물리·점수는 그래프 표현식이 소유.</span>
+<span class="sink">function</span>(<span class="str">`g`</span>):
+<span class="kw">when</span> input.submitted <span class="fn">simpleFunction</span>(input.latex, <span class="str">`x`</span>)
+<span class="kw">otherwise</span> <span class="fn">simpleFunction</span>(<span class="str">`1/0`</span>, <span class="str">`x`</span>)          <span class="c"># 미제출 = undefined로 숨김</span>
+<span class="sink">number</span>(<span class="str">`T`</span>): button.<span class="fn">timeSincePress</span>(<span class="num">8</span>)        <span class="c"># 인자 생략하면 10초에서 멈춤!</span>
+
+<span class="c"># 판정은 그래프가 계산한 C를 읽기만:</span>
+<span class="sink">correct</span>: graph.<span class="fn">number</span>(<span class="str">`C`</span>) = <span class="num">1</span></pre>
+  </div>
+</section>
+
+<!-- ============ 4. 배포 ============ -->
+<section id="deploy">
+  <div class="sec-head rv"><span class="sec-num">f(4)</span><h2><span class="dot" style="background:var(--orange)"></span>배포 — Claude in Chrome 연계</h2></div>
+  <p class="sec-cap">쓰기 API는 존재하지 않는다 — 저작은 Activity Builder UI로만. 그래서 브라우저 자동화가 마지막 구간을 맡는다.</p>
+
+  <div class="pipe rv">
+    <div class="pipe-step"><span class="n">A</span><b>활동·화면 생성</b><span>activity-plan.md 순서대로. <b style="color:var(--ink)">컴포넌트 이름 정확히</b> — CL은 이름 의존</span></div>
+    <div class="pipe-step"><span class="n">B</span><b>그래프 상태 입력</b><span>graph-states.md의 LaTeX 줄 목록 붙여넣기 (줄마다 별도 표현식 — 실측 검증) 또는 저장 그래프 URL 임포트</span></div>
+    <div class="pipe-step"><span class="n">C</span><b>CL 붙여넣기</b><span>screen-cl.md → 각 컴포넌트 코드 패널. <b style="color:var(--ink)">패널 오류 표시가 첫 컴파일 검증</b></span></div>
+    <div class="pipe-step"><span class="n">D</span><b>검증 · 발행</b><span>paste-checklist.md 순회 → 발행 → inspect-amplify.mjs로 공개 JSON 회수해 디프</span></div>
+  </div>
+
+  <div class="promptbox rv">
+  <div class="codebox" style="margin:0;border:none">
+    <div class="bar"><span>Claude in Chrome에게 줄 프롬프트 (런북 내장)</span><span class="lang">prompt</span></div>
+    <pre>classroom.amplify.com에 로그인된 상태야. 다음 활동을 Activity Builder로 만들어줘.
+1) 첨부한 activity-plan.md 순서대로 화면과 컴포넌트를 만들고 (이름 정확히),
+2) graph-states.md의 표현식을 각 그래프에 순서대로 붙여넣고,
+3) screen-cl.md의 CL을 각 컴포넌트 코드 패널에 붙여넣고 오류가 없는지 확인하고,
+4) paste-checklist.md를 위에서부터 체크해줘.
+오류가 나면 멈추고 어떤 컴포넌트의 어떤 줄인지 보고해줘.</pre>
+  </div>
+  </div>
+
+  <p class="rv" style="font-size:13px;color:var(--ink-faint);margin-top:14px">
+    원칙: 화면 1개 완성·검증 후 다음 화면 · 비공개 쓰기 API 호출 금지 (공개 <span style="font-family:var(--mono);color:var(--cyan)">POST /activity/{id}</span>는 읽기 전용 인스펙션) · 타인 비공개 활동/학생 데이터 접근 금지
+  </p>
+</section>
+
+<!-- ============ 5. 설계 원칙 ============ -->
+<section id="rules">
+  <div class="sec-head rv"><span class="sec-num">f(5)</span><h2><span class="dot" style="background:var(--purple)"></span>검증된 설계 원칙 — 표현식 리스트</h2></div>
+  <p class="sec-cap">전부 1차 자료(공식 문서 번들·뉴스레터·포럼 원문·실측)로 확인. 위키에 출처 링크 보존.</p>
+
+  <div class="exprlist rv">
+    <div class="expr"><div class="idx">1</div><div class="body">
+      <div class="rule">그래프가 곧 게임 엔진 <span class="pill verified">VERIFIED</span></div>
+      <div class="why">상태·물리·판정·연출은 그래프 표현식이 소유. CL은 <code>number()</code> 주입과 <code>graph.number()</code> 회수만. — "90% of the time, if you can do it in a graph its best to do it that way."</div>
+    </div></div>
+    <div class="expr"><div class="idx">2</div><div class="body">
+      <div class="rule">timeSincePress는 기본 10초에서 멈춘다 <span class="pill pitfall">PITFALL</span></div>
+      <div class="why">항상 명시 인자 <code>timeSincePress(N)</code>. 같은 화면의 다른 컴포넌트에 포커스가 가도 0으로 리셋된다.</div>
+    </div></div>
+    <div class="expr"><div class="idx">3</div><div class="body">
+      <div class="rule">CL은 변수 자기증가 불가 <span class="pill verified">VERIFIED</span></div>
+      <div class="why">점수 누적 표준 3단: 버튼 <code>capture(`C`)</code> → 그래프 <code>numberList(`L`): button.history(`C`)</code> → 표현식 <code>T=total(L)</code></div>
+    </div></div>
+    <div class="expr"><div class="idx">4</div><div class="body">
+      <div class="rule">CL에는 산술 연산자가 없다 <span class="pill pitfall">PITFALL</span></div>
+      <div class="why">모든 계산은 <code>numericValue("${x} + ${y}")</code> 경유. 리뷰에서 기존 템플릿의 위반 1건 적발·수정.</div>
+    </div></div>
+    <div class="expr"><div class="idx">5</div><div class="body">
+      <div class="rule">parseInequality 해집합은 항상 f &gt; 0 <span class="pill verified">VERIFIED</span></div>
+      <div class="why"><code>differenceFunction</code>은 (큰쪽)−(작은쪽). 점 판정은 <code>evaluateAt(a,b)</code> 부호 하나. 경계 위(f=0)는 비엄격일 때만 포함시킬 것.</div>
+    </div></div>
+    <div class="expr"><div class="idx">6</div><div class="body">
+      <div class="rule">real Marbleslides에는 CL이 없다 <span class="pill verified">VERIFIED</span></div>
+      <div class="why">sink/source 전무(2018→2026 일관). 점수·잠금이 필요하면 일반 그래프로 클론. real 화면은 Labs 토글로 추가만.</div>
+    </div></div>
+    <div class="expr"><div class="idx">7</div><div class="body">
+      <div class="rule">키보드 입력 바인딩은 존재하지 않는다 <span class="pill verified">VERIFIED</span></div>
+      <div class="why">캐릭터 조작 = 화면 버튼 · 클릭 가능 그래프 오브젝트 · 드래그 포인트 3종뿐.</div>
+    </div></div>
+    <div class="expr"><div class="idx">8</div><div class="body">
+      <div class="rule">화면 잠금은 가림이지 차단이 아니다 <span class="pill pitfall">PITFALL</span></div>
+      <div class="why">슬라이드 CL <code>coverText:</code> + <code>coverButtonLabel: ""</code> (비공식 싱크). 조건이 틀리면 학생이 영구히 갇힘 — 가드 필수.</div>
+    </div></div>
+    <div class="expr"><div class="idx">9</div><div class="body">
+      <div class="rule">action 변수와 CL sink 변수는 분리한다 <span class="pill verified">VERIFIED</span></div>
+      <div class="why">AB 그래프에서 actions/ticker/clickable 모두 동작하지만, CL sink가 설정하는 변수를 action이 건드리면 sink가 이기거나 무효화 (공식 문서 번들의 정적 분석기 코드로 확인).</div>
+    </div></div>
+    <div class="expr"><div class="idx">10</div><div class="body">
+      <div class="rule">그래프 상태는 version 11로 생성한다 <span class="pill verified">VERIFIED</span></div>
+      <div class="why">수작업 생성 state도 <code>setState()</code> 정상 로드(헤드리스 Chrome 실측). 로더는 v13까지 수용. LaTeX 줄 붙여넣기 = 줄마다 별도 표현식.</div>
+    </div></div>
+    <div class="expr"><div class="idx">11</div><div class="body">
+      <div class="rule">Challenge Creator는 전면 공개됐다 (2022-10) <span class="pill verified">VERIFIED</span></div>
+      <div class="why">학생 출제 메커니즘(Land the Plane형)을 real 컴포넌트로 템플릿화 가능. Function Carnival식 "그리면 애니메이션"도 공식 재구성 레시피 존재.</div>
+    </div></div>
+  </div>
+</section>
+
+<!-- ============ 6. 구현 내역 ============ -->
+<section id="impl">
+  <div class="sec-head rv"><span class="sec-num">f(6)</span><h2><span class="dot" style="background:var(--blue)"></span>구현 내역</h2></div>
+
+  <div class="stats rv">
+    <div class="stat"><div class="v">87</div><div class="l">병렬 리서치·검증·리뷰 에이전트 (워크플로 5회)</div></div>
+    <div class="stat"><div class="v">21</div><div class="l">위키 페이지 (개념 13 + 소스요약 8) · lint 0 issues</div></div>
+    <div class="stat"><div class="v">13</div><div class="l">활동 템플릿 (게임형 3종 신규) + 예제 활동 5종</div></div>
+    <div class="stat"><div class="v">18</div><div class="l">적대 리뷰 confirmed 결함 → 전량 수정</div></div>
+  </div>
+
+  <div class="timeline rv">
+    <div class="tl-item">
+      <h3>갭 리서치 워크플로 <small>8차원 병렬 + load-bearing claim 적대 검증</small></h3>
+      <p>Marbleslides·마리오/플랫포머·양떼 부등식·그래프 인터랙션·그래프 상태 JSON·CL 언어·포럼 게임 빌드·공식 활동 메커니즘.
+      백미: 프로덕션 문서 번들(<code>main-*.js</code>)에서 <b style="color:var(--ink)">공식 그래프 sink/source 레지스트리 직접 추출</b>,
+      헤드리스 Chrome으로 <b style="color:var(--ink)">state 수작업 생성→로드 실측</b>.</p>
+    </div>
+    <div class="tl-item">
+      <h3>기준 활동 역공학 <small>26.6.15 공개수업 · 22화면</small></h3>
+      <p>공개 JSON에서 미끄럼틀 판정 그래프(107개 표현식) 완전 추출 — T 주입 → 단계 애니메이션 → 포물선 다이빙 연출 → <code>E₁/E₂/C</code> 판정.
+      <code>knowledge/graph1-smooth-slide-state.json</code> + <code>activity-json-anatomy.md</code>로 보존.</p>
+    </div>
+    <div class="tl-item">
+      <h3>위키 지식화 <small>llm-wiki 스킬 · ingest → compile → embed</small></h3>
+      <p>raw 소스 8건 ingest, 개념 페이지 8개 신규 compile, 백링크 감사, index 갱신, qmd 임베딩, git 커밋. 모든 페이지에 출처 URL과 미확인 항목 명시.</p>
+    </div>
+    <div class="tl-item">
+      <h3>툴킷 확장 <small>state.mjs · gameTemplates.mjs · 생성기</small></h3>
+      <p><code>src/state.mjs</code>(version-11 calculatorState 빌더), 게임 템플릿 3종, 생성기에 그래프 상태 팩 출력 추가
+      (<code>graph-states.md</code> + <code>graph-state.*.json</code>), 스키마 enum·lint·check 스크립트 확장, 바이브코딩 프롬프트에 게임 규칙 13개 내장.</p>
+    </div>
+    <div class="tl-item">
+      <h3>적대 리뷰 → 수정 <small>3렌즈 × 검증단 · confirmed 18건</small></h3>
+      <p>CL 문법 / Desmos LaTeX·상태 / 생성기 코드 3개 렌즈로 독립 리뷰 후 각 finding을 별도 에이전트가 반박 시도.
+      살아남은 18건 전량 수정 → <code>npm run check</code> 10/10 green. 패턴 차원의 교훈은 위키에 역반영.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7. 결함 수정 ============ -->
+<section id="fixes">
+  <div class="sec-head rv"><span class="sec-num">f(7)</span><h2><span class="dot" style="background:var(--red)"></span>리뷰가 잡아낸 결함 — 하이라이트</h2></div>
+  <div class="fixes rv"><table>
+    <thead><tr><th style="width:90px">심각도</th><th>결함 → 수정</th></tr></thead>
+    <tbody>
+      <tr><td><span class="sev crit">CRITICAL</span></td><td>
+        <b>양떼 s04 화면 클리어 불가</b> — 카운트가 <code>f&gt;0</code>만 세서 경계 위의 양 3마리가 의도된 정답 <code>y ≥ x+1</code>로도 0마리 판정.
+        <div class="fix-d">→ <code>{f&gt;0.001:1, f&gt;-0.001:1-s, 0}</code> — 비엄격일 때만 경계 포함 + float 등호 대신 ε 비교. 3개 렌즈가 독립적으로 같은 결론.</div>
+      </td></tr>
+      <tr><td><span class="sev crit">CRITICAL</span></td><td>
+        <b>존재 불확실한 "Screen CL" 스코프 의존</b> — 판정 변수를 화면 스크립트에 두고 노트가 bare 참조.
+        <div class="fix-d">→ 판정 변수를 노트 스크립트 안에 자급자족시켜 <code>comp.script.var</code> 규칙 위반 제거 (table_check·unit_rate_model).</div>
+      </td></tr>
+      <tr><td><span class="sev major">MAJOR</span></td><td>
+        <b>CL 산술 연산자 사용</b> — 기존 randomized_practice가 <code>stairs = 10 * r.int(...)</code> 직접 산술 (CL엔 산술이 없음).
+        <div class="fix-d">→ 전부 <code>numericValue("...")</code> 경유로 재작성, 허용 오차 경계도 사전 계산.</div>
+      </td></tr>
+      <tr><td><span class="sev major">MAJOR</span></td><td>
+        <b>파싱 실패 시 NaN 노출</b> — 학생이 <code>y=-0.5x+6</code>처럼 입력하면 "별 NaN / 2개" 표시되고 안내 없음.
+        <div class="fix-d">→ <code>firstDefinedValue(graph.number(`S`), -1)</code> 가드 + "y= 없이 다시 입력하세요" 전용 분기 (3개 템플릿 모두).</div>
+      </td></tr>
+      <tr><td><span class="sev major">MAJOR</span></td><td>
+        <b>dummy 함수 ↔ function() sink 충돌 위험</b> — 덮어쓰기 보장은 number/numberList만 문서화됨.
+        <div class="fix-d">→ 그래프 상태에서 dummy g(x)/f(x,y) 제거, 미리보기용 임시 정의는 "CL 연결 전 삭제" 지침으로 대체.</div>
+      </td></tr>
+      <tr><td><span class="sev major">MAJOR</span></td><td>
+        <b>마리오 코인이 제출 전 안 보임</b> — 코인 표시가 undefined 조건에 묶여 목표 좌표가 안 보이는 빈 무대.
+        <div class="fix-d">→ 기본 🪙 줄은 무조건 표시, 수집 ✨는 +0.5 오프셋 오버레이로 분리 (라벨 겹침도 해결).</div>
+      </td></tr>
+      <tr><td><span class="sev major">MAJOR</span></td><td>
+        <b>예시 힌트가 정답 유출</b> — 양떼 s02의 "예: y &lt; 2x+1"이 그 화면의 완전한 정답, 마리오 예시는 레벨1 정답.
+        <div class="fix-d">→ 리뷰어가 수학적으로 비정답임을 검산한 예시(<code>y &gt; x+4</code> 등)와 꼴 안내로 교체.</div>
+      </td></tr>
+    </tbody>
+  </table></div>
+  <p class="rv" style="font-size:13px;color:var(--ink-faint);margin-top:14px">+ 마이너 11건: 낙하시간 음수 가드, no-op 싱크 제거, 절편/기울기 프레이밍 교정, 파일명 새니타이즈, dedent, 입력 전 "다시 확인" 메시지 게이트 등</p>
+</section>
+
+<!-- ============ 8. 위키 맵 ============ -->
+<section id="wiki">
+  <div class="sec-head rv"><span class="sec-num">f(8)</span><h2><span class="dot" style="background:var(--green)"></span>위키 페이지 맵</h2></div>
+  <p class="sec-cap">Obsidian에서 [[위키링크]]로 탐색 · <span style="font-family:var(--mono)">qmd query</span>로 시맨틱 검색</p>
+  <div class="wikimap rv">
+    <div class="wpage"><span class="wdot" style="background:var(--orange)"></span><div><b>graph-as-game-engine</b><span>제1원리 — 데이터 흐름 등뼈와 6대 패턴</span></div></div>
+    <div class="wpage"><span class="wdot" style="background:var(--blue)"></span><div><b>ab-graph-component-reference</b><span>공식 sink/source 전체 레지스트리 + 액션/티커 충돌 규칙 + 성능 한계</span></div></div>
+    <div class="wpage"><span class="wdot" style="background:var(--green)"></span><div><b>inequality-pasture-pattern</b><span>parseInequality 보일러플레이트 + 경계·strict 함정</span></div></div>
+    <div class="wpage"><span class="wdot" style="background:var(--red)"></span><div><b>marbleslides-builder-facts</b><span>Labs 토글 · CL 부재 · graph-clone 전략</span></div></div>
+    <div class="wpage"><span class="wdot" style="background:var(--purple)"></span><div><b>sprite-and-platformer-patterns</b><span>스프라이트 3기법 · 조작 3종 · 충돌 판정</span></div></div>
+    <div class="wpage"><span class="wdot" style="background:var(--cyan)"></span><div><b>cl-game-scaffolding-patterns</b><span>점수·목숨·타이머·잠금·하이스코어·축하 연출</span></div></div>
+    <div class="wpage"><span class="wdot" style="background:var(--blue)"></span><div><b>desmos-graph-state-json</b><span>version-11 구조 · AB 반입 4경로 · 변환 도구</span></div></div>
+    <div class="wpage"><span class="wdot" style="background:var(--orange)"></span><div><b>official-activity-mechanics</b><span>공식 활동 접근성 매트릭스 · CC · Function Carnival 레시피</span></div></div>
+    <div class="wpage"><span class="wdot" style="background:var(--green)"></span><div><b>cl-language-reference-2026</b><span>현행 문법 · 베타 lists/patterns · 컴포넌트 퀵 테이블</span></div></div>
+    <div class="wpage"><span class="wdot" style="background:var(--red)"></span><div><b>claude-in-chrome-deploy-runbook</b><span>배포 절차 위키판 (원본은 툴킷 docs/)</span></div></div>
+    <div class="wpage"><span class="wdot" style="background:var(--purple)"></span><div><b>amplify-activity-json-and-smooth-slide-pattern</b><span>공개 JSON 인스펙션 + 그래프 소유 판정 패턴</span></div></div>
+    <div class="wpage"><span class="wdot" style="background:var(--cyan)"></span><div><b>cl-activity-pattern-library + 외 9</b><span>코어 개념·패턴 라이브러리·연습 커리큘럼·소스 요약 8</span></div></div>
+  </div>
+</section>
+
+<!-- ============ 9. 미확인 ============ -->
+<section id="todo">
+  <div class="sec-head rv"><span class="sec-num">f(9)</span><h2><span class="dot" style="background:var(--orange)"></span>미확인 항목 — 첫 배포 때 실측</h2></div>
+  <div class="warnbox rv">
+    <h3>로그인 장벽 뒤의 편집기 UI — 웹 리서치 불가 영역 (런북에 ⚠ 표시됨)</h3>
+    <ul>
+      <li>Labs 토글의 2026년 현재 위치/명칭 (classroom.amplify.com/labs 는 HTTP 200 확인)</li>
+      <li>CL 코드 패널 아이콘 명칭, 뷰포트 잠금 UI 명칭</li>
+      <li>저장 그래프 URL 임포트의 "폴더 없어야" 제약이 현재도 유효한지</li>
+      <li>animationDuration의 "graph exhibits 전용" 제약의 정확한 의미</li>
+      <li>공식 문서 코드 샘플 엔드포인트 (로그인 세션 필요)</li>
+      <li>Shira the Sheep · Point Collector 내부 CL 원문 (Copy &amp; Edit로 열람 가능)</li>
+    </ul>
+  </div>
+  <p class="rv" style="font-size:14px;color:var(--ink-dim);margin-top:22px">
+    👉 <b style="color:var(--ink)">권장 첫 실행</b>: <span style="font-family:var(--mono);font-size:12.5px;color:var(--cyan)">generated/sheep-pasture-inequality/</span> 팩 + 런북을 Claude in Chrome에게 주고
+    화면 1개(s02 첫 울타리)부터. 위 ⚠ 항목들이 그때 실측으로 확정되면 런북과 위키를 갱신한다.
+  </p>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span><span class="axis">x:</span> desmos-activity toolkit <span class="axis" style="margin-left:14px">y:</span> desmos-cl wiki</span>
+    <span>2026-06-12 구축 · 적대 검증 완료 · C = {E₁+E₂=0: 1, 0}</span>
+  </div>
+</footer>
+
+<script>
+const io = new IntersectionObserver(es => {
+  es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+}, { threshold: .12 });
+document.querySelectorAll('.rv').forEach(el => io.observe(el));
+</script>
+</body>
+</html>

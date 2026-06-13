@@ -1,0 +1,123 @@
+{
+  "version": 11,
+  "graph": {
+    "viewport": {
+      "xmin": -1,
+      "ymin": -1,
+      "xmax": 9,
+      "ymax": 7
+    },
+    "showGrid": true,
+    "showXAxis": true,
+    "showYAxis": true,
+    "userLockedViewport": true
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "text",
+        "id": "1",
+        "text": "CL이 주입: g(x), T. 캐릭터는 곡선 위를 등속으로 달린다. (미리보기용 임시 g(x)는 CL 연결 전에 삭제 — function() sink는 그래프 내 동일 함수 정의와 충돌할 수 있음)"
+      },
+      {
+        "type": "expression",
+        "id": "2",
+        "latex": "T=0"
+      },
+      {
+        "type": "folder",
+        "id": "3",
+        "title": "지형"
+      },
+      {
+        "type": "expression",
+        "id": "4",
+        "latex": "0\\le y\\le0.2\\left\\{-1<x<9\\right\\}",
+        "fillOpacity": "0.6",
+        "folderId": "3"
+      },
+      {
+        "type": "folder",
+        "id": "5",
+        "title": "캐릭터 (이미지를 올리면 center를 이 점으로)"
+      },
+      {
+        "type": "expression",
+        "id": "6",
+        "latex": "x_{p}=0+1T",
+        "hidden": true,
+        "folderId": "5"
+      },
+      {
+        "type": "expression",
+        "id": "7",
+        "latex": "\\left(x_{p},g\\left(x_{p}\\right)\\right)",
+        "dragMode": "NONE",
+        "folderId": "5",
+        "showLabel": true,
+        "label": "🏃"
+      },
+      {
+        "type": "folder",
+        "id": "8",
+        "title": "코인과 판정 (CL은 S, C만 읽는다)"
+      },
+      {
+        "type": "expression",
+        "id": "9",
+        "latex": "C_{x}=\\left[2,3,4\\right]",
+        "folderId": "8"
+      },
+      {
+        "type": "expression",
+        "id": "10",
+        "latex": "C_{y}=\\left[3.5,4,3.5\\right]",
+        "folderId": "8"
+      },
+      {
+        "type": "expression",
+        "id": "11",
+        "latex": "H=\\left\\{\\left|g\\left(C_{x}\\right)-C_{y}\\right|<0.4:1,0\\right\\}",
+        "hidden": true,
+        "folderId": "8"
+      },
+      {
+        "type": "expression",
+        "id": "12",
+        "latex": "P=\\left\\{x_{p}>C_{x}:1,0\\right\\}",
+        "hidden": true,
+        "folderId": "8"
+      },
+      {
+        "type": "expression",
+        "id": "13",
+        "latex": "S=\\operatorname{total}\\left(HP\\right)",
+        "hidden": true,
+        "folderId": "8"
+      },
+      {
+        "type": "expression",
+        "id": "14",
+        "latex": "C=\\left\\{S=3:1,0\\right\\}",
+        "hidden": true,
+        "folderId": "8"
+      },
+      {
+        "type": "expression",
+        "id": "15",
+        "latex": "\\left(C_{x},C_{y}\\right)",
+        "folderId": "8",
+        "showLabel": true,
+        "label": "🪙"
+      },
+      {
+        "type": "expression",
+        "id": "16",
+        "latex": "\\left(C_{x},C_{y}+0.5\\right)\\left\\{HP=1\\right\\}",
+        "folderId": "8",
+        "showLabel": true,
+        "label": "✨"
+      }
+    ]
+  }
+}

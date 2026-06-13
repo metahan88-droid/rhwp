@@ -1,0 +1,139 @@
+{
+  "version": 11,
+  "graph": {
+    "viewport": {
+      "xmin": -6,
+      "ymin": -5,
+      "xmax": 6,
+      "ymax": 5
+    },
+    "showGrid": true,
+    "showXAxis": true,
+    "showYAxis": true,
+    "userLockedViewport": true
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "text",
+        "id": "1",
+        "text": "CL이 주입: f(x,y) 차이함수(해집합 f>0), s(strict 여부). s 더미는 CL이 덮어쓴다. (미리보기용 임시 f는 CL 연결 전에 삭제 — function() sink는 그래프 내 동일 함수 정의와 충돌할 수 있음)"
+      },
+      {
+        "type": "expression",
+        "id": "2",
+        "latex": "s=0",
+        "hidden": true
+      },
+      {
+        "type": "folder",
+        "id": "3",
+        "title": "울타리 음영 — 두 줄 다 넣는다 (strict=점선, 비엄격=실선)"
+      },
+      {
+        "type": "expression",
+        "id": "4",
+        "latex": "0<f\\left(x,y\\right)\\left\\{s=1\\right\\}",
+        "fillOpacity": "0.25",
+        "folderId": "3"
+      },
+      {
+        "type": "expression",
+        "id": "5",
+        "latex": "0\\le f\\left(x,y\\right)\\left\\{s=0\\right\\}",
+        "fillOpacity": "0.25",
+        "folderId": "3"
+      },
+      {
+        "type": "folder",
+        "id": "6",
+        "title": "경계선 이중화 — 공식 Point Collector의 실선/점선 불일치 함정 대비 (cl.desmos.com/t/4931)"
+      },
+      {
+        "type": "expression",
+        "id": "7",
+        "latex": "f\\left(x,y\\right)=0\\left\\{s=0\\right\\}",
+        "folderId": "6",
+        "lineStyle": "SOLID"
+      },
+      {
+        "type": "expression",
+        "id": "8",
+        "latex": "f\\left(x,y\\right)=0\\left\\{s=1\\right\\}",
+        "folderId": "6",
+        "lineStyle": "DASHED"
+      },
+      {
+        "type": "folder",
+        "id": "9",
+        "title": "양 떼와 늑대"
+      },
+      {
+        "type": "expression",
+        "id": "10",
+        "latex": "S_{x}=\\left[0,2,4\\right]",
+        "folderId": "9"
+      },
+      {
+        "type": "expression",
+        "id": "11",
+        "latex": "S_{y}=\\left[1,3,5\\right]",
+        "folderId": "9"
+      },
+      {
+        "type": "expression",
+        "id": "12",
+        "latex": "W_{x}=\\left[3,-3\\right]",
+        "folderId": "9"
+      },
+      {
+        "type": "expression",
+        "id": "13",
+        "latex": "W_{y}=\\left[-2,-3\\right]",
+        "folderId": "9"
+      },
+      {
+        "type": "expression",
+        "id": "14",
+        "latex": "\\left(S_{x},S_{y}\\right)",
+        "folderId": "9",
+        "showLabel": true,
+        "label": "🐑"
+      },
+      {
+        "type": "expression",
+        "id": "15",
+        "latex": "\\left(W_{x},W_{y}\\right)",
+        "folderId": "9",
+        "showLabel": true,
+        "label": "🐺"
+      },
+      {
+        "type": "folder",
+        "id": "16",
+        "title": "판정 (CL은 N, C만 읽는다) — 경계 위(|f|≤0.001)는 비엄격(s=0)일 때만 포함"
+      },
+      {
+        "type": "expression",
+        "id": "17",
+        "latex": "N=\\operatorname{total}\\left(\\left\\{f\\left(S_{x},S_{y}\\right)>0.001:1,f\\left(S_{x},S_{y}\\right)>-0.001:1-s,0\\right\\}\\right)",
+        "hidden": true,
+        "folderId": "16"
+      },
+      {
+        "type": "expression",
+        "id": "18",
+        "latex": "M=\\operatorname{total}\\left(\\left\\{f\\left(W_{x},W_{y}\\right)>0.001:1,f\\left(W_{x},W_{y}\\right)>-0.001:1-s,0\\right\\}\\right)",
+        "hidden": true,
+        "folderId": "16"
+      },
+      {
+        "type": "expression",
+        "id": "19",
+        "latex": "C=\\left\\{N=3:\\left\\{M=0:1,0\\right\\},0\\right\\}",
+        "hidden": true,
+        "folderId": "16"
+      }
+    ]
+  }
+}
