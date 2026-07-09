@@ -322,6 +322,28 @@ def main():
                     print(f"[inventory] {p}")
                 raise SystemExit("component inventory gate failed")
 
+        # unmanaged-script warning: skeleton components keep their OLD CL when
+        # the manifest omits "script" — stale scripts reference vanished
+        # variables and raise editor error badges (observed 2026-07-09).
+        managed = set()
+        for slide in manifest["slides"]:
+            if slide.get("state"):
+                g = find_first_component(updated["steps"][slide["index"]],
+                                         "input/graph")
+                if g is not None:
+                    managed.add(g["id"])
+            for grp in ("notes", "inputs"):
+                for entry in slide.get(grp, []):
+                    if "script" in entry:
+                        managed.add(entry["componentId"])
+        for r in component_inventory(updated):
+            comp = find_component_by_id(updated["steps"][r["slideIndex"]],
+                                        r["id"])
+            if comp is not None and comp.get("script")                     and r["id"] not in managed:
+                print(f"[warn] 미관리 스크립트 잔존: {r['type']} {r['id'][:8]} "
+                      f"(slide {r['slideIndex'] + 1}) — 매니페스트에 script를 "
+                      "명시(None 포함)해 의도를 확정하라")
+
         plan = root / "reports" / f"{target}_plan_{ts}.json"
         plan.write_text(json.dumps(updated, ensure_ascii=False))
         print(f"[plan] {plan}")
